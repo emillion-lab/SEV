@@ -2,8 +2,8 @@
 document.addEventListener('DOMContentLoaded', () => {
   const $ = id => document.getElementById(id);
   const map = L.map('map', {zoomControl: false}).setView([42.687, 23.335], 12.4);
-  L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',
-    {attribution: '© OSM © CARTO', maxZoom: 18}).addTo(map);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',
+    {attribution: '© OpenStreetMap', maxZoom: 19}).addTo(map);
 
   const DUR = 2.5 * 3600e3;           // типична продължителност на събитие
   const PRE = 2 * 3600e3;             // dropoff прозорец: 2ч преди старт
@@ -12,9 +12,9 @@ document.addEventListener('DOMContentLoaded', () => {
   const fmtD = d => d.toLocaleDateString('bg', {weekday:'long', day:'numeric', month:'long'});
 
   function heat(cap) {
-    if (cap >= 8000) return {c:'#f85149', cls:'c-hot', r:22, lbl:'МЕГА'};
-    if (cap >= 2500) return {c:'#d29922', cls:'c-warm', r:15, lbl:'СИЛНО'};
-    return {c:'#3fb950', cls:'c-ok', r:9, lbl:'средно'};
+    if (cap >= 8000) return {c:'#d32f2f', cls:'c-hot', r:22, lbl:'МЕГА'};
+    if (cap >= 2500) return {c:'#e08a00', cls:'c-warm', r:15, lbl:'СИЛНО'};
+    return {c:'#2e7d32', cls:'c-ok', r:9, lbl:'средно'};
   }
 
   fetch('events.json?t=' + Date.now()).then(r => r.json()).then(data => {
@@ -47,12 +47,12 @@ document.addEventListener('DOMContentLoaded', () => {
       const active = next && now > next.startMs - PRE && now < next.endMs + POST;
       const mk = L.circleMarker([v.lat, v.lon], {
         radius: h.r, color: h.c, weight: active ? 3 : 1.5,
-        fillColor: h.c, fillOpacity: active ? 0.65 : 0.3
+        fillColor: h.c, fillOpacity: active ? 0.7 : 0.4
       }).addTo(map);
       const rows = v.list.slice(0,5).map(e => {
         const s = new Date(e.startMs), en = new Date(e.endMs);
         return `<div style="margin:6px 0"><b>${e.name}</b><br>` +
-          `<span style="color:#8b949e">${fmtD(s)} ${fmtT(s)}</span><br>` +
+          `<span style="color:#667">${fmtD(s)} ${fmtT(s)}</span><br>` +
           `🚕 Dropoff: <b>${fmtT(new Date(e.startMs-PRE))}–${fmtT(s)}</b><br>` +
           `🚕 Pickup: <b>${fmtT(en)}–${fmtT(new Date(e.endMs+POST))}</b></div>`;
       }).join('');
