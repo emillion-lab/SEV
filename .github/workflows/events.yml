@@ -17,6 +17,6 @@ jobs:
       - run: |
           git config user.name "bot"
           git config user.email "bot@github.com"
-          git add events.json
+          git add events.json last_run.log
           git commit -m "events update" || echo "no changes"
           git push
