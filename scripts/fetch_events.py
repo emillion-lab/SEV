@@ -1,5 +1,5 @@
-# SEV — Sofia Events fetcher v1.4
-# Proxy: mvr-proxy /scrape endpoint. Debug: извадки от извлечени/отхвърлени събития.
+# SEV — Sofia Events fetcher v1.5
+# Хоризонт 180 дни; stopword филтър за заглавия ("купете билети от тук" и т.н.)
 import json, re, sys, os, html, ssl
 from datetime import datetime, timedelta, timezone
 from urllib.request import Request, urlopen
@@ -8,7 +8,7 @@ from urllib.parse import quote, urlsplit, urlunsplit
 UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/126 Safari/537.36",
       "Accept-Language": "bg,en;q=0.8", "Accept": "application/json, text/html;q=0.9,*/*;q=0.8"}
 NOW = datetime.now(timezone.utc)
-HORIZON = NOW + timedelta(days=60)
+HORIZON = NOW + timedelta(days=180)
 SUMMARY = []
 PROXY = "https://mvr-proxy.mihov-emil.workers.dev/scrape?url="
 CTX = ssl.create_default_context()
@@ -17,6 +17,8 @@ HOST_MODE = {}
 
 MONTHS = {"януари":1,"февруари":2,"март":3,"април":4,"май":5,"юни":6,
           "юли":7,"август":8,"септември":9,"октомври":10,"ноември":11,"декември":12}
+BAD_TITLE = re.compile(r"билет|купи|купете|вижте|виж |програма|начало|още|повече|\bтук\b|цялата|scroll|cookie|меню",
+                       re.I)
 
 def log(msg):
     print(msg)
@@ -153,11 +155,11 @@ def extract_events(h, default_venue, src, default_hour=20):
     return ded
 
 def nearest_title(h, pos):
-    chunk = h[max(0, pos-800):pos]
+    chunk = h[max(0, pos-1200):pos]
     cands = re.findall(r"<(?:h\d|a|strong|b)[^>]*>([^<]{4,120})<", chunk)
     for c in reversed(cands):
         t = html.unescape(c).strip()
-        if len(t) >= 4 and t.lower() not in ("програма","билети","още","виж","начало","събития","повече"):
+        if len(t) >= 4 and not BAD_TITLE.search(t):
             return t
     return None
 
