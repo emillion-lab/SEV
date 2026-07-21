@@ -1,6 +1,5 @@
-# SEV — Sofia Events fetcher v1.1
-# Източници: Eventim public-api (JSON), НДК (HTML), Арена София (HTML)
-# Защита: ако новите данни не минат валидация -> events.json НЕ се пипа (legacy остава)
+# SEV — Sofia Events fetcher v1.2
+# Логът се записва и в last_run.log (commit-ва се в репото за дистанционна диагностика)
 import json, re, sys, os, html
 from datetime import datetime, timedelta, timezone
 from urllib.request import Request, urlopen
@@ -15,11 +14,14 @@ def log(msg):
     print(msg)
     SUMMARY.append(str(msg))
 
-def flush_summary():
+def flush():
+    txt = f"run: {NOW.isoformat()}\n" + "\n".join(SUMMARY) + "\n"
+    with open("last_run.log", "w", encoding="utf-8") as f:
+        f.write(txt)
     p = os.environ.get("GITHUB_STEP_SUMMARY")
     if p:
         with open(p, "a", encoding="utf-8") as f:
-            f.write("### SEV fetch\n```\n" + "\n".join(SUMMARY) + "\n```\n")
+            f.write("### SEV fetch\n```\n" + txt + "```\n")
 
 def get(url, timeout=30):
     req = Request(url, headers=UA)
@@ -66,6 +68,8 @@ def fetch_eventim():
         groups = data.get("productGroups") or []
         if p == 1:
             log(f"eventim keys: {sorted(data.keys())} groups: {len(groups)}")
+            if groups:
+                log(f"eventim g0 keys: {sorted(groups[0].keys())}")
         if not groups: break
         for g in groups:
             name = g.get("name") or ""
@@ -171,7 +175,7 @@ def main():
     srcs = {e["src"] for e in ev}
     if len(with_geo) < 5:
         log(f"⚠️ VALIDATION FAIL: {len(ev)} общо, само {len(with_geo)} с гео. events.json НЕ се променя (legacy остава).")
-        flush_summary()
+        flush()
         sys.exit(0)
 
     out = {"generated": NOW.isoformat(), "count": len(ev),
@@ -179,7 +183,7 @@ def main():
     with open("events.json", "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, indent=1)
     log(f"✅ OK: {len(ev)} събития ({len(with_geo)} с гео), източници: {sorted(srcs)}")
-    flush_summary()
+    flush()
 
 if __name__ == "__main__":
     main()
