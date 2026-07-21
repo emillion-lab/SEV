@@ -1,5 +1,5 @@
-# SEV — Sofia Events fetcher v1.3
-# get(): кирилица percent-encoding + SSL fallback + mvr-proxy retry при блокаж
+# SEV — Sofia Events fetcher v1.4
+# Proxy: mvr-proxy /scrape endpoint. Debug: извадки от извлечени/отхвърлени събития.
 import json, re, sys, os, html, ssl
 from datetime import datetime, timedelta, timezone
 from urllib.request import Request, urlopen
@@ -10,10 +10,10 @@ UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.3
 NOW = datetime.now(timezone.utc)
 HORIZON = NOW + timedelta(days=60)
 SUMMARY = []
-PROXY = "https://mvr-proxy.mihov-emil.workers.dev/mvrfetch?u="
+PROXY = "https://mvr-proxy.mihov-emil.workers.dev/scrape?url="
 CTX = ssl.create_default_context()
 INSECURE = ssl._create_unverified_context()
-HOST_MODE = {}  # host -> работещ режим, за да не повтаряме провалени опити
+HOST_MODE = {}
 
 MONTHS = {"януари":1,"февруари":2,"март":3,"април":4,"май":5,"юни":6,
           "юли":7,"август":8,"септември":9,"октомври":10,"ноември":11,"декември":12}
@@ -40,7 +40,7 @@ def get(url, timeout=30):
     host = urlsplit(u).netloc
     modes = [("direct", u, CTX), ("insecure", u, INSECURE),
              ("proxy", PROXY + quote(u, safe=""), CTX)]
-    if host in HOST_MODE:  # пробвай първо режима, който вече е работил
+    if host in HOST_MODE:
         modes.sort(key=lambda m: 0 if m[0] == HOST_MODE[host] else 1)
     last = None
     for tag, target, ctx in modes:
@@ -77,9 +77,6 @@ def parse_dt(s):
         return d
     except Exception:
         return None
-
-def strip_tags(s):
-    return html.unescape(re.sub(r"<[^>]+>", " ", s)).strip()
 
 # ---------- 1) EVENTIM public-api ----------
 def fetch_eventim():
@@ -125,32 +122,42 @@ def fetch_eventim():
     log(f"eventim: {len(out)}")
     return out
 
-# ---------- обща HTML екстракция: дата + близко заглавие ----------
+# ---------- обща HTML екстракция ----------
 def extract_events(h, default_venue, src, default_hour=20):
     out = []
-    # 1) числов формат: 27.06.2026 [20:00]
     for m in re.finditer(r"(\d{1,2})\.(\d{1,2})\.(\d{4})(?:[^<\d]{0,40}(\d{1,2}):(\d{2}))?", h):
         d, mo, y, hh, mm = m.groups()
-        title = nearest_title(h, m.start())
-        add_ev(out, d, mo, y, hh or default_hour, mm or 0, title, default_venue, src)
-    # 2) текстов формат: 27 юни 2026
+        add_ev(out, d, mo, y, hh or default_hour, mm or 0,
+               nearest_title(h, m.start()), default_venue, src)
     for m in re.finditer(r"(\d{1,2})\s+(януари|февруари|март|април|май|юни|юли|август|септември|октомври|ноември|декември)\s+(\d{4})", h, re.I):
         d, mon, y = m.groups()
-        title = nearest_title(h, m.start())
-        add_ev(out, d, MONTHS[mon.lower()], y, default_hour, 0, title, default_venue, src)
+        add_ev(out, d, MONTHS[mon.lower()], y, default_hour, 0,
+               nearest_title(h, m.start()), default_venue, src)
+    # формат без година: "27 юни" -> тази или следващата година (винаги напред)
+    for m in re.finditer(r"(\d{1,2})\s+(януари|февруари|март|април|май|юни|юли|август|септември|октомври|ноември|декември)(?!\s+\d{4})", h, re.I):
+        d, mon = m.groups()
+        y = NOW.year
+        try:
+            cand = datetime(y, MONTHS[mon.lower()], int(d), tzinfo=timezone.utc)
+            if cand < NOW - timedelta(days=2): y += 1
+        except ValueError:
+            continue
+        add_ev(out, d, MONTHS[mon.lower()], y, default_hour, 0,
+               nearest_title(h, m.start()), default_venue, src)
     seen, ded = set(), []
     for e in out:
         k = (e["name"].lower(), e["start"][:10])
         if k not in seen: seen.add(k); ded.append(e)
+    for e in ded[:8]:
+        log(f"  {src} sample: {e['start'][:16]} | {e['name'][:50]}")
     return ded
 
 def nearest_title(h, pos):
-    # най-близкото заглавие (<h*> или <a>) в 800 знака преди датата
     chunk = h[max(0, pos-800):pos]
-    cands = re.findall(r"<(?:h\d|a)[^>]*>([^<]{4,120})<", chunk)
+    cands = re.findall(r"<(?:h\d|a|strong|b)[^>]*>([^<]{4,120})<", chunk)
     for c in reversed(cands):
         t = html.unescape(c).strip()
-        if len(t) >= 4 and t.lower() not in ("програма","билети","още","виж","начало","събития"):
+        if len(t) >= 4 and t.lower() not in ("програма","билети","още","виж","начало","събития","повече"):
             return t
     return None
 
@@ -178,7 +185,7 @@ def fetch_ndk():
     log(f"ndk: {len(out)}")
     return out
 
-# ---------- 3) АРЕНА (arenaarmeecsofia.net календар) ----------
+# ---------- 3) АРЕНА ----------
 def fetch_arena():
     h = None
     for url in ("https://arenaarmeecsofia.net/програма-арена-8888-софия/",
@@ -198,9 +205,17 @@ def main():
     venues = load_venues()
     raw = fetch_eventim() + fetch_ndk() + fetch_arena()
     ev, seen = [], set()
+    rej_past = rej_fut = 0
     for e in raw:
         dt = parse_dt(e["start"])
-        if not dt or dt < NOW - timedelta(hours=12) or dt > HORIZON:
+        if not dt:
+            continue
+        if dt < NOW - timedelta(hours=12):
+            rej_past += 1
+            if rej_past <= 3: log(f"  rej past: {e['start'][:16]} | {e['name'][:40]}")
+            continue
+        if dt > HORIZON:
+            rej_fut += 1
             continue
         v = match_venue(e["venue"] or e["name"], venues)
         item = {"name": e["name"][:120], "venue": v["n"] if v else (e["venue"] or "?"),
@@ -211,6 +226,7 @@ def main():
         if k in seen: continue
         seen.add(k); ev.append(item)
     ev.sort(key=lambda x: x["start"])
+    log(f"merge: {len(ev)} прието, {rej_past} минали, {rej_fut} след хоризонта")
 
     with_geo = [e for e in ev if e["lat"]]
     srcs = {e["src"] for e in ev}
