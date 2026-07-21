@@ -1,14 +1,22 @@
-# SEV — Sofia Events fetcher v1.2
-# Логът се записва и в last_run.log (commit-ва се в репото за дистанционна диагностика)
-import json, re, sys, os, html
+# SEV — Sofia Events fetcher v1.3
+# get(): кирилица percent-encoding + SSL fallback + mvr-proxy retry при блокаж
+import json, re, sys, os, html, ssl
 from datetime import datetime, timedelta, timezone
 from urllib.request import Request, urlopen
+from urllib.parse import quote, urlsplit, urlunsplit
 
 UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/126 Safari/537.36",
       "Accept-Language": "bg,en;q=0.8", "Accept": "application/json, text/html;q=0.9,*/*;q=0.8"}
 NOW = datetime.now(timezone.utc)
 HORIZON = NOW + timedelta(days=60)
 SUMMARY = []
+PROXY = "https://mvr-proxy.mihov-emil.workers.dev/mvrfetch?u="
+CTX = ssl.create_default_context()
+INSECURE = ssl._create_unverified_context()
+HOST_MODE = {}  # host -> работещ режим, за да не повтаряме провалени опити
+
+MONTHS = {"януари":1,"февруари":2,"март":3,"април":4,"май":5,"юни":6,
+          "юли":7,"август":8,"септември":9,"октомври":10,"ноември":11,"декември":12}
 
 def log(msg):
     print(msg)
@@ -23,10 +31,30 @@ def flush():
         with open(p, "a", encoding="utf-8") as f:
             f.write("### SEV fetch\n```\n" + txt + "```\n")
 
+def enc(url):
+    p = urlsplit(url)
+    return urlunsplit((p.scheme, p.netloc, quote(p.path, safe="/%"), quote(p.query, safe="=&%"), ""))
+
 def get(url, timeout=30):
-    req = Request(url, headers=UA)
-    with urlopen(req, timeout=timeout) as r:
-        return r.read().decode("utf-8", "ignore")
+    u = enc(url)
+    host = urlsplit(u).netloc
+    modes = [("direct", u, CTX), ("insecure", u, INSECURE),
+             ("proxy", PROXY + quote(u, safe=""), CTX)]
+    if host in HOST_MODE:  # пробвай първо режима, който вече е работил
+        modes.sort(key=lambda m: 0 if m[0] == HOST_MODE[host] else 1)
+    last = None
+    for tag, target, ctx in modes:
+        try:
+            req = Request(target, headers=UA)
+            with urlopen(req, timeout=timeout, context=ctx) as r:
+                body = r.read().decode("utf-8", "ignore")
+            if host not in HOST_MODE:
+                HOST_MODE[host] = tag
+                if tag != "direct": log(f"  [{host} -> {tag}]")
+            return body
+        except Exception as e:
+            last = e
+    raise last
 
 def load_venues():
     with open("venues.json", encoding="utf-8") as f:
@@ -49,6 +77,9 @@ def parse_dt(s):
         return d
     except Exception:
         return None
+
+def strip_tags(s):
+    return html.unescape(re.sub(r"<[^>]+>", " ", s)).strip()
 
 # ---------- 1) EVENTIM public-api ----------
 def fetch_eventim():
@@ -94,9 +125,47 @@ def fetch_eventim():
     log(f"eventim: {len(out)}")
     return out
 
+# ---------- обща HTML екстракция: дата + близко заглавие ----------
+def extract_events(h, default_venue, src, default_hour=20):
+    out = []
+    # 1) числов формат: 27.06.2026 [20:00]
+    for m in re.finditer(r"(\d{1,2})\.(\d{1,2})\.(\d{4})(?:[^<\d]{0,40}(\d{1,2}):(\d{2}))?", h):
+        d, mo, y, hh, mm = m.groups()
+        title = nearest_title(h, m.start())
+        add_ev(out, d, mo, y, hh or default_hour, mm or 0, title, default_venue, src)
+    # 2) текстов формат: 27 юни 2026
+    for m in re.finditer(r"(\d{1,2})\s+(януари|февруари|март|април|май|юни|юли|август|септември|октомври|ноември|декември)\s+(\d{4})", h, re.I):
+        d, mon, y = m.groups()
+        title = nearest_title(h, m.start())
+        add_ev(out, d, MONTHS[mon.lower()], y, default_hour, 0, title, default_venue, src)
+    seen, ded = set(), []
+    for e in out:
+        k = (e["name"].lower(), e["start"][:10])
+        if k not in seen: seen.add(k); ded.append(e)
+    return ded
+
+def nearest_title(h, pos):
+    # най-близкото заглавие (<h*> или <a>) в 800 знака преди датата
+    chunk = h[max(0, pos-800):pos]
+    cands = re.findall(r"<(?:h\d|a)[^>]*>([^<]{4,120})<", chunk)
+    for c in reversed(cands):
+        t = html.unescape(c).strip()
+        if len(t) >= 4 and t.lower() not in ("програма","билети","още","виж","начало","събития"):
+            return t
+    return None
+
+def add_ev(out, d, mo, y, hh, mm, title, venue, src):
+    if not title: return
+    try:
+        dt = datetime(int(y), int(mo), int(d), int(hh), int(mm),
+                      tzinfo=timezone(timedelta(hours=3)))
+    except ValueError:
+        return
+    out.append({"name": title, "venue": venue, "start": dt.isoformat(),
+                "url": "", "src": src})
+
 # ---------- 2) НДК ----------
 def fetch_ndk():
-    out = []
     h = None
     for url in ("https://www.ndk.bg/програма", "https://ndk.bg/програма", "https://www.ndk.bg/"):
         try:
@@ -104,53 +173,25 @@ def fetch_ndk():
         except Exception as e:
             log(f"ndk try fail: {url} {e!r}")
     if not h:
-        log("ndk: 0"); return out
-    for m in re.finditer(r"(\d{1,2})\.(\d{1,2})\.(\d{4})[^<]{0,80}?(?:(\d{1,2}):(\d{2}))?.{0,600}?<a[^>]*>([^<]{4,120})</a>", h, re.S):
-        d, mo, y, hh, mm, title = m.groups()
-        try:
-            dt = datetime(int(y), int(mo), int(d), int(hh or 19), int(mm or 0),
-                          tzinfo=timezone(timedelta(hours=3)))
-        except ValueError:
-            continue
-        title = html.unescape(title).strip()
-        if len(title) < 4 or title.lower() in ("програма","билети","още"): continue
-        out.append({"name": title, "venue": "НДК", "start": dt.isoformat(),
-                    "url": "https://www.ndk.bg", "src": "ndk"})
-    seen, ded = set(), []
-    for e in out:
-        k = (e["name"].lower(), e["start"][:10])
-        if k not in seen: seen.add(k); ded.append(e)
-    log(f"ndk: {len(ded)}")
-    return ded
+        log("ndk: 0"); return []
+    out = extract_events(h, "НДК", "ndk", default_hour=19)
+    log(f"ndk: {len(out)}")
+    return out
 
-# ---------- 3) АРЕНА СОФИЯ ----------
+# ---------- 3) АРЕНА (arenaarmeecsofia.net календар) ----------
 def fetch_arena():
-    out = []
     h = None
-    for url in ("https://www.arenasofia.bg/събития/", "https://www.arenasofia.bg/events/",
-                "https://arenasofia.bg/"):
+    for url in ("https://arenaarmeecsofia.net/програма-арена-8888-софия/",
+                "https://arenaarmeecsofia.net/"):
         try:
             h = get(url); log(f"arena src: {url} len={len(h)}"); break
         except Exception as e:
             log(f"arena try fail: {url} {e!r}")
     if not h:
-        log("arena: 0"); return out
-    for m in re.finditer(r"(\d{1,2})\.(\d{1,2})\.(\d{4})[^<]{0,120}?.{0,600}?<(?:h\d|a)[^>]*>([^<]{4,120})</", h, re.S):
-        d, mo, y, title = m.groups()
-        try:
-            dt = datetime(int(y), int(mo), int(d), 20, 0, tzinfo=timezone(timedelta(hours=3)))
-        except ValueError:
-            continue
-        title = html.unescape(title).strip()
-        if len(title) < 4: continue
-        out.append({"name": title, "venue": "Арена 8888 София", "start": dt.isoformat(),
-                    "url": "https://www.arenasofia.bg", "src": "arena"})
-    seen, ded = set(), []
-    for e in out:
-        k = (e["name"].lower(), e["start"][:10])
-        if k not in seen: seen.add(k); ded.append(e)
-    log(f"arena: {len(ded)}")
-    return ded
+        log("arena: 0"); return []
+    out = extract_events(h, "Арена 8888 София", "arena", default_hour=20)
+    log(f"arena: {len(out)}")
+    return out
 
 # ---------- MERGE + VALIDATE ----------
 def main():
