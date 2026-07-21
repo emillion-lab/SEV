@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>SEV — София Събития · Такси Demand</title>
+<meta name="theme-color" content="#0d1117">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<style>
+:root{--bg:#0d1117;--card:#161b22;--bd:#30363d;--tx:#e6edf3;--dim:#8b949e;
+--hot:#f85149;--warm:#d29922;--ok:#3fb950;--ac:#58a6ff}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:var(--bg);color:var(--tx);font:14px/1.45 -apple-system,Segoe UI,Roboto,sans-serif}
+header{padding:10px 14px;border-bottom:1px solid var(--bd);display:flex;align-items:center;gap:10px;position:sticky;top:0;background:var(--bg);z-index:1000}
+header h1{font-size:17px}
+header .st{margin-left:auto;font-size:11px;color:var(--dim);text-align:right}
+.badge{display:inline-block;padding:1px 7px;border-radius:10px;font-size:11px;font-weight:600}
+.b-ok{background:#12261e;color:var(--ok)}.b-stale{background:#2d1a1a;color:var(--hot)}
+#tabs{display:flex;border-bottom:1px solid var(--bd)}
+#tabs button{flex:1;padding:10px;background:none;border:none;color:var(--dim);font-size:13px;font-weight:600;border-bottom:2px solid transparent;cursor:pointer}
+#tabs button.on{color:var(--ac);border-bottom-color:var(--ac)}
+#map{height:calc(100vh - 96px)}
+#list{display:none;padding:10px;max-width:720px;margin:0 auto}
+.day{margin:14px 0 6px;font-size:12px;font-weight:700;color:var(--ac);text-transform:uppercase;letter-spacing:.5px}
+.ev{background:var(--card);border:1px solid var(--bd);border-radius:10px;padding:10px 12px;margin:6px 0;display:flex;gap:10px;align-items:flex-start}
+.ev .cap{min-width:56px;text-align:center;border-radius:8px;padding:6px 4px;font-weight:700;font-size:13px}
+.ev .cap small{display:block;font-weight:400;font-size:10px;opacity:.8}
+.ev .nm{font-weight:600}
+.ev .vn{color:var(--dim);font-size:12px;margin-top:2px}
+.ev .win{font-size:11px;margin-top:5px;color:var(--dim)}
+.ev .win b{color:var(--tx)}
+.c-hot{background:#3d1418;color:var(--hot)}.c-warm{background:#332512;color:var(--warm)}.c-ok{background:#12261e;color:var(--ok)}
+.leaflet-container{background:#0d1117}
+.leaflet-popup-content-wrapper,.leaflet-popup-tip{background:var(--card);color:var(--tx)}
+#empty{padding:40px 20px;text-align:center;color:var(--dim);display:none}
+</style>
+</head>
+<body>
+<header>
+  <h1>🎫 SEV</h1>
+  <span class="badge" id="stBadge">…</span>
+  <div class="st" id="stTxt">зареждане</div>
+</header>
+<div id="tabs">
+  <button id="tMap" class="on">🗺️ Карта</button>
+  <button id="tList">📅 Timeline</button>
+</div>
+<div id="map"></div>
+<div id="list"></div>
+<div id="empty">Няма предстоящи събития в данните.<br>Провери Actions в репото.</div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="app.js?v=1"></script>
+</body>
+</html>
