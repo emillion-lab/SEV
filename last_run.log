@@ -1,4 +1,4 @@
-run: 2026-07-21T21:45:56.746096+00:00
+run: 2026-07-21T21:47:10.691180+00:00
 eventim page 1 HTTP fail: <HTTPError 403: 'Forbidden'>
 eventim: 0
 ndk try fail: https://www.ndk.bg/програма <HTTPError 403: 'Forbidden'>
@@ -6,6 +6,6 @@ ndk try fail: https://ndk.bg/програма <HTTPError 403: 'Forbidden'>
   [www.ndk.bg -> insecure]
 ndk src: https://www.ndk.bg/ len=90183
 ndk: 17
-arena src: https://arenaarmeecsofia.net/програма-арена-8888-софия/ len=158697
+arena src: https://arenaarmeecsofia.net/програма-арена-8888-софия/ len=158628
 arena: 3
 ⚠️ VALIDATION FAIL: 0 общо, само 0 с гео. events.json НЕ се променя (legacy остава).
