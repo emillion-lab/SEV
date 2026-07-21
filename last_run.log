@@ -1,11 +1,28 @@
-run: 2026-07-21T21:47:10.691180+00:00
+run: 2026-07-21T21:52:38.826160+00:00
 eventim page 1 HTTP fail: <HTTPError 403: 'Forbidden'>
 eventim: 0
-ndk try fail: https://www.ndk.bg/програма <HTTPError 403: 'Forbidden'>
-ndk try fail: https://ndk.bg/програма <HTTPError 403: 'Forbidden'>
+ndk try fail: https://www.ndk.bg/програма <HTTPError 404: 'Not Found'>
+ndk try fail: https://ndk.bg/програма <HTTPError 404: 'Not Found'>
   [www.ndk.bg -> insecure]
 ndk src: https://www.ndk.bg/ len=90183
+  ndk sample: 2026-09-24T19:00 | Garou„The Best of…GAROU“
+  ndk sample: 2026-09-25T19:00 | ЛЮБОВ С МАЕСТРО КАМДЖАЛОВ,  ДЕСИ ТЕНЕКЕДЖИЕВА И СО
+  ndk sample: 2026-10-03T19:00 | THE BODYGUARD - The Musical
+  ndk sample: 2026-10-14T19:00 | ИЛИЯ ЛУКОВ и ПРИЯТЕЛИ „С БЪЛГАРИЯ В СЪРЦЕТО“
+  ndk sample: 2026-10-27T19:00 | ЕКСКЛУЗИВНОТО STAND UP ШОУ НА ЗДРАВА КАМЕНОВА "ЗДР
+  ndk sample: 2026-11-08T19:00 | Samara Joy
+  ndk sample: 2026-11-12T19:00 | КУПИ БИЛЕТ
+  ndk sample: 2026-11-12T19:00 | EDIS @ Зала 3 на НДК, 12.11.2026
 ndk: 17
-arena src: https://arenaarmeecsofia.net/програма-арена-8888-софия/ len=158628
-arena: 3
+arena src: https://arenaarmeecsofia.net/програма-арена-8888-софия/ len=158747
+  arena sample: 2027-03-20T20:00 | купете билети от тук
+  arena sample: 2027-04-24T20:00 | купете билети от тук
+  arena sample: 2027-12-05T20:00 | купете билети от тук
+  arena sample: 2026-07-01T20:00 | вижте цялата програма на събития за 2026 година по
+  arena sample: 2026-10-26T20:00 | вижте цялата програма на събития за 2026 година по
+arena: 5
+  rej past: 2026-06-18T19:00 | Дигитална платформа ще улесни организаци
+  rej past: 2026-06-01T19:00 | Започна Пролетният панаир на книгата в п
+  rej past: 2026-06-01T19:00 | „Деца рисуват Двореца“
+merge: 0 прието, 4 минали, 18 след хоризонта
 ⚠️ VALIDATION FAIL: 0 общо, само 0 с гео. events.json НЕ се променя (legacy остава).
