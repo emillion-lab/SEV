@@ -1,0 +1,12 @@
+run: 2026-07-21T21:42:36.462384+00:00
+eventim page 1 HTTP fail: <HTTPError 403: 'Forbidden'>
+eventim: 0
+ndk try fail: https://www.ndk.bg/програма UnicodeEncodeError('ascii', 'GET /програма HTTP/1.1', 5, 13, 'ordinal not in range(128)')
+ndk try fail: https://ndk.bg/програма UnicodeEncodeError('ascii', 'GET /програма HTTP/1.1', 5, 13, 'ordinal not in range(128)')
+ndk try fail: https://www.ndk.bg/ URLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))
+ndk: 0
+arena try fail: https://www.arenasofia.bg/събития/ UnicodeEncodeError('ascii', 'GET /събития/ HTTP/1.1', 5, 12, 'ordinal not in range(128)')
+arena try fail: https://www.arenasofia.bg/events/ URLError(gaierror(-3, 'Temporary failure in name resolution'))
+arena try fail: https://arenasofia.bg/ URLError(gaierror(-3, 'Temporary failure in name resolution'))
+arena: 0
+⚠️ VALIDATION FAIL: 0 общо, само 0 с гео. events.json НЕ се променя (legacy остава).
