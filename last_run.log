@@ -1,30 +1,23 @@
-run: 2026-07-22T10:26:48.312173+00:00
+run: 2026-07-22T10:56:43.080446+00:00
 eventim api p1 fail: <HTTPError 403: 'Forbidden'>
 eventim api p1 fail: <HTTPError 403: 'Forbidden'>
 eventim html p1 fail: <HTTPError 520: '<none>'>
 eventim: 0
   [www.ndk.bg -> insecure]
-  ndk: 2026-11-12T19:00 | Зала 3
   ndk: 2026-06-18T19:00 | Дигитална платформа ще улесни организацията н
+  ndk: 2026-06-01T19:00 | Започна Пролетният панаир на книгата в парка 
   ndk: 2026-07-25T19:00 | Скритите съкровища на Двореца
   ndk: 2026-09-24T19:00 | Garou„The Best of…GAROU“
-ndk: 16
-  arena: 2026-07-01T20:00 | сряда, юли 22, 2026
-  arena: 2026-10-26T20:00 | сряда, юли 22, 2026
-arena: 20
-theatre src len=106087
-  theatre: 2026-07-22T19:00 | Театри в София
-  theatre: 2026-07-29T10:00 | КАСТИНГ ЗА АКТЬОР
-theatre prog: https://theatre.art.bg/театри-софия-програма______2026-08-1_ len=186677
-  theatre: 2026-08-01T19:00 | Театри в София
-  theatre: 2026-08-01T19:00 | Днес,
-theatre: 6
+ndk: 14
+  arena: 2025-12-19T20:00 | Архив
+  arena: 2027-12-05T20:00 | ФИКИ - PRIME
+arena: 12
+theatre: 0
 футбол try fail: programa.php <HTTPError 404: 'Not Found'>
-футбол src: https://www.bgfutbol.com/ len=127472
-  футбол кирилица в първите 20K: 0
+футбол src: https://www.bgfutbol.com/ len=128099
+  футбол кирилица след unescape: 0
 футбол: 0
-локални src: https://www.visitsofia.bg/bg/kalendar len=24481
   локални diag: pattern hits [0, 0, 0, 0], 0 заглавия оцеляха
 локални: 0
-merge: 27 прието, 12 минали, 3 след хоризонта
-✅ OK: 27 събития (22 с гео), източници: ['arena', 'ndk', 'theatre']
+merge: 18 прието, 7 минали, 1 след хоризонта
+✅ OK: 18 събития (18 с гео), източници: ['arena', 'ndk']
