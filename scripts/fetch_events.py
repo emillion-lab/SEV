@@ -1,5 +1,5 @@
-# SEV — Sofia Events fetcher v1.8
-# bilet.bg: JSON миньор (__NEXT_DATA__/вградени данни) вместо HTML regex
+# SEV — Sofia Events fetcher v1.9
+# + theatre.art.bg източник; bilet.bg API сонда
 import json, re, sys, os, html, ssl, time
 from datetime import datetime, timedelta, timezone
 from urllib.request import Request, urlopen
@@ -17,7 +17,7 @@ HOST_MODE = {}
 
 MONTHS = {"януари":1,"февруари":2,"март":3,"април":4,"май":5,"юни":6,
           "юли":7,"август":8,"септември":9,"октомври":10,"ноември":11,"декември":12}
-BAD_TITLE = re.compile(r"билет|купи|купете|вижте|виж |програма|начало|още|повече|\bтук\b|цялата|scroll|cookie|меню|skip|content|детайли|начална|search|menu|вход|регистрац|facebook|instagram",
+BAD_TITLE = re.compile(r"билет|купи|купете|вижте|виж |програма|начало|още|повече|\bтук\b|цялата|scroll|cookie|меню|skip|content|детайли|начална|search|menu|вход|регистрац|facebook|instagram|афиш",
                        re.I)
 
 def log(msg):
@@ -85,7 +85,7 @@ def parse_dt(s):
 def strip_tags(s):
     return html.unescape(re.sub(r"<[^>]+>", " ", s)).strip()
 
-# ---------- 1) EVENTIM (API v1 -> v2 -> HTML JSON-LD) ----------
+# ---------- 1) EVENTIM ----------
 def eventim_api(url_tpl, list_key):
     out = []
     for p in range(1, 6):
@@ -170,7 +170,7 @@ def fetch_eventim():
     return out
 
 # ---------- обща HTML екстракция ----------
-def extract_events(h, default_venue, src, default_hour=20):
+def extract_events(h, default_venue, src, default_hour=20, quiet=False):
     out = []
     for m in re.finditer(r"(\d{1,2})\.(\d{1,2})\.(\d{4})(?:[^<\d]{0,40}(\d{1,2}):(\d{2}))?", h):
         d, mo, y, hh, mm = m.groups()
@@ -194,8 +194,9 @@ def extract_events(h, default_venue, src, default_hour=20):
     for e in out:
         k = (e["name"].lower(), e["start"][:10])
         if k not in seen: seen.add(k); ded.append(e)
-    for e in ded[:8]:
-        log(f"  {src} sample: {e['start'][:16]} | {e['name'][:50]}")
+    if not quiet:
+        for e in ded[:8]:
+            log(f"  {src} sample: {e['start'][:16]} | {e['name'][:50]}")
     return ded
 
 def nearest_title(h, pos):
@@ -225,13 +226,13 @@ def fetch_ndk():
         h = get(base); log(f"ndk src: {base} len={len(h)}")
     except Exception as e:
         log(f"ndk fail: {e!r}"); log("ndk: 0"); return []
-    out = extract_events(h, "НДК", "ndk", default_hour=19)
+    out = extract_events(h, "НДК", "ndk", default_hour=19, quiet=True)
     prog = re.search(r'href="([^"]*(?:програм|program|events|събития)[^"]*)"', h, re.I)
     if prog:
         purl = urljoin(base, html.unescape(prog.group(1)))
         try:
             ph = get(purl); log(f"ndk prog: {purl} len={len(ph)}")
-            out += extract_events(ph, "НДК", "ndk", default_hour=19)
+            out += extract_events(ph, "НДК", "ndk", default_hour=19, quiet=True)
         except Exception as e:
             log(f"ndk prog fail: {purl} {e!r}")
     seen, ded = set(), []
@@ -252,12 +253,12 @@ def fetch_arena():
             log(f"arena try fail: {url} {e!r}")
     if not h:
         log("arena: 0"); return []
-    out = extract_events(h, "Арена 8888 София", "arena", default_hour=20)
+    out = extract_events(h, "Арена 8888 София", "arena", default_hour=20, quiet=True)
     log(f"arena: {len(out)}")
     return out
 
-# ---------- 4) BILET.BG (JSON миньор) ----------
-def walk_json(node, found, depth=0):
+# ---------- 4) BILET.BG (API сонда) ----------
+def walk_json(node, found, src, depth=0):
     if depth > 14: return
     if isinstance(node, dict):
         keys = {k.lower(): k for k in node.keys()}
@@ -275,65 +276,71 @@ def walk_json(node, found, depth=0):
                         elif isinstance(v, dict): venue = v.get("name") or v.get("title") or ""
                         break
                 found.append({"name": strip_tags(nm), "venue": strip_tags(venue),
-                              "start": dt.isoformat(), "url": "", "src": "bilet"})
+                              "start": dt.isoformat(), "url": "", "src": src})
         for v in node.values():
-            walk_json(v, found, depth+1)
+            walk_json(v, found, src, depth+1)
     elif isinstance(node, list):
         for v in node:
-            walk_json(v, found, depth+1)
+            walk_json(v, found, src, depth+1)
 
 def fetch_bilet():
     out = []
-    try:
-        h = get("https://bilet.bg/")
-        log(f"bilet src: bilet.bg len={len(h)} startDate-та в页: {h.count('startDate')}")
-    except Exception as e:
-        log(f"bilet fail: {e!r}"); log("bilet: 0"); return []
-    # 1) JSON-LD
-    for b in re.findall(r'<script type="application/ld\+json">\s*(.*?)\s*</script>', h, re.S):
+    probes = ("https://bilet.bg/api/events", "https://api.bilet.bg/events",
+              "https://bilet.bg/api/v1/events", "https://bilet.bg/api/events?city=sofia",
+              "https://bilet.bg/bg/api/events")
+    for url in probes:
         try:
-            data = json.loads(b)
+            body = get(url, retries=1)
+        except Exception as e:
+            log(f"bilet probe {url.split('bilet.bg')[-1]}: {e!r}"); continue
+        log(f"bilet probe {url.split('bilet.bg')[-1]}: {len(body)}b | {body[:100]!r}")
+        try:
+            data = json.loads(body)
         except Exception:
             continue
-        walk_json(data, out)
-    # 2) __NEXT_DATA__ / вградени state скриптове
-    if not out:
-        for m in re.finditer(r'<script[^>]*>\s*(\{.*?\})\s*</script>', h, re.S):
-            b = m.group(1)
-            if '"startDate"' not in b and '"start_date"' not in b and '"date"' not in b:
-                continue
-            try:
-                data = json.loads(b)
-            except Exception:
-                continue
-            walk_json(data, out)
-    # 3) двойки name/startDate направо в суровия текст (какъвто и wrapper да има)
-    if not out:
-        for m in re.finditer(r'"name"\s*:\s*"([^"]{4,120})"[^{}\[\]]{0,600}?"start(?:D|_d)ate"\s*:\s*"([^"]+)"', h):
-            nm, sd = m.groups()
-            dt = parse_dt(sd)
-            if dt:
-                out.append({"name": strip_tags(nm.encode().decode("unicode_escape", "ignore")),
-                            "venue": "", "start": dt.isoformat(), "url": "", "src": "bilet"})
-        for m in re.finditer(r'"start(?:D|_d)ate"\s*:\s*"([^"]+)"[^{}\[\]]{0,600}?"name"\s*:\s*"([^"]{4,120})"', h):
-            sd, nm = m.groups()
-            dt = parse_dt(sd)
-            if dt:
-                out.append({"name": strip_tags(nm.encode().decode("unicode_escape", "ignore")),
-                            "venue": "", "start": dt.isoformat(), "url": "", "src": "bilet"})
+        walk_json(data, out, "bilet")
+        if out: break
     seen, ded = set(), []
     for e in out:
         k = (e["name"].lower(), e["start"][:10])
         if k not in seen: seen.add(k); ded.append(e)
-    for e in ded[:8]:
+    for e in ded[:6]:
         log(f"  bilet sample: {e['start'][:16]} | {e['name'][:50]} @ {e['venue'][:30]}")
     log(f"bilet: {len(ded)}")
+    return ded
+
+# ---------- 5) THEATRE.ART.BG ----------
+def fetch_theatre():
+    out = []
+    base = "https://theatre.art.bg/"
+    h = None
+    try:
+        h = get(base); log(f"theatre src: {base} len={len(h)}")
+    except Exception as e:
+        log(f"theatre fail: {e!r}"); log("theatre: 0"); return []
+    out = extract_events(h, "", "theatre", default_hour=19, quiet=True)
+    # афиш/програма страница, ако има линк
+    prog = re.search(r'href="([^"]*(?:афиш|afish|програм|program)[^"]*)"', h, re.I)
+    if prog:
+        purl = urljoin(base, html.unescape(prog.group(1)))
+        try:
+            ph = get(purl); log(f"theatre prog: {purl} len={len(ph)}")
+            out += extract_events(ph, "", "theatre", default_hour=19, quiet=True)
+        except Exception as e:
+            log(f"theatre prog fail: {e!r}")
+    seen, ded = set(), []
+    for e in out:
+        k = (e["name"].lower(), e["start"][:10])
+        if k not in seen: seen.add(k); ded.append(e)
+    for e in ded[:6]:
+        log(f"  theatre sample: {e['start'][:16]} | {e['name'][:50]}")
+    log(f"theatre: {len(ded)}")
     return ded
 
 # ---------- MERGE + VALIDATE ----------
 def main():
     venues = load_venues()
-    raw = fetch_eventim() + fetch_ndk() + fetch_arena() + fetch_bilet()
+    raw = fetch_eventim() + fetch_ndk() + fetch_arena() + fetch_bilet() + fetch_theatre()
     ev, seen = [], set()
     rej_past = rej_fut = 0
     for e in raw:
@@ -342,7 +349,6 @@ def main():
             continue
         if dt < NOW - timedelta(hours=12):
             rej_past += 1
-            if rej_past <= 3: log(f"  rej past: {e['start'][:16]} | {e['name'][:40]}")
             continue
         if dt > HORIZON:
             rej_fut += 1
