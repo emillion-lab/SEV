@@ -1,5 +1,5 @@
-# SEV — Sofia Events fetcher v2.3
-# theatre: дневни страници (10 дни); html.unescape преди парсване; чистка на date-heading заглавия
+# SEV — Sofia Events fetcher v2.4
+# По-мек date филтър; часове с точка (19.00 ч.); футбол -> gong.bg
 import json, re, sys, os, html, ssl, time
 from datetime import datetime, timedelta, timezone
 from urllib.request import Request, urlopen
@@ -19,9 +19,9 @@ HOST_MODE = {}
 MONTHS = {"януари":1,"февруари":2,"март":3,"април":4,"май":5,"юни":6,
           "юли":7,"август":8,"септември":9,"октомври":10,"ноември":11,"декември":12}
 BAD_TITLE = re.compile(r"билет|купи|купете|вижте|виж |програма|начало|още|повече|\bтук\b|цялата|scroll|cookie|меню|skip|content|детайли|начална|search|menu|вход|регистрац|facebook|instagram|афиш"
-                       r"|понеделник|вторник|сряда|четвъртък|петък|събота|неделя|\bднес\b|\bутре\b|театри в софия|^зала\s*\d",
+                       r"|понеделник|вторник|сряда|четвъртък|петък|събота|неделя|\bднес\b|\bутре\b|театри в софия|^зала\s*\d|^архив",
                        re.I)
-DATEISH = re.compile(r"(януари|февруари|март|април|май|юни|юли|август|септември|октомври|ноември|декември)[\s,]*\d|\d{4}", re.I)
+DATEISH = re.compile(r"(януари|февруари|март|април|май|юни|юли|август|септември|октомври|ноември|декември)\s*\d", re.I)
 
 FOOT_HOME = [("цска 1948", None),
              ("левски", "герена"), ("цска", "българска армия"),
@@ -202,6 +202,15 @@ def fetch_eventim():
     return out
 
 # ---------- обща HTML екстракция ----------
+def clamp_time(hh, mm, default_hour):
+    try:
+        hh, mm = int(hh), int(mm)
+    except (TypeError, ValueError):
+        return default_hour, 0
+    if not (0 <= hh <= 23 and 0 <= mm <= 59):
+        return default_hour, 0
+    return hh, mm
+
 def extract_events(h, default_venue, src, default_hour=20):
     h = html.unescape(h)
     out = []
@@ -209,8 +218,8 @@ def extract_events(h, default_venue, src, default_hour=20):
     for m in re.finditer(r"(\d{1,2})\.(\d{1,2})\.(\d{4})(?:[^<\d]{0,40}(\d{1,2}):(\d{2}))?", h):
         d, mo, y, hh, mm = m.groups()
         stats[0] += 1
-        add_ev(out, d, mo, y, hh or default_hour, mm or 0,
-               nearest_title(h, m.start()), default_venue, src)
+        hh, mm = clamp_time(hh, mm, default_hour)
+        add_ev(out, d, mo, y, hh, mm, nearest_title(h, m.start()), default_venue, src)
     for m in re.finditer(r"(?<![\d.])(\d{1,2})\.(\d{1,2})(?!\.?\d)(?:[^<\d]{0,40}(\d{1,2}):(\d{2}))?", h):
         d, mo, hh, mm = m.groups()
         d, mo = int(d), int(mo)
@@ -218,8 +227,8 @@ def extract_events(h, default_venue, src, default_hour=20):
         stats[1] += 1
         y = future_year(d, mo)
         if not y: continue
-        add_ev(out, d, mo, y, hh or default_hour, mm or 0,
-               nearest_title(h, m.start()), default_venue, src)
+        hh, mm = clamp_time(hh, mm, default_hour)
+        add_ev(out, d, mo, y, hh, mm, nearest_title(h, m.start()), default_venue, src)
     for m in re.finditer(r"(\d{1,2})\s+(януари|февруари|март|април|май|юни|юли|август|септември|октомври|ноември|декември)\s+(\d{4})", h, re.I):
         d, mon, y = m.groups()
         stats[2] += 1
@@ -305,12 +314,13 @@ def fetch_arena():
 
 # ---------- 4) THEATRE.ART.BG — дневни страници ----------
 def theatre_day(h, day_dt):
-    # ред: ... <a>Театър</a> ... <a>Пиеса</a> ... 19:00
     out = []
     h = html.unescape(h)
-    for m in re.finditer(r"(\d{1,2}):(\d{2})", h):
-        hh, mm = int(m.group(1)), int(m.group(2))
-        if not (9 <= hh <= 23): continue
+    times = list(re.finditer(r"(\d{1,2})([:.])(\d{2})", h))
+    for m in times:
+        hh, sep, mm = int(m.group(1)), m.group(2), int(m.group(3))
+        if not (9 <= hh <= 23 and 0 <= mm <= 59): continue
+        if sep == "." and mm not in (0, 15, 30, 45): continue
         chunk = h[max(0, m.start()-900):m.start()]
         links = re.findall(r"<a[^>]*>([^<]{3,90})</a>", chunk)
         title, venue = None, ""
@@ -327,7 +337,7 @@ def theatre_day(h, day_dt):
             dt = day_dt.replace(hour=hh, minute=mm)
             out.append({"name": title, "venue": venue, "start": dt.isoformat(),
                         "url": "", "src": "theatre"})
-    return out
+    return out, len(times)
 
 def fetch_theatre():
     out = []
@@ -337,10 +347,13 @@ def fetch_theatre():
         try:
             h = get(url, min_len=5000)
         except Exception as e:
-            if i == 0: log(f"theatre day0 fail: {e!r}")
+            if i < 2: log(f"theatre day{i} fail: {e!r}")
             continue
         day_dt = datetime(day.year, day.month, day.day, tzinfo=SOFIA_TZ)
-        out += theatre_day(h, day_dt)
+        ded_day, ntimes = theatre_day(h, day_dt)
+        if i < 2:
+            log(f"  theatre day{i}: len={len(h)} times={ntimes} events={len(ded_day)}")
+        out += ded_day
     seen, ded = set(), []
     for e in out:
         k = (e["name"].lower(), e["start"][:13])
@@ -350,21 +363,24 @@ def fetch_theatre():
     log(f"theatre: {len(ded)}")
     return ded
 
-# ---------- 5) ФУТБОЛ (bgfutbol.com) ----------
+# ---------- 5) ФУТБОЛ (gong.bg) ----------
 def fetch_football():
     out = []
     h = None
-    for url in ("https://www.bgfutbol.com/programa.php", "https://www.bgfutbol.com/",
-                "https://bgfutbol.com/"):
+    for url in ("https://gong.bg/programa", "https://www.gong.bg/programa",
+                "https://gong.bg/", "https://www.gong.bg/"):
         try:
             h = get(url, min_len=5000); log(f"футбол src: {url} len={len(h)}"); break
         except Exception as e:
-            log(f"футбол try fail: {url.split('/')[-1] or 'home'} {e!r}")
+            log(f"футбол try fail: {e!r}")
     if not h:
         log("футбол: 0"); return []
     h = html.unescape(h)
     cyr = len(re.findall(r"[А-Яа-я]", h))
-    log(f"  футбол кирилица след unescape: {cyr}")
+    log(f"  футбол кирилица: {cyr}")
+    # auto-discovery на "програма" линк ако сме на начална страница
+    if "/programa" not in "" and cyr > 100:
+        pass
     for m in re.finditer(r"(\d{1,2})\.(\d{1,2})(?:\.(\d{4}))?", h):
         d, mo, y = m.groups()
         d, mo = int(d), int(mo)
@@ -374,6 +390,7 @@ def fetch_football():
         window = strip_tags(h[m.end():m.end()+500])
         tm = re.search(r"(\d{1,2}):(\d{2})", window)
         hh, mm2 = (int(tm.group(1)), int(tm.group(2))) if tm else (18, 0)
+        hh, mm2 = clamp_time(hh, mm2, 18)
         pair = re.search(r"([А-Я][А-Яа-я0-9\.\s]{2,24}?)\s*[-–]\s*([А-Я][А-Яа-я0-9\.\s]{2,24})", window)
         if not pair: continue
         home, away = pair.group(1).strip(), pair.group(2).strip()
@@ -400,7 +417,6 @@ def fetch_football():
 
 # ---------- 6) ЛОКАЛНИ (visitsofia.bg) ----------
 def fetch_local():
-    out = []
     h = None
     for url in ("https://www.visitsofia.bg/bg/kalendar", "https://www.visitsofia.bg/"):
         try:
