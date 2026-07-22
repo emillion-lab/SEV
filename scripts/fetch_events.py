@@ -1,5 +1,5 @@
-# SEV — Sofia Events fetcher v2.1
-# + dd.mm без година; малки страници = провал; диагностика на pattern попадения
+# SEV — Sofia Events fetcher v2.2
+# smart charset (cp1251 сайтове), dd.mm без година ограничено до 75 дни напред
 import json, re, sys, os, html, ssl, time
 from datetime import datetime, timedelta, timezone
 from urllib.request import Request, urlopen
@@ -42,6 +42,18 @@ def enc(url):
     p = urlsplit(url)
     return urlunsplit((p.scheme, p.netloc, quote(p.path, safe="/%"), quote(p.query, safe="=&%"), ""))
 
+def smart_decode(b):
+    head = b[:3000].decode("ascii", "ignore").lower()
+    if "windows-1251" in head or "cp1251" in head or "charset=win" in head:
+        return b.decode("cp1251", "ignore")
+    try:
+        return b.decode("utf-8")
+    except UnicodeDecodeError:
+        try:
+            return b.decode("cp1251")
+        except Exception:
+            return b.decode("utf-8", "ignore")
+
 def get(url, timeout=30, retries=2, min_len=0):
     u = enc(url)
     host = urlsplit(u).netloc
@@ -55,7 +67,7 @@ def get(url, timeout=30, retries=2, min_len=0):
             try:
                 req = Request(target, headers=UA)
                 with urlopen(req, timeout=timeout, context=ctx) as r:
-                    body = r.read().decode("utf-8", "ignore")
+                    body = smart_decode(r.read())
                 if min_len and len(body) < min_len:
                     last = Exception(f"body too small: {len(body)}b"); continue
                 if host not in HOST_MODE:
@@ -92,12 +104,20 @@ def parse_dt(s):
 def strip_tags(s):
     return html.unescape(re.sub(r"<[^>]+>", " ", s)).strip()
 
-def future_year(d, mo):
+def future_year(d, mo, cap_days=75):
+    # за дати без изрична година: най-близката бъдеща, но не по-далеч от cap_days
     y = NOW.year
     try:
         cand = datetime(y, mo, d, tzinfo=timezone.utc)
-        if cand < NOW - timedelta(days=2): y += 1
     except ValueError:
+        return None
+    if cand < NOW - timedelta(days=2):
+        y += 1
+        try:
+            cand = datetime(y, mo, d, tzinfo=timezone.utc)
+        except ValueError:
+            return None
+    if cand > NOW + timedelta(days=cap_days):
         return None
     return y
 
@@ -183,13 +203,11 @@ def fetch_eventim():
 def extract_events(h, default_venue, src, default_hour=20):
     out = []
     stats = [0, 0, 0, 0]
-    # 1) dd.mm.yyyy [hh:mm]
     for m in re.finditer(r"(\d{1,2})\.(\d{1,2})\.(\d{4})(?:[^<\d]{0,40}(\d{1,2}):(\d{2}))?", h):
         d, mo, y, hh, mm = m.groups()
         stats[0] += 1
         add_ev(out, d, mo, y, hh or default_hour, mm or 0,
                nearest_title(h, m.start()), default_venue, src)
-    # 2) dd.mm (без година) [hh:mm] — годината се извежда напред
     for m in re.finditer(r"(?<![\d.])(\d{1,2})\.(\d{1,2})(?!\.?\d)(?:[^<\d]{0,40}(\d{1,2}):(\d{2}))?", h):
         d, mo, hh, mm = m.groups()
         d, mo = int(d), int(mo)
@@ -199,13 +217,11 @@ def extract_events(h, default_venue, src, default_hour=20):
         if not y: continue
         add_ev(out, d, mo, y, hh or default_hour, mm or 0,
                nearest_title(h, m.start()), default_venue, src)
-    # 3) "27 юни 2026"
     for m in re.finditer(r"(\d{1,2})\s+(януари|февруари|март|април|май|юни|юли|август|септември|октомври|ноември|декември)\s+(\d{4})", h, re.I):
         d, mon, y = m.groups()
         stats[2] += 1
         add_ev(out, d, MONTHS[mon.lower()], y, default_hour, 0,
                nearest_title(h, m.start()), default_venue, src)
-    # 4) "27 юни" (без година)
     for m in re.finditer(r"(\d{1,2})\s+(януари|февруари|март|април|май|юни|юли|август|септември|октомври|ноември|декември)(?!\s+\d{4})", h, re.I):
         d, mon = m.groups()
         stats[3] += 1
@@ -217,6 +233,8 @@ def extract_events(h, default_venue, src, default_hour=20):
     for e in out:
         k = (e["name"].lower(), e["start"][:10])
         if k not in seen: seen.add(k); ded.append(e)
+    for e in ded[:2]:
+        log(f"  {src}: {e['start'][:16]} | {e['name'][:45]}")
     if not ded and len(h) > 5000:
         log(f"  {src} diag: pattern hits {stats}, 0 заглавия оцеляха")
     return ded
@@ -298,8 +316,6 @@ def fetch_theatre():
     for e in out:
         k = (e["name"].lower(), e["start"][:10])
         if k not in seen: seen.add(k); ded.append(e)
-    for e in ded[:5]:
-        log(f"  theatre sample: {e['start'][:16]} | {e['name'][:50]}")
     log(f"theatre: {len(ded)}")
     return ded
 
@@ -315,6 +331,8 @@ def fetch_football():
             log(f"футбол try fail: {url.split('/')[-1] or 'home'} {e!r}")
     if not h:
         log("футбол: 0"); return []
+    cyr = len(re.findall(r"[А-Яа-я]", h[:20000]))
+    log(f"  футбол кирилица в първите 20K: {cyr}")
     for m in re.finditer(r"(\d{1,2})\.(\d{1,2})(?:\.(\d{4}))?", h):
         d, mo, y = m.groups()
         d, mo = int(d), int(mo)
@@ -374,8 +392,6 @@ def fetch_local():
     for e in out:
         k = (e["name"].lower(), e["start"][:10])
         if k not in seen: seen.add(k); ded.append(e)
-    for e in ded[:5]:
-        log(f"  локални sample: {e['start'][:16]} | {e['name'][:50]}")
     log(f"локални: {len(ded)}")
     return ded
 
