@@ -1,5 +1,5 @@
-# SEV — Sofia Events fetcher v2.0
-# + футбол (bgfutbol.com: Левски/ЦСКА/Славия/Локо Сф/национален) + локални (visitsofia.bg)
+# SEV — Sofia Events fetcher v2.1
+# + dd.mm без година; малки страници = провал; диагностика на pattern попадения
 import json, re, sys, os, html, ssl, time
 from datetime import datetime, timedelta, timezone
 from urllib.request import Request, urlopen
@@ -20,8 +20,7 @@ MONTHS = {"януари":1,"февруари":2,"март":3,"април":4,"м�
 BAD_TITLE = re.compile(r"билет|купи|купете|вижте|виж |програма|начало|още|повече|\bтук\b|цялата|scroll|cookie|меню|skip|content|детайли|начална|search|menu|вход|регистрац|facebook|instagram|афиш",
                        re.I)
 
-# домашни софийски отбори -> ключ във venues.json
-FOOT_HOME = [("цска 1948", None),  # играе извън София -> пропускаме
+FOOT_HOME = [("цска 1948", None),
              ("левски", "герена"), ("цска", "българска армия"),
              ("славия", "стадион славия"), ("локомотив сф", "стадион локомотив"),
              ("локомотив софия", "стадион локомотив"), ("българия", "васил левски")]
@@ -43,7 +42,7 @@ def enc(url):
     p = urlsplit(url)
     return urlunsplit((p.scheme, p.netloc, quote(p.path, safe="/%"), quote(p.query, safe="=&%"), ""))
 
-def get(url, timeout=30, retries=2):
+def get(url, timeout=30, retries=2, min_len=0):
     u = enc(url)
     host = urlsplit(u).netloc
     modes = [("direct", u, CTX), ("insecure", u, INSECURE),
@@ -57,6 +56,8 @@ def get(url, timeout=30, retries=2):
                 req = Request(target, headers=UA)
                 with urlopen(req, timeout=timeout, context=ctx) as r:
                     body = r.read().decode("utf-8", "ignore")
+                if min_len and len(body) < min_len:
+                    last = Exception(f"body too small: {len(body)}b"); continue
                 if host not in HOST_MODE:
                     HOST_MODE[host] = tag
                     if tag != "direct": log(f"  [{host} -> {tag}]")
@@ -111,7 +112,7 @@ def eventim_api(url_tpl, list_key):
         try:
             data = json.loads(body)
         except Exception:
-            log(f"eventim api p{p} not JSON: {body[:120]!r}"); break
+            break
         items = data.get(list_key) or []
         if not items: break
         for it in items:
@@ -140,12 +141,11 @@ def eventim_html():
         url = "https://www.eventim.bg/city/%D1%81%D0%BE%D1%84%D0%B8%D1%8F-7510/"
         if page > 1: url += f"?page={page}"
         try:
-            body = get(url)
+            body = get(url, min_len=5000)
         except Exception as e:
             log(f"eventim html p{page} fail: {e!r}"); break
-        blocks = re.findall(r'<script type="application/ld\+json">\s*(.*?)\s*</script>', body, re.S)
         found = 0
-        for b in blocks:
+        for b in re.findall(r'<script type="application/ld\+json">\s*(.*?)\s*</script>', body, re.S):
             try:
                 data = json.loads(b)
             except Exception:
@@ -182,16 +182,33 @@ def fetch_eventim():
 # ---------- обща HTML екстракция ----------
 def extract_events(h, default_venue, src, default_hour=20):
     out = []
+    stats = [0, 0, 0, 0]
+    # 1) dd.mm.yyyy [hh:mm]
     for m in re.finditer(r"(\d{1,2})\.(\d{1,2})\.(\d{4})(?:[^<\d]{0,40}(\d{1,2}):(\d{2}))?", h):
         d, mo, y, hh, mm = m.groups()
+        stats[0] += 1
         add_ev(out, d, mo, y, hh or default_hour, mm or 0,
                nearest_title(h, m.start()), default_venue, src)
+    # 2) dd.mm (без година) [hh:mm] — годината се извежда напред
+    for m in re.finditer(r"(?<![\d.])(\d{1,2})\.(\d{1,2})(?!\.?\d)(?:[^<\d]{0,40}(\d{1,2}):(\d{2}))?", h):
+        d, mo, hh, mm = m.groups()
+        d, mo = int(d), int(mo)
+        if not (1 <= mo <= 12 and 1 <= d <= 31): continue
+        stats[1] += 1
+        y = future_year(d, mo)
+        if not y: continue
+        add_ev(out, d, mo, y, hh or default_hour, mm or 0,
+               nearest_title(h, m.start()), default_venue, src)
+    # 3) "27 юни 2026"
     for m in re.finditer(r"(\d{1,2})\s+(януари|февруари|март|април|май|юни|юли|август|септември|октомври|ноември|декември)\s+(\d{4})", h, re.I):
         d, mon, y = m.groups()
+        stats[2] += 1
         add_ev(out, d, MONTHS[mon.lower()], y, default_hour, 0,
                nearest_title(h, m.start()), default_venue, src)
+    # 4) "27 юни" (без година)
     for m in re.finditer(r"(\d{1,2})\s+(януари|февруари|март|април|май|юни|юли|август|септември|октомври|ноември|декември)(?!\s+\d{4})", h, re.I):
         d, mon = m.groups()
+        stats[3] += 1
         y = future_year(int(d), MONTHS[mon.lower()])
         if not y: continue
         add_ev(out, d, MONTHS[mon.lower()], y, default_hour, 0,
@@ -200,14 +217,16 @@ def extract_events(h, default_venue, src, default_hour=20):
     for e in out:
         k = (e["name"].lower(), e["start"][:10])
         if k not in seen: seen.add(k); ded.append(e)
+    if not ded and len(h) > 5000:
+        log(f"  {src} diag: pattern hits {stats}, 0 заглавия оцеляха")
     return ded
 
 def nearest_title(h, pos):
     chunk = h[max(0, pos-1200):pos]
-    cands = re.findall(r"<(?:h\d|a|strong|b)[^>]*>([^<]{4,120})<", chunk)
+    cands = re.findall(r"<(?:h\d|a|strong|b|span|div)[^>]*>([^<]{4,120})<", chunk)
     for c in reversed(cands):
         t = html.unescape(c).strip()
-        if len(t) >= 4 and not BAD_TITLE.search(t):
+        if len(t) >= 4 and not BAD_TITLE.search(t) and not re.fullmatch(r"[\d\s:.\-–/]+", t):
             return t
     return None
 
@@ -225,7 +244,7 @@ def add_ev(out, d, mo, y, hh, mm, title, venue, src):
 def fetch_ndk():
     base = "https://www.ndk.bg/"
     try:
-        h = get(base)
+        h = get(base, min_len=5000)
     except Exception as e:
         log(f"ndk fail: {e!r}"); log("ndk: 0"); return []
     out = extract_events(h, "НДК", "ndk", default_hour=19)
@@ -233,7 +252,7 @@ def fetch_ndk():
     if prog:
         purl = urljoin(base, html.unescape(prog.group(1)))
         try:
-            ph = get(purl)
+            ph = get(purl, min_len=5000)
             out += extract_events(ph, "НДК", "ndk", default_hour=19)
         except Exception as e:
             log(f"ndk prog fail: {e!r}")
@@ -250,7 +269,7 @@ def fetch_arena():
     for url in ("https://arenaarmeecsofia.net/програма-арена-8888-софия/",
                 "https://arenaarmeecsofia.net/"):
         try:
-            h = get(url); break
+            h = get(url, min_len=5000); break
         except Exception as e:
             log(f"arena try fail: {e!r}")
     if not h:
@@ -259,57 +278,11 @@ def fetch_arena():
     log(f"arena: {len(out)}")
     return out
 
-# ---------- 4) BILET.BG (API сонда) ----------
-def walk_json(node, found, src, depth=0):
-    if depth > 14: return
-    if isinstance(node, dict):
-        keys = {k.lower(): k for k in node.keys()}
-        name_k = next((keys[k] for k in ("name","title","event_name","eventname") if k in keys), None)
-        date_k = next((keys[k] for k in ("startdate","start_date","start","date","event_date","datetime","start_time") if k in keys), None)
-        if name_k and date_k:
-            dt = parse_dt(node.get(date_k))
-            nm = node.get(name_k)
-            if dt and isinstance(nm, str) and len(nm) >= 4:
-                venue = ""
-                for vk in ("venue","place","hall","location","venue_name","place_name"):
-                    if vk in keys:
-                        v = node.get(keys[vk])
-                        if isinstance(v, str): venue = v
-                        elif isinstance(v, dict): venue = v.get("name") or v.get("title") or ""
-                        break
-                found.append({"name": strip_tags(nm), "venue": strip_tags(venue),
-                              "start": dt.isoformat(), "url": "", "src": src})
-        for v in node.values():
-            walk_json(v, found, src, depth+1)
-    elif isinstance(node, list):
-        for v in node:
-            walk_json(v, found, src, depth+1)
-
-def fetch_bilet():
-    out = []
-    probes = ("https://bilet.bg/api/events", "https://api.bilet.bg/events",
-              "https://bilet.bg/api/v1/events", "https://bilet.bg/api/events?city=sofia",
-              "https://bilet.bg/bg/api/events")
-    for url in probes:
-        try:
-            body = get(url, retries=1)
-        except Exception as e:
-            log(f"bilet probe fail: {e!r}"); continue
-        log(f"bilet probe {url[18:]}: {len(body)}b | {body[:90]!r}")
-        try:
-            data = json.loads(body)
-        except Exception:
-            continue
-        walk_json(data, out, "bilet")
-        if out: break
-    log(f"bilet: {len(out)}")
-    return out
-
-# ---------- 5) THEATRE.ART.BG ----------
+# ---------- 4) THEATRE.ART.BG ----------
 def fetch_theatre():
     base = "https://theatre.art.bg/"
     try:
-        h = get(base); log(f"theatre src len={len(h)}")
+        h = get(base, min_len=5000); log(f"theatre src len={len(h)}")
     except Exception as e:
         log(f"theatre fail: {e!r}"); log("theatre: 0"); return []
     out = extract_events(h, "", "theatre", default_hour=19)
@@ -317,7 +290,7 @@ def fetch_theatre():
     if prog:
         purl = urljoin(base, html.unescape(prog.group(1)))
         try:
-            ph = get(purl); log(f"theatre prog: {purl[:60]} len={len(ph)}")
+            ph = get(purl, min_len=5000); log(f"theatre prog: {purl[:60]} len={len(ph)}")
             out += extract_events(ph, "", "theatre", default_hour=19)
         except Exception as e:
             log(f"theatre prog fail: {e!r}")
@@ -330,27 +303,25 @@ def fetch_theatre():
     log(f"theatre: {len(ded)}")
     return ded
 
-# ---------- 6) ФУТБОЛ (bgfutbol.com) ----------
+# ---------- 5) ФУТБОЛ (bgfutbol.com) ----------
 def fetch_football():
     out = []
     h = None
     for url in ("https://www.bgfutbol.com/programa.php", "https://www.bgfutbol.com/",
                 "https://bgfutbol.com/"):
         try:
-            h = get(url); log(f"футбол src: {url} len={len(h)}"); break
+            h = get(url, min_len=5000); log(f"футбол src: {url} len={len(h)}"); break
         except Exception as e:
-            log(f"футбол try fail: {e!r}")
+            log(f"футбол try fail: {url.split('/')[-1] or 'home'} {e!r}")
     if not h:
         log("футбол: 0"); return []
-    text = h
-    # дата (dd.mm[.yyyy]) ... до 400 знака: час + "Отбор1 - Отбор2"
-    for m in re.finditer(r"(\d{1,2})\.(\d{1,2})(?:\.(\d{4}))?", text):
+    for m in re.finditer(r"(\d{1,2})\.(\d{1,2})(?:\.(\d{4}))?", h):
         d, mo, y = m.groups()
         d, mo = int(d), int(mo)
         if not (1 <= mo <= 12 and 1 <= d <= 31): continue
         yy = int(y) if y else future_year(d, mo)
         if not yy: continue
-        window = strip_tags(text[m.end():m.end()+500])
+        window = strip_tags(h[m.end():m.end()+500])
         tm = re.search(r"(\d{1,2}):(\d{2})", window)
         hh, mm2 = (int(tm.group(1)), int(tm.group(2))) if tm else (18, 0)
         pair = re.search(r"([А-Я][А-Яа-я0-9\.\s]{2,24}?)\s*[-–]\s*([А-Я][А-Яа-я0-9\.\s]{2,24})", window)
@@ -361,7 +332,7 @@ def fetch_football():
         for team, vk in FOOT_HOME:
             if team in hl:
                 venue_key = vk; break
-        if venue_key is None: continue  # не е софийски домакин (или ЦСКА 1948)
+        if venue_key is None: continue
         try:
             dt = datetime(yy, mo, d, hh, mm2, tzinfo=timezone(timedelta(hours=3)))
         except ValueError:
@@ -377,26 +348,25 @@ def fetch_football():
     log(f"футбол: {len(ded)}")
     return ded
 
-# ---------- 7) ЛОКАЛНИ (visitsofia.bg) ----------
+# ---------- 6) ЛОКАЛНИ (visitsofia.bg) ----------
 def fetch_local():
     out = []
     h = None
     for url in ("https://www.visitsofia.bg/bg/kalendar", "https://www.visitsofia.bg/bg/events",
                 "https://www.visitsofia.bg/"):
         try:
-            h = get(url); log(f"локални src: {url} len={len(h)}"); break
+            h = get(url, min_len=5000); log(f"локални src: {url} len={len(h)}"); break
         except Exception as e:
             log(f"локални try fail: {e!r}")
     if not h:
         log("локални: 0"); return []
     out = extract_events(h, "", "локални", default_hour=18)
-    # auto-discovery на календар/събития линк
     if len(out) < 3:
-        prog = re.search(r'href="([^"]*(?:kalendar|калндар|събити|events)[^"]*)"', h, re.I)
+        prog = re.search(r'href="([^"]*(?:kalendar|събити|events)[^"]*)"', h, re.I)
         if prog:
             purl = urljoin("https://www.visitsofia.bg/", html.unescape(prog.group(1)))
             try:
-                ph = get(purl); log(f"локални prog: {purl[:60]} len={len(ph)}")
+                ph = get(purl, min_len=5000); log(f"локални prog: {purl[:60]} len={len(ph)}")
                 out += extract_events(ph, "", "локални", default_hour=18)
             except Exception as e:
                 log(f"локални prog fail: {e!r}")
@@ -412,7 +382,7 @@ def fetch_local():
 # ---------- MERGE + VALIDATE ----------
 def main():
     venues = load_venues()
-    raw = (fetch_eventim() + fetch_ndk() + fetch_arena() + fetch_bilet()
+    raw = (fetch_eventim() + fetch_ndk() + fetch_arena()
            + fetch_theatre() + fetch_football() + fetch_local())
     ev, seen = [], set()
     rej_past = rej_fut = 0
