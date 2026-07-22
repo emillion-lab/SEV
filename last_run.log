@@ -1,4 +1,4 @@
-run: 2026-07-22T10:56:43.080446+00:00
+run: 2026-07-22T13:19:58.781264+00:00
 eventim api p1 fail: <HTTPError 403: 'Forbidden'>
 eventim api p1 fail: <HTTPError 403: 'Forbidden'>
 eventim html p1 fail: <HTTPError 520: '<none>'>
@@ -8,16 +8,18 @@ eventim: 0
   ndk: 2026-06-01T19:00 | Започна Пролетният панаир на книгата в парка 
   ndk: 2026-07-25T19:00 | Скритите съкровища на Двореца
   ndk: 2026-09-24T19:00 | Garou„The Best of…GAROU“
-ndk: 14
-  arena: 2025-12-19T20:00 | Архив
-  arena: 2027-12-05T20:00 | ФИКИ - PRIME
-arena: 12
-theatre: 0
-футбол try fail: programa.php <HTTPError 404: 'Not Found'>
-футбол src: https://www.bgfutbol.com/ len=128099
-  футбол кирилица след unescape: 0
+ndk: 15
+  arena: 2025-12-19T20:00 | Видео
+  arena: 2027-04-24T20:00 | ЕМИЛИЯ - СМЕЛИТЕ 2027
+arena: 16
+  theatre day0: 1 представления
+  theatre day1: 1 представления
+  theatre: 2026-07-22T20:00 | СПИСЪК НА ВСИЧКИ СТРАХОТНИ НЕЩА @ ТЕАТЪР 199 "ВАЛЕНТИН СТОЙЧЕВ"
+  theatre: 2026-07-23T20:00 | СЛОН В СТАЯТА @ ТЕАТЪР 199 "ВАЛЕНТИН СТОЙЧЕВ"
+  theatre: 2026-07-24T20:00 | ПРИЯТНО МИ Е, ИВА! @ ТЕАТЪР 199 "ВАЛЕНТИН СТОЙЧЕВ"
+theatre: 3
 футбол: 0
   локални diag: pattern hits [0, 0, 0, 0], 0 заглавия оцеляха
 локални: 0
-merge: 18 прието, 7 минали, 1 след хоризонта
-✅ OK: 18 събития (18 с гео), източници: ['arena', 'ndk']
+merge: 24 прието, 8 минали, 2 след хоризонта
+✅ OK: 24 събития (24 с гео), източници: ['arena', 'ndk', 'theatre']
