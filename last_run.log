@@ -1,4 +1,4 @@
-run: 2026-07-22T09:22:59.311957+00:00
+run: 2026-07-22T09:30:28.613757+00:00
 eventim api p1 fail: <HTTPError 403: 'Forbidden'>
 eventim api p1 fail: <HTTPError 403: 'Forbidden'>
 eventim html p1 fail: <HTTPError 520: '<none>'>
@@ -23,14 +23,11 @@ ndk prog: https://www.ndk.bg/bg/programa len=93500
   ndk sample: 2026-11-08T19:00 | Samara Joy
   ndk sample: 2026-11-12T19:00 | EDIS @ Зала 3 на НДК, 12.11.2026
 ndk: 16
-arena src: https://arenaarmeecsofia.net/програма-арена-8888-софия/ len=158642
+arena src: https://arenaarmeecsofia.net/програма-арена-8888-софия/ len=158688
   arena sample: 2027-04-24T20:00 | ЕМИЛИЯ - СМЕЛИТЕ 2027
   arena sample: 2027-12-05T20:00 | ФИКИ - PRIME
 arena: 2
-bilet try fail: https://bilet.bg/bg/sofia <HTTPError 404: 'Not Found'>
-bilet try fail: https://www.bilet.bg/bg/sofia <HTTPError 404: 'Not Found'>
-bilet src: https://bilet.bg/ len=735041
-bilet src: https://www.bilet.bg/ len=735041
+bilet src: bilet.bg len=735041 startDate-та в页: 0
 bilet: 0
   rej past: 2026-06-18T19:00 | Дигитална платформа ще улесни организаци
   rej past: 2026-06-01T19:00 | Започна Пролетният панаир на книгата в п
