@@ -1,21 +1,22 @@
-run: 2026-07-22T10:02:11.540280+00:00
+run: 2026-07-22T10:07:55.944930+00:00
 eventim api p1 fail: <HTTPError 403: 'Forbidden'>
 eventim api p1 fail: <HTTPError 403: 'Forbidden'>
 eventim html p1 fail: <HTTPError 520: '<none>'>
 eventim: 0
   [www.ndk.bg -> insecure]
-ndk src: https://www.ndk.bg/ len=90183
-ndk prog: https://www.ndk.bg/bg/programa len=93500
 ndk: 16
-arena src: https://arenaarmeecsofia.net/програма-арена-8888-софия/ len=158716
 arena: 2
-bilet probe /api/events: <HTTPError 404: 'Not Found'>
-bilet probe /events: <HTTPError 525: '<none>'>
-bilet probe /api/v1/events: <HTTPError 404: 'Not Found'>
-bilet probe /api/events?city=sofia: <HTTPError 404: 'Not Found'>
-bilet probe /bg/api/events: <HTTPError 404: 'Not Found'>
+bilet probe fail: <HTTPError 404: 'Not Found'>
+bilet probe fail: <HTTPError 525: '<none>'>
+bilet probe fail: <HTTPError 404: 'Not Found'>
+bilet probe fail: <HTTPError 404: 'Not Found'>
+bilet probe fail: <HTTPError 404: 'Not Found'>
 bilet: 0
-theatre src: https://theatre.art.bg/ len=92833
+theatre src len=92803
 theatre: 0
+футбол src: https://www.bgfutbol.com/programa.php len=107
+футбол: 0
+локални src: https://www.visitsofia.bg/bg/kalendar len=24144
+локални: 0
 merge: 11 прието, 3 минали, 4 след хоризонта
 ✅ OK: 11 събития (11 с гео), източници: ['ndk']
