@@ -1,0 +1,6 @@
+theatre_day0: FAIL <HTTPError 400: 'Bad Request'> | https://theatre.art.bg/театри-софия-програма______2026-07-22_
+theatre_home: OK via direct raw=106609b slim=86905b | https://theatre.art.bg/
+gong_programa: FAIL <HTTPError 404: 'Not Found'> | https://gong.bg/programa
+gong_home: OK via direct raw=243082b slim=90000b | https://gong.bg/
+visitsofia_kalendar: OK via direct raw=25030b slim=21369b | https://www.visitsofia.bg/bg/kalendar
+arena_programa: FAIL <HTTPError 400: 'Bad Request'> | https://arenaarmeecsofia.net/програма-арена-8888-софия/
