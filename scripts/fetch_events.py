@@ -1,5 +1,5 @@
-# SEV — Sofia Events fetcher v1.5
-# Хоризонт 180 дни; stopword филтър за заглавия ("купете билети от тук" и т.н.)
+# SEV — Sofia Events fetcher v1.6
+# Eventim: v1/products -> v2/productGroups -> www.eventim.bg HTML (JSON-LD)
 import json, re, sys, os, html, ssl
 from datetime import datetime, timedelta, timezone
 from urllib.request import Request, urlopen
@@ -17,7 +17,7 @@ HOST_MODE = {}
 
 MONTHS = {"януари":1,"февруари":2,"март":3,"април":4,"май":5,"юни":6,
           "юли":7,"август":8,"септември":9,"октомври":10,"ноември":11,"декември":12}
-BAD_TITLE = re.compile(r"билет|купи|купете|вижте|виж |програма|начало|още|повече|\bтук\b|цялата|scroll|cookie|меню",
+BAD_TITLE = re.compile(r"билет|купи|купете|вижте|виж |програма|начало|още|повече|\bтук\b|цялата|scroll|cookie|меню|skip|content|детайли|начална|search|menu",
                        re.I)
 
 def log(msg):
@@ -71,7 +71,7 @@ def match_venue(name, venues):
 
 def parse_dt(s):
     if not s: return None
-    s = s.strip().replace("Z", "+00:00")
+    s = str(s).strip().replace("Z", "+00:00")
     try:
         d = datetime.fromisoformat(s)
         if d.tzinfo is None:
@@ -80,47 +80,93 @@ def parse_dt(s):
     except Exception:
         return None
 
-# ---------- 1) EVENTIM public-api ----------
-def fetch_eventim():
+def strip_tags(s):
+    return html.unescape(re.sub(r"<[^>]+>", " ", s)).strip()
+
+# ---------- 1) EVENTIM ----------
+def eventim_api(url_tpl, list_key):
     out = []
-    base = ("https://public-api.eventim.com/websearch/search/api/exploration/v2/productGroups"
-            "?webId=web__eventim-bg&language=bg&retail_partner=EVE"
-            "&city_names=%D0%A1%D0%BE%D1%84%D0%B8%D1%8F&sort=DateAsc&page={p}")
     for p in range(1, 6):
         try:
-            body = get(base.format(p=p))
+            body = get(url_tpl.format(p=p))
         except Exception as e:
-            log(f"eventim page {p} HTTP fail: {e!r}"); break
+            log(f"eventim api p{p} fail: {e!r}"); break
         try:
             data = json.loads(body)
-        except Exception as e:
-            log(f"eventim page {p} JSON fail: {e!r} | body[:200]={body[:200]!r}"); break
-        groups = data.get("productGroups") or []
+        except Exception:
+            log(f"eventim api p{p} not JSON: {body[:120]!r}"); break
+        items = data.get(list_key) or []
         if p == 1:
-            log(f"eventim keys: {sorted(data.keys())} groups: {len(groups)}")
-            if groups:
-                log(f"eventim g0 keys: {sorted(groups[0].keys())}")
-        if not groups: break
-        for g in groups:
-            name = g.get("name") or ""
-            prods = g.get("products") or []
-            for pr in prods:
-                ti = pr.get("typeAttributes", {}).get("liveEntertainment", {})
-                start = parse_dt(pr.get("start") or ti.get("startDate") or g.get("startDate"))
-                venue = (ti.get("location", {}) or {}).get("name") or g.get("venueName") or ""
-                city = (ti.get("location", {}) or {}).get("city") or ""
-                if city and "софия" not in city.lower() and "sofia" not in city.lower():
-                    continue
-                if start:
-                    out.append({"name": name, "venue": venue, "start": start.isoformat(),
-                                "url": pr.get("link") or g.get("link") or "",
-                                "src": "eventim"})
-            if not prods:
-                start = parse_dt(g.get("startDate"))
-                if start:
-                    out.append({"name": name, "venue": g.get("venueName") or "",
-                                "start": start.isoformat(), "url": g.get("link") or "",
-                                "src": "eventim"})
+            log(f"eventim [{list_key}] keys: {sorted(data.keys())[:8]} items: {len(items)}")
+            if items: log(f"  item0 keys: {sorted(items[0].keys())[:12]}")
+        if not items: break
+        for it in items:
+            ti = (it.get("typeAttributes") or {}).get("liveEntertainment") or {}
+            loc = ti.get("location") or {}
+            name = it.get("name") or it.get("title") or ""
+            start = parse_dt(it.get("start") or ti.get("startDate") or it.get("startDate"))
+            city = loc.get("city") or ""
+            if city and "софия" not in city.lower() and "sofia" not in city.lower():
+                continue
+            # productGroups носят вложени products
+            for pr in (it.get("products") or []):
+                pti = (pr.get("typeAttributes") or {}).get("liveEntertainment") or {}
+                ploc = pti.get("location") or {}
+                pst = parse_dt(pr.get("start") or pti.get("startDate"))
+                if pst:
+                    out.append({"name": name, "venue": ploc.get("name") or loc.get("name") or "",
+                                "start": pst.isoformat(), "url": pr.get("link") or "", "src": "eventim"})
+            if start and not it.get("products"):
+                out.append({"name": name, "venue": loc.get("name") or "",
+                            "start": start.isoformat(), "url": it.get("link") or "", "src": "eventim"})
+    return out
+
+def eventim_html():
+    out = []
+    for page in range(1, 4):
+        url = "https://www.eventim.bg/city/%D1%81%D0%BE%D1%84%D0%B8%D1%8F-7510/"
+        if page > 1: url += f"?page={page}"
+        try:
+            body = get(url)
+        except Exception as e:
+            log(f"eventim html p{page} fail: {e!r}"); break
+        blocks = re.findall(r'<script type="application/ld\+json">\s*(.*?)\s*</script>', body, re.S)
+        if page == 1: log(f"eventim html: {len(body)}b, {len(blocks)} ld+json блока")
+        found = 0
+        for b in blocks:
+            try:
+                data = json.loads(b)
+            except Exception:
+                continue
+            items = data if isinstance(data, list) else data.get("@graph", [data])
+            for it in items:
+                if not isinstance(it, dict): continue
+                t = str(it.get("@type", ""))
+                if "Event" not in t: continue
+                loc = it.get("location") or {}
+                if isinstance(loc, list): loc = loc[0] if loc else {}
+                start = parse_dt(it.get("startDate"))
+                if not start: continue
+                out.append({"name": strip_tags(str(it.get("name",""))),
+                            "venue": (loc.get("name") or ""),
+                            "start": start.isoformat(),
+                            "url": it.get("url") or "", "src": "eventim"})
+                found += 1
+        if not found: break
+    return out
+
+def fetch_eventim():
+    v1 = ("https://public-api.eventim.com/websearch/search/api/exploration/v1/products"
+          "?webId=web__eventim-bg&language=bg&retail_partner=EVE"
+          "&city_names=%D0%A1%D0%BE%D1%84%D0%B8%D1%8F&sort=DateAsc&page={p}")
+    v2 = ("https://public-api.eventim.com/websearch/search/api/exploration/v2/productGroups"
+          "?webId=web__eventim-bg&language=bg&retail_partner=EVE"
+          "&city_names=%D0%A1%D0%BE%D1%84%D0%B8%D1%8F&sort=DateAsc&page={p}")
+    out = eventim_api(v1, "products")
+    if not out:
+        out = eventim_api(v2, "productGroups")
+    if not out:
+        out = eventim_html()
     log(f"eventim: {len(out)}")
     return out
 
@@ -135,7 +181,6 @@ def extract_events(h, default_venue, src, default_hour=20):
         d, mon, y = m.groups()
         add_ev(out, d, MONTHS[mon.lower()], y, default_hour, 0,
                nearest_title(h, m.start()), default_venue, src)
-    # формат без година: "27 юни" -> тази или следващата година (винаги напред)
     for m in re.finditer(r"(\d{1,2})\s+(януари|февруари|март|април|май|юни|юли|август|септември|октомври|ноември|декември)(?!\s+\d{4})", h, re.I):
         d, mon = m.groups()
         y = NOW.year
