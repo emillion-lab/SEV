@@ -1,10 +1,8 @@
-run: 2026-07-22T06:04:27.332593+00:00
+run: 2026-07-22T09:22:59.311957+00:00
 eventim api p1 fail: <HTTPError 403: 'Forbidden'>
 eventim api p1 fail: <HTTPError 403: 'Forbidden'>
 eventim html p1 fail: <HTTPError 520: '<none>'>
 eventim: 0
-ndk try fail: https://www.ndk.bg/програма <HTTPError 404: 'Not Found'>
-ndk try fail: https://ndk.bg/програма <HTTPError 404: 'Not Found'>
   [www.ndk.bg -> insecure]
 ndk src: https://www.ndk.bg/ len=90183
   ndk sample: 2026-09-24T19:00 | Garou„The Best of…GAROU“
@@ -15,13 +13,27 @@ ndk src: https://www.ndk.bg/ len=90183
   ndk sample: 2026-11-08T19:00 | Samara Joy
   ndk sample: 2026-11-12T19:00 | EDIS @ Зала 3 на НДК, 12.11.2026
   ndk sample: 2026-11-28T19:00 | Михаела Маринова - Концерт
-ndk: 15
-arena src: https://arenaarmeecsofia.net/програма-арена-8888-софия/ len=158676
+ndk prog: https://www.ndk.bg/bg/programa len=93500
+  ndk sample: 2026-07-25T19:00 | Скритите съкровища на Двореца
+  ndk sample: 2026-09-24T19:00 | Garou„The Best of…GAROU“
+  ndk sample: 2026-09-25T19:00 | ЛЮБОВ С МАЕСТРО КАМДЖАЛОВ,  ДЕСИ ТЕНЕКЕДЖИЕВА И СО
+  ndk sample: 2026-10-03T19:00 | THE BODYGUARD - The Musical
+  ndk sample: 2026-10-14T19:00 | ИЛИЯ ЛУКОВ и ПРИЯТЕЛИ „С БЪЛГАРИЯ В СЪРЦЕТО“
+  ndk sample: 2026-10-27T19:00 | ЕКСКЛУЗИВНОТО STAND UP ШОУ НА ЗДРАВА КАМЕНОВА "ЗДР
+  ndk sample: 2026-11-08T19:00 | Samara Joy
+  ndk sample: 2026-11-12T19:00 | EDIS @ Зала 3 на НДК, 12.11.2026
+ndk: 16
+arena src: https://arenaarmeecsofia.net/програма-арена-8888-софия/ len=158642
   arena sample: 2027-04-24T20:00 | ЕМИЛИЯ - СМЕЛИТЕ 2027
   arena sample: 2027-12-05T20:00 | ФИКИ - PRIME
 arena: 2
+bilet try fail: https://bilet.bg/bg/sofia <HTTPError 404: 'Not Found'>
+bilet try fail: https://www.bilet.bg/bg/sofia <HTTPError 404: 'Not Found'>
+bilet src: https://bilet.bg/ len=735041
+bilet src: https://www.bilet.bg/ len=735041
+bilet: 0
   rej past: 2026-06-18T19:00 | Дигитална платформа ще улесни организаци
   rej past: 2026-06-01T19:00 | Започна Пролетният панаир на книгата в п
   rej past: 2026-06-01T19:00 | „Деца рисуват Двореца“
-merge: 10 прието, 3 минали, 4 след хоризонта
-✅ OK: 10 събития (10 с гео), източници: ['ndk']
+merge: 11 прието, 3 минали, 4 след хоризонта
+✅ OK: 11 събития (11 с гео), източници: ['ndk']
