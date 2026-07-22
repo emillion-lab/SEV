@@ -1,9 +1,9 @@
-# SEV — Sofia Events fetcher v1.6
-# Eventim: v1/products -> v2/productGroups -> www.eventim.bg HTML (JSON-LD)
-import json, re, sys, os, html, ssl
+# SEV — Sofia Events fetcher v1.7
+# + bilet.bg източник, НДК програма auto-discovery, retry на transient грешки
+import json, re, sys, os, html, ssl, time
 from datetime import datetime, timedelta, timezone
 from urllib.request import Request, urlopen
-from urllib.parse import quote, urlsplit, urlunsplit
+from urllib.parse import quote, urlsplit, urlunsplit, urljoin
 
 UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/126 Safari/537.36",
       "Accept-Language": "bg,en;q=0.8", "Accept": "application/json, text/html;q=0.9,*/*;q=0.8"}
@@ -17,7 +17,7 @@ HOST_MODE = {}
 
 MONTHS = {"януари":1,"февруари":2,"март":3,"април":4,"май":5,"юни":6,
           "юли":7,"август":8,"септември":9,"октомври":10,"ноември":11,"декември":12}
-BAD_TITLE = re.compile(r"билет|купи|купете|вижте|виж |програма|начало|още|повече|\bтук\b|цялата|scroll|cookie|меню|skip|content|детайли|начална|search|menu",
+BAD_TITLE = re.compile(r"билет|купи|купете|вижте|виж |програма|начало|още|повече|\bтук\b|цялата|scroll|cookie|меню|skip|content|детайли|начална|search|menu|вход|регистрац|facebook|instagram",
                        re.I)
 
 def log(msg):
@@ -37,7 +37,7 @@ def enc(url):
     p = urlsplit(url)
     return urlunsplit((p.scheme, p.netloc, quote(p.path, safe="/%"), quote(p.query, safe="=&%"), ""))
 
-def get(url, timeout=30):
+def get(url, timeout=30, retries=2):
     u = enc(url)
     host = urlsplit(u).netloc
     modes = [("direct", u, CTX), ("insecure", u, INSECURE),
@@ -45,17 +45,19 @@ def get(url, timeout=30):
     if host in HOST_MODE:
         modes.sort(key=lambda m: 0 if m[0] == HOST_MODE[host] else 1)
     last = None
-    for tag, target, ctx in modes:
-        try:
-            req = Request(target, headers=UA)
-            with urlopen(req, timeout=timeout, context=ctx) as r:
-                body = r.read().decode("utf-8", "ignore")
-            if host not in HOST_MODE:
-                HOST_MODE[host] = tag
-                if tag != "direct": log(f"  [{host} -> {tag}]")
-            return body
-        except Exception as e:
-            last = e
+    for attempt in range(retries):
+        for tag, target, ctx in modes:
+            try:
+                req = Request(target, headers=UA)
+                with urlopen(req, timeout=timeout, context=ctx) as r:
+                    body = r.read().decode("utf-8", "ignore")
+                if host not in HOST_MODE:
+                    HOST_MODE[host] = tag
+                    if tag != "direct": log(f"  [{host} -> {tag}]")
+                return body
+            except Exception as e:
+                last = e
+        time.sleep(2)
     raise last
 
 def load_venues():
@@ -83,12 +85,12 @@ def parse_dt(s):
 def strip_tags(s):
     return html.unescape(re.sub(r"<[^>]+>", " ", s)).strip()
 
-# ---------- 1) EVENTIM ----------
+# ---------- 1) EVENTIM (API v1 -> v2 -> HTML JSON-LD) ----------
 def eventim_api(url_tpl, list_key):
     out = []
     for p in range(1, 6):
         try:
-            body = get(url_tpl.format(p=p))
+            body = get(url_tpl.format(p=p), retries=1)
         except Exception as e:
             log(f"eventim api p{p} fail: {e!r}"); break
         try:
@@ -97,8 +99,7 @@ def eventim_api(url_tpl, list_key):
             log(f"eventim api p{p} not JSON: {body[:120]!r}"); break
         items = data.get(list_key) or []
         if p == 1:
-            log(f"eventim [{list_key}] keys: {sorted(data.keys())[:8]} items: {len(items)}")
-            if items: log(f"  item0 keys: {sorted(items[0].keys())[:12]}")
+            log(f"eventim [{list_key}] items: {len(items)}")
         if not items: break
         for it in items:
             ti = (it.get("typeAttributes") or {}).get("liveEntertainment") or {}
@@ -108,7 +109,6 @@ def eventim_api(url_tpl, list_key):
             city = loc.get("city") or ""
             if city and "софия" not in city.lower() and "sofia" not in city.lower():
                 continue
-            # productGroups носят вложени products
             for pr in (it.get("products") or []):
                 pti = (pr.get("typeAttributes") or {}).get("liveEntertainment") or {}
                 ploc = pti.get("location") or {}
@@ -141,8 +141,7 @@ def eventim_html():
             items = data if isinstance(data, list) else data.get("@graph", [data])
             for it in items:
                 if not isinstance(it, dict): continue
-                t = str(it.get("@type", ""))
-                if "Event" not in t: continue
+                if "Event" not in str(it.get("@type", "")): continue
                 loc = it.get("location") or {}
                 if isinstance(loc, list): loc = loc[0] if loc else {}
                 start = parse_dt(it.get("startDate"))
@@ -218,19 +217,31 @@ def add_ev(out, d, mo, y, hh, mm, title, venue, src):
     out.append({"name": title, "venue": venue, "start": dt.isoformat(),
                 "url": "", "src": src})
 
-# ---------- 2) НДК ----------
+# ---------- 2) НДК (homepage + auto-discovery на програмната страница) ----------
 def fetch_ndk():
     h = None
-    for url in ("https://www.ndk.bg/програма", "https://ndk.bg/програма", "https://www.ndk.bg/"):
-        try:
-            h = get(url); log(f"ndk src: {url} len={len(h)}"); break
-        except Exception as e:
-            log(f"ndk try fail: {url} {e!r}")
-    if not h:
-        log("ndk: 0"); return []
+    base = "https://www.ndk.bg/"
+    try:
+        h = get(base); log(f"ndk src: {base} len={len(h)}")
+    except Exception as e:
+        log(f"ndk fail: {e!r}"); log("ndk: 0"); return []
     out = extract_events(h, "НДК", "ndk", default_hour=19)
-    log(f"ndk: {len(out)}")
-    return out
+    # намери линк към програмата от началната страница
+    prog = re.search(r'href="([^"]*(?:програм|program|events|събития)[^"]*)"', h, re.I)
+    if prog:
+        purl = urljoin(base, html.unescape(prog.group(1)))
+        try:
+            ph = get(purl); log(f"ndk prog: {purl} len={len(ph)}")
+            out += extract_events(ph, "НДК", "ndk", default_hour=19)
+        except Exception as e:
+            log(f"ndk prog fail: {purl} {e!r}")
+    # дедуп след merge на двете страници
+    seen, ded = set(), []
+    for e in out:
+        k = (e["name"].lower(), e["start"][:10])
+        if k not in seen: seen.add(k); ded.append(e)
+    log(f"ndk: {len(ded)}")
+    return ded
 
 # ---------- 3) АРЕНА ----------
 def fetch_arena():
@@ -247,10 +258,42 @@ def fetch_arena():
     log(f"arena: {len(out)}")
     return out
 
+# ---------- 4) BILET.BG ----------
+def fetch_bilet():
+    out = []
+    for url in ("https://bilet.bg/bg/sofia", "https://www.bilet.bg/bg/sofia",
+                "https://bilet.bg/", "https://www.bilet.bg/"):
+        try:
+            h = get(url); log(f"bilet src: {url} len={len(h)}")
+        except Exception as e:
+            log(f"bilet try fail: {url} {e!r}"); continue
+        # 1) JSON-LD ако има
+        for b in re.findall(r'<script type="application/ld\+json">\s*(.*?)\s*</script>', h, re.S):
+            try:
+                data = json.loads(b)
+            except Exception:
+                continue
+            items = data if isinstance(data, list) else data.get("@graph", [data])
+            for it in items:
+                if not isinstance(it, dict) or "Event" not in str(it.get("@type","")): continue
+                loc = it.get("location") or {}
+                if isinstance(loc, list): loc = loc[0] if loc else {}
+                start = parse_dt(it.get("startDate"))
+                if not start: continue
+                out.append({"name": strip_tags(str(it.get("name",""))),
+                            "venue": loc.get("name") or "", "start": start.isoformat(),
+                            "url": it.get("url") or "", "src": "bilet"})
+        # 2) generic дата+заглавие
+        if not out:
+            out = extract_events(h, "", "bilet", default_hour=20)
+        if out: break
+    log(f"bilet: {len(out)}")
+    return out
+
 # ---------- MERGE + VALIDATE ----------
 def main():
     venues = load_venues()
-    raw = fetch_eventim() + fetch_ndk() + fetch_arena()
+    raw = fetch_eventim() + fetch_ndk() + fetch_arena() + fetch_bilet()
     ev, seen = [], set()
     rej_past = rej_fut = 0
     for e in raw:
