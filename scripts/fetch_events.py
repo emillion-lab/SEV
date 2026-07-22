@@ -1,5 +1,5 @@
-# SEV — Sofia Events fetcher v1.7
-# + bilet.bg източник, НДК програма auto-discovery, retry на transient грешки
+# SEV — Sofia Events fetcher v1.8
+# bilet.bg: JSON миньор (__NEXT_DATA__/вградени данни) вместо HTML regex
 import json, re, sys, os, html, ssl, time
 from datetime import datetime, timedelta, timezone
 from urllib.request import Request, urlopen
@@ -217,7 +217,7 @@ def add_ev(out, d, mo, y, hh, mm, title, venue, src):
     out.append({"name": title, "venue": venue, "start": dt.isoformat(),
                 "url": "", "src": src})
 
-# ---------- 2) НДК (homepage + auto-discovery на програмната страница) ----------
+# ---------- 2) НДК ----------
 def fetch_ndk():
     h = None
     base = "https://www.ndk.bg/"
@@ -226,7 +226,6 @@ def fetch_ndk():
     except Exception as e:
         log(f"ndk fail: {e!r}"); log("ndk: 0"); return []
     out = extract_events(h, "НДК", "ndk", default_hour=19)
-    # намери линк към програмата от началната страница
     prog = re.search(r'href="([^"]*(?:програм|program|events|събития)[^"]*)"', h, re.I)
     if prog:
         purl = urljoin(base, html.unescape(prog.group(1)))
@@ -235,7 +234,6 @@ def fetch_ndk():
             out += extract_events(ph, "НДК", "ndk", default_hour=19)
         except Exception as e:
             log(f"ndk prog fail: {purl} {e!r}")
-    # дедуп след merge на двете страници
     seen, ded = set(), []
     for e in out:
         k = (e["name"].lower(), e["start"][:10])
@@ -258,37 +256,79 @@ def fetch_arena():
     log(f"arena: {len(out)}")
     return out
 
-# ---------- 4) BILET.BG ----------
+# ---------- 4) BILET.BG (JSON миньор) ----------
+def walk_json(node, found, depth=0):
+    if depth > 14: return
+    if isinstance(node, dict):
+        keys = {k.lower(): k for k in node.keys()}
+        name_k = next((keys[k] for k in ("name","title","event_name","eventname") if k in keys), None)
+        date_k = next((keys[k] for k in ("startdate","start_date","start","date","event_date","datetime","start_time") if k in keys), None)
+        if name_k and date_k:
+            dt = parse_dt(node.get(date_k))
+            nm = node.get(name_k)
+            if dt and isinstance(nm, str) and len(nm) >= 4:
+                venue = ""
+                for vk in ("venue","place","hall","location","venue_name","place_name"):
+                    if vk in keys:
+                        v = node.get(keys[vk])
+                        if isinstance(v, str): venue = v
+                        elif isinstance(v, dict): venue = v.get("name") or v.get("title") or ""
+                        break
+                found.append({"name": strip_tags(nm), "venue": strip_tags(venue),
+                              "start": dt.isoformat(), "url": "", "src": "bilet"})
+        for v in node.values():
+            walk_json(v, found, depth+1)
+    elif isinstance(node, list):
+        for v in node:
+            walk_json(v, found, depth+1)
+
 def fetch_bilet():
     out = []
-    for url in ("https://bilet.bg/bg/sofia", "https://www.bilet.bg/bg/sofia",
-                "https://bilet.bg/", "https://www.bilet.bg/"):
+    try:
+        h = get("https://bilet.bg/")
+        log(f"bilet src: bilet.bg len={len(h)} startDate-та в页: {h.count('startDate')}")
+    except Exception as e:
+        log(f"bilet fail: {e!r}"); log("bilet: 0"); return []
+    # 1) JSON-LD
+    for b in re.findall(r'<script type="application/ld\+json">\s*(.*?)\s*</script>', h, re.S):
         try:
-            h = get(url); log(f"bilet src: {url} len={len(h)}")
-        except Exception as e:
-            log(f"bilet try fail: {url} {e!r}"); continue
-        # 1) JSON-LD ако има
-        for b in re.findall(r'<script type="application/ld\+json">\s*(.*?)\s*</script>', h, re.S):
+            data = json.loads(b)
+        except Exception:
+            continue
+        walk_json(data, out)
+    # 2) __NEXT_DATA__ / вградени state скриптове
+    if not out:
+        for m in re.finditer(r'<script[^>]*>\s*(\{.*?\})\s*</script>', h, re.S):
+            b = m.group(1)
+            if '"startDate"' not in b and '"start_date"' not in b and '"date"' not in b:
+                continue
             try:
                 data = json.loads(b)
             except Exception:
                 continue
-            items = data if isinstance(data, list) else data.get("@graph", [data])
-            for it in items:
-                if not isinstance(it, dict) or "Event" not in str(it.get("@type","")): continue
-                loc = it.get("location") or {}
-                if isinstance(loc, list): loc = loc[0] if loc else {}
-                start = parse_dt(it.get("startDate"))
-                if not start: continue
-                out.append({"name": strip_tags(str(it.get("name",""))),
-                            "venue": loc.get("name") or "", "start": start.isoformat(),
-                            "url": it.get("url") or "", "src": "bilet"})
-        # 2) generic дата+заглавие
-        if not out:
-            out = extract_events(h, "", "bilet", default_hour=20)
-        if out: break
-    log(f"bilet: {len(out)}")
-    return out
+            walk_json(data, out)
+    # 3) двойки name/startDate направо в суровия текст (какъвто и wrapper да има)
+    if not out:
+        for m in re.finditer(r'"name"\s*:\s*"([^"]{4,120})"[^{}\[\]]{0,600}?"start(?:D|_d)ate"\s*:\s*"([^"]+)"', h):
+            nm, sd = m.groups()
+            dt = parse_dt(sd)
+            if dt:
+                out.append({"name": strip_tags(nm.encode().decode("unicode_escape", "ignore")),
+                            "venue": "", "start": dt.isoformat(), "url": "", "src": "bilet"})
+        for m in re.finditer(r'"start(?:D|_d)ate"\s*:\s*"([^"]+)"[^{}\[\]]{0,600}?"name"\s*:\s*"([^"]{4,120})"', h):
+            sd, nm = m.groups()
+            dt = parse_dt(sd)
+            if dt:
+                out.append({"name": strip_tags(nm.encode().decode("unicode_escape", "ignore")),
+                            "venue": "", "start": dt.isoformat(), "url": "", "src": "bilet"})
+    seen, ded = set(), []
+    for e in out:
+        k = (e["name"].lower(), e["start"][:10])
+        if k not in seen: seen.add(k); ded.append(e)
+    for e in ded[:8]:
+        log(f"  bilet sample: {e['start'][:16]} | {e['name'][:50]} @ {e['venue'][:30]}")
+    log(f"bilet: {len(ded)}")
+    return ded
 
 # ---------- MERGE + VALIDATE ----------
 def main():
