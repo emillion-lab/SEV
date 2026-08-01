@@ -462,6 +462,10 @@ def main():
                 "lon": e.get("lon") if has_own else (v["lon"] if v else None),
                 "cap": e.get("cap") if has_own and e.get("cap") else (v["cap"] if v else 600),
                 "start": dt.isoformat(), "url": e.get("url",""), "src": e["src"]}
+        # ── ГЕО ФИЛТЪР ── събитие без координати праща шофьора наслуки.
+        # По-добре да го няма, отколкото да води до център на София.
+        if item["lat"] is None or item["lon"] is None:
+            continue
         k = (item["name"].lower()[:40], item["start"][:13])
         if k in seen: continue
         seen.add(k); ev.append(item)
