@@ -13,13 +13,14 @@ UA    = {'User-Agent': 'sev-bilet/1.0 (taxi demand research)'}
 # Софийски зали с приблизителен капацитет
 # Проверени координати. Хижа Септември и Гурко 16 са потвърдени по Google Maps.
 VENUES = {
-    'септември':           ('Хижа Септември (Витоша)', 500, 42.5905, 23.2830),
-    'septemvri':           ('Хижа Септември (Витоша)', 500, 42.5905, 23.2830),
-    'гурко':               ('Networking Premium (Гурко 16)', 500, 42.6934, 23.3268),
-    'gurko':               ('Networking Premium (Гурко 16)', 500, 42.6934, 23.3268),
-    'networking':          ('Networking Premium (Гурко 16)', 500, 42.6934, 23.3268),
-    'театро':              ('THEATRO', 600, 42.6928, 23.3312),
-    'theatro':             ('THEATRO', 600, 42.6928, 23.3312),
+    'септември':           ('Хижа Септември (Витоша)', 500, 42.5945, 23.2857),
+    'septemvri':           ('Хижа Септември (Витоша)', 500, 42.5945, 23.2857),
+    'гурко':               ('Networking Premium (Гурко 16)', 500, 42.6919, 23.3260),
+    'gurko':               ('Networking Premium (Гурко 16)', 500, 42.6919, 23.3260),
+    'networking':          ('Networking Premium (Гурко 16)', 500, 42.6919, 23.3260),
+    'театро':              ('Théatro отсам канала', 600, 42.6949, 23.3452),
+    'theatro':             ('Théatro отсам канала', 600, 42.6949, 23.3452),
+    'отсам канала':        ('Théatro отсам канала', 600, 42.6949, 23.3452),
     'интер експо':         ('Интер Експо Център', 3000, 42.6520, 23.3760),
     'inter expo':          ('Интер Експо Център', 3000, 42.6520, 23.3760),
     'тех парк':            ('София Тех Парк', 1500, 42.6668, 23.3760),
@@ -29,7 +30,7 @@ VENUES = {
     'paradise':            ('Paradise Center', 2000, 42.6607, 23.3122),
     'yalta':               ('Yalta Garden', 700, 42.6918, 23.3243),
     'ялта':                ('Yalta Garden', 700, 42.6918, 23.3243),
-    'gatto':               ('Bar Gatto', 300, 42.6938, 23.3287),
+    'gatto':               ('Bar Gatto', 300, 42.6907, 23.3320),
     'пиротска':            ('Пиротска 5', 600, 42.6987, 23.3195),
     'асикс':               ('Асикс Арена', 4000, 42.6690, 23.3757),
     'фестивална':          ('Асикс Арена', 4000, 42.6690, 23.3757),
@@ -186,9 +187,36 @@ def parse_event(url):
             loc   = it.get('location') or {}
             vtext = loc.get('name', '') if isinstance(loc, dict) else str(loc)
             addr  = loc.get('address', '') if isinstance(loc, dict) else ''
+            # адресът може да е обект със street/locality — сглобяваме го
+            street = city = ''
+            if isinstance(addr, dict):
+                street = addr.get('streetAddress', '') or ''
+                city   = addr.get('addressLocality', '') or ''
+                addr   = ' '.join(x for x in [street, city] if x)
+            # координати направо от източника, ако ги дава
+            geo = loc.get('geo') if isinstance(loc, dict) else None
+            src_lat = src_lon = None
+            if isinstance(geo, dict):
+                try:
+                    src_lat = float(geo.get('latitude'))
+                    src_lon = float(geo.get('longitude'))
+                except Exception:
+                    src_lat = src_lon = None
             blob  = f'{vtext} {addr}'
             vname, cap, lat, lon = find_venue(blob)
             if name and start:
+                # 1) координати от самия източник — най-достоверни
+                if src_lat and 42.55 <= src_lat <= 42.80:
+                    lat, lon = src_lat, src_lon
+                # 2) точен уличен адрес бие приблизителната таблица
+                elif street:
+                    glat, glon = geocode(street + ', София')
+                    if glat:
+                        lat, lon = glat, glon
+                # 2) геокодиране по ПЪЛНИЯ адрес — най-точното, което имаме
+                if lat is None and (street or addr):
+                    lat, lon = geocode((street or addr) + ', София')
+                # 3) по името на залата
                 if lat is None:
                     lat, lon = geocode(vtext or '')
                 return {'name': name[:90], 'venue': vname or (vtext or '')[:60],
