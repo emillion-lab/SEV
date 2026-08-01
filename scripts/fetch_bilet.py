@@ -116,8 +116,15 @@ def find_venue(text):
         if key not in low:
             continue
         need = AMBIGUOUS.get(key)
-        if need and need not in low:
-            continue                      # „5 септември" е дата, не зала
+        if need:
+            ok = False
+            for m in re.finditer(re.escape(key), low):
+                around = low[max(0, m.start()-25): m.end()+25]
+                if need in around:        # „хижа Септември“, не „5 септември“
+                    ok = True
+                    break
+            if not ok:
+                continue
         return name, cap, lat, lon
     return None, None, None, None
 
