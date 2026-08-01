@@ -202,10 +202,11 @@ def parse_event(url):
     name = re.sub(r'\s*\|\s*Bilet\.bg.*$', '', t.group(1)).strip() if t else ''
     body = re.sub(r'<[^>]+>', ' ', html)
     start = parse_date(body[:6000])
-    # търсим само в частта, където се описва мястото — не в целия текст,
-    # където датите съдържат имена на месеци
-    mloc = re.search(r'(?:място|локация|зала|venue|адрес)[:\s]{1,4}(.{0,120})', body[:8000], re.I)
-    vscope = mloc.group(1) if mloc else body[:1200]
+    # Търсим залата САМО в заглавието и в явно обозначено място.
+    # Търсенето в тялото лепеше случайни съвпадения (напр. всяко
+    # събитие през август попадаше на „хижа Септември").
+    mloc = re.search(r'(?:място|локация|зала|venue|адрес)\s*[:\-]\s*(.{0,90})', body[:8000], re.I)
+    vscope = name + ' ' + (mloc.group(1) if mloc else '')
     vname, cap, lat, lon = find_venue(vscope)
     if name and start:
         if lat is None:
