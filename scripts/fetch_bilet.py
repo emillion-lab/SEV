@@ -111,6 +111,11 @@ def geocode(venue_name):
 AMBIGUOUS = {'септември': 'хижа', 'septemvri': 'hut'}
 
 
+# Кешираните геокодирани адреси са по-точни от ръчната таблица,
+# защото идват от реалния адрес на залата.
+PREFER_GEO = True
+
+
 def find_venue(text):
     low = (text or '').lower()
     for key, (name, cap, lat, lon) in VENUES.items():
@@ -126,6 +131,12 @@ def find_venue(text):
                     break
             if not ok:
                 continue
+        # ако имаме геокодиран адрес за същата зала, той има предимство
+        if PREFER_GEO:
+            ck = name.strip().lower()[:70]
+            c = _GEO_CACHE.get(ck)
+            if c and c.get('lat'):
+                return name, cap, c['lat'], c['lon']
         return name, cap, lat, lon
     return None, None, None, None
 
