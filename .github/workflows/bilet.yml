@@ -1,0 +1,15 @@
+name: Bilet Events
+on:
+  schedule: [{ cron: '25 4,16 * * *' }]
+  workflow_dispatch:
+permissions: { contents: write }
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 scripts/fetch_bilet.py 2>&1 | tee bilet.log
+      - run: |
+          git config user.name ci; git config user.email ci@sev
+          git add bilet_events.json bilet.log && git commit -m "bilet events [skip ci]" || true
+          git push
