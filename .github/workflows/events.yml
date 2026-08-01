@@ -13,7 +13,9 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - run: python3 scripts/geocode_venues.py 2>&1 | tee geo.log || echo 'geo пропуснат'
       - run: python3 scripts/fetch_bilet.py 2>&1 | tee bilet.log || echo 'bilet пропуснат'
+      - run: python3 scripts/geocode_venues.py 2>&1 | tee geo.log || echo 'geo пропуснат'
       - run: python3 scripts/fetch_bilet.py 2>&1 | tee bilet.log || echo 'bilet пропуснат'
       - run: python scripts/fetch_events.py
       - run: |
