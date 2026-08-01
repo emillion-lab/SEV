@@ -453,9 +453,14 @@ def main():
         if dt > HORIZON:
             rej_fut += 1; continue
         v = match_venue(e["venue"] or e["name"], venues)
-        item = {"name": e["name"][:120], "venue": v["n"] if v else (e["venue"] or "?"),
-                "lat": v["lat"] if v else None, "lon": v["lon"] if v else None,
-                "cap": v["cap"] if v else 600,
+        # Ако източникът вече носи координати (Bilet ги геокодира),
+        # те имат предимство — сливането не бива да ги трие.
+        has_own = e.get("lat") is not None and e.get("lon") is not None
+        item = {"name": e["name"][:120],
+                "venue": (e["venue"] or "?") if has_own else (v["n"] if v else (e["venue"] or "?")),
+                "lat": e.get("lat") if has_own else (v["lat"] if v else None),
+                "lon": e.get("lon") if has_own else (v["lon"] if v else None),
+                "cap": e.get("cap") if has_own and e.get("cap") else (v["cap"] if v else 600),
                 "start": dt.isoformat(), "url": e.get("url",""), "src": e["src"]}
         k = (item["name"].lower()[:40], item["start"][:13])
         if k in seen: continue
