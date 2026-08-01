@@ -1,4 +1,4 @@
-run: 2026-08-01T12:44:33.646340+00:00
+run: 2026-08-01T15:22:19.455305+00:00
 eventim api p1 fail: <HTTPError 403: 'Forbidden'>
 eventim api p1 fail: <HTTPError 403: 'Forbidden'>
 eventim html p1 fail: <HTTPError 520: '<none>'>
@@ -10,7 +10,7 @@ eventim: 0
   ndk: 2026-09-14T19:00 | KYLE DIXON & MICHAEL STEIN ПРЕДСТАВЯТ МУЗИКАТ
 ndk: 15
   arena: 2025-12-19T20:00 | Видео
-  arena: 2025-04-24T20:00 | Как да стигна до залата, планиране на маршрут
+  arena: 2017-02-22T20:00 | Как да стигна до залата, планиране на маршрут
 arena: 20
   theatre day0: 0 представления
   theatre day1: 0 представления
@@ -18,7 +18,8 @@ arena: 20
   theatre: 2026-08-08T19:30 | СВАТБА СЪС ЗАКЪСНИТЕЛ @ THEATRO
 theatre: 2
 футбол: 0
+  [www.visitsofia.bg -> insecure]
   локални diag: pattern hits [0, 0, 0, 0], 0 заглавия оцеляха
 локални: 0
-merge: 26 прието, 9 минали, 2 след хоризонта
-✅ OK: 45 събития (24 с гео), източници: ['arena', 'bilet', 'ndk', 'theatre']
+merge: 24 прието, 9 минали, 2 след хоризонта
+✅ OK: 43 събития (24 с гео), източници: ['arena', 'bilet', 'ndk']

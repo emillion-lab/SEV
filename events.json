@@ -1,11 +1,10 @@
 {
- "generated": "2026-08-01T12:44:33.646340+00:00",
- "count": 45,
+ "generated": "2026-08-01T15:22:19.455305+00:00",
+ "count": 43,
  "sources_ok": [
   "arena",
   "bilet",
-  "ndk",
-  "theatre"
+  "ndk"
  ],
  "events": [
   {
@@ -29,16 +28,6 @@
    "src": "bilet"
   },
   {
-   "name": "ГОРКАТА ФРАНЦИЯ",
-   "venue": "THEATRO",
-   "lat": null,
-   "lon": null,
-   "cap": 600,
-   "start": "2026-08-06T19:30:00+03:00",
-   "url": "",
-   "src": "theatre"
-  },
-  {
    "name": "No More Many More Exclusive Live @ хижа СЕПТЕМВРИ",
    "venue": "Хижа Септември (Витоша)",
    "lat": 42.6167377,
@@ -47,16 +36,6 @@
    "start": "2026-08-06T20:30:00+03:00",
    "url": "https://www.bilet.bg/bg/events/no-more-many-more-exclusive-live-at-hizha-septemvri-8418",
    "src": "bilet"
-  },
-  {
-   "name": "СВАТБА СЪС ЗАКЪСНИТЕЛ",
-   "venue": "THEATRO",
-   "lat": null,
-   "lon": null,
-   "cap": 600,
-   "start": "2026-08-08T19:30:00+03:00",
-   "url": "",
-   "src": "theatre"
   },
   {
    "name": "DAYZE x BAR GATTO presents: THE DAY SHIFT",
