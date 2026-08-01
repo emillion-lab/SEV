@@ -4,27 +4,27 @@ PROXY = 'https://mvr-proxy.mihov-emil.workers.dev/scrape?url='
 def get(u):
     req = urllib.request.Request(PROXY + urllib.parse.quote(u, safe=''),
                                  headers={'User-Agent': 'sev-probe/1.0'})
-    return urllib.request.urlopen(req, timeout=30).read().decode('utf-8', 'replace')
+    return urllib.request.urlopen(req, timeout=35).read().decode('utf-8', 'replace')
 
 html = get('https://www.bilet.bg/bg/')
 
-# 1. Търсим API следи в кода на страницата
-apis = set(re.findall(r'["\'](/api/[a-zA-Z0-9/_\-{}\.]+)["\']', html))
-print('вътрешни /api/ пътища:', len(apis))
-for a in sorted(apis)[:25]: print('  ', a)
+# връзки към конкретни събития
+links = sorted(set(re.findall(r'href="(/bg/[a-z0-9\-]+/[a-z0-9\-]{6,})"', html)))
+print('връзки към събития:', len(links))
+for l in links[:20]: print('  ', l)
 
-abs_api = set(re.findall(r'https?://[a-z0-9\.\-]+/(?:api|graphql)[a-zA-Z0-9/_\-\.]*', html))
-print('\nабсолютни API адреси:', len(abs_api))
-for a in sorted(abs_api)[:12]: print('  ', a)
+# има ли дати някъде в текста
+dates = re.findall(r'(\d{1,2}\s+(?:яну|фев|мар|апр|май|юни|юли|авг|сеп|окт|ное|дек)[а-я]*\.?\s*\d{0,4})', html, re.I)
+print('\nнамерени дати:', len(dates), '| примери:', dates[:8])
 
-# 2. Има ли събития направо в HTML-а
-print('\n--- следи от събития в HTML ---')
-for pat, label in [(r'"eventId"', 'eventId'), (r'"startDate"', 'startDate'),
-                   (r'"venue"', 'venue'), (r'data-event', 'data-event'),
-                   (r'class="[^"]*event[^"]*"', 'class=event')]:
-    print(f'  {label}: {len(re.findall(pat, html))}')
-
-# 3. Заглавия на събития по типични селектори
-titles = re.findall(r'<h[23][^>]*>\s*([^<]{6,70})\s*</h[23]>', html)
-print('\nзаглавия h2/h3:', len(titles))
-for t in titles[:15]: print('  ', t.strip())
+# пробваме конкретна категория
+for cat in ['/bg/partita', '/bg/koncerti', '/bg/festivali']:
+    try:
+        h = get('https://www.bilet.bg' + cat)
+        ls = sorted(set(re.findall(r'href="(/bg/[a-z0-9\-]+/[a-z0-9\-]{6,})"', h)))
+        ds = re.findall(r'(\d{1,2}\.\d{2}\.\d{4})', h)
+        print(f'\n{cat}: {len(h)} байта | връзки: {len(ls)} | дати: {len(ds)}')
+        for l in ls[:8]: print('    ', l)
+        if ds: print('    дати:', ds[:6])
+    except Exception as e:
+        print(f'\n{cat}: ГРЕШКА {e}')
