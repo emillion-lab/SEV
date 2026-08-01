@@ -6,35 +6,25 @@ def get(u):
                                  headers={'User-Agent': 'sev-probe/1.0'})
     return urllib.request.urlopen(req, timeout=30).read().decode('utf-8', 'replace')
 
-for path in ['https://www.bilet.bg/bg/', 'https://www.bilet.bg/bg/search']:
-    try:
-        html = get(path)
-        print('=' * 60)
-        print(path, '→', len(html), 'байта')
-        # Next.js данни
-        m = re.search(r'<script id="__NEXT_DATA__"[^>]*>(.*?)</script>', html, re.S)
-        print('__NEXT_DATA__:', 'ДА' if m else 'не')
-        if m:
-            d = json.loads(m.group(1))
-            open('/tmp/next.json', 'w').write(json.dumps(d)[:400000])
-            def walk(o, depth=0, path=''):
-                if depth > 4: return
-                if isinstance(o, dict):
-                    for k, v in list(o.items())[:25]:
-                        if isinstance(v, list) and v and isinstance(v[0], dict):
-                            keys = list(v[0].keys())[:9]
-                            if any(x in str(keys).lower() for x in ['name','title','date','venue','event']):
-                                print(f'  {path}.{k}: {len(v)} записа → {keys}')
-                        walk(v, depth+1, path + '.' + k)
-            walk(d)
-        # JSON-LD
-        lds = re.findall(r'<script type="application/ld\+json">(.*?)</script>', html, re.S)
-        print('JSON-LD блокове:', len(lds))
-        for ld in lds[:3]:
-            try:
-                o = json.loads(ld)
-                t = o.get('@type') if isinstance(o, dict) else '?'
-                print('   тип:', t)
-            except: pass
-    except Exception as e:
-        print(path, 'ГРЕШКА:', e)
+html = get('https://www.bilet.bg/bg/')
+
+# 1. Търсим API следи в кода на страницата
+apis = set(re.findall(r'["\'](/api/[a-zA-Z0-9/_\-{}\.]+)["\']', html))
+print('вътрешни /api/ пътища:', len(apis))
+for a in sorted(apis)[:25]: print('  ', a)
+
+abs_api = set(re.findall(r'https?://[a-z0-9\.\-]+/(?:api|graphql)[a-zA-Z0-9/_\-\.]*', html))
+print('\nабсолютни API адреси:', len(abs_api))
+for a in sorted(abs_api)[:12]: print('  ', a)
+
+# 2. Има ли събития направо в HTML-а
+print('\n--- следи от събития в HTML ---')
+for pat, label in [(r'"eventId"', 'eventId'), (r'"startDate"', 'startDate'),
+                   (r'"venue"', 'venue'), (r'data-event', 'data-event'),
+                   (r'class="[^"]*event[^"]*"', 'class=event')]:
+    print(f'  {label}: {len(re.findall(pat, html))}')
+
+# 3. Заглавия на събития по типични селектори
+titles = re.findall(r'<h[23][^>]*>\s*([^<]{6,70})\s*</h[23]>', html)
+print('\nзаглавия h2/h3:', len(titles))
+for t in titles[:15]: print('  ', t.strip())
