@@ -1,0 +1,25 @@
+==================================================================
+Синьо лято | таблица → Networking Premium (Гурко 16) 42.6927133 23.3263237
+  location.name: 'Networking Premium Gurko 16'
+  address: {"@type": "PostalAddress", "streetAddress": "Ген. Гурко 16", "addressLocality": "София", "addressCountry": "България"}
+  geo: null
+==================================================================
+Stand-up Comedy in English // Septemvri hut // AUG | таблица → Хижа Септември (Витоша) 42.6167377 23.2742293
+  location.name: 'хижа Септември'
+  address: {"@type": "PostalAddress", "streetAddress": "Витоша", "addressLocality": "София", "addressCountry": "България"}
+  geo: null
+==================================================================
+No More Many More Exclusive Live @ хижа СЕПТЕМВРИ | таблица → Хижа Септември (Витоша) 42.6167377 23.2742293
+  location.name: 'хижа Септември'
+  address: {"@type": "PostalAddress", "streetAddress": "Витоша", "addressLocality": "София", "addressCountry": "България"}
+  geo: null
+==================================================================
+DAYZE x BAR GATTO presents: THE DAY SHIFT | таблица → Bar Gatto 42.6907 23.332
+  location.name: 'Bar Gatto'
+  address: {"@type": "PostalAddress", "streetAddress": "София Център, ул. Московска 6, 6 А, 1000 София", "addressLocality": "София", "addressCountry": "България"}
+  geo: null
+==================================================================
+Open Air Frequencies | таблица → Yalta Garden 42.6918 23.3243
+  location.name: 'Yalta Garden'
+  address: {"@type": "PostalAddress", "streetAddress": "Булевард Цар Освободител 20, София, България", "addressLocality": "Sofia", "addressCountry": "Bulgaria"}
+  geo: null
