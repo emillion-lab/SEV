@@ -1,12 +1,33 @@
 {
- "generated": "2026-07-30T07:36:51.930059+00:00",
- "count": 26,
+ "generated": "2026-08-01T01:58:41.723292+00:00",
+ "count": 45,
  "sources_ok": [
   "arena",
+  "bilet",
   "ndk",
   "theatre"
  ],
  "events": [
+  {
+   "name": "Синьо лято",
+   "venue": "Networking Premium Gurko 16",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-08-02T17:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/sino-lato-8519",
+   "src": "bilet"
+  },
+  {
+   "name": "Stand-up Comedy in English // Septemvri hut // AUG 5th",
+   "venue": "хижа Септември",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-08-05T20:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/stand-up-comedy-in-english-septemvri-hut-aug-5th-8568",
+   "src": "bilet"
+  },
   {
    "name": "ГОРКАТА ФРАНЦИЯ",
    "venue": "THEATRO",
@@ -16,6 +37,16 @@
    "start": "2026-08-06T19:30:00+03:00",
    "url": "",
    "src": "theatre"
+  },
+  {
+   "name": "No More Many More Exclusive Live @ хижа СЕПТЕМВРИ",
+   "venue": "хижа Септември",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-08-06T20:30:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/no-more-many-more-exclusive-live-at-hizha-septemvri-8418",
+   "src": "bilet"
   },
   {
    "name": "СВАТБА СЪС ЗАКЪСНИТЕЛ",
@@ -28,6 +59,26 @@
    "src": "theatre"
   },
   {
+   "name": "DAYZE x BAR GATTO presents: THE DAY SHIFT",
+   "venue": "Bar Gatto",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-08-09T18:30:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/dayze-x-bar-gatto-presents-the-day-shift-8510",
+   "src": "bilet"
+  },
+  {
+   "name": "Open Air Frequencies",
+   "venue": "Yalta Garden",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-08-14T18:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/open-air-frequencies-8446",
+   "src": "bilet"
+  },
+  {
    "name": "Скритите съкровища на Двореца",
    "venue": "НДК Зала 1",
    "lat": 42.6847,
@@ -36,6 +87,46 @@
    "start": "2026-08-15T19:00:00+03:00",
    "url": "",
    "src": "ndk"
+  },
+  {
+   "name": "Hug Or Handshake Exclusive Live @ Хижа Септември",
+   "venue": "хижа Септември",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-08-19T20:30:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/hug-or-handshake-exclusive-live-at-hizha-septemvri-8474",
+   "src": "bilet"
+  },
+  {
+   "name": "BACK TO THE 90’s & 2000’s",
+   "venue": "Paradise Center (Парадайс център)",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-08-20T18:30:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/back-to-the-90s-2000s-8397",
+   "src": "bilet"
+  },
+  {
+   "name": "DEV.BG All in One 2026",
+   "venue": "Интер Експо Център",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-08-29T08:30:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/devbg-all-in-one-2026-7934",
+   "src": "bilet"
+  },
+  {
+   "name": "IMERA vs DIZASTER",
+   "venue": "Mixtape 5",
+   "lat": 42.6866,
+   "lon": 23.319,
+   "cap": 900,
+   "start": "2026-08-29T20:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/imera-vs-dizaster-8396",
+   "src": "bilet"
   },
   {
    "name": "Европейско първенство по волейбол 2026",
@@ -78,6 +169,16 @@
    "src": "arena"
   },
   {
+   "name": "KYLE DIXON & MICHAEL STEIN ПРЕДСТАВЯТ МУЗИКАТА ОТ STRANGER THINGS",
+   "venue": "НДК Зала 1",
+   "lat": 42.6847,
+   "lon": 23.3188,
+   "cap": 3380,
+   "start": "2026-09-14T19:00:00+03:00",
+   "url": "",
+   "src": "ndk"
+  },
+  {
    "name": "България - Израел",
    "venue": "Арена 8888 София",
    "lat": 42.67137,
@@ -86,6 +187,16 @@
    "start": "2026-09-15T20:00:00+03:00",
    "url": "",
    "src": "arena"
+  },
+  {
+   "name": "Blockchain Week Bulgaria",
+   "venue": "Форум Джон Атанасов, София Тех Парк",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-09-24T10:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/blockchain-week-bulgaria-7678",
+   "src": "bilet"
   },
   {
    "name": "Garou„The Best of…GAROU“",
@@ -138,6 +249,26 @@
    "src": "arena"
   },
   {
+   "name": "LIQUID MARKET Sofia - Cocktail Festival 2026",
+   "venue": "Тайна локация - София",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-10-02T16:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/liquid-market-sofia-cocktail-festival-2026-6972",
+   "src": "bilet"
+  },
+  {
+   "name": "AWS Community Day 2026",
+   "venue": "Форум Джон Атанасов, София Тех Парк",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-10-03T09:30:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/aws-community-day-2026-7930",
+   "src": "bilet"
+  },
+  {
    "name": "THE BODYGUARD - The Musical",
    "venue": "НДК Зала 1",
    "lat": 42.6847,
@@ -146,6 +277,16 @@
    "start": "2026-10-03T19:00:00+03:00",
    "url": "",
    "src": "ndk"
+  },
+  {
+   "name": "DisruptHR Sofia vol.7 \"Стари времена\"",
+   "venue": "Joy Station",
+   "lat": 42.67,
+   "lon": 23.352,
+   "cap": 1500,
+   "start": "2026-10-08T18:30:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/disrupthr-sofia-vol7-stari-vremena-8254",
+   "src": "bilet"
   },
   {
    "name": "DEEP PURPLE",
@@ -198,6 +339,36 @@
    "src": "ndk"
   },
   {
+   "name": "ISTA Conference 2026- Fest Edition",
+   "venue": "Sofia Event Center",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-10-15T09:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/ista-conference-2026-fest-edition-7690",
+   "src": "bilet"
+  },
+  {
+   "name": "Frozen Heart Sofia",
+   "venue": "зала „Асикс Арена \" (бивша зала „Фестивална\")",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-10-17T17:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/frozen-heart-sofia-7459",
+   "src": "bilet"
+  },
+  {
+   "name": "DJ KRUSH @ Malkata Tekila Sofia 22/10/2026",
+   "venue": "Малката Текила",
+   "lat": 42.695,
+   "lon": 23.328,
+   "cap": 400,
+   "start": "2026-10-22T20:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/dj-krush-at-malkata-tekila-sofia-22102026-7905",
+   "src": "bilet"
+  },
+  {
    "name": "01.07.2026 DURAN DURAN Информация за посетители",
    "venue": "Арена 8888 София",
    "lat": 42.67137,
@@ -216,6 +387,16 @@
    "start": "2026-10-27T19:00:00+03:00",
    "url": "",
    "src": "ndk"
+  },
+  {
+   "name": "DARA - Live",
+   "venue": "Пиротска 5 ивент център",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-10-30T19:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/dara-live-7499",
+   "src": "bilet"
   },
   {
    "name": "Samara Joy",
@@ -238,6 +419,16 @@
    "src": "ndk"
   },
   {
+   "name": "SofiaTalks Business Bootcamp 2026",
+   "venue": "Форум Джон Атанасов, София Тех Парк",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-11-22T09:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/sofiatalks-business-bootcamp-2026-8246",
+   "src": "bilet"
+  },
+  {
    "name": "Михаела Маринова - Концерт",
    "venue": "НДК Зала 1",
    "lat": 42.6847,
@@ -258,14 +449,14 @@
    "src": "ndk"
   },
   {
-   "name": "CAFE DEL MUNDO Symphonic",
-   "venue": "НДК Зала 1",
-   "lat": 42.6847,
-   "lon": 23.3188,
+   "name": "Михаела Маринова - Концерт - част от програмата \"Салон на изкуствата\" - Есен 2026 НДК",
+   "venue": "НДК",
+   "lat": 42.6866,
+   "lon": 23.319,
    "cap": 3380,
-   "start": "2026-11-30T19:00:00+03:00",
-   "url": "",
-   "src": "ndk"
+   "start": "2026-11-28T20:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/mihaela-marinova-kontsert-chast-ot-programata-salon-na-izkustvata-esen-2026-ndk-8184",
+   "src": "bilet"
   }
  ]
 }
