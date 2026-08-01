@@ -15,13 +15,12 @@ jobs:
           python-version: '3.12'
       - run: python3 scripts/geocode_venues.py 2>&1 | tee geo.log || echo 'geo пропуснат'
       - run: python3 scripts/fetch_bilet.py 2>&1 | tee bilet.log || echo 'bilet пропуснат'
-      - run: python3 scripts/geocode_venues.py 2>&1 | tee geo.log || echo 'geo пропуснат'
-      - run: python3 scripts/fetch_bilet.py 2>&1 | tee bilet.log || echo 'bilet пропуснат'
       - run: python scripts/fetch_events.py
       - run: |
           git config user.name "bot"
           git config user.email "bot@github.com"
-          git add events.json last_run.log venue_geo.json bilet_events.json geo.log bilet.log
+          git add -A -- events.json last_run.log venue_geo.json bilet_events.json geo.log bilet.log 2>/dev/null || true
+          git add -A 2>/dev/null || true
           git commit -m "events update" || echo "no changes"
           git pull --rebase --autostash origin main || true
           git push
