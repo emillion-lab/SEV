@@ -441,6 +441,9 @@ def main():
         flush()
         sys.exit(0)
 
+    ev = merge_bilet(ev)
+    if any(e.get('src') == 'bilet' for e in ev):
+        srcs.add('bilet')
     out = {"generated": NOW.isoformat(), "count": len(ev),
            "sources_ok": sorted(srcs), "events": ev}
     with open("events.json", "w", encoding="utf-8") as f:
@@ -450,3 +453,31 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+# ── СЛИВАНЕ С BILET.BG ──
+# Театралният източник дава сцена и опера; Bilet.bg носи партита,
+# концерти и фестивали. Двата се сливат в един events.json.
+def merge_bilet(events):
+    import os, json as _json
+    path = 'bilet_events.json'
+    if not os.path.exists(path):
+        print('bilet_events.json липсва — пропускам')
+        return events
+    try:
+        extra = _json.load(open(path)).get('events', [])
+    except Exception as e:
+        print('bilet грешка:', e)
+        return events
+    seen = {(e.get('name', '').lower()[:40], (e.get('start') or '')[:10]) for e in events}
+    added = 0
+    for e in extra:
+        key = (e.get('name', '').lower()[:40], (e.get('start') or '')[:10])
+        if key in seen:
+            continue
+        seen.add(key)
+        events.append(e)
+        added += 1
+    print(f'от Bilet.bg добавени {added} събития')
+    events.sort(key=lambda x: x.get('start') or '')
+    return events
