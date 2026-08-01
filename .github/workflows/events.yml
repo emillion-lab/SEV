@@ -23,4 +23,5 @@ jobs:
           git config user.email "bot@github.com"
           git add events.json last_run.log
           git commit -m "events update" || echo "no changes"
+          git pull --rebase --autostash origin main || true
           git push
