@@ -1,9 +1,41 @@
-връзки към събития: 0
+общо връзки: 124
 
-намерени дати: 61 | примери: ['1 юни ', '5 септември', '24 октомври', '2 август 2026', '25 септември 2026', '24 септември', '25 септември', '03 октомври 2026']
+-- примери --
+   /_next/static/chunks/e3af937e5d4d18f0.css
+   /_next/static/chunks/f1b4d49aa9e249c5.js
+   /assets/images/logo.svg
+   /bg/affiliate-program
+   /bg/calendar
+   /bg/events/4-seasons-summer-edition-7987?referral=homepage
+   /bg/events/aws-community-day-2026-7930?referral=homepage
+   /bg/events/bass-that-island-2026-7867?referral=homepage
+   /bg/events/blockchain-week-bulgaria-7678?referral=homepage
+   /bg/events/blvkcat-beach-festival-2026-wake-up-varvara-7926?referral=homepage
+   /bg/events/bulgarskata-ko4ela-s-riana-i-mila-robert-8357?referral=homepage
+   /bg/events/camp-sessions-on-the-beach-at-wake-up-varvara-0708082026-8353?referral=homepage
+   /bg/events/cotton-candy-party-boat-nessebar-8288?referral=homepage
+   /bg/events/dara-live-7499?referral=homepage
+   /bg/events/devbg-all-in-one-2026-7934?referral=homepage
+   /bg/events/disrupthr-sofia-vol7-stari-vremena-8254?referral=homepage
+   /bg/events/dj-krush-at-malkata-tekila-sofia-22102026-7905?referral=homepage
+   /bg/events/frozen-heart-sofia-7459?referral=homepage
+   /bg/events/garjoka-dim4ou-pameca-shunaka-na-edna-scena-2708-8511?referral=homepage
+   /bg/events/gipsy-kings-live-at-leten-teatur-varna-8248?referral=homepage
+   /bg/events/imera-vs-dizaster-8396?referral=homepage
+   /bg/events/interaktivna-izlozhba-zhivi-dinozavri-varna-8465?referral=homepage
+   /bg/events/ista-conference-2026-fest-edition-7690?referral=homepage
+   /bg/events/kerana-i-kosmonavtite-8400?referral=homepage
+   /bg/events/legion-run-kids-athens-2026-8134?referral=homepage
+   /bg/events/legion-run-kids-cyprus-2026-8126?referral=homepage
+   /bg/events/liquid-market-sofia-cocktail-festival-2026-6972?referral=homepage
+   /bg/events/no-more-many-more-exclusive-live-at-hizha-septemvri-8418?referral=homepage
+   /bg/events/no-signal-festival-2026-8386?referral=homepage
+   /bg/events/playcity-kids-festival-expo-2026-8489?referral=homepage
+   /bg/events/rancho-fest-2026-7885?referral=homepage
+   /bg/events/rap-dynasty-8364?referral=homepage
+   /bg/events/running-free-festival-edix-7298?referral=homepage
+   /bg/events/sino-lato-8519?referral=homepage
+   /bg/events/sofiatalks-business-bootcamp-2026-8246?referral=homepage
 
-/bg/partita: ГРЕШКА HTTP Error 404: Not Found
-
-/bg/koncerti: ГРЕШКА HTTP Error 404: Not Found
-
-/bg/festivali: ГРЕШКА HTTP Error 404: Not Found
+-- контекст около дата --
+height: 1.15 !important;\"\u003e\u003cstrong style=\"line-height: 1.15 !important;\"\u003eВАРНА, БЪЛГАРИЯ\u003c/strong\u003e \u0026mdash; Това лято Морската градина във Варна ще бъде домакин на едно от най-вълнуващите семейни събития на годината, тъй като световноизвестната интерактивна изложба \u0026bdquo;Живи динозаври\u0026ldquo; прави своето грандиозно завръщане в Морската столица поради огромния интерес от страна на публиката\u003c/span\u003e\u003cspan style=\"line-height: 1.15 !important;\"\u003e. Обиколила над 110 държави и привлекла повече от 16 милиона фенове в глобален мащаб, грандиозната експозиция на открито ще бъде разположена до Пантеона \u003cspan dir=\"ltr\"\u003eот 1 юни до 5 септември\u003c/span\u003e\u003c/span\u003e\u003cspan style=\"line-height: 1.15 !important;\"\u003e. Проектът се реализира от \u0026bdquo;Коко Ейджънси\u0026ldquo; (Coco Agency) и Българския детски фестивал в ключово партньорство с Община Варна и Областната администрация \u0026ndash; Варна, утвърждавайки града като водеща дестинация за семеен туризъм\u003c/span\u003e\u003cspan style=\"line-heigh
