@@ -1,6 +1,6 @@
 {
- "generated": "2026-08-01T11:36:53.534480+00:00",
- "count": 51,
+ "generated": "2026-08-01T11:49:04.812337+00:00",
+ "count": 45,
  "sources_ok": [
   "arena",
   "bilet",
@@ -79,16 +79,6 @@
    "src": "bilet"
   },
   {
-   "name": "Rap Dynasty",
-   "venue": "Хижа Септември (Витоша)",
-   "lat": 42.5905,
-   "lon": 23.283,
-   "cap": 500,
-   "start": "2026-08-14T20:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/rap-dynasty-8364",
-   "src": "bilet"
-  },
-  {
    "name": "Скритите съкровища на Двореца",
    "venue": "НДК Зала 1",
    "lat": 42.6847,
@@ -97,36 +87,6 @@
    "start": "2026-08-15T19:00:00+03:00",
    "url": "",
    "src": "ndk"
-  },
-  {
-   "name": "Sea You Podcast",
-   "venue": "Хижа Септември (Витоша)",
-   "lat": 42.5905,
-   "lon": 23.283,
-   "cap": 500,
-   "start": "2026-08-16T19:30:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/sea-you-podcast-8300",
-   "src": "bilet"
-  },
-  {
-   "name": "\"ABBA Symphonie\" с Люси Дяковска, Милица Гладнишка и Плевенска филхармония под звездите",
-   "venue": "Хижа Септември (Витоша)",
-   "lat": 42.5905,
-   "lon": 23.283,
-   "cap": 500,
-   "start": "2026-08-17T20:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/abba-symphonie-s-lusi-dakovska-militsa-gladnishka-i-plevenska-filharmonia-pod-zvezdite-8202",
-   "src": "bilet"
-  },
-  {
-   "name": "F.O. & PEEVA / Фамилни концерти за ценители",
-   "venue": "Хижа Септември (Витоша)",
-   "lat": 42.5905,
-   "lon": 23.283,
-   "cap": 500,
-   "start": "2026-08-18T20:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/fo-peeva-familni-kontserti-za-tseniteli-8205",
-   "src": "bilet"
   },
   {
    "name": "Hug Or Handshake Exclusive Live @ Хижа Септември",
@@ -139,16 +99,6 @@
    "src": "bilet"
   },
   {
-   "name": "Мръсното Копеле",
-   "venue": "Хижа Септември (Витоша)",
-   "lat": 42.5905,
-   "lon": 23.283,
-   "cap": 500,
-   "start": "2026-08-19T20:30:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/mrusnoto-kopele-8404",
-   "src": "bilet"
-  },
-  {
    "name": "BACK TO THE 90’s & 2000’s",
    "venue": "Paradise Center",
    "lat": 42.6607,
@@ -156,16 +106,6 @@
    "cap": 2000,
    "start": "2026-08-20T18:30:00+03:00",
    "url": "https://www.bilet.bg/bg/events/back-to-the-90s-2000s-8397",
-   "src": "bilet"
-  },
-  {
-   "name": "Max Fest",
-   "venue": "Хижа Септември (Витоша)",
-   "lat": 42.5905,
-   "lon": 23.283,
-   "cap": 500,
-   "start": "2026-08-20T19:30:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/max-fest-8376",
    "src": "bilet"
   },
   {
@@ -420,10 +360,10 @@
   },
   {
    "name": "DJ KRUSH @ Malkata Tekila Sofia 22/10/2026",
-   "venue": "Хижа Септември (Витоша)",
-   "lat": 42.5905,
-   "lon": 23.283,
-   "cap": 500,
+   "venue": "Малката Текила",
+   "lat": 42.695,
+   "lon": 23.328,
+   "cap": 400,
    "start": "2026-10-22T20:00:00+03:00",
    "url": "https://www.bilet.bg/bg/events/dj-krush-at-malkata-tekila-sofia-22102026-7905",
    "src": "bilet"
