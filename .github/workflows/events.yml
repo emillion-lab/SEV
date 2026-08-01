@@ -14,6 +14,7 @@ jobs:
         with:
           python-version: '3.12'
       - run: python3 scripts/fetch_bilet.py 2>&1 | tee bilet.log || echo 'bilet пропуснат'
+      - run: python3 scripts/fetch_bilet.py 2>&1 | tee bilet.log || echo 'bilet пропуснат'
       - run: python scripts/fetch_events.py
       - run: |
           git config user.name "bot"
