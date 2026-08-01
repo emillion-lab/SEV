@@ -1,0 +1,13 @@
+name: Probe Addresses
+on: workflow_dispatch
+permissions: { contents: write }
+jobs:
+  p:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 scripts/probe_addr.py 2>&1 | tee addr-probe.txt
+      - run: |
+          git config user.name ci; git config user.email ci@sev
+          git add addr-probe.txt && git commit -m "addr probe [skip ci]" || true
+          git push
