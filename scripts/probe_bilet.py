@@ -1,4 +1,4 @@
-import json, re, urllib.request, urllib.parse
+import re, urllib.request, urllib.parse
 
 PROXY = 'https://mvr-proxy.mihov-emil.workers.dev/scrape?url='
 def get(u):
@@ -8,23 +8,15 @@ def get(u):
 
 html = get('https://www.bilet.bg/bg/')
 
-# връзки към конкретни събития
-links = sorted(set(re.findall(r'href="(/bg/[a-z0-9\-]+/[a-z0-9\-]{6,})"', html)))
-print('връзки към събития:', len(links))
-for l in links[:20]: print('  ', l)
+# всички href-ове — да видим реалния формат
+hrefs = sorted(set(re.findall(r'href="([^"]{4,90})"', html)))
+print('общо връзки:', len(hrefs))
+print('\n-- примери --')
+for h in hrefs[:35]: print('  ', h)
 
-# има ли дати някъде в текста
-dates = re.findall(r'(\d{1,2}\s+(?:яну|фев|мар|апр|май|юни|юли|авг|сеп|окт|ное|дек)[а-я]*\.?\s*\d{0,4})', html, re.I)
-print('\nнамерени дати:', len(dates), '| примери:', dates[:8])
-
-# пробваме конкретна категория
-for cat in ['/bg/partita', '/bg/koncerti', '/bg/festivali']:
-    try:
-        h = get('https://www.bilet.bg' + cat)
-        ls = sorted(set(re.findall(r'href="(/bg/[a-z0-9\-]+/[a-z0-9\-]{6,})"', h)))
-        ds = re.findall(r'(\d{1,2}\.\d{2}\.\d{4})', h)
-        print(f'\n{cat}: {len(h)} байта | връзки: {len(ls)} | дати: {len(ds)}')
-        for l in ls[:8]: print('    ', l)
-        if ds: print('    дати:', ds[:6])
-    except Exception as e:
-        print(f'\n{cat}: ГРЕШКА {e}')
+# контекст около една дата
+m = re.search(r'.{700}\d{1,2}\s+(?:август|септември|октомври).{500}', html, re.S)
+if m:
+    frag = re.sub(r'\s+', ' ', m.group(0))
+    print('\n-- контекст около дата --')
+    print(frag[:1100])
