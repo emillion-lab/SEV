@@ -35,12 +35,6 @@
   "display": "Paradise Center, 100, бул. Черни връх, Промишлена зона Хладилника, София, Триади",
   "q": "Paradise Center, бул. Черни връх 100, София"
  },
- "sofia event center": {
-  "lat": 42.6578,
-  "lon": 23.31484,
-  "display": "Sofia Event Center, 100, бул. Черни връх, Промишлена зона Хладилника, София, Три",
-  "q": "Sofia Event Center, бул. Черни връх 100, София"
- },
  "dirty gradina - gradina camping, 8130 sozopol, софия, българия": null,
  "dirty gradina": null,
  "primorskiodesos, ul. \"kapitan georgi georgiev\" 9000, 9000 varna, софия": null,
@@ -73,10 +67,6 @@
  "ул. манастирска 35, кв. гео милев, софия 1111, софия, българия": null,
  "приморски парк, 9002, софия, българия": null,
  "летен театър варна": null,
- "витоша, софия, българия": {
-  "lat": 42.6640603,
-  "lon": 23.2887209
- },
  "bul. bulgaria, podlez galeriya, bulevard \"cherni vrah\", софия, българи": null,
  "бул. „сливница“ 2, 9000 варна център, варна, българия, софия, българия": null,
  "фестивален и конгресен център - варна": null,
