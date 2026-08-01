@@ -21,7 +21,7 @@ jobs:
       - run: |
           git config user.name "bot"
           git config user.email "bot@github.com"
-          git add events.json last_run.log
+          git add events.json last_run.log venue_geo.json bilet_events.json geo.log bilet.log
           git commit -m "events update" || echo "no changes"
           git pull --rebase --autostash origin main || true
           git push
