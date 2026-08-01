@@ -133,10 +133,10 @@ def find_venue(text):
                 continue
         # ако имаме геокодиран адрес за същата зала, той има предимство
         if PREFER_GEO:
-            ck = name.strip().lower()[:70]
-            c = _GEO_CACHE.get(ck)
-            if c and c.get('lat'):
-                return name, cap, c['lat'], c['lon']
+            for ck in (key, name.strip().lower()[:70]):
+                c = _GEO_CACHE.get(ck)
+                if c and c.get('lat'):
+                    return name, cap, c['lat'], c['lon']
         return name, cap, lat, lon
     return None, None, None, None
 
