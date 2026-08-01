@@ -114,7 +114,7 @@ AMBIGUOUS = {'септември': 'хижа', 'septemvri': 'hut'}
 
 # Кешираните геокодирани адреси са по-точни от ръчната таблица,
 # защото идват от реалния адрес на залата.
-PREFER_GEO = True
+PREFER_GEO = False   # адресът от източника вече е с приоритет
 
 
 def find_venue(text):
@@ -217,24 +217,26 @@ def parse_event(url):
             blob  = f'{vtext} {addr}'
             vname, cap, lat, lon = find_venue(blob)
             if name and start:
-                # 1) координати от самия източник — най-достоверни
-                if src_lat and 42.55 <= src_lat <= 42.80:
-                    lat, lon = src_lat, src_lon
-                # 2) точен уличен адрес бие приблизителната таблица
-                elif street:
-                    glat, glon = geocode(street + ', София')
-                    if glat:
-                        lat, lon = glat, glon
-                # 2) геокодиране по ПЪЛНИЯ адрес — най-точното, което имаме
-                if lat is None and (street or addr):
-                    lat, lon = geocode((street or addr) + ', София')
-                # 3) по името на залата
-                if lat is None:
+                # ── Приоритет: реалният уличен адрес от Bilet ──
+                # Той е точен ("ул. Московска 6"), докато таблицата
+                # е приблизителна и вкарваше грешки.
+                geo_lat = geo_lon = None
+                if street and len(street) > 4:
+                    clean = re.sub(r'\b\d{4}\s*(София|Sofia)\b', '', street, flags=re.I)
+                    clean = re.sub(r'\s{2,}', ' ', clean).strip(' ,')
+                    geo_lat, geo_lon = geocode(clean + ', София, България')
+                if geo_lat is None and src_lat and 42.55 <= src_lat <= 42.80:
+                    geo_lat, geo_lon = src_lat, src_lon
+                if geo_lat is not None:
+                    lat, lon = geo_lat, geo_lon
+                elif lat is None:
                     lat, lon = geocode(vtext or '')
+
                 return {'name': name[:90], 'venue': vname or (vtext or '')[:60],
                         'lat': lat, 'lon': lon, 'cap': cap or 500,
                         'start': start.strftime('%Y-%m-%dT%H:%M:00+03:00'),
                         'url': url, 'src': 'bilet',
+                        'addr': street or '',
                         'city_ok': bool(vname) or 'софия' in blob.lower()}
 
     # 2) резервно: заглавие + дата от текста
