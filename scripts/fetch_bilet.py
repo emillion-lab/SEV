@@ -13,8 +13,8 @@ UA    = {'User-Agent': 'sev-bilet/1.0 (taxi demand research)'}
 # Софийски зали с приблизителен капацитет
 # Проверени координати. Хижа Септември и Гурко 16 са потвърдени по Google Maps.
 VENUES = {
-    'септември':           ('Хижа Септември (Витоша)', 500, 42.5945, 23.2857),
-    'septemvri':           ('Хижа Септември (Витоша)', 500, 42.5945, 23.2857),
+    'септември':           ('Хижа Септември (Витоша)', 500, 42.5872, 23.2905),
+    'septemvri':           ('Хижа Септември (Витоша)', 500, 42.5872, 23.2905),
     'гурко':               ('Networking Premium (Гурко 16)', 500, 42.6919, 23.3260),
     'gurko':               ('Networking Premium (Гурко 16)', 500, 42.6919, 23.3260),
     'networking':          ('Networking Premium (Гурко 16)', 500, 42.6919, 23.3260),
@@ -221,7 +221,12 @@ def parse_event(url):
                 # Той е точен ("ул. Московска 6"), докато таблицата
                 # е приблизителна и вкарваше грешки.
                 geo_lat = geo_lon = None
-                if street and len(street) > 4:
+                # „Витоша", „София", „Център" не са адрес — водят наслуки.
+                TOO_VAGUE = ('витоша', 'софия', 'sofia', 'център', 'centre', 'center',
+                             'тайна локация', 'българия', 'bulgaria')
+                st_low = (street or '').strip().lower()
+                vague = st_low in TOO_VAGUE or len(st_low) < 8
+                if street and not vague:
                     clean = re.sub(r'\b\d{4}\s*(София|Sofia)\b', '', street, flags=re.I)
                     clean = re.sub(r'\s{2,}', ' ', clean).strip(' ,')
                     geo_lat, geo_lon = geocode(clean + ', София, България')
