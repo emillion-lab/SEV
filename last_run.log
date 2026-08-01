@@ -1,4 +1,4 @@
-run: 2026-08-01T15:49:24.356390+00:00
+run: 2026-08-01T21:26:36.038593+00:00
 eventim api p1 fail: <HTTPError 403: 'Forbidden'>
 eventim api p1 fail: <HTTPError 403: 'Forbidden'>
 eventim html p1 fail: <HTTPError 520: '<none>'>
@@ -10,8 +10,8 @@ eventim: 0
   ndk: 2026-09-14T19:00 | KYLE DIXON & MICHAEL STEIN ПРЕДСТАВЯТ МУЗИКАТ
 ndk: 15
   arena: 2025-12-19T20:00 | Видео
-  arena: 2027-04-24T20:00 | ЕМИЛИЯ - СМЕЛИТЕ 2027
-arena: 19
+  arena: 2025-12-11T20:00 | Как да стигна до залата, планиране на маршрут
+arena: 20
   theatre day0: 0 представления
   theatre day1: 0 представления
   theatre: 2026-08-06T19:30 | ГОРКАТА ФРАНЦИЯ @ THEATRO
@@ -20,5 +20,5 @@ theatre: 2
 футбол: 0
   локални diag: pattern hits [0, 0, 0, 0], 0 заглавия оцеляха
 локални: 0
-merge: 24 прието, 8 минали, 2 след хоризонта
-✅ OK: 43 събития (24 с гео), източници: ['arena', 'bilet', 'ndk']
+merge: 24 прието, 9 минали, 2 след хоризонта
+✅ OK: 44 събития (24 с гео), източници: ['arena', 'bilet', 'ndk']
