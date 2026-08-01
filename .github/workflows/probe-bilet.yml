@@ -1,0 +1,13 @@
+name: Probe Bilet
+on: workflow_dispatch
+permissions: { contents: write }
+jobs:
+  p:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 scripts/probe_bilet.py 2>&1 | tee bilet-probe.txt
+      - run: |
+          git config user.name ci; git config user.email ci@sev
+          git add bilet-probe.txt && git commit -m "probe [skip ci]" || true
+          git push
