@@ -1,4 +1,4 @@
-run: 2026-08-01T11:49:04.812337+00:00
+run: 2026-08-01T12:13:37.223392+00:00
 eventim api p1 fail: <HTTPError 403: 'Forbidden'>
 eventim api p1 fail: <HTTPError 403: 'Forbidden'>
 eventim html p1 fail: <HTTPError 520: '<none>'>
@@ -10,7 +10,7 @@ eventim: 0
   ndk: 2026-09-14T19:00 | KYLE DIXON & MICHAEL STEIN ПРЕДСТАВЯТ МУЗИКАТ
 ndk: 15
   arena: 2025-12-19T20:00 | Видео
-  arena: 2022-03-27T20:00 | Как да стигна до залата, планиране на маршрут
+  arena: 2019-04-13T20:00 | Как да стигна до залата, планиране на маршрут
 arena: 20
   theatre day0: 0 представления
   theatre day1: 0 представления
