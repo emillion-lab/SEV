@@ -426,13 +426,20 @@ def merge_bilet(events):
         return events
     seen = {(e.get('name', '').lower()[:40], (e.get('start') or '')[:10]) for e in events}
     added = 0
+    skipped = 0
     for e in extra:
         key = (e.get('name', '').lower()[:40], (e.get('start') or '')[:10])
         if key in seen:
             continue
+        # без координати не влиза — тайните локации не помагат на шофьора
+        if e.get('lat') is None or e.get('lon') is None:
+            skipped += 1
+            continue
         seen.add(key)
         events.append(e)
         added += 1
+    if skipped:
+        print(f'от Bilet пропуснати {skipped} без локация')
     print(f'от Bilet.bg добавени {added} събития')
     events.sort(key=lambda x: x.get('start') or '')
     return events
