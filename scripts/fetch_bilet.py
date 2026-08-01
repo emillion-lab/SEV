@@ -106,11 +106,19 @@ def geocode(venue_name):
     return lat, lon
 
 
+# Думи, които се срещат и в дати — искат допълнително потвърждение
+AMBIGUOUS = {'септември': 'хижа', 'septemvri': 'hut'}
+
+
 def find_venue(text):
     low = (text or '').lower()
     for key, (name, cap, lat, lon) in VENUES.items():
-        if key in low:
-            return name, cap, lat, lon
+        if key not in low:
+            continue
+        need = AMBIGUOUS.get(key)
+        if need and need not in low:
+            continue                      # „5 септември" е дата, не зала
+        return name, cap, lat, lon
     return None, None, None, None
 
 
@@ -187,7 +195,11 @@ def parse_event(url):
     name = re.sub(r'\s*\|\s*Bilet\.bg.*$', '', t.group(1)).strip() if t else ''
     body = re.sub(r'<[^>]+>', ' ', html)
     start = parse_date(body[:6000])
-    vname, cap, lat, lon = find_venue(body[:6000])
+    # търсим само в частта, където се описва мястото — не в целия текст,
+    # където датите съдържат имена на месеци
+    mloc = re.search(r'(?:място|локация|зала|venue|адрес)[:\s]{1,4}(.{0,120})', body[:8000], re.I)
+    vscope = mloc.group(1) if mloc else body[:1200]
+    vname, cap, lat, lon = find_venue(vscope)
     if name and start:
         if lat is None:
             m2 = re.search(r'(?:зала|клуб|център|хижа|hall|club|center)[^<\n,\.]{2,40}', body[:6000], re.I)
