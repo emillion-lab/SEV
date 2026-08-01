@@ -1,7 +1,7 @@
 {
  "source": "bilet.bg",
- "generated": "2026-08-01T15:49:24.254786",
- "count": 19,
+ "generated": "2026-08-01T17:29:36.839715",
+ "count": 18,
  "events": [
   {
    "name": "Синьо лято",
@@ -13,17 +13,6 @@
    "url": "https://www.bilet.bg/bg/events/sino-lato-8519",
    "src": "bilet",
    "addr": "Ген. Гурко 16"
-  },
-  {
-   "name": "Stand-up Comedy in English // Septemvri hut // AUG 5th",
-   "venue": "Хижа Септември (Витоша)",
-   "lat": 42.6640603,
-   "lon": 23.2887209,
-   "cap": 500,
-   "start": "2026-08-05T20:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/stand-up-comedy-in-english-septemvri-hut-aug-5th-8568",
-   "src": "bilet",
-   "addr": "Витоша"
   },
   {
    "name": "No More Many More Exclusive Live @ хижа СЕПТЕМВРИ",
