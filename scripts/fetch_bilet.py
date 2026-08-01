@@ -11,7 +11,29 @@ BASE  = 'https://www.bilet.bg'
 UA    = {'User-Agent': 'sev-bilet/1.0 (taxi demand research)'}
 
 # Софийски зали с приблизителен капацитет
+# Проверени координати. Хижа Септември и Гурко 16 са потвърдени по Google Maps.
 VENUES = {
+    'септември':           ('Хижа Септември (Витоша)', 500, 42.5905, 23.2830),
+    'septemvri':           ('Хижа Септември (Витоша)', 500, 42.5905, 23.2830),
+    'гурко':               ('Networking Premium (Гурко 16)', 500, 42.6934, 23.3268),
+    'gurko':               ('Networking Premium (Гурко 16)', 500, 42.6934, 23.3268),
+    'networking':          ('Networking Premium (Гурко 16)', 500, 42.6934, 23.3268),
+    'театро':              ('THEATRO', 600, 42.6928, 23.3312),
+    'theatro':             ('THEATRO', 600, 42.6928, 23.3312),
+    'интер експо':         ('Интер Експо Център', 3000, 42.6520, 23.3760),
+    'inter expo':          ('Интер Експо Център', 3000, 42.6520, 23.3760),
+    'тех парк':            ('София Тех Парк', 1500, 42.6668, 23.3760),
+    'tech park':           ('София Тех Парк', 1500, 42.6668, 23.3760),
+    'атанасов':            ('София Тех Парк', 1500, 42.6668, 23.3760),
+    'парадайс':            ('Paradise Center', 2000, 42.6607, 23.3122),
+    'paradise':            ('Paradise Center', 2000, 42.6607, 23.3122),
+    'yalta':               ('Yalta Garden', 700, 42.6918, 23.3243),
+    'ялта':                ('Yalta Garden', 700, 42.6918, 23.3243),
+    'gatto':               ('Bar Gatto', 300, 42.6938, 23.3287),
+    'пиротска':            ('Пиротска 5', 600, 42.6987, 23.3195),
+    'асикс':               ('Асикс Арена', 4000, 42.6690, 23.3757),
+    'фестивална':          ('Асикс Арена', 4000, 42.6690, 23.3757),
+    'sofia event':         ('Sofia Event Center', 2000, 42.6607, 23.3122),
     'арена 8888':          ('Арена 8888', 12000, 42.6711, 23.3692),
     'арена армеец':        ('Арена 8888', 12000, 42.6711, 23.3692),
     'ндк':                 ('НДК', 3380, 42.6866, 23.3190),
@@ -39,6 +61,49 @@ MONTHS = {'януари':1,'февруари':2,'март':3,'април':4,'м�
 def get(url, timeout=35):
     req = urllib.request.Request(PROXY + urllib.parse.quote(url, safe=''), headers=UA)
     return urllib.request.urlopen(req, timeout=timeout).read().decode('utf-8', 'replace')
+
+
+# ── Автоматично геокодиране за непознати зали ──
+_GEO_CACHE_PATH = 'venue_geo.json'
+try:
+    _GEO_CACHE = json.load(open(_GEO_CACHE_PATH, encoding='utf-8'))
+except Exception:
+    _GEO_CACHE = {}
+
+
+def geocode(venue_name):
+    """Търси координати през OpenStreetMap. Резултатите се кешират,
+    за да не питаме повторно и да не натоварваме услугата."""
+    if not venue_name:
+        return None, None
+    key = venue_name.strip().lower()[:70]
+    if key in _GEO_CACHE:
+        c = _GEO_CACHE[key]
+        return (c.get('lat'), c.get('lon')) if c else (None, None)
+
+    q = urllib.parse.quote(venue_name.strip()[:70] + ', София, България')
+    url = f'https://nominatim.openstreetmap.org/search?q={q}&format=json&limit=1&countrycodes=bg'
+    lat = lon = None
+    try:
+        req = urllib.request.Request(url, headers={'User-Agent': 'sev-bilet-geocoder/1.0 (taxi demand)'})
+        data = json.loads(urllib.request.urlopen(req, timeout=20).read().decode())
+        if data:
+            lat, lon = float(data[0]['lat']), float(data[0]['lon'])
+            # приемаме само резултати в района на София
+            if not (42.55 <= lat <= 42.80 and 23.15 <= lon <= 23.50):
+                lat = lon = None
+    except Exception as e:
+        print('геокодиране пропаднало:', venue_name[:40], e, file=sys.stderr)
+
+    _GEO_CACHE[key] = {'lat': lat, 'lon': lon} if lat else None
+    try:
+        json.dump(_GEO_CACHE, open(_GEO_CACHE_PATH, 'w', encoding='utf-8'),
+                  ensure_ascii=False, indent=1)
+    except Exception:
+        pass
+    import time as _t
+    _t.sleep(1.1)          # услугата иска най-много една заявка в секунда
+    return lat, lon
 
 
 def find_venue(text):
@@ -109,6 +174,8 @@ def parse_event(url):
             blob  = f'{vtext} {addr}'
             vname, cap, lat, lon = find_venue(blob)
             if name and start:
+                if lat is None:
+                    lat, lon = geocode(vtext or '')
                 return {'name': name[:90], 'venue': vname or (vtext or '')[:60],
                         'lat': lat, 'lon': lon, 'cap': cap or 500,
                         'start': start.strftime('%Y-%m-%dT%H:%M:00+03:00'),
@@ -122,6 +189,9 @@ def parse_event(url):
     start = parse_date(body[:6000])
     vname, cap, lat, lon = find_venue(body[:6000])
     if name and start:
+        if lat is None:
+            m2 = re.search(r'(?:зала|клуб|център|хижа|hall|club|center)[^<\n,\.]{2,40}', body[:6000], re.I)
+            lat, lon = geocode(m2.group(0) if m2 else '')
         return {'name': name[:90], 'venue': vname or '', 'lat': lat, 'lon': lon,
                 'cap': cap or 500, 'start': start.strftime('%Y-%m-%dT%H:%M:00+03:00'),
                 'url': url, 'src': 'bilet',
