@@ -1,30 +1,8 @@
 {
  "source": "bilet.bg",
- "generated": "2026-08-02T07:05:57.494177",
- "count": 20,
+ "generated": "2026-08-02T17:30:10.857397",
+ "count": 19,
  "events": [
-  {
-   "name": "Синьо лято",
-   "venue": "Networking Premium (Гурко 16)",
-   "lat": 42.6919,
-   "lon": 23.326,
-   "cap": 500,
-   "start": "2026-08-02T17:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/sino-lato-8519",
-   "src": "bilet",
-   "addr": "Ген. Гурко 16"
-  },
-  {
-   "name": "Stand-up Comedy in English // Septemvri hut // AUG 5th",
-   "venue": "Хижа Септември (Витоша)",
-   "lat": 42.5872,
-   "lon": 23.2905,
-   "cap": 500,
-   "start": "2026-08-05T20:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/stand-up-comedy-in-english-septemvri-hut-aug-5th-8568",
-   "src": "bilet",
-   "addr": "Витоша"
-  },
   {
    "name": "No More Many More Exclusive Live @ хижа СЕПТЕМВРИ",
    "venue": "Хижа Септември (Витоша)",
@@ -57,6 +35,17 @@
    "url": "https://www.bilet.bg/bg/events/open-air-frequencies-8446",
    "src": "bilet",
    "addr": "Булевард Цар Освободител 20, София, България"
+  },
+  {
+   "name": "Meet me on the Rooftop 2",
+   "venue": "Rooftop ROSSLYN THRACIA",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-08-18T19:30:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/meet-me-on-the-rooftop-2-8586",
+   "src": "bilet",
+   "addr": "София Център, ул. Солунска 30, 1000 София"
   },
   {
    "name": "Hug Or Handshake Exclusive Live @ Хижа Септември",
