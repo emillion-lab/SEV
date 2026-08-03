@@ -1,34 +1,12 @@
 {
- "generated": "2026-08-01T21:32:52.178041+00:00",
- "count": 43,
+ "generated": "2026-08-03T08:35:47.375487+00:00",
+ "count": 42,
  "sources_ok": [
   "arena",
   "bilet",
   "ndk"
  ],
  "events": [
-  {
-   "name": "Синьо лято",
-   "venue": "Networking Premium (Гурко 16)",
-   "lat": 42.6919,
-   "lon": 23.326,
-   "cap": 500,
-   "start": "2026-08-02T17:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/sino-lato-8519",
-   "src": "bilet",
-   "addr": "Ген. Гурко 16"
-  },
-  {
-   "name": "Stand-up Comedy in English // Septemvri hut // AUG 5th",
-   "venue": "Хижа Септември (Витоша)",
-   "lat": 42.5872,
-   "lon": 23.2905,
-   "cap": 500,
-   "start": "2026-08-05T20:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/stand-up-comedy-in-english-septemvri-hut-aug-5th-8568",
-   "src": "bilet",
-   "addr": "Витоша"
-  },
   {
    "name": "No More Many More Exclusive Live @ хижа СЕПТЕМВРИ",
    "venue": "Хижа Септември (Витоша)",
@@ -351,6 +329,16 @@
    "url": "https://www.bilet.bg/bg/events/frozen-heart-sofia-7459",
    "src": "bilet",
    "addr": "Ул. Манастирска 35, кв. Гео Милев, София 1111"
+  },
+  {
+   "name": "Аца Лукас, Миле Китич и Саша Матич",
+   "venue": "Арена 8888 София",
+   "lat": 42.67137,
+   "lon": 23.36932,
+   "cap": 12000,
+   "start": "2026-10-17T20:00:00+03:00",
+   "url": "",
+   "src": "arena"
   },
   {
    "name": "DJ KRUSH @ Malkata Tekila Sofia 22/10/2026",

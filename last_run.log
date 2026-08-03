@@ -1,4 +1,4 @@
-run: 2026-08-01T21:32:52.178041+00:00
+run: 2026-08-03T08:35:47.375487+00:00
 eventim api p1 fail: <HTTPError 403: 'Forbidden'>
 eventim api p1 fail: <HTTPError 403: 'Forbidden'>
 eventim html p1 fail: <HTTPError 520: '<none>'>
@@ -9,8 +9,9 @@ eventim: 0
   ndk: 2026-08-15T19:00 | Скритите съкровища на Двореца
   ndk: 2026-09-14T19:00 | KYLE DIXON & MICHAEL STEIN ПРЕДСТАВЯТ МУЗИКАТ
 ndk: 15
+  [arenaarmeecsofia.net -> proxy]
   arena: 2025-12-19T20:00 | Видео
-  arena: 2024-04-17T20:00 | Как да стигна до залата, планиране на маршрут
+  arena: 2027-04-24T20:00 | ЕМИЛИЯ - СМЕЛИТЕ 2027
 arena: 20
   theatre day0: 0 представления
   theatre day1: 0 представления
@@ -20,5 +21,5 @@ theatre: 2
 футбол: 0
   локални diag: pattern hits [0, 0, 0, 0], 0 заглавия оцеляха
 локални: 0
-merge: 24 прието, 9 минали, 2 след хоризонта
-✅ OK: 43 събития (24 с гео), източници: ['arena', 'bilet', 'ndk']
+merge: 25 прието, 8 минали, 2 след хоризонта
+✅ OK: 42 събития (25 с гео), източници: ['arena', 'bilet', 'ndk']
