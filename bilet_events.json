@@ -1,7 +1,7 @@
 {
  "source": "bilet.bg",
- "generated": "2026-08-03T08:35:47.285143",
- "count": 19,
+ "generated": "2026-08-03T18:15:07.642335",
+ "count": 18,
  "events": [
   {
    "name": "No More Many More Exclusive Live @ хижа СЕПТЕМВРИ",
@@ -38,14 +38,14 @@
   },
   {
    "name": "Meet me on the Rooftop 2",
-   "venue": "Rooftop ROSSLYN THRACIA",
-   "lat": null,
-   "lon": null,
+   "venue": "Networking Premium (Гурко 16)",
+   "lat": 42.6919,
+   "lon": 23.326,
    "cap": 500,
    "start": "2026-08-18T19:30:00+03:00",
    "url": "https://www.bilet.bg/bg/events/meet-me-on-the-rooftop-2-8586",
    "src": "bilet",
-   "addr": "София Център, ул. Солунска 30, 1000 София"
+   "addr": "Ген. Гурко 16"
   },
   {
    "name": "Hug Or Handshake Exclusive Live @ Хижа Септември",
@@ -189,17 +189,6 @@
    "url": "https://www.bilet.bg/bg/events/dara-live-7499",
    "src": "bilet",
    "addr": "Ул. Пиротска 5 1000 София Център"
-  },
-  {
-   "name": "SofiaTalks Business Bootcamp 2026",
-   "venue": "София Тех Парк",
-   "lat": 42.6668,
-   "lon": 23.376,
-   "cap": 1500,
-   "start": "2026-11-22T09:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/sofiatalks-business-bootcamp-2026-8246",
-   "src": "bilet",
-   "addr": "бул. Цариградско шосе 111Г, 1784 м. Къро"
   },
   {
    "name": "Михаела Маринова - Концерт - част от програмата \"Салон на изкуствата\" - Есен 2026 НДК",
