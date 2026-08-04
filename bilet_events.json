@@ -1,7 +1,7 @@
 {
  "source": "bilet.bg",
- "generated": "2026-08-04T06:47:11.342786",
- "count": 18,
+ "generated": "2026-08-04T18:11:10.822350",
+ "count": 17,
  "events": [
   {
    "name": "No More Many More Exclusive Live @ хижа СЕПТЕМВРИ",
@@ -13,17 +13,6 @@
    "url": "https://www.bilet.bg/bg/events/no-more-many-more-exclusive-live-at-hizha-septemvri-8418",
    "src": "bilet",
    "addr": "Витоша"
-  },
-  {
-   "name": "DAYZE x BAR GATTO presents: THE DAY SHIFT",
-   "venue": "Bar Gatto",
-   "lat": 42.6907,
-   "lon": 23.332,
-   "cap": 300,
-   "start": "2026-08-09T18:30:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/dayze-x-bar-gatto-presents-the-day-shift-8510",
-   "src": "bilet",
-   "addr": "София Център, ул. Московска 6, 6 А, 1000 София"
   },
   {
    "name": "Open Air Frequencies",
@@ -42,7 +31,7 @@
    "lat": 42.6919,
    "lon": 23.326,
    "cap": 500,
-   "start": "2026-08-18T19:30:00+03:00",
+   "start": "2026-08-19T19:30:00+03:00",
    "url": "https://www.bilet.bg/bg/events/meet-me-on-the-rooftop-2-8586",
    "src": "bilet",
    "addr": "Ген. Гурко 16"
