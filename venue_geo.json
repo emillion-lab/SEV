@@ -104,5 +104,13 @@
  "ген. гурко 16, софия, българия": null,
  "борисова градина, софия, българия": null,
  "софия център, ул. солунска 30, софия, българия": null,
- "rooftop rosslyn thracia": null
+ "rooftop rosslyn thracia": null,
+ "sofia event center": {
+  "lat": 42.6578,
+  "lon": 23.31484,
+  "display": "Sofia Event Center, 100, бул. Черни връх, Промишлена зона Хладилника, София, Три",
+  "q": "Sofia Event Center, бул. Черни връх 100, София"
+ },
+ "златни пясъци, приморски, 9007 варна, софия, българия": null,
+ "pr club golden sands": null
 }

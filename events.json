@@ -1,6 +1,6 @@
 {
- "generated": "2026-08-03T08:35:47.375487+00:00",
- "count": 42,
+ "generated": "2026-08-06T07:45:35.292230+00:00",
+ "count": 41,
  "sources_ok": [
   "arena",
   "bilet",
@@ -17,17 +17,6 @@
    "url": "https://www.bilet.bg/bg/events/no-more-many-more-exclusive-live-at-hizha-septemvri-8418",
    "src": "bilet",
    "addr": "Витоша"
-  },
-  {
-   "name": "DAYZE x BAR GATTO presents: THE DAY SHIFT",
-   "venue": "Bar Gatto",
-   "lat": 42.6907,
-   "lon": 23.332,
-   "cap": 300,
-   "start": "2026-08-09T18:30:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/dayze-x-bar-gatto-presents-the-day-shift-8510",
-   "src": "bilet",
-   "addr": "София Център, ул. Московска 6, 6 А, 1000 София"
   },
   {
    "name": "Open Air Frequencies",
@@ -49,6 +38,17 @@
    "start": "2026-08-15T19:00:00+03:00",
    "url": "",
    "src": "ndk"
+  },
+  {
+   "name": "Meet me on the Rooftop 2",
+   "venue": "Networking Premium (Гурко 16)",
+   "lat": 42.6919,
+   "lon": 23.326,
+   "cap": 500,
+   "start": "2026-08-19T19:30:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/meet-me-on-the-rooftop-2-8586",
+   "src": "bilet",
+   "addr": "Ген. Гурко 16"
   },
   {
    "name": "Hug Or Handshake Exclusive Live @ Хижа Септември",
@@ -104,6 +104,16 @@
    "url": "https://www.bilet.bg/bg/events/imera-vs-dizaster-8396",
    "src": "bilet",
    "addr": "bul. Bulgaria, podlez Galeriya, bulevard \"Cherni vrah\", 1142 Sofia"
+  },
+  {
+   "name": "Дени Вилньов:  \"Сикарио\" (2015)",
+   "venue": "НДК Зала 1",
+   "lat": 42.6847,
+   "lon": 23.3188,
+   "cap": 3380,
+   "start": "2026-08-30T19:00:00+03:00",
+   "url": "",
+   "src": "ndk"
   },
   {
    "name": "Европейско първенство по волейбол 2026",
@@ -403,28 +413,7 @@
    "src": "ndk"
   },
   {
-   "name": "SofiaTalks Business Bootcamp 2026",
-   "venue": "София Тех Парк",
-   "lat": 42.6668,
-   "lon": 23.376,
-   "cap": 1500,
-   "start": "2026-11-22T09:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/sofiatalks-business-bootcamp-2026-8246",
-   "src": "bilet",
-   "addr": "бул. Цариградско шосе 111Г, 1784 м. Къро"
-  },
-  {
    "name": "Михаела Маринова - Концерт",
-   "venue": "НДК Зала 1",
-   "lat": 42.6847,
-   "lon": 23.3188,
-   "cap": 3380,
-   "start": "2026-11-28T19:00:00+03:00",
-   "url": "",
-   "src": "ndk"
-  },
-  {
-   "name": "BLACK METALLICA SYMPHONY BEST SHOW - СРЪБСКАТА СЕНЗАЦИЯ ИДВА В СОФИЯ!",
    "venue": "НДК Зала 1",
    "lat": 42.6847,
    "lon": 23.3188,
