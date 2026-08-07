@@ -1,6 +1,6 @@
 {
  "source": "bilet.bg",
- "generated": "2026-08-07T05:56:01.392373",
+ "generated": "2026-08-07T17:15:28.051400",
  "count": 17,
  "events": [
   {
@@ -93,14 +93,14 @@
   },
   {
    "name": "LIQUID MARKET Sofia - Cocktail Festival 2026",
-   "venue": "Тайна локация - София",
+   "venue": "Чистилището",
    "lat": null,
    "lon": null,
    "cap": 500,
    "start": "2026-10-01T16:00:00+03:00",
    "url": "https://www.bilet.bg/bg/events/liquid-market-sofia-cocktail-festival-2026-6972",
    "src": "bilet",
-   "addr": ""
+   "addr": "Орландовци, ул. Индустриална 1202 София"
   },
   {
    "name": "AWS Community Day 2026",
