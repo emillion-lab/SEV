@@ -1,19 +1,8 @@
 {
  "source": "bilet.bg",
- "generated": "2026-08-06T07:45:35.211736",
+ "generated": "2026-08-07T05:56:01.392373",
  "count": 17,
  "events": [
-  {
-   "name": "No More Many More Exclusive Live @ хижа СЕПТЕМВРИ",
-   "venue": "Хижа Септември (Витоша)",
-   "lat": 42.5872,
-   "lon": 23.2905,
-   "cap": 500,
-   "start": "2026-08-06T20:30:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/no-more-many-more-exclusive-live-at-hizha-septemvri-8418",
-   "src": "bilet",
-   "addr": "Витоша"
-  },
   {
    "name": "Open Air Frequencies",
    "venue": "Yalta Garden",
@@ -34,7 +23,7 @@
    "start": "2026-08-19T19:30:00+03:00",
    "url": "https://www.bilet.bg/bg/events/meet-me-on-the-rooftop-2-8586",
    "src": "bilet",
-   "addr": "Ген. Гурко 16"
+   "addr": "София Център, ул. Генерал Гурко 16, 1000 София"
   },
   {
    "name": "Hug Or Handshake Exclusive Live @ Хижа Септември",
@@ -108,7 +97,7 @@
    "lat": null,
    "lon": null,
    "cap": 500,
-   "start": "2026-10-02T16:00:00+03:00",
+   "start": "2026-10-01T16:00:00+03:00",
    "url": "https://www.bilet.bg/bg/events/liquid-market-sofia-cocktail-festival-2026-6972",
    "src": "bilet",
    "addr": ""
@@ -178,6 +167,17 @@
    "url": "https://www.bilet.bg/bg/events/dara-live-7499",
    "src": "bilet",
    "addr": "Ул. Пиротска 5 1000 София Център"
+  },
+  {
+   "name": "SofiaTalks Business Bootcamp 2026",
+   "venue": "София Тех Парк",
+   "lat": 42.6668,
+   "lon": 23.376,
+   "cap": 1500,
+   "start": "2026-11-22T09:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/sofiatalks-business-bootcamp-2026-8246",
+   "src": "bilet",
+   "addr": "бул. Цариградско шосе 111Г, 1784 м. Къро"
   },
   {
    "name": "Михаела Маринова - Концерт - част от програмата \"Салон на изкуствата\" - Есен 2026 НДК",
