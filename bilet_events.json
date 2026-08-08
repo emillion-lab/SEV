@@ -1,8 +1,19 @@
 {
  "source": "bilet.bg",
- "generated": "2026-08-08T05:14:18.878290",
- "count": 17,
+ "generated": "2026-08-08T16:58:58.584410",
+ "count": 18,
  "events": [
+  {
+   "name": "Стендъп на Хижа Септември // 13 Август 2026",
+   "venue": "Хижа Септември (Витоша)",
+   "lat": 42.5872,
+   "lon": 23.2905,
+   "cap": 500,
+   "start": "2026-08-13T20:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/stendup-na-hizha-septemvri-13-avgust-2026-8569",
+   "src": "bilet",
+   "addr": "Витоша"
+  },
   {
    "name": "Open Air Frequencies",
    "venue": "Yalta Garden",
@@ -59,6 +70,17 @@
    "addr": "Борисова градина, 1164 София"
   },
   {
+   "name": "Meet me on the Rooftop - Part 3 - Singles of Sofia Birthday",
+   "venue": "Barter Rooftop",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-08-28T19:30:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/meet-me-on-the-rooftop-part-3-singles-of-sofia-birthday-8592",
+   "src": "bilet",
+   "addr": "бул. Черни връх, Rooftop, бул. Черни връх, 1407 София"
+  },
+  {
    "name": "DEV.BG All in One 2026",
    "venue": "Интер Експо Център",
    "lat": 42.652,
@@ -90,17 +112,6 @@
    "url": "https://www.bilet.bg/bg/events/blockchain-week-bulgaria-7678",
    "src": "bilet",
    "addr": "бул. Цариградско шосе 111Г, 1784 м. Къро"
-  },
-  {
-   "name": "LIQUID MARKET Sofia - Cocktail Festival 2026",
-   "venue": "Чистилището",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2026-10-01T16:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/liquid-market-sofia-cocktail-festival-2026-6972",
-   "src": "bilet",
-   "addr": "Орландовци, ул. Индустриална 1202 София"
   },
   {
    "name": "AWS Community Day 2026",
