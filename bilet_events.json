@@ -1,7 +1,7 @@
 {
  "source": "bilet.bg",
- "generated": "2026-08-09T05:28:13.137268",
- "count": 18,
+ "generated": "2026-08-09T17:02:35.839848",
+ "count": 19,
  "events": [
   {
    "name": "Стендъп на Хижа Септември // 13 Август 2026",
@@ -79,6 +79,17 @@
    "url": "https://www.bilet.bg/bg/events/meet-me-on-the-rooftop-part-3-singles-of-sofia-birthday-8592",
    "src": "bilet",
    "addr": "бул. Черни връх, Rooftop, бул. Черни връх, 1407 София"
+  },
+  {
+   "name": "MONA LIVE @ MAIMUNARNIKA | Sofia | 28.08",
+   "venue": "Маймунарника",
+   "lat": 42.6830551,
+   "lon": 23.3426429,
+   "cap": 500,
+   "start": "2026-08-28T21:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/mona-live-at-maimunarnika-sofia-2808-8460",
+   "src": "bilet",
+   "addr": "София, Алеята над колодрума, Колодрум Сердика, 1164 Sofia"
   },
   {
    "name": "DEV.BG All in One 2026",
