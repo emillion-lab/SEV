@@ -1,6 +1,6 @@
 {
- "generated": "2026-08-06T07:45:35.292230+00:00",
- "count": 41,
+ "generated": "2026-08-10T06:14:45.219561+00:00",
+ "count": 46,
  "sources_ok": [
   "arena",
   "bilet",
@@ -8,13 +8,13 @@
  ],
  "events": [
   {
-   "name": "No More Many More Exclusive Live @ хижа СЕПТЕМВРИ",
+   "name": "Стендъп на Хижа Септември // 13 Август 2026",
    "venue": "Хижа Септември (Витоша)",
    "lat": 42.5872,
    "lon": 23.2905,
    "cap": 500,
-   "start": "2026-08-06T20:30:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/no-more-many-more-exclusive-live-at-hizha-septemvri-8418",
+   "start": "2026-08-13T20:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/stendup-na-hizha-septemvri-13-avgust-2026-8569",
    "src": "bilet",
    "addr": "Витоша"
   },
@@ -48,7 +48,7 @@
    "start": "2026-08-19T19:30:00+03:00",
    "url": "https://www.bilet.bg/bg/events/meet-me-on-the-rooftop-2-8586",
    "src": "bilet",
-   "addr": "Ген. Гурко 16"
+   "addr": "София Център, ул. Генерал Гурко 16, 1000 София"
   },
   {
    "name": "Hug Or Handshake Exclusive Live @ Хижа Септември",
@@ -84,6 +84,17 @@
    "addr": "Борисова градина, 1164 София"
   },
   {
+   "name": "MONA LIVE @ MAIMUNARNIKA | Sofia | 28.08",
+   "venue": "Маймунарника",
+   "lat": 42.6830551,
+   "lon": 23.3426429,
+   "cap": 500,
+   "start": "2026-08-28T21:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/mona-live-at-maimunarnika-sofia-2808-8460",
+   "src": "bilet",
+   "addr": "София, Алеята над колодрума, Колодрум Сердика, 1164 Sofia"
+  },
+  {
    "name": "DEV.BG All in One 2026",
    "venue": "Интер Експо Център",
    "lat": 42.652,
@@ -116,6 +127,16 @@
    "src": "ndk"
   },
   {
+   "name": "Ингмар Бергман: Персона (1966)",
+   "venue": "НДК Зала 1",
+   "lat": 42.6847,
+   "lon": 23.3188,
+   "cap": 3380,
+   "start": "2026-09-02T19:00:00+03:00",
+   "url": "",
+   "src": "ndk"
+  },
+  {
    "name": "Европейско първенство по волейбол 2026",
    "venue": "Арена 8888 София",
    "lat": 42.67137,
@@ -134,6 +155,16 @@
    "start": "2026-09-10T20:00:00+03:00",
    "url": "",
    "src": "arena"
+  },
+  {
+   "name": "Емир Кустурица: Ъндърграунд (1995)",
+   "venue": "НДК Зала 1",
+   "lat": 42.6847,
+   "lon": 23.3188,
+   "cap": 3380,
+   "start": "2026-09-12T19:00:00+03:00",
+   "url": "",
+   "src": "ndk"
   },
   {
    "name": "България - Португалия",
@@ -351,6 +382,16 @@
    "src": "arena"
   },
   {
+   "name": "КУ-КУ БЕНД И ИВАНА ПРЕДСТАВЯТ: “ШАМПАНСКО И СЪЛЗИ”",
+   "venue": "Арена 8888 София",
+   "lat": 42.67137,
+   "lon": 23.36932,
+   "cap": 12000,
+   "start": "2026-10-22T20:00:00+03:00",
+   "url": "",
+   "src": "arena"
+  },
+  {
    "name": "DJ KRUSH @ Malkata Tekila Sofia 22/10/2026",
    "venue": "Малката Текила",
    "lat": 42.695,
@@ -360,6 +401,26 @@
    "url": "https://www.bilet.bg/bg/events/dj-krush-at-malkata-tekila-sofia-22102026-7905",
    "src": "bilet",
    "addr": "ул. \"6-ти септември\" 1000 4, 1000 София Център, София"
+  },
+  {
+   "name": "ASIA MOTOR SHOW",
+   "venue": "Арена 8888 София",
+   "lat": 42.67137,
+   "lon": 23.36932,
+   "cap": 12000,
+   "start": "2026-10-23T20:00:00+03:00",
+   "url": "",
+   "src": "arena"
+  },
+  {
+   "name": "ASIA MOTOR SHOW",
+   "venue": "Арена 8888 София",
+   "lat": 42.67137,
+   "lon": 23.36932,
+   "cap": 12000,
+   "start": "2026-10-24T20:00:00+03:00",
+   "url": "",
+   "src": "arena"
   },
   {
    "name": "01.07.2026 DURAN DURAN Информация за посетители",
@@ -403,24 +464,15 @@
    "src": "ndk"
   },
   {
-   "name": "EDIS @ Зала 3 на НДК, 12.11.2026",
-   "venue": "НДК Зала 1",
-   "lat": 42.6847,
-   "lon": 23.3188,
-   "cap": 3380,
-   "start": "2026-11-12T19:00:00+03:00",
-   "url": "",
-   "src": "ndk"
-  },
-  {
-   "name": "Михаела Маринова - Концерт",
-   "venue": "НДК Зала 1",
-   "lat": 42.6847,
-   "lon": 23.3188,
-   "cap": 3380,
-   "start": "2026-11-28T19:00:00+03:00",
-   "url": "",
-   "src": "ndk"
+   "name": "SofiaTalks Business Bootcamp 2026",
+   "venue": "София Тех Парк",
+   "lat": 42.6668,
+   "lon": 23.376,
+   "cap": 1500,
+   "start": "2026-11-22T09:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/sofiatalks-business-bootcamp-2026-8246",
+   "src": "bilet",
+   "addr": "бул. Цариградско шосе 111Г, 1784 м. Къро"
   },
   {
    "name": "Михаела Маринова - Концерт - част от програмата \"Салон на изкуствата\" - Есен 2026 НДК",
