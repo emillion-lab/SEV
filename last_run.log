@@ -1,4 +1,4 @@
-run: 2026-08-10T06:14:45.219561+00:00
+run: 2026-08-13T06:21:07.197609+00:00
 eventim api p1 fail: <HTTPError 403: 'Forbidden'>
 eventim api p1 fail: <HTTPError 403: 'Forbidden'>
 eventim html p1 fail: <HTTPError 520: '<none>'>
@@ -11,12 +11,12 @@ eventim: 0
 ndk: 15
   arena: 2025-12-19T20:00 | Видео
   arena: 2027-04-24T20:00 | ЕМИЛИЯ - СМЕЛИТЕ 2027
-arena: 23
+arena: 25
   theatre day0: 0 представления
   theatre day1: 0 представления
 theatre: 0
 футбол: 0
   локални diag: pattern hits [0, 0, 0, 0], 0 заглавия оцеляха
 локални: 0
-merge: 28 прието, 8 минали, 2 след хоризонта
-✅ OK: 46 събития (28 с гео), източници: ['arena', 'bilet', 'ndk']
+merge: 31 прието, 7 минали, 2 след хоризонта
+✅ OK: 48 събития (31 с гео), източници: ['arena', 'bilet', 'ndk']
