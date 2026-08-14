@@ -1,7 +1,7 @@
 {
  "source": "bilet.bg",
- "generated": "2026-08-14T05:52:16.588043",
- "count": 20,
+ "generated": "2026-08-14T17:18:00.104903",
+ "count": 22,
  "events": [
   {
    "name": "Open Air Frequencies",
@@ -123,6 +123,28 @@
    "url": "https://www.bilet.bg/bg/events/imera-vs-dizaster-8396",
    "src": "bilet",
    "addr": "bul. Bulgaria, podlez Galeriya, bulevard \"Cherni vrah\", 1142 Sofia"
+  },
+  {
+   "name": "FORGIVE ME, MONDAY - PEPPOU x ARDA x SPASSOTO",
+   "venue": "Bar Soda",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-08-30T19:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/forgive-me-monday-peppou-x-arda-x-spassoto-8613",
+   "src": "bilet",
+   "addr": "Ndk, Bulgaria Blvd 2, 1463 Sofia"
+  },
+  {
+   "name": "Nightmares on Wax",
+   "venue": "Малката Текила",
+   "lat": 42.695,
+   "lon": 23.328,
+   "cap": 400,
+   "start": "2026-08-30T20:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/nightmares-on-wax-8546",
+   "src": "bilet",
+   "addr": "ул. \"6-ти септември\" 1000 4, 1000 София Център, София"
   },
   {
    "name": "Blockchain Week Bulgaria",
