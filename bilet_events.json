@@ -1,7 +1,7 @@
 {
  "source": "bilet.bg",
- "generated": "2026-08-13T17:20:24.436664",
- "count": 18,
+ "generated": "2026-08-14T05:52:16.588043",
+ "count": 20,
  "events": [
   {
    "name": "Open Air Frequencies",
@@ -81,6 +81,17 @@
    "addr": "София, Алеята над колодрума, Колодрум Сердика, 1164 Sofia"
   },
   {
+   "name": "K-Pop Night with Mary Jangmi / Club Mixtape 5 / 28.08",
+   "venue": "Mixtape 5",
+   "lat": 42.6866,
+   "lon": 23.319,
+   "cap": 900,
+   "start": "2026-08-28T22:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/k-pop-night-with-mary-jangmi-club-mixtape-5-2808-8598",
+   "src": "bilet",
+   "addr": "bul. Bulgaria, podlez Galeriya, bulevard \"Cherni vrah\", 1142 Sofia"
+  },
+  {
    "name": "DEV.BG All in One 2026",
    "venue": "Интер Експо Център",
    "lat": 42.652,
@@ -90,6 +101,17 @@
    "url": "https://www.bilet.bg/bg/events/devbg-all-in-one-2026-7934",
    "src": "bilet",
    "addr": "бул. Цариградско шосе 147"
+  },
+  {
+   "name": "BLVKCAT rooftop w/ wAFFF, Season closing, Barter hub roof, Sofia open air day",
+   "venue": "Barter Rooftop",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-08-29T14:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/blvkcat-rooftop-w-wafff-season-closing-barter-hub-roof-sofia-open-air-day-8498",
+   "src": "bilet",
+   "addr": "бул. Черни връх, Rooftop, бул. Черни връх, 1407 София"
   },
   {
    "name": "IMERA vs DIZASTER",
