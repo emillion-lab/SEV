@@ -1,19 +1,8 @@
 {
  "source": "bilet.bg",
- "generated": "2026-08-14T17:18:00.104903",
- "count": 22,
+ "generated": "2026-08-15T04:53:41.854333",
+ "count": 23,
  "events": [
-  {
-   "name": "Open Air Frequencies",
-   "venue": "Yalta Garden",
-   "lat": 42.6918,
-   "lon": 23.3243,
-   "cap": 700,
-   "start": "2026-08-14T18:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/open-air-frequencies-8446",
-   "src": "bilet",
-   "addr": "Булевард Цар Освободител 20, София, България"
-  },
   {
    "name": "Meet me on the Rooftop 2",
    "venue": "Networking Premium (Гурко 16)",
@@ -147,6 +136,17 @@
    "addr": "ул. \"6-ти септември\" 1000 4, 1000 София Център, София"
   },
   {
+   "name": "Тахома & Da Homies",
+   "venue": "бар NOMO del Arte",
+   "lat": 42.6947259,
+   "lon": 23.3342231,
+   "cap": 500,
+   "start": "2026-08-30T20:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/tahoma-da-homies-8608",
+   "src": "bilet",
+   "addr": "Ул. Шипка 1"
+  },
+  {
    "name": "Blockchain Week Bulgaria",
    "venue": "София Тех Парк",
    "lat": 42.6668,
@@ -233,6 +233,17 @@
    "url": "https://www.bilet.bg/bg/events/dara-live-7499",
    "src": "bilet",
    "addr": "Ул. Пиротска 5 1000 София Център"
+  },
+  {
+   "name": "SofiaTalks Business Bootcamp 2026",
+   "venue": "София Тех Парк",
+   "lat": 42.6668,
+   "lon": 23.376,
+   "cap": 1500,
+   "start": "2026-11-22T09:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/sofiatalks-business-bootcamp-2026-8246",
+   "src": "bilet",
+   "addr": "бул. Цариградско шосе 111Г, 1784 м. Къро"
   },
   {
    "name": "Михаела Маринова - Концерт - част от програмата \"Салон на изкуствата\" - Есен 2026 НДК",
