@@ -1,7 +1,7 @@
 {
  "source": "bilet.bg",
- "generated": "2026-08-15T04:53:41.854333",
- "count": 23,
+ "generated": "2026-08-15T16:47:17.717007",
+ "count": 24,
  "events": [
   {
    "name": "Meet me on the Rooftop 2",
@@ -35,6 +35,17 @@
    "url": "https://www.bilet.bg/bg/events/back-to-the-90s-2000s-8397",
    "src": "bilet",
    "addr": "бул. Черни връх 100"
+  },
+  {
+   "name": "Стендъп на Хижа Септември // 20 Август 2026",
+   "venue": "Хижа Септември (Витоша)",
+   "lat": 42.5872,
+   "lon": 23.2905,
+   "cap": 500,
+   "start": "2026-08-20T20:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/stendup-na-hizha-septemvri-20-avgust-2026-8624",
+   "src": "bilet",
+   "addr": "Витоша"
   },
   {
    "name": "Aliens in the Park vol.2 with Cristina Lazic at Vidas Art Arena",
