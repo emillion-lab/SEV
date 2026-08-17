@@ -1,44 +1,12 @@
 {
- "generated": "2026-08-13T06:21:07.197609+00:00",
- "count": 48,
+ "generated": "2026-08-17T05:41:06.879780+00:00",
+ "count": 54,
  "sources_ok": [
   "arena",
   "bilet",
   "ndk"
  ],
  "events": [
-  {
-   "name": "Стендъп на Хижа Септември // 13 Август 2026",
-   "venue": "Хижа Септември (Витоша)",
-   "lat": 42.5872,
-   "lon": 23.2905,
-   "cap": 500,
-   "start": "2026-08-13T20:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/stendup-na-hizha-septemvri-13-avgust-2026-8569",
-   "src": "bilet",
-   "addr": "Витоша"
-  },
-  {
-   "name": "Open Air Frequencies",
-   "venue": "Yalta Garden",
-   "lat": 42.6918,
-   "lon": 23.3243,
-   "cap": 700,
-   "start": "2026-08-14T18:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/open-air-frequencies-8446",
-   "src": "bilet",
-   "addr": "Булевард Цар Освободител 20, София, България"
-  },
-  {
-   "name": "Скритите съкровища на Двореца",
-   "venue": "НДК Зала 1",
-   "lat": 42.6847,
-   "lon": 23.3188,
-   "cap": 3380,
-   "start": "2026-08-15T19:00:00+03:00",
-   "url": "",
-   "src": "ndk"
-  },
   {
    "name": "Meet me on the Rooftop 2",
    "venue": "Networking Premium (Гурко 16)",
@@ -73,6 +41,17 @@
    "addr": "бул. Черни връх 100"
   },
   {
+   "name": "Стендъп на Хижа Септември // 20 Август 2026",
+   "venue": "Хижа Септември (Витоша)",
+   "lat": 42.5872,
+   "lon": 23.2905,
+   "cap": 500,
+   "start": "2026-08-20T20:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/stendup-na-hizha-septemvri-20-avgust-2026-8624",
+   "src": "bilet",
+   "addr": "Витоша"
+  },
+  {
    "name": "Aliens in the Park vol.2 with Cristina Lazic at Vidas Art Arena",
    "venue": "Vidas Art Arena",
    "lat": 42.669,
@@ -82,6 +61,38 @@
    "url": "https://www.bilet.bg/bg/events/aliens-in-the-park-vol2-with-cristina-lazic-at-vidas-art-arena-8480",
    "src": "bilet",
    "addr": "Борисова градина, 1164 София"
+  },
+  {
+   "name": "Скритите съкровища на Двореца",
+   "venue": "НДК Зала 1",
+   "lat": 42.6847,
+   "lon": 23.3188,
+   "cap": 3380,
+   "start": "2026-08-22T19:00:00+03:00",
+   "url": "",
+   "src": "ndk"
+  },
+  {
+   "name": "MONA LIVE @ MAIMUNARNIKA | Sofia | 28.08",
+   "venue": "Маймунарника",
+   "lat": 42.6830551,
+   "lon": 23.3426429,
+   "cap": 500,
+   "start": "2026-08-28T21:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/mona-live-at-maimunarnika-sofia-2808-8460",
+   "src": "bilet",
+   "addr": "София, Алеята над колодрума, Колодрум Сердика, 1164 Sofia"
+  },
+  {
+   "name": "K-Pop Night with Mary Jangmi / Club Mixtape 5 / 28.08",
+   "venue": "Mixtape 5",
+   "lat": 42.6866,
+   "lon": 23.319,
+   "cap": 900,
+   "start": "2026-08-28T22:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/k-pop-night-with-mary-jangmi-club-mixtape-5-2808-8598",
+   "src": "bilet",
+   "addr": "bul. Bulgaria, podlez Galeriya, bulevard \"Cherni vrah\", 1142 Sofia"
   },
   {
    "name": "DEV.BG All in One 2026",
@@ -116,6 +127,28 @@
    "src": "ndk"
   },
   {
+   "name": "Nightmares on Wax",
+   "venue": "Малката Текила",
+   "lat": 42.695,
+   "lon": 23.328,
+   "cap": 400,
+   "start": "2026-08-30T20:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/nightmares-on-wax-8546",
+   "src": "bilet",
+   "addr": "ул. \"6-ти септември\" 1000 4, 1000 София Център, София"
+  },
+  {
+   "name": "Тахома & Da Homies",
+   "venue": "бар NOMO del Arte",
+   "lat": 42.6947259,
+   "lon": 23.3342231,
+   "cap": 500,
+   "start": "2026-08-30T20:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/tahoma-da-homies-8608",
+   "src": "bilet",
+   "addr": "Ул. Шипка 1"
+  },
+  {
    "name": "Ингмар Бергман: Персона (1966)",
    "venue": "НДК Зала 1",
    "lat": 42.6847,
@@ -144,6 +177,17 @@
    "start": "2026-09-10T20:00:00+03:00",
    "url": "",
    "src": "arena"
+  },
+  {
+   "name": "Trio Mandili Maimunarnika- Sofia",
+   "venue": "Маймунарника",
+   "lat": 42.6830551,
+   "lon": 23.3426429,
+   "cap": 500,
+   "start": "2026-09-11T20:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/trio-mandili-maimunarnika-sofia-7852",
+   "src": "bilet",
+   "addr": "София, Алеята над колодрума, Колодрум Сердика, 1164 Sofia"
   },
   {
    "name": "Емир Кустурица: Ъндърграунд (1995)",
@@ -196,6 +240,17 @@
    "src": "ndk"
   },
   {
+   "name": "KARD Europe Tour 2026",
+   "venue": "Стадион Васил Левски",
+   "lat": 42.6879,
+   "lon": 23.3396,
+   "cap": 43000,
+   "start": "2026-09-15T19:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/kard-europe-tour-2026-8347",
+   "src": "bilet",
+   "addr": "метростанция Васил Левски"
+  },
+  {
    "name": "България - Израел",
    "venue": "Арена 8888 София",
    "lat": 42.67137,
@@ -218,6 +273,16 @@
   },
   {
    "name": "Garou„The Best of…GAROU“",
+   "venue": "НДК Зала 1",
+   "lat": 42.6847,
+   "lon": 23.3188,
+   "cap": 3380,
+   "start": "2026-09-24T19:00:00+03:00",
+   "url": "",
+   "src": "ndk"
+  },
+  {
+   "name": "Дейвид Линч: Изгубената магистрала (1997)",
    "venue": "НДК Зала 1",
    "lat": 42.6847,
    "lon": 23.3188,
@@ -349,16 +414,6 @@
    "src": "ndk"
   },
   {
-   "name": "ИЛИЯ ЛУКОВ и ПРИЯТЕЛИ „С БЪЛГАРИЯ В СЪРЦЕТО“",
-   "venue": "НДК Зала 1",
-   "lat": 42.6847,
-   "lon": 23.3188,
-   "cap": 3380,
-   "start": "2026-10-14T19:00:00+03:00",
-   "url": "",
-   "src": "ndk"
-  },
-  {
    "name": "ISTA Conference 2026- Fest Edition",
    "venue": "Sofia Event Center",
    "lat": 42.6607,
@@ -471,6 +526,16 @@
    "url": "https://www.bilet.bg/bg/events/dara-live-7499",
    "src": "bilet",
    "addr": "Ул. Пиротска 5 1000 София Център"
+  },
+  {
+   "name": "ASIA MOTOR SHOW",
+   "venue": "Арена 8888 София",
+   "lat": 42.67137,
+   "lon": 23.36932,
+   "cap": 12000,
+   "start": "2026-10-31T20:00:00+03:00",
+   "url": "",
+   "src": "arena"
   },
   {
    "name": "Последни публикации",
