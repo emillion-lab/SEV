@@ -1,6 +1,6 @@
 {
  "source": "bilet.bg",
- "generated": "2026-08-17T05:41:06.800674",
+ "generated": "2026-08-17T16:52:01.324876",
  "count": 29,
  "events": [
   {
@@ -57,17 +57,6 @@
    "url": "https://www.bilet.bg/bg/events/aliens-in-the-park-vol2-with-cristina-lazic-at-vidas-art-arena-8480",
    "src": "bilet",
    "addr": "Борисова градина, 1164 София"
-  },
-  {
-   "name": "Влюбени срещу Женени // 26.08 // Rooftop59",
-   "venue": "Rooftop59",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2026-08-26T20:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/vlubeni-sreshtu-zheneni-2608-rooftop59-8625",
-   "src": "bilet",
-   "addr": "Хиподрума, бул. \"Цар Борис III\" 59, 1612 София"
   },
   {
    "name": "Meet me on the Rooftop - Part 3 - Singles of Sofia Birthday",
@@ -167,6 +156,17 @@
    "url": "https://www.bilet.bg/bg/events/nightmares-on-wax-8546",
    "src": "bilet",
    "addr": "ул. \"6-ти септември\" 1000 4, 1000 София Център, София"
+  },
+  {
+   "name": "SLOW JAMZ at BAR GATTO",
+   "venue": "Bar Gatto",
+   "lat": 42.6907,
+   "lon": 23.332,
+   "cap": 300,
+   "start": "2026-08-30T20:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/slow-jamz-at-bar-gatto-8628",
+   "src": "bilet",
+   "addr": "София Център, ул. Московска 6, 6 А, 1000 София"
   },
   {
    "name": "Тахома & Da Homies",
