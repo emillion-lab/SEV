@@ -1,19 +1,8 @@
 {
  "source": "bilet.bg",
- "generated": "2026-08-16T16:48:18.071786",
+ "generated": "2026-08-17T05:04:36.315727",
  "count": 29,
  "events": [
-  {
-   "name": "Urban Gatherings at Soda Sunday 16.08",
-   "venue": "Bar Soda",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2026-08-16T19:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/urban-gatherings-at-soda-sunday-1608-8602",
-   "src": "bilet",
-   "addr": "Ndk, Bulgaria Blvd 2, 1463 Sofia"
-  },
   {
    "name": "Meet me on the Rooftop 2",
    "venue": "Networking Premium (Гурко 16)",
@@ -68,6 +57,17 @@
    "url": "https://www.bilet.bg/bg/events/aliens-in-the-park-vol2-with-cristina-lazic-at-vidas-art-arena-8480",
    "src": "bilet",
    "addr": "Борисова градина, 1164 София"
+  },
+  {
+   "name": "Влюбени срещу Женени // 26.08 // Rooftop59",
+   "venue": "Rooftop59",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-08-26T20:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/vlubeni-sreshtu-zheneni-2608-rooftop59-8625",
+   "src": "bilet",
+   "addr": "Хиподрума, бул. \"Цар Борис III\" 59, 1612 София"
   },
   {
    "name": "Meet me on the Rooftop - Part 3 - Singles of Sofia Birthday",
