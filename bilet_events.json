@@ -1,7 +1,7 @@
 {
  "source": "bilet.bg",
- "generated": "2026-08-18T04:58:08.370358",
- "count": 30,
+ "generated": "2026-08-18T16:54:59.824787",
+ "count": 28,
  "events": [
   {
    "name": "Meet me on the Rooftop 2",
@@ -57,17 +57,6 @@
    "url": "https://www.bilet.bg/bg/events/aliens-in-the-park-vol2-with-cristina-lazic-at-vidas-art-arena-8480",
    "src": "bilet",
    "addr": "Борисова градина, 1164 София"
-  },
-  {
-   "name": "Влюбени срещу Женени // 26.08 // Rooftop59",
-   "venue": "Rooftop59",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2026-08-26T20:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/vlubeni-sreshtu-zheneni-2608-rooftop59-8625",
-   "src": "bilet",
-   "addr": "Хиподрума, бул. \"Цар Борис III\" 59, 1612 София"
   },
   {
    "name": "Meet me on the Rooftop - Part 3 - Singles of Sofia Birthday",
@@ -147,17 +136,6 @@
    "addr": "Ndk, Bulgaria Blvd 2, 1463 Sofia"
   },
   {
-   "name": "URGEHAL Sofia",
-   "venue": "Клуб \"При Черепите\"",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2026-08-30T19:30:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/urgehal-sofia-8063",
-   "src": "bilet",
-   "addr": "Булевард \"Илиянци\" 1И"
-  },
-  {
    "name": "Nightmares on Wax",
    "venue": "Малката Текила",
    "lat": 42.695,
@@ -202,15 +180,37 @@
    "addr": "София, Алеята над колодрума, Колодрум Сердика, 1164 Sofia"
   },
   {
+   "name": "REFLECTIONS on the Roof",
+   "venue": "Networking Premium (Гурко 16)",
+   "lat": 42.6919,
+   "lon": 23.326,
+   "cap": 500,
+   "start": "2026-09-12T16:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/reflections-on-the-roof-8593",
+   "src": "bilet",
+   "addr": "София Център, ул. Генерал Гурко 16, 1000 София"
+  },
+  {
+   "name": "Нова черга от стари нишки",
+   "venue": "Лятна сцена - езеро Панчарево",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-09-13T19:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/nova-cherga-ot-stari-nishki-8514",
+   "src": "bilet",
+   "addr": "82 чл., 1137 Панчарево"
+  },
+  {
    "name": "KARD Europe Tour 2026",
-   "venue": "Стадион Васил Левски",
-   "lat": 42.6879,
-   "lon": 23.3396,
-   "cap": 43000,
+   "venue": "Парк център Юнак",
+   "lat": 42.686293,
+   "lon": 23.3332861,
+   "cap": 500,
    "start": "2026-09-15T19:00:00+03:00",
    "url": "https://www.bilet.bg/bg/events/kard-europe-tour-2026-8347",
    "src": "bilet",
-   "addr": "метростанция Васил Левски"
+   "addr": "бул. Евлоги и Христо Георгиеви 34"
   },
   {
    "name": "Blockchain Week Bulgaria",
@@ -277,28 +277,6 @@
    "url": "https://www.bilet.bg/bg/events/frozen-heart-sofia-7459",
    "src": "bilet",
    "addr": "Ул. Манастирска 35, кв. Гео Милев, София 1111"
-  },
-  {
-   "name": "DJ KRUSH @ Malkata Tekila Sofia 22/10/2026",
-   "venue": "Малката Текила",
-   "lat": 42.695,
-   "lon": 23.328,
-   "cap": 400,
-   "start": "2026-10-22T20:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/dj-krush-at-malkata-tekila-sofia-22102026-7905",
-   "src": "bilet",
-   "addr": "ул. \"6-ти септември\" 1000 4, 1000 София Център, София"
-  },
-  {
-   "name": "DARA - Live",
-   "venue": "Пиротска 5",
-   "lat": 42.6987,
-   "lon": 23.3195,
-   "cap": 600,
-   "start": "2026-10-30T19:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/dara-live-7499",
-   "src": "bilet",
-   "addr": "Ул. Пиротска 5 1000 София Център"
   },
   {
    "name": "SofiaTalks Business Bootcamp 2026",
