@@ -1,7 +1,7 @@
 {
  "source": "bilet.bg",
- "generated": "2026-08-18T16:54:59.824787",
- "count": 28,
+ "generated": "2026-08-19T04:57:31.027327",
+ "count": 29,
  "events": [
   {
    "name": "Meet me on the Rooftop 2",
@@ -134,6 +134,17 @@
    "url": "https://www.bilet.bg/bg/events/forgive-me-monday-peppou-x-arda-x-spassoto-8613",
    "src": "bilet",
    "addr": "Ndk, Bulgaria Blvd 2, 1463 Sofia"
+  },
+  {
+   "name": "URGEHAL Sofia",
+   "venue": "Клуб \"При Черепите\"",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-08-30T19:30:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/urgehal-sofia-8063",
+   "src": "bilet",
+   "addr": "Булевард \"Илиянци\" 1И"
   },
   {
    "name": "Nightmares on Wax",
