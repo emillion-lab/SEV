@@ -1,19 +1,8 @@
 {
  "source": "bilet.bg",
- "generated": "2026-08-19T04:57:31.027327",
- "count": 29,
+ "generated": "2026-08-19T16:53:37.640973",
+ "count": 28,
  "events": [
-  {
-   "name": "Meet me on the Rooftop 2",
-   "venue": "Networking Premium (Гурко 16)",
-   "lat": 42.6919,
-   "lon": 23.326,
-   "cap": 500,
-   "start": "2026-08-19T19:30:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/meet-me-on-the-rooftop-2-8586",
-   "src": "bilet",
-   "addr": "София Център, ул. Генерал Гурко 16, 1000 София"
-  },
   {
    "name": "Hug Or Handshake Exclusive Live @ Хижа Септември",
    "venue": "Хижа Септември (Витоша)",
