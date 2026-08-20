@@ -1,34 +1,12 @@
 {
- "generated": "2026-08-17T05:41:06.879780+00:00",
- "count": 54,
+ "generated": "2026-08-20T05:37:15.011435+00:00",
+ "count": 48,
  "sources_ok": [
   "arena",
   "bilet",
   "ndk"
  ],
  "events": [
-  {
-   "name": "Meet me on the Rooftop 2",
-   "venue": "Networking Premium (Гурко 16)",
-   "lat": 42.6919,
-   "lon": 23.326,
-   "cap": 500,
-   "start": "2026-08-19T19:30:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/meet-me-on-the-rooftop-2-8586",
-   "src": "bilet",
-   "addr": "София Център, ул. Генерал Гурко 16, 1000 София"
-  },
-  {
-   "name": "Hug Or Handshake Exclusive Live @ Хижа Септември",
-   "venue": "Хижа Септември (Витоша)",
-   "lat": 42.5872,
-   "lon": 23.2905,
-   "cap": 500,
-   "start": "2026-08-19T20:30:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/hug-or-handshake-exclusive-live-at-hizha-septemvri-8474",
-   "src": "bilet",
-   "addr": "Витоша"
-  },
   {
    "name": "BACK TO THE 90’s & 2000’s",
    "venue": "Paradise Center",
@@ -138,6 +116,17 @@
    "addr": "ул. \"6-ти септември\" 1000 4, 1000 София Център, София"
   },
   {
+   "name": "SLOW JAMZ at BAR GATTO",
+   "venue": "Bar Gatto",
+   "lat": 42.6907,
+   "lon": 23.332,
+   "cap": 300,
+   "start": "2026-08-30T20:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/slow-jamz-at-bar-gatto-8628",
+   "src": "bilet",
+   "addr": "София Център, ул. Московска 6, 6 А, 1000 София"
+  },
+  {
    "name": "Тахома & Da Homies",
    "venue": "бар NOMO del Arte",
    "lat": 42.6947259,
@@ -188,6 +177,17 @@
    "url": "https://www.bilet.bg/bg/events/trio-mandili-maimunarnika-sofia-7852",
    "src": "bilet",
    "addr": "София, Алеята над колодрума, Колодрум Сердика, 1164 Sofia"
+  },
+  {
+   "name": "REFLECTIONS on the Roof",
+   "venue": "Networking Premium (Гурко 16)",
+   "lat": 42.6919,
+   "lon": 23.326,
+   "cap": 500,
+   "start": "2026-09-12T16:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/reflections-on-the-roof-8593",
+   "src": "bilet",
+   "addr": "София Център, ул. Генерал Гурко 16, 1000 София"
   },
   {
    "name": "Емир Кустурица: Ъндърграунд (1995)",
@@ -241,14 +241,14 @@
   },
   {
    "name": "KARD Europe Tour 2026",
-   "venue": "Стадион Васил Левски",
-   "lat": 42.6879,
-   "lon": 23.3396,
-   "cap": 43000,
+   "venue": "Парк център Юнак",
+   "lat": 42.686293,
+   "lon": 23.3332861,
+   "cap": 500,
    "start": "2026-09-15T19:00:00+03:00",
    "url": "https://www.bilet.bg/bg/events/kard-europe-tour-2026-8347",
    "src": "bilet",
-   "addr": "метростанция Васил Левски"
+   "addr": "бул. Евлоги и Христо Георгиеви 34"
   },
   {
    "name": "България - Израел",
@@ -259,6 +259,16 @@
    "start": "2026-09-15T20:00:00+03:00",
    "url": "",
    "src": "arena"
+  },
+  {
+   "name": "Акира Куросава: Рашомон (1950)",
+   "venue": "НДК Зала 1",
+   "lat": 42.6847,
+   "lon": 23.3188,
+   "cap": 3380,
+   "start": "2026-09-17T19:00:00+03:00",
+   "url": "",
+   "src": "ndk"
   },
   {
    "name": "Blockchain Week Bulgaria",
@@ -404,16 +414,6 @@
    "src": "arena"
   },
   {
-   "name": "Белчевият род го има",
-   "venue": "НДК Зала 1",
-   "lat": 42.6847,
-   "lon": 23.3188,
-   "cap": 3380,
-   "start": "2026-10-12T19:00:00+03:00",
-   "url": "",
-   "src": "ndk"
-  },
-  {
    "name": "ISTA Conference 2026- Fest Edition",
    "venue": "Sofia Event Center",
    "lat": 42.6607,
@@ -446,57 +446,6 @@
    "src": "arena"
   },
   {
-   "name": "КУ-КУ БЕНД И ИВАНА ПРЕДСТАВЯТ: “ШАМПАНСКО И СЪЛЗИ”",
-   "venue": "Арена 8888 София",
-   "lat": 42.67137,
-   "lon": 23.36932,
-   "cap": 12000,
-   "start": "2026-10-22T20:00:00+03:00",
-   "url": "",
-   "src": "arena"
-  },
-  {
-   "name": "DJ KRUSH @ Malkata Tekila Sofia 22/10/2026",
-   "venue": "Малката Текила",
-   "lat": 42.695,
-   "lon": 23.328,
-   "cap": 400,
-   "start": "2026-10-22T20:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/dj-krush-at-malkata-tekila-sofia-22102026-7905",
-   "src": "bilet",
-   "addr": "ул. \"6-ти септември\" 1000 4, 1000 София Център, София"
-  },
-  {
-   "name": "ASIA MOTOR SHOW",
-   "venue": "Арена 8888 София",
-   "lat": 42.67137,
-   "lon": 23.36932,
-   "cap": 12000,
-   "start": "2026-10-23T20:00:00+03:00",
-   "url": "",
-   "src": "arena"
-  },
-  {
-   "name": "ASIA MOTOR SHOW",
-   "venue": "Арена 8888 София",
-   "lat": 42.67137,
-   "lon": 23.36932,
-   "cap": 12000,
-   "start": "2026-10-24T20:00:00+03:00",
-   "url": "",
-   "src": "arena"
-  },
-  {
-   "name": "ASIA MOTOR SHOW",
-   "venue": "Арена 8888 София",
-   "lat": 42.67137,
-   "lon": 23.36932,
-   "cap": 12000,
-   "start": "2026-10-25T20:00:00+03:00",
-   "url": "",
-   "src": "arena"
-  },
-  {
    "name": "01.07.2026 DURAN DURAN Информация за посетители",
    "venue": "Арена 8888 София",
    "lat": 42.67137,
@@ -507,33 +456,22 @@
    "src": "arena"
   },
   {
-   "name": "ASIA MOTOR SHOW",
-   "venue": "Арена 8888 София",
-   "lat": 42.67137,
-   "lon": 23.36932,
-   "cap": 12000,
-   "start": "2026-10-26T20:00:00+03:00",
-   "url": "",
-   "src": "arena"
-  },
-  {
-   "name": "DARA - Live",
-   "venue": "Пиротска 5",
-   "lat": 42.6987,
-   "lon": 23.3195,
-   "cap": 600,
-   "start": "2026-10-30T19:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/dara-live-7499",
-   "src": "bilet",
-   "addr": "Ул. Пиротска 5 1000 София Център"
-  },
-  {
-   "name": "ASIA MOTOR SHOW",
+   "name": "КУ-КУ БЕНД И ИВАНА ПРЕДСТАВЯТ: “ШАМПАНСКО И СЪЛЗИ”",
    "venue": "Арена 8888 София",
    "lat": 42.67137,
    "lon": 23.36932,
    "cap": 12000,
    "start": "2026-10-31T20:00:00+03:00",
+   "url": "",
+   "src": "arena"
+  },
+  {
+   "name": "10 ГОДИНИ MBTxBM & GIO PIKA | HALLOWEEN MASQUERADE",
+   "venue": "Арена 8888 София",
+   "lat": 42.67137,
+   "lon": 23.36932,
+   "cap": 12000,
+   "start": "2026-11-02T20:00:00+03:00",
    "url": "",
    "src": "arena"
   },
