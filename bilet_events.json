@@ -1,19 +1,8 @@
 {
  "source": "bilet.bg",
- "generated": "2026-08-19T16:53:37.640973",
+ "generated": "2026-08-20T04:59:20.040158",
  "count": 28,
  "events": [
-  {
-   "name": "Hug Or Handshake Exclusive Live @ Хижа Септември",
-   "venue": "Хижа Септември (Витоша)",
-   "lat": 42.5872,
-   "lon": 23.2905,
-   "cap": 500,
-   "start": "2026-08-19T20:30:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/hug-or-handshake-exclusive-live-at-hizha-septemvri-8474",
-   "src": "bilet",
-   "addr": "Витоша"
-  },
   {
    "name": "BACK TO THE 90’s & 2000’s",
    "venue": "Paradise Center",
@@ -46,6 +35,17 @@
    "url": "https://www.bilet.bg/bg/events/aliens-in-the-park-vol2-with-cristina-lazic-at-vidas-art-arena-8480",
    "src": "bilet",
    "addr": "Борисова градина, 1164 София"
+  },
+  {
+   "name": "Влюбени срещу Женени // 26.08 // Rooftop59",
+   "venue": "Rooftop59",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-08-26T20:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/vlubeni-sreshtu-zheneni-2608-rooftop59-8625",
+   "src": "bilet",
+   "addr": "Хиподрума, бул. \"Цар Борис III\" 59, 1612 София"
   },
   {
    "name": "Meet me on the Rooftop - Part 3 - Singles of Sofia Birthday",
