@@ -1,19 +1,8 @@
 {
  "source": "bilet.bg",
- "generated": "2026-08-20T16:57:37.932482",
- "count": 29,
+ "generated": "2026-08-21T04:59:46.186858",
+ "count": 28,
  "events": [
-  {
-   "name": "Стендъп на Хижа Септември // 20 Август 2026",
-   "venue": "Хижа Септември (Витоша)",
-   "lat": 42.5872,
-   "lon": 23.2905,
-   "cap": 500,
-   "start": "2026-08-20T20:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/stendup-na-hizha-septemvri-20-avgust-2026-8624",
-   "src": "bilet",
-   "addr": "Витоша"
-  },
   {
    "name": "Aliens in the Park vol.2 with Cristina Lazic at Vidas Art Arena",
    "venue": "Vidas Art Arena",
@@ -94,8 +83,8 @@
   {
    "name": "Загс",
    "venue": "SOHO",
-   "lat": 42.6587575,
-   "lon": 23.2857621,
+   "lat": 42.6641527,
+   "lon": 23.2881605,
    "cap": 500,
    "start": "2026-08-29T19:40:00+03:00",
    "url": "https://www.bilet.bg/bg/events/zags-8574",
