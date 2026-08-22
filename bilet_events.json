@@ -1,19 +1,8 @@
 {
  "source": "bilet.bg",
- "generated": "2026-08-22T04:55:39.744356",
- "count": 29,
+ "generated": "2026-08-22T16:46:12.347925",
+ "count": 28,
  "events": [
-  {
-   "name": "Aliens in the Park vol.2 with Cristina Lazic at Vidas Art Arena",
-   "venue": "Vidas Art Arena",
-   "lat": 42.669,
-   "lon": 23.376,
-   "cap": 1500,
-   "start": "2026-08-22T16:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/aliens-in-the-park-vol2-with-cristina-lazic-at-vidas-art-arena-8480",
-   "src": "bilet",
-   "addr": "Борисова градина, 1164 София"
-  },
   {
    "name": "Влюбени срещу Женени // 26.08 // Rooftop59",
    "venue": "Rooftop59",
@@ -218,7 +207,7 @@
    "lat": 42.6668,
    "lon": 23.376,
    "cap": 1500,
-   "start": "2026-09-24T10:00:00+03:00",
+   "start": "2026-09-24T09:00:00+03:00",
    "url": "https://www.bilet.bg/bg/events/blockchain-week-bulgaria-7678",
    "src": "bilet",
    "addr": "бул. Цариградско шосе 111Г, 1784 м. Къро"
