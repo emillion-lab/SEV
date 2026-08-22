@@ -1,7 +1,7 @@
 {
  "source": "bilet.bg",
- "generated": "2026-08-21T16:58:33.977509",
- "count": 28,
+ "generated": "2026-08-22T04:55:39.744356",
+ "count": 29,
  "events": [
   {
    "name": "Aliens in the Park vol.2 with Cristina Lazic at Vidas Art Arena",
@@ -156,6 +156,17 @@
    "url": "https://www.bilet.bg/bg/events/tahoma-da-homies-8608",
    "src": "bilet",
    "addr": "Ул. Шипка 1"
+  },
+  {
+   "name": "Cathartica Fest 2026",
+   "venue": "НДК Зала 1",
+   "lat": 42.6866,
+   "lon": 23.319,
+   "cap": 3380,
+   "start": "2026-09-04T14:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/cathartica-fest-2026-8198",
+   "src": "bilet",
+   "addr": "София, ул. \"Емил Берсински\" №5, Sofia, Bulgaria"
   },
   {
    "name": "Trio Mandili Maimunarnika- Sofia",
