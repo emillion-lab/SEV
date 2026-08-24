@@ -1,55 +1,12 @@
 {
- "generated": "2026-08-20T05:37:15.011435+00:00",
- "count": 48,
+ "generated": "2026-08-24T05:43:38.845345+00:00",
+ "count": 51,
  "sources_ok": [
   "arena",
   "bilet",
   "ndk"
  ],
  "events": [
-  {
-   "name": "BACK TO THE 90’s & 2000’s",
-   "venue": "Paradise Center",
-   "lat": 42.6607,
-   "lon": 23.3122,
-   "cap": 2000,
-   "start": "2026-08-20T18:30:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/back-to-the-90s-2000s-8397",
-   "src": "bilet",
-   "addr": "бул. Черни връх 100"
-  },
-  {
-   "name": "Стендъп на Хижа Септември // 20 Август 2026",
-   "venue": "Хижа Септември (Витоша)",
-   "lat": 42.5872,
-   "lon": 23.2905,
-   "cap": 500,
-   "start": "2026-08-20T20:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/stendup-na-hizha-septemvri-20-avgust-2026-8624",
-   "src": "bilet",
-   "addr": "Витоша"
-  },
-  {
-   "name": "Aliens in the Park vol.2 with Cristina Lazic at Vidas Art Arena",
-   "venue": "Vidas Art Arena",
-   "lat": 42.669,
-   "lon": 23.376,
-   "cap": 1500,
-   "start": "2026-08-22T16:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/aliens-in-the-park-vol2-with-cristina-lazic-at-vidas-art-arena-8480",
-   "src": "bilet",
-   "addr": "Борисова градина, 1164 София"
-  },
-  {
-   "name": "Скритите съкровища на Двореца",
-   "venue": "НДК Зала 1",
-   "lat": 42.6847,
-   "lon": 23.3188,
-   "cap": 3380,
-   "start": "2026-08-22T19:00:00+03:00",
-   "url": "",
-   "src": "ndk"
-  },
   {
    "name": "MONA LIVE @ MAIMUNARNIKA | Sofia | 28.08",
    "venue": "Маймунарника",
@@ -82,6 +39,17 @@
    "url": "https://www.bilet.bg/bg/events/devbg-all-in-one-2026-7934",
    "src": "bilet",
    "addr": "бул. Цариградско шосе 147"
+  },
+  {
+   "name": "Загс",
+   "venue": "SOHO",
+   "lat": 42.6641527,
+   "lon": 23.2881605,
+   "cap": 500,
+   "start": "2026-08-29T19:40:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/zags-8574",
+   "src": "bilet",
+   "addr": "София Център, ул. \"Искър\" 4, 1000 София"
   },
   {
    "name": "IMERA vs DIZASTER",
@@ -144,6 +112,27 @@
    "lon": 23.3188,
    "cap": 3380,
    "start": "2026-09-02T19:00:00+03:00",
+   "url": "",
+   "src": "ndk"
+  },
+  {
+   "name": "Cathartica Fest 2026",
+   "venue": "НДК Зала 1",
+   "lat": 42.6866,
+   "lon": 23.319,
+   "cap": 3380,
+   "start": "2026-09-04T14:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/cathartica-fest-2026-8198",
+   "src": "bilet",
+   "addr": "София, ул. \"Емил Берсински\" №5, Sofia, Bulgaria"
+  },
+  {
+   "name": "Скритите съкровища на Двореца",
+   "venue": "НДК Зала 1",
+   "lat": 42.6847,
+   "lon": 23.3188,
+   "cap": 3380,
+   "start": "2026-09-05T19:00:00+03:00",
    "url": "",
    "src": "ndk"
   },
@@ -276,7 +265,7 @@
    "lat": 42.6668,
    "lon": 23.376,
    "cap": 1500,
-   "start": "2026-09-24T10:00:00+03:00",
+   "start": "2026-09-24T09:00:00+03:00",
    "url": "https://www.bilet.bg/bg/events/blockchain-week-bulgaria-7678",
    "src": "bilet",
    "addr": "бул. Цариградско шосе 111Г, 1784 м. Къро"
@@ -425,6 +414,17 @@
    "addr": "1407 Hladilnika, Sofia"
   },
   {
+   "name": "ЖИВИ ДИНОЗАВРИ - В търсене на яйцето - София",
+   "venue": "Асикс Арена",
+   "lat": 42.669,
+   "lon": 23.3757,
+   "cap": 4000,
+   "start": "2026-10-17T13:30:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/zhivi-dinozavri-v-tursene-na-aytseto-sofia-7913",
+   "src": "bilet",
+   "addr": "Ул. Манастирска 35, кв. Гео Милев, София 1111"
+  },
+  {
    "name": "Frozen Heart Sofia",
    "venue": "Асикс Арена",
    "lat": 42.669,
@@ -456,6 +456,17 @@
    "src": "arena"
   },
   {
+   "name": "DARA - Live",
+   "venue": "Пиротска 5",
+   "lat": 42.6987,
+   "lon": 23.3195,
+   "cap": 600,
+   "start": "2026-10-30T19:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/dara-live-7499",
+   "src": "bilet",
+   "addr": "Ул. Пиротска 5 1000 София Център"
+  },
+  {
    "name": "КУ-КУ БЕНД И ИВАНА ПРЕДСТАВЯТ: “ШАМПАНСКО И СЪЛЗИ”",
    "venue": "Арена 8888 София",
    "lat": 42.67137,
@@ -472,6 +483,26 @@
    "lon": 23.36932,
    "cap": 12000,
    "start": "2026-11-02T20:00:00+03:00",
+   "url": "",
+   "src": "arena"
+  },
+  {
+   "name": "Велика България - Зората",
+   "venue": "Арена 8888 София",
+   "lat": 42.67137,
+   "lon": 23.36932,
+   "cap": 12000,
+   "start": "2026-11-06T20:00:00+03:00",
+   "url": "",
+   "src": "arena"
+  },
+  {
+   "name": "URIAH HEEP",
+   "venue": "Арена 8888 София",
+   "lat": 42.67137,
+   "lon": 23.36932,
+   "cap": 12000,
+   "start": "2026-11-07T20:00:00+03:00",
    "url": "",
    "src": "arena"
   },
