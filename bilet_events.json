@@ -1,7 +1,7 @@
 {
  "source": "bilet.bg",
- "generated": "2026-08-23T16:48:33.353935",
- "count": 28,
+ "generated": "2026-08-24T05:07:30.222959",
+ "count": 29,
  "events": [
   {
    "name": "Влюбени срещу Женени // 26.08 // Rooftop59",
@@ -277,6 +277,17 @@
    "url": "https://www.bilet.bg/bg/events/frozen-heart-sofia-7459",
    "src": "bilet",
    "addr": "Ул. Манастирска 35, кв. Гео Милев, София 1111"
+  },
+  {
+   "name": "DARA - Live",
+   "venue": "Пиротска 5",
+   "lat": 42.6987,
+   "lon": 23.3195,
+   "cap": 600,
+   "start": "2026-10-30T19:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/dara-live-7499",
+   "src": "bilet",
+   "addr": "Ул. Пиротска 5 1000 София Център"
   },
   {
    "name": "SofiaTalks Business Bootcamp 2026",
