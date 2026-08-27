@@ -1,7 +1,7 @@
 {
  "source": "bilet.bg",
- "generated": "2026-08-27T15:21:21.368549",
- "count": 29,
+ "generated": "2026-08-27T16:19:59.507709",
+ "count": 30,
  "events": [
   {
    "name": "Meet me on the Rooftop - Part 3 - Singles of Sofia Birthday",
@@ -123,6 +123,17 @@
    "url": "https://www.bilet.bg/bg/events/cathartica-fest-2026-8198",
    "src": "bilet",
    "addr": "София, ул. \"Емил Берсински\" №5, Sofia, Bulgaria"
+  },
+  {
+   "name": "Urban Gatherings x SAKÉ @ Nu Boyana NYC, Sofia",
+   "venue": "Киноцентър Бояна",
+   "lat": 42.6404763,
+   "lon": 23.292825,
+   "cap": 500,
+   "start": "2026-09-12T14:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/urban-gatherings-x-sake-at-nu-boyana-nyc-sofia-8677",
+   "src": "bilet",
+   "addr": "Драгалевци, Киноцентър Бояна "
   },
   {
    "name": "REFLECTIONS on the Roof",

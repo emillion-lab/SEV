@@ -1,12 +1,23 @@
 {
- "generated": "2026-08-24T05:43:38.845345+00:00",
- "count": 51,
+ "generated": "2026-08-27T16:19:59.588263+00:00",
+ "count": 59,
  "sources_ok": [
   "arena",
   "bilet",
-  "ndk"
+  "ndk",
+  "theatre"
  ],
  "events": [
+  {
+   "name": "„Любовта е лудост“ отново събира света на киното във Варна",
+   "venue": "НДК Зала 1",
+   "lat": 42.6847,
+   "lon": 23.3188,
+   "cap": 3380,
+   "start": "2026-08-27T19:00:00+03:00",
+   "url": "",
+   "src": "ndk"
+  },
   {
    "name": "MONA LIVE @ MAIMUNARNIKA | Sofia | 28.08",
    "venue": "Маймунарника",
@@ -28,17 +39,6 @@
    "url": "https://www.bilet.bg/bg/events/k-pop-night-with-mary-jangmi-club-mixtape-5-2808-8598",
    "src": "bilet",
    "addr": "bul. Bulgaria, podlez Galeriya, bulevard \"Cherni vrah\", 1142 Sofia"
-  },
-  {
-   "name": "DEV.BG All in One 2026",
-   "venue": "Интер Експо Център",
-   "lat": 42.652,
-   "lon": 23.376,
-   "cap": 3000,
-   "start": "2026-08-29T08:30:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/devbg-all-in-one-2026-7934",
-   "src": "bilet",
-   "addr": "бул. Цариградско шосе 147"
   },
   {
    "name": "Загс",
@@ -137,6 +137,56 @@
    "src": "ndk"
   },
   {
+   "name": "СЪН В ЛЯТНА НОЩ",
+   "venue": "Младежки театър Николай Бинев",
+   "lat": 42.69777,
+   "lon": 23.32685,
+   "cap": 450,
+   "start": "2026-09-08T19:00:00+03:00",
+   "url": "",
+   "src": "theatre"
+  },
+  {
+   "name": "ДРУГ ЧОВЕК",
+   "venue": "Театрална работилница Сфумато",
+   "lat": 42.6907,
+   "lon": 23.3418,
+   "cap": 300,
+   "start": "2026-09-08T19:00:00+03:00",
+   "url": "",
+   "src": "theatre"
+  },
+  {
+   "name": "ЛЮБОВ И ДРУГИ АВАРИИ",
+   "venue": "Театър София",
+   "lat": 42.6839,
+   "lon": 23.3359,
+   "cap": 500,
+   "start": "2026-09-09T19:00:00+03:00",
+   "url": "",
+   "src": "theatre"
+  },
+  {
+   "name": "ВИНО ОТ ГЛУХАРЧЕТА",
+   "venue": "Младежки театър Николай Бинев",
+   "lat": 42.69777,
+   "lon": 23.32685,
+   "cap": 450,
+   "start": "2026-09-09T19:00:00+03:00",
+   "url": "",
+   "src": "theatre"
+  },
+  {
+   "name": "ВСИЧКО НА МАСАТА",
+   "venue": "Театрална работилница Сфумато",
+   "lat": 42.6907,
+   "lon": 23.3418,
+   "cap": 300,
+   "start": "2026-09-09T19:00:00+03:00",
+   "url": "",
+   "src": "theatre"
+  },
+  {
    "name": "Европейско първенство по волейбол 2026",
    "venue": "Арена 8888 София",
    "lat": 42.67137,
@@ -157,15 +207,15 @@
    "src": "arena"
   },
   {
-   "name": "Trio Mandili Maimunarnika- Sofia",
-   "venue": "Маймунарника",
-   "lat": 42.6830551,
-   "lon": 23.3426429,
+   "name": "Urban Gatherings x SAKÉ @ Nu Boyana NYC, Sofia",
+   "venue": "Киноцентър Бояна",
+   "lat": 42.6404763,
+   "lon": 23.292825,
    "cap": 500,
-   "start": "2026-09-11T20:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/trio-mandili-maimunarnika-sofia-7852",
+   "start": "2026-09-12T14:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/urban-gatherings-x-sake-at-nu-boyana-nyc-sofia-8677",
    "src": "bilet",
-   "addr": "София, Алеята над колодрума, Колодрум Сердика, 1164 Sofia"
+   "addr": "Драгалевци, Киноцентър Бояна "
   },
   {
    "name": "REFLECTIONS on the Roof",
@@ -248,6 +298,16 @@
    "start": "2026-09-15T20:00:00+03:00",
    "url": "",
    "src": "arena"
+  },
+  {
+   "name": "ГАЛА КОНЦЕРТ ЗА ПОП И РОК МУЗИКА – СОФИЯ 2026",
+   "venue": "НДК Зала 1",
+   "lat": 42.6847,
+   "lon": 23.3188,
+   "cap": 3380,
+   "start": "2026-09-16T19:00:00+03:00",
+   "url": "",
+   "src": "ndk"
   },
   {
    "name": "Акира Куросава: Рашомон (1950)",
@@ -348,16 +408,6 @@
    "lon": 23.3188,
    "cap": 3380,
    "start": "2026-10-03T19:00:00+03:00",
-   "url": "",
-   "src": "ndk"
-  },
-  {
-   "name": "Пак Чан-ук: Слугинята (2016)",
-   "venue": "НДК Зала 1",
-   "lat": 42.6847,
-   "lon": 23.3188,
-   "cap": 3380,
-   "start": "2026-10-04T19:00:00+03:00",
    "url": "",
    "src": "ndk"
   },
@@ -507,6 +557,17 @@
    "src": "arena"
   },
   {
+   "name": "BRAND TALKs 2026",
+   "venue": "Joy Station",
+   "lat": 42.67,
+   "lon": 23.352,
+   "cap": 1500,
+   "start": "2026-11-10T10:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/brand-talks-2026-8449",
+   "src": "bilet",
+   "addr": "Студентски град, ул. \"Акад. Стефан Младенов\" 3"
+  },
+  {
    "name": "Последни публикации",
    "venue": "Арена 8888 София",
    "lat": 42.67137,
@@ -515,6 +576,27 @@
    "start": "2026-11-10T20:00:00+03:00",
    "url": "",
    "src": "arena"
+  },
+  {
+   "name": "CECA",
+   "venue": "Арена 8888 София",
+   "lat": 42.67137,
+   "lon": 23.36932,
+   "cap": 12000,
+   "start": "2026-11-10T20:00:00+03:00",
+   "url": "",
+   "src": "arena"
+  },
+  {
+   "name": "The Italian Jazz Band",
+   "venue": "НДК",
+   "lat": 42.6866,
+   "lon": 23.319,
+   "cap": 3380,
+   "start": "2026-11-14T19:30:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/the-italian-jazz-band-8641",
+   "src": "bilet",
+   "addr": "НДК, бул. България 1, 1000 София"
   },
   {
    "name": "SofiaTalks Business Bootcamp 2026",
