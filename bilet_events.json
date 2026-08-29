@@ -1,30 +1,8 @@
 {
  "source": "bilet.bg",
- "generated": "2026-08-29T11:12:12.215905",
- "count": 27,
+ "generated": "2026-08-29T19:27:35.196040",
+ "count": 25,
  "events": [
-  {
-   "name": "BLVKCAT rooftop w/ wAFFF, Season closing, Barter hub roof, Sofia open air day",
-   "venue": "Barter Rooftop",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2026-08-29T15:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/blvkcat-rooftop-w-wafff-season-closing-barter-hub-roof-sofia-open-air-day-8498",
-   "src": "bilet",
-   "addr": "бул. Черни връх, Rooftop, бул. Черни връх, 1407 София"
-  },
-  {
-   "name": "Загс",
-   "venue": "SOHO",
-   "lat": 42.6641527,
-   "lon": 23.2881605,
-   "cap": 500,
-   "start": "2026-08-29T19:40:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/zags-8574",
-   "src": "bilet",
-   "addr": "София Център, ул. \"Искър\" 4, 1000 София"
-  },
   {
    "name": "IMERA vs DIZASTER",
    "venue": "Mixtape 5",
