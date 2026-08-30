@@ -1,19 +1,8 @@
 {
  "source": "bilet.bg",
- "generated": "2026-08-29T19:27:35.196040",
- "count": 25,
+ "generated": "2026-08-30T10:00:32.550966",
+ "count": 26,
  "events": [
-  {
-   "name": "IMERA vs DIZASTER",
-   "venue": "Mixtape 5",
-   "lat": 42.6866,
-   "lon": 23.319,
-   "cap": 900,
-   "start": "2026-08-29T20:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/imera-vs-dizaster-8396",
-   "src": "bilet",
-   "addr": "bul. Bulgaria, podlez Galeriya, bulevard \"Cherni vrah\", 1142 Sofia"
-  },
   {
    "name": "FORGIVE ME, MONDAY - PEPPOU x ARDA x SPASSOTO",
    "venue": "Bar Soda",
@@ -59,6 +48,17 @@
    "addr": "Ул. Шипка 1"
   },
   {
+   "name": "РУШИ LIVE @ Maimunarnika",
+   "venue": "Маймунарника",
+   "lat": 42.6830551,
+   "lon": 23.3426429,
+   "cap": 500,
+   "start": "2026-09-03T20:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/rushi-live-at-maimunarnika-8482",
+   "src": "bilet",
+   "addr": "София, Алеята над колодрума, Колодрум Сердика, 1164 Sofia"
+  },
+  {
    "name": "Cathartica Fest 2026",
    "venue": "НДК Зала 1",
    "lat": 42.6866,
@@ -68,6 +68,17 @@
    "url": "https://www.bilet.bg/bg/events/cathartica-fest-2026-8198",
    "src": "bilet",
    "addr": "София, ул. \"Емил Берсински\" №5, Sofia, Bulgaria"
+  },
+  {
+   "name": "Jason Detox at Networking Premium Rooftop",
+   "venue": "Networking Premium (Гурко 16)",
+   "lat": 42.6919,
+   "lon": 23.326,
+   "cap": 500,
+   "start": "2026-09-05T16:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/jason-detox-at-networking-premium-rooftop-8676",
+   "src": "bilet",
+   "addr": "София Център, ул. Генерал Гурко 16, 1000 София"
   },
   {
    "name": "Urban Gatherings x SAKÉ @ Nu Boyana NYC, Sofia",
