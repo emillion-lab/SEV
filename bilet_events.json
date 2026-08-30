@@ -1,7 +1,7 @@
 {
  "source": "bilet.bg",
- "generated": "2026-08-30T10:00:32.550966",
- "count": 26,
+ "generated": "2026-08-30T19:22:22.971092",
+ "count": 24,
  "events": [
   {
    "name": "FORGIVE ME, MONDAY - PEPPOU x ARDA x SPASSOTO",
@@ -15,17 +15,6 @@
    "addr": "Ndk, Bulgaria Blvd 2, 1463 Sofia"
   },
   {
-   "name": "Nightmares on Wax",
-   "venue": "Малката Текила",
-   "lat": 42.695,
-   "lon": 23.328,
-   "cap": 400,
-   "start": "2026-08-30T20:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/nightmares-on-wax-8546",
-   "src": "bilet",
-   "addr": "ул. \"6-ти септември\" 1000 4, 1000 София Център, София"
-  },
-  {
    "name": "SLOW JAMZ at BAR GATTO",
    "venue": "Bar Gatto",
    "lat": 42.6907,
@@ -35,17 +24,6 @@
    "url": "https://www.bilet.bg/bg/events/slow-jamz-at-bar-gatto-8628",
    "src": "bilet",
    "addr": "София Център, ул. Московска 6, 6 А, 1000 София"
-  },
-  {
-   "name": "Тахома & Da Homies",
-   "venue": "бар NOMO del Arte",
-   "lat": 42.6947259,
-   "lon": 23.3342231,
-   "cap": 500,
-   "start": "2026-08-30T20:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/tahoma-da-homies-8608",
-   "src": "bilet",
-   "addr": "Ул. Шипка 1"
   },
   {
    "name": "РУШИ LIVE @ Maimunarnika",
