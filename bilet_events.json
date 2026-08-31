@@ -1,6 +1,6 @@
 {
  "source": "bilet.bg",
- "generated": "2026-08-31T11:30:49.897772",
+ "generated": "2026-08-31T21:31:41.688212",
  "count": 24,
  "events": [
   {
@@ -24,6 +24,17 @@
    "url": "https://www.bilet.bg/bg/events/rushi-live-at-maimunarnika-8482",
    "src": "bilet",
    "addr": "София, Алеята над колодрума, Колодрум Сердика, 1164 Sofia"
+  },
+  {
+   "name": "Русита @ NOMO del Arte",
+   "venue": "бар NOMO del Arte",
+   "lat": 42.6947259,
+   "lon": 23.3342231,
+   "cap": 500,
+   "start": "2026-09-03T20:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/rusita-at-nomo-del-arte-8627",
+   "src": "bilet",
+   "addr": "Ул. Шипка 1"
   },
   {
    "name": "Cathartica Fest 2026",
@@ -145,17 +156,6 @@
    "url": "https://www.bilet.bg/bg/events/disrupthr-sofia-vol7-stari-vremena-8254",
    "src": "bilet",
    "addr": "Студентски град, ул. \"Акад. Стефан Младенов\" 3"
-  },
-  {
-   "name": "MAYHEM: Death Over Europe Tour",
-   "venue": "Зала Христо Ботев Студентски Град",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2026-10-09T19:30:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/mayhem-death-over-europe-tour-8484",
-   "src": "bilet",
-   "addr": "Studentski Kompleks, ж.к. Студентски град 26, 1700 Sofia"
   },
   {
    "name": "ISTA Conference 2026- Fest Edition",
