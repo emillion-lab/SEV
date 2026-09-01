@@ -1,6 +1,6 @@
 {
  "source": "bilet.bg",
- "generated": "2026-09-01T09:31:19.006090",
+ "generated": "2026-09-01T19:28:52.652591",
  "count": 37,
  "events": [
   {
@@ -79,17 +79,6 @@
    "url": "https://www.bilet.bg/bg/events/party-cannon-live-in-sofia-7495",
    "src": "bilet",
    "addr": "Булевард \"Илиянци\" 1И"
-  },
-  {
-   "name": "THE RUMJACKS live in Sofia (Celtic Irish Folk Punk)",
-   "venue": "Mixtape 5",
-   "lat": 42.6866,
-   "lon": 23.319,
-   "cap": 900,
-   "start": "2026-09-05T20:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/the-rumjacks-live-in-sofia-celtic-irish-folk-punk-8168",
-   "src": "bilet",
-   "addr": "bul. Bulgaria, podlez Galeriya, bulevard \"Cherni vrah\", 1142 Sofia"
   },
   {
    "name": "Sunday Soda w/ Bagerziev",
@@ -321,6 +310,17 @@
    "url": "https://www.bilet.bg/bg/events/disrupthr-sofia-vol7-stari-vremena-8254",
    "src": "bilet",
    "addr": "Студентски град, ул. \"Акад. Стефан Младенов\" 3"
+  },
+  {
+   "name": "MAYHEM: Death Over Europe Tour",
+   "venue": "Зала Христо Ботев Студентски Град",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-10-09T19:30:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/mayhem-death-over-europe-tour-8484",
+   "src": "bilet",
+   "addr": "Studentski Kompleks, ж.к. Студентски град 26, 1700 Sofia"
   },
   {
    "name": "ISTA Conference 2026- Fest Edition",
