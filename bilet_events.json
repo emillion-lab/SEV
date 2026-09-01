@@ -1,7 +1,7 @@
 {
  "source": "bilet.bg",
- "generated": "2026-08-31T21:31:41.688212",
- "count": 24,
+ "generated": "2026-09-01T09:31:19.006090",
+ "count": 37,
  "events": [
   {
    "name": "Nadja (CA) - дрон дуум легендите с концерт в София",
@@ -37,6 +37,17 @@
    "addr": "Ул. Шипка 1"
   },
   {
+   "name": "Стендъп на Хижа Септември // 3 Септември 2026",
+   "venue": "Хижа Септември (Витоша)",
+   "lat": 42.5872,
+   "lon": 23.2905,
+   "cap": 500,
+   "start": "2026-09-03T20:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/stendup-na-hizha-septemvri-3-septemvri-2026-8646",
+   "src": "bilet",
+   "addr": "Витоша"
+  },
+  {
    "name": "Cathartica Fest 2026",
    "venue": "НДК Зала 1",
    "lat": 42.6866,
@@ -59,6 +70,50 @@
    "addr": "София Център, ул. Генерал Гурко 16, 1000 София"
   },
   {
+   "name": "PARTY CANNON live in Sofia",
+   "venue": "Клуб \"При Черепите\"",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-09-05T18:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/party-cannon-live-in-sofia-7495",
+   "src": "bilet",
+   "addr": "Булевард \"Илиянци\" 1И"
+  },
+  {
+   "name": "THE RUMJACKS live in Sofia (Celtic Irish Folk Punk)",
+   "venue": "Mixtape 5",
+   "lat": 42.6866,
+   "lon": 23.319,
+   "cap": 900,
+   "start": "2026-09-05T20:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/the-rumjacks-live-in-sofia-celtic-irish-folk-punk-8168",
+   "src": "bilet",
+   "addr": "bul. Bulgaria, podlez Galeriya, bulevard \"Cherni vrah\", 1142 Sofia"
+  },
+  {
+   "name": "Sunday Soda w/ Bagerziev",
+   "venue": "Bar Soda",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-09-06T18:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/sunday-soda-w-bagerziev-8681",
+   "src": "bilet",
+   "addr": "Ndk, Bulgaria Blvd 2, 1463 Sofia"
+  },
+  {
+   "name": "Първи ход: твоята кариера с Христина Иванова - ОНЛАЙН",
+   "venue": "M3 Communications",
+   "lat": 42.668648,
+   "lon": 23.2905689,
+   "cap": 500,
+   "start": "2026-09-08T17:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/purvi-hod-tvoata-kariera-s-hristina-ivanova-onlayn-8576",
+   "src": "bilet",
+   "addr": "бул. „България“ 60, 1680 София"
+  },
+  {
    "name": "Cotton Candy Sofia 💖🎠",
    "venue": "Carrusel Club",
    "lat": null,
@@ -70,15 +125,26 @@
    "addr": "Ул. Георги С. Раковски 108"
   },
   {
-   "name": "Urban Gatherings x SAKÉ @ Nu Boyana NYC, Sofia",
-   "venue": "Киноцентър Бояна",
-   "lat": 42.6404763,
-   "lon": 23.292825,
+   "name": "Moodymann with DANILO PLESSOW, a.k.a. MCDE",
+   "venue": "Ангел Кънчев 1",
+   "lat": 42.6931533,
+   "lon": 23.3226344,
    "cap": 500,
-   "start": "2026-09-12T14:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/urban-gatherings-x-sake-at-nu-boyana-nyc-sofia-8677",
+   "start": "2026-09-11T22:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/moodymann-with-danilo-plessow-aka-mcde-8547",
    "src": "bilet",
-   "addr": "Драгалевци, Киноцентър Бояна "
+   "addr": "ул. Ангел Кънчев 1"
+  },
+  {
+   "name": "HOT ROOM ft. SAVA",
+   "venue": "Sofia - Secret Location",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-09-11T23:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/hot-room-ft-sava-8685",
+   "src": "bilet",
+   "addr": ""
   },
   {
    "name": "REFLECTIONS on the Roof",
@@ -92,6 +158,39 @@
    "addr": "София Център, ул. Генерал Гурко 16, 1000 София"
   },
   {
+   "name": "Secret crush ONE LAST SWIM",
+   "venue": "Cherry Club",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-09-12T17:30:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/secret-crush-one-last-swim-8658",
+   "src": "bilet",
+   "addr": "Камбаните, ул. Самоковско шосе. 9011, 1138 Панчарево"
+  },
+  {
+   "name": "Икигай Вечер",
+   "venue": "Японски културен център Кокоро",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-09-12T18:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/ikigay-vecher-8379",
+   "src": "bilet",
+   "addr": "ул. „Хайдушка Поляна“ 57-58"
+  },
+  {
+   "name": "\"ИИ или ти? Деактивирай човека!\"",
+   "venue": "Арт зала Хайтов",
+   "lat": 42.6753427,
+   "lon": 23.3575957,
+   "cap": 500,
+   "start": "2026-09-13T19:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/ii-ili-ti-deaktiviray-choveka-8620",
+   "src": "bilet",
+   "addr": "ул. Ю. Гагарин 7"
+  },
+  {
    "name": "Нова черга от стари нишки",
    "venue": "Лятна сцена - езеро Панчарево",
    "lat": null,
@@ -103,6 +202,39 @@
    "addr": "82 чл., 1137 Панчарево"
   },
   {
+   "name": "BULLDOZE live in Sofia",
+   "venue": "Grindhouse",
+   "lat": 42.6813722,
+   "lon": 23.3534279,
+   "cap": 500,
+   "start": "2026-09-14T19:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/bulldoze-live-in-sofia-8639",
+   "src": "bilet",
+   "addr": "Бул. Цариградско шосе 73, ж.к. Яворов"
+  },
+  {
+   "name": "\"ИИ или ти? Деактивирай човека!\"",
+   "venue": "Славянска беседа",
+   "lat": 42.6935552,
+   "lon": 23.3284407,
+   "cap": 500,
+   "start": "2026-09-14T19:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/ii-ili-ti-deaktiviray-choveka-8512",
+   "src": "bilet",
+   "addr": "София Център, ул. Георги С. Раковски 127, 1000 София"
+  },
+  {
+   "name": "FRENZEE/ GRIM RHYTHM Live in Sofia/ Mixtape 5/ Threechords",
+   "venue": "Mixtape 5",
+   "lat": 42.6866,
+   "lon": 23.319,
+   "cap": 900,
+   "start": "2026-09-14T20:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/frenzee-grim-rhythm-live-in-sofia-mixtape-5-threechords-8272",
+   "src": "bilet",
+   "addr": "bul. Bulgaria, podlez Galeriya, bulevard \"Cherni vrah\", 1142 Sofia"
+  },
+  {
    "name": "KARD Europe Tour 2026",
    "venue": "Парк център Юнак",
    "lat": 42.686293,
@@ -112,6 +244,39 @@
    "url": "https://www.bilet.bg/bg/events/kard-europe-tour-2026-8347",
    "src": "bilet",
    "addr": "бул. Евлоги и Христо Георгиеви 34"
+  },
+  {
+   "name": "Керана и Космонавтите на живо в Маймунарника / 16.09",
+   "venue": "Маймунарника",
+   "lat": 42.6830551,
+   "lon": 23.3426429,
+   "cap": 500,
+   "start": "2026-09-16T19:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/kerana-i-kosmonavtite-na-zhivo-v-maymunarnika-1609-8585",
+   "src": "bilet",
+   "addr": "София, Алеята над колодрума, Колодрум Сердика, 1164 Sofia"
+  },
+  {
+   "name": "Ogi23 @ NOMO del Arte",
+   "venue": "бар NOMO del Arte",
+   "lat": 42.6947259,
+   "lon": 23.3342231,
+   "cap": 500,
+   "start": "2026-09-17T20:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/ogi23-at-nomo-del-arte-8680",
+   "src": "bilet",
+   "addr": "Ул. Шипка 1"
+  },
+  {
+   "name": "Импровизационен спектакъл „Чай за двама“",
+   "venue": "Театър Оз",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-09-18T19:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/improvizatsionen-spektakul-chay-za-dvama-8635",
+   "src": "bilet",
+   "addr": "ул. Леге 10"
   },
   {
    "name": "Blockchain Week Bulgaria",
@@ -167,17 +332,6 @@
    "url": "https://www.bilet.bg/bg/events/ista-conference-2026-fest-edition-7690",
    "src": "bilet",
    "addr": "1407 Hladilnika, Sofia"
-  },
-  {
-   "name": "ЖИВИ ДИНОЗАВРИ - В търсене на яйцето - София",
-   "venue": "Асикс Арена",
-   "lat": 42.669,
-   "lon": 23.3757,
-   "cap": 4000,
-   "start": "2026-10-17T13:30:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/zhivi-dinozavri-v-tursene-na-aytseto-sofia-7913",
-   "src": "bilet",
-   "addr": "Ул. Манастирска 35, кв. Гео Милев, София 1111"
   },
   {
    "name": "Frozen Heart Sofia",
@@ -244,17 +398,6 @@
    "url": "https://www.bilet.bg/bg/events/mihaela-marinova-kontsert-chast-ot-programata-salon-na-izkustvata-esen-2026-ndk-8184",
    "src": "bilet",
    "addr": "Площад България 1"
-  },
-  {
-   "name": "U.D.O. - TRIPLE ANNIVERSARY Tour 2027",
-   "venue": "Зала Христо Ботев Студентски Град",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2027-02-04T20:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/udo-triple-anniversary-tour-2027-8085",
-   "src": "bilet",
-   "addr": "Studentski Kompleks, ж.к. Студентски град 26, 1700 Sofia"
   },
   {
    "name": "TARJA: FRISSON LIVE 2027 - Sofia",
