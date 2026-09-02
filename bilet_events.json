@@ -1,7 +1,7 @@
 {
  "source": "bilet.bg",
- "generated": "2026-09-01T19:28:52.652591",
- "count": 37,
+ "generated": "2026-09-02T08:53:51.927991",
+ "count": 36,
  "events": [
   {
    "name": "Nadja (CA) - дрон дуум легендите с концерт в София",
@@ -136,6 +136,17 @@
    "addr": ""
   },
   {
+   "name": "Legion Inflatable Family Run - Sofia",
+   "venue": "парк Гео Милев",
+   "lat": 42.6866812,
+   "lon": 23.3629065,
+   "cap": 500,
+   "start": "2026-09-12T10:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/legion-inflatable-family-run-sofia-7813",
+   "src": "bilet",
+   "addr": "гр. София, ж.к. Гео Милев, 1111 Sofia"
+  },
+  {
    "name": "REFLECTIONS on the Roof",
    "venue": "Networking Premium (Гурко 16)",
    "lat": 42.6919,
@@ -257,17 +268,6 @@
    "addr": "Ул. Шипка 1"
   },
   {
-   "name": "Импровизационен спектакъл „Чай за двама“",
-   "venue": "Театър Оз",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2026-09-18T19:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/improvizatsionen-spektakul-chay-za-dvama-8635",
-   "src": "bilet",
-   "addr": "ул. Леге 10"
-  },
-  {
    "name": "Blockchain Week Bulgaria",
    "venue": "София Тех Парк",
    "lat": 42.6668,
@@ -365,17 +365,6 @@
    "url": "https://www.bilet.bg/bg/events/brand-talks-2026-8449",
    "src": "bilet",
    "addr": "Студентски град, ул. \"Акад. Стефан Младенов\" 3"
-  },
-  {
-   "name": "The Italian Jazz Band",
-   "venue": "НДК",
-   "lat": 42.6866,
-   "lon": 23.319,
-   "cap": 3380,
-   "start": "2026-11-14T19:30:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/the-italian-jazz-band-8641",
-   "src": "bilet",
-   "addr": "НДК, бул. България 1, 1000 София"
   },
   {
    "name": "SofiaTalks Business Bootcamp 2026",
