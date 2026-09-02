@@ -1,19 +1,8 @@
 {
  "source": "bilet.bg",
- "generated": "2026-09-02T08:53:51.927991",
- "count": 36,
+ "generated": "2026-09-02T19:27:25.702289",
+ "count": 37,
  "events": [
-  {
-   "name": "Nadja (CA) - дрон дуум легендите с концерт в София",
-   "venue": "клуб Паве",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2026-09-02T20:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/nadja-ca-dron-duum-legendite-s-kontsert-v-sofia-8065",
-   "src": "bilet",
-   "addr": "пл. Славейков 4"
-  },
   {
    "name": "РУШИ LIVE @ Maimunarnika",
    "venue": "Маймунарника",
@@ -180,6 +169,17 @@
    "addr": "ул. „Хайдушка Поляна“ 57-58"
   },
   {
+   "name": "SODA SUNDAYS x RADIO NOVA",
+   "venue": "Bar Soda",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-09-13T18:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/soda-sundays-x-radio-nova-8704",
+   "src": "bilet",
+   "addr": "Ndk, Bulgaria Blvd 2, 1463 Sofia"
+  },
+  {
    "name": "\"ИИ или ти? Деактивирай човека!\"",
    "venue": "Арт зала Хайтов",
    "lat": 42.6753427,
@@ -266,6 +266,17 @@
    "url": "https://www.bilet.bg/bg/events/ogi23-at-nomo-del-arte-8680",
    "src": "bilet",
    "addr": "Ул. Шипка 1"
+  },
+  {
+   "name": "Импровизационен спектакъл „Чай за двама“",
+   "venue": "Театър Оз",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-09-18T19:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/improvizatsionen-spektakul-chay-za-dvama-8635",
+   "src": "bilet",
+   "addr": "ул. Леге 10"
   },
   {
    "name": "Blockchain Week Bulgaria",
