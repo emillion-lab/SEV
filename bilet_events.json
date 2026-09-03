@@ -1,41 +1,8 @@
 {
  "source": "bilet.bg",
- "generated": "2026-09-03T09:35:19.281428",
+ "generated": "2026-09-03T19:21:18.971226",
  "count": 37,
  "events": [
-  {
-   "name": "РУШИ LIVE @ Maimunarnika",
-   "venue": "Маймунарника",
-   "lat": 42.6830551,
-   "lon": 23.3426429,
-   "cap": 500,
-   "start": "2026-09-03T20:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/rushi-live-at-maimunarnika-8482",
-   "src": "bilet",
-   "addr": "София, Алеята над колодрума, Колодрум Сердика, 1164 Sofia"
-  },
-  {
-   "name": "Русита @ NOMO del Arte",
-   "venue": "бар NOMO del Arte",
-   "lat": 42.6947259,
-   "lon": 23.3342231,
-   "cap": 500,
-   "start": "2026-09-03T20:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/rusita-at-nomo-del-arte-8627",
-   "src": "bilet",
-   "addr": "Ул. Шипка 1"
-  },
-  {
-   "name": "Стендъп на Хижа Септември // 3 Септември 2026",
-   "venue": "Хижа Септември (Витоша)",
-   "lat": 42.5872,
-   "lon": 23.2905,
-   "cap": 500,
-   "start": "2026-09-03T20:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/stendup-na-hizha-septemvri-3-septemvri-2026-8646",
-   "src": "bilet",
-   "addr": "Витоша"
-  },
   {
    "name": "Cathartica Fest 2026",
    "venue": "НДК Зала 1",
@@ -68,6 +35,17 @@
    "url": "https://www.bilet.bg/bg/events/party-cannon-live-in-sofia-7495",
    "src": "bilet",
    "addr": "Булевард \"Илиянци\" 1И"
+  },
+  {
+   "name": "THE RUMJACKS live in Sofia (Celtic Irish Folk Punk)",
+   "venue": "Mixtape 5",
+   "lat": 42.6866,
+   "lon": 23.319,
+   "cap": 900,
+   "start": "2026-09-05T20:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/the-rumjacks-live-in-sofia-celtic-irish-folk-punk-8168",
+   "src": "bilet",
+   "addr": "bul. Bulgaria, podlez Galeriya, bulevard \"Cherni vrah\", 1142 Sofia"
   },
   {
    "name": "Sunday Soda w/ Bagerziev",
@@ -145,6 +123,17 @@
    "url": "https://www.bilet.bg/bg/events/reflections-on-the-roof-8593",
    "src": "bilet",
    "addr": "София Център, ул. Генерал Гурко 16, 1000 София"
+  },
+  {
+   "name": "Децата на прехода",
+   "venue": "бар NOMO del Arte",
+   "lat": 42.6947259,
+   "lon": 23.3342231,
+   "cap": 500,
+   "start": "2026-09-12T17:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/detsata-na-prehoda-8709",
+   "src": "bilet",
+   "addr": "Ул. Шипка 1"
   },
   {
    "name": "Secret crush ONE LAST SWIM",
@@ -376,6 +365,17 @@
    "url": "https://www.bilet.bg/bg/events/brand-talks-2026-8449",
    "src": "bilet",
    "addr": "Студентски град, ул. \"Акад. Стефан Младенов\" 3"
+  },
+  {
+   "name": "The Italian Jazz Band",
+   "venue": "НДК",
+   "lat": 42.6866,
+   "lon": 23.319,
+   "cap": 3380,
+   "start": "2026-11-14T19:30:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/the-italian-jazz-band-8641",
+   "src": "bilet",
+   "addr": "НДК, бул. България 1, 1000 София"
   },
   {
    "name": "SofiaTalks Business Bootcamp 2026",
