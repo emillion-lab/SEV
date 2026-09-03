@@ -1,6 +1,6 @@
 {
- "generated": "2026-08-31T11:30:49.976383+00:00",
- "count": 78,
+ "generated": "2026-09-03T09:35:19.393668+00:00",
+ "count": 106,
  "sources_ok": [
   "arena",
   "bilet",
@@ -8,16 +8,6 @@
   "theatre"
  ],
  "events": [
-  {
-   "name": "Ингмар Бергман: Персона (1966)",
-   "venue": "НДК Зала 1",
-   "lat": 42.6847,
-   "lon": 23.3188,
-   "cap": 3380,
-   "start": "2026-09-02T19:00:00+03:00",
-   "url": "",
-   "src": "ndk"
-  },
   {
    "name": "РУШИ LIVE @ Maimunarnika",
    "venue": "Маймунарника",
@@ -28,6 +18,28 @@
    "url": "https://www.bilet.bg/bg/events/rushi-live-at-maimunarnika-8482",
    "src": "bilet",
    "addr": "София, Алеята над колодрума, Колодрум Сердика, 1164 Sofia"
+  },
+  {
+   "name": "Русита @ NOMO del Arte",
+   "venue": "бар NOMO del Arte",
+   "lat": 42.6947259,
+   "lon": 23.3342231,
+   "cap": 500,
+   "start": "2026-09-03T20:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/rusita-at-nomo-del-arte-8627",
+   "src": "bilet",
+   "addr": "Ул. Шипка 1"
+  },
+  {
+   "name": "Стендъп на Хижа Септември // 3 Септември 2026",
+   "venue": "Хижа Септември (Витоша)",
+   "lat": 42.5872,
+   "lon": 23.2905,
+   "cap": 500,
+   "start": "2026-09-03T20:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/stendup-na-hizha-septemvri-3-septemvri-2026-8646",
+   "src": "bilet",
+   "addr": "Витоша"
   },
   {
    "name": "Cathartica Fest 2026",
@@ -60,6 +72,17 @@
    "start": "2026-09-05T19:00:00+03:00",
    "url": "",
    "src": "ndk"
+  },
+  {
+   "name": "Първи ход: твоята кариера с Христина Иванова - ОНЛАЙН",
+   "venue": "M3 Communications",
+   "lat": 42.668648,
+   "lon": 23.2905689,
+   "cap": 500,
+   "start": "2026-09-08T17:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/purvi-hod-tvoata-kariera-s-hristina-ivanova-onlayn-8576",
+   "src": "bilet",
+   "addr": "бул. „България“ 60, 1680 София"
   },
   {
    "name": "СЪН В ЛЯТНА НОЩ",
@@ -182,6 +205,28 @@
    "src": "theatre"
   },
   {
+   "name": "Moodymann with DANILO PLESSOW, a.k.a. MCDE",
+   "venue": "Ангел Кънчев 1",
+   "lat": 42.6931533,
+   "lon": 23.3226344,
+   "cap": 500,
+   "start": "2026-09-11T22:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/moodymann-with-danilo-plessow-aka-mcde-8547",
+   "src": "bilet",
+   "addr": "ул. Ангел Кънчев 1"
+  },
+  {
+   "name": "Legion Inflatable Family Run - Sofia",
+   "venue": "парк Гео Милев",
+   "lat": 42.6866812,
+   "lon": 23.3629065,
+   "cap": 500,
+   "start": "2026-09-12T10:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/legion-inflatable-family-run-sofia-7813",
+   "src": "bilet",
+   "addr": "гр. София, ж.к. Гео Милев, 1111 Sofia"
+  },
+  {
    "name": "ГОСПОДИН КАСПЪР И НЕГОВОТО ЩУРО СЕМЕЙСТВО",
    "venue": "Столичен куклен театър",
    "lat": 42.6928,
@@ -190,17 +235,6 @@
    "start": "2026-09-12T11:00:00+03:00",
    "url": "",
    "src": "theatre"
-  },
-  {
-   "name": "Urban Gatherings x SAKÉ @ Nu Boyana NYC, Sofia",
-   "venue": "Киноцентър Бояна",
-   "lat": 42.6404763,
-   "lon": 23.292825,
-   "cap": 500,
-   "start": "2026-09-12T14:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/urban-gatherings-x-sake-at-nu-boyana-nyc-sofia-8677",
-   "src": "bilet",
-   "addr": "Драгалевци, Киноцентър Бояна "
   },
   {
    "name": "ДИВИТЕ ЛЕБЕДИ",
@@ -394,6 +428,17 @@
    "src": "theatre"
   },
   {
+   "name": "\"ИИ или ти? Деактивирай човека!\"",
+   "venue": "Арт зала Хайтов",
+   "lat": 42.6753427,
+   "lon": 23.3575957,
+   "cap": 500,
+   "start": "2026-09-13T19:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/ii-ili-ti-deaktiviray-choveka-8620",
+   "src": "bilet",
+   "addr": "ул. Ю. Гагарин 7"
+  },
+  {
    "name": "България - Украйна",
    "venue": "Арена 8888 София",
    "lat": 42.67137,
@@ -404,6 +449,36 @@
    "src": "arena"
   },
   {
+   "name": "МАЙСТОРСКИ КЛАС",
+   "venue": "Столичен куклен театър",
+   "lat": 42.6928,
+   "lon": 23.3282,
+   "cap": 300,
+   "start": "2026-09-14T10:00:00+03:00",
+   "url": "",
+   "src": "theatre"
+  },
+  {
+   "name": "ТВОРЧЕСКА РАБОТИЛНИЦА ПАНАИР НА КУКЛИТЕ",
+   "venue": "Столичен куклен театър",
+   "lat": 42.6928,
+   "lon": 23.3282,
+   "cap": 300,
+   "start": "2026-09-14T11:00:00+03:00",
+   "url": "",
+   "src": "theatre"
+  },
+  {
+   "name": "80 ГОДИНИ СТОЛИЧЕН КУКЛЕН ТЕАТЪР",
+   "venue": "Столичен куклен театър",
+   "lat": 42.6928,
+   "lon": 23.3282,
+   "cap": 300,
+   "start": "2026-09-14T18:00:00+03:00",
+   "url": "",
+   "src": "theatre"
+  },
+  {
    "name": "KYLE DIXON & MICHAEL STEIN ПРЕДСТАВЯТ МУЗИКАТА ОТ STRANGER THINGS",
    "venue": "НДК Зала 1",
    "lat": 42.6847,
@@ -412,6 +487,119 @@
    "start": "2026-09-14T19:00:00+03:00",
    "url": "",
    "src": "ndk"
+  },
+  {
+   "name": "#АНТИТЪГА",
+   "venue": "Театрална работилница Сфумато",
+   "lat": 42.6907,
+   "lon": 23.3418,
+   "cap": 300,
+   "start": "2026-09-14T19:00:00+03:00",
+   "url": "",
+   "src": "theatre"
+  },
+  {
+   "name": "ПИЕСАТА, КОЯТО СЕ ОБЪРКА",
+   "venue": "Театър Сълза и смях",
+   "lat": 42.6944,
+   "lon": 23.3283,
+   "cap": 300,
+   "start": "2026-09-14T19:00:00+03:00",
+   "url": "",
+   "src": "theatre"
+  },
+  {
+   "name": "80 ГОДИНИ ЛЮБОВ",
+   "venue": "Столичен куклен театър",
+   "lat": 42.6928,
+   "lon": 23.3282,
+   "cap": 300,
+   "start": "2026-09-14T19:00:00+03:00",
+   "url": "",
+   "src": "theatre"
+  },
+  {
+   "name": "BULLDOZE live in Sofia",
+   "venue": "Grindhouse",
+   "lat": 42.6813722,
+   "lon": 23.3534279,
+   "cap": 500,
+   "start": "2026-09-14T19:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/bulldoze-live-in-sofia-8639",
+   "src": "bilet",
+   "addr": "Бул. Цариградско шосе 73, ж.к. Яворов"
+  },
+  {
+   "name": "\"ИИ или ти? Деактивирай човека!\"",
+   "venue": "Славянска беседа",
+   "lat": 42.6935552,
+   "lon": 23.3284407,
+   "cap": 500,
+   "start": "2026-09-14T19:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/ii-ili-ti-deaktiviray-choveka-8512",
+   "src": "bilet",
+   "addr": "София Център, ул. Георги С. Раковски 127, 1000 София"
+  },
+  {
+   "name": "ГОДИНАТА НА МАГИЧЕСКОТО МИСЛЕНЕ",
+   "venue": "Театър 199 Валентин Стойчев",
+   "lat": 42.69321,
+   "lon": 23.32791,
+   "cap": 199,
+   "start": "2026-09-14T20:00:00+03:00",
+   "url": "",
+   "src": "theatre"
+  },
+  {
+   "name": "FRENZEE/ GRIM RHYTHM Live in Sofia/ Mixtape 5/ Threechords",
+   "venue": "Mixtape 5",
+   "lat": 42.6866,
+   "lon": 23.319,
+   "cap": 900,
+   "start": "2026-09-14T20:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/frenzee-grim-rhythm-live-in-sofia-mixtape-5-threechords-8272",
+   "src": "bilet",
+   "addr": "bul. Bulgaria, podlez Galeriya, bulevard \"Cherni vrah\", 1142 Sofia"
+  },
+  {
+   "name": "ЖИРАФИ",
+   "venue": "Столичен куклен театър",
+   "lat": 42.6928,
+   "lon": 23.3282,
+   "cap": 300,
+   "start": "2026-09-15T12:00:00+03:00",
+   "url": "",
+   "src": "theatre"
+  },
+  {
+   "name": "ТВОРЧЕСКА РАБОТИЛНИЦА ПАНАИР НА КУКЛИТЕ",
+   "venue": "Столичен куклен театър",
+   "lat": 42.6928,
+   "lon": 23.3282,
+   "cap": 300,
+   "start": "2026-09-15T17:00:00+03:00",
+   "url": "",
+   "src": "theatre"
+  },
+  {
+   "name": "БИОЛОГИЧЕН ОТПАДЪК",
+   "venue": "Театрална работилница Сфумато",
+   "lat": 42.6907,
+   "lon": 23.3418,
+   "cap": 300,
+   "start": "2026-09-15T19:00:00+03:00",
+   "url": "",
+   "src": "theatre"
+  },
+  {
+   "name": "СЪНЯТ НА АЛИСА",
+   "venue": "Столичен куклен театър",
+   "lat": 42.6928,
+   "lon": 23.3282,
+   "cap": 300,
+   "start": "2026-09-15T19:00:00+03:00",
+   "url": "",
+   "src": "theatre"
   },
   {
    "name": "KARD Europe Tour 2026",
@@ -435,6 +623,36 @@
    "src": "arena"
   },
   {
+   "name": "АКУСТИЧЕН КОНЦЕРТ",
+   "venue": "Столичен куклен театър",
+   "lat": 42.6928,
+   "lon": 23.3282,
+   "cap": 300,
+   "start": "2026-09-15T20:00:00+03:00",
+   "url": "",
+   "src": "theatre"
+  },
+  {
+   "name": "ТЕАТЪР, ЛЮБОВ МОЯ! | 10 ГОДИНИ НА СЦЕНА",
+   "venue": "Театър 199 Валентин Стойчев",
+   "lat": 42.69321,
+   "lon": 23.32791,
+   "cap": 199,
+   "start": "2026-09-15T20:00:00+03:00",
+   "url": "",
+   "src": "theatre"
+  },
+  {
+   "name": "ТВОРЧЕСКА РАБОТИЛНИЦА ПАНАИР НА КУКЛИТЕ",
+   "venue": "Столичен куклен театър",
+   "lat": 42.6928,
+   "lon": 23.3282,
+   "cap": 300,
+   "start": "2026-09-16T17:00:00+03:00",
+   "url": "",
+   "src": "theatre"
+  },
+  {
    "name": "ГАЛА КОНЦЕРТ ЗА ПОП И РОК МУЗИКА – СОФИЯ 2026",
    "venue": "НДК Зала 1",
    "lat": 42.6847,
@@ -445,6 +663,77 @@
    "src": "ndk"
   },
   {
+   "name": "ДЕВЕТДЕСЕТ",
+   "venue": "Младежки театър Николай Бинев",
+   "lat": 42.69777,
+   "lon": 23.32685,
+   "cap": 450,
+   "start": "2026-09-16T19:00:00+03:00",
+   "url": "",
+   "src": "theatre"
+  },
+  {
+   "name": "ПРОГРАМА \"ДОСТОЕВСКИ ИЗГОНВАНЕТО НА БЕСОВЕТЕ\" БЕСОВЕ",
+   "venue": "Театрална работилница Сфумато",
+   "lat": 42.6907,
+   "lon": 23.3418,
+   "cap": 300,
+   "start": "2026-09-16T19:00:00+03:00",
+   "url": "",
+   "src": "theatre"
+  },
+  {
+   "name": "СИНЬО - ГОСТУВА HOP SIGNOR, ГЪРЦИЯ",
+   "venue": "Стадион Българска армия",
+   "lat": 42.6859,
+   "lon": 23.3435,
+   "cap": 18000,
+   "start": "2026-09-16T19:00:00+03:00",
+   "url": "",
+   "src": "theatre"
+  },
+  {
+   "name": "СИНЬО",
+   "venue": "Столичен куклен театър",
+   "lat": 42.6928,
+   "lon": 23.3282,
+   "cap": 300,
+   "start": "2026-09-16T19:00:00+03:00",
+   "url": "",
+   "src": "theatre"
+  },
+  {
+   "name": "ФАЛШИВИЯТ ОРКЕСТЪР",
+   "venue": "Столичен куклен театър",
+   "lat": 42.6928,
+   "lon": 23.3282,
+   "cap": 300,
+   "start": "2026-09-16T19:00:00+03:00",
+   "url": "",
+   "src": "theatre"
+  },
+  {
+   "name": "Керана и Космонавтите на живо в Маймунарника / 16.09",
+   "venue": "Маймунарника",
+   "lat": 42.6830551,
+   "lon": 23.3426429,
+   "cap": 500,
+   "start": "2026-09-16T19:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/kerana-i-kosmonavtite-na-zhivo-v-maymunarnika-1609-8585",
+   "src": "bilet",
+   "addr": "София, Алеята над колодрума, Колодрум Сердика, 1164 Sofia"
+  },
+  {
+   "name": "КАКТО В НАЙ-ДОБРИТЕ ДНИ",
+   "venue": "Театър 199 Валентин Стойчев",
+   "lat": 42.69321,
+   "lon": 23.32791,
+   "cap": 199,
+   "start": "2026-09-16T20:00:00+03:00",
+   "url": "",
+   "src": "theatre"
+  },
+  {
    "name": "Акира Куросава: Рашомон (1950)",
    "venue": "НДК Зала 1",
    "lat": 42.6847,
@@ -453,6 +742,17 @@
    "start": "2026-09-17T19:00:00+03:00",
    "url": "",
    "src": "ndk"
+  },
+  {
+   "name": "Ogi23 @ NOMO del Arte",
+   "venue": "бар NOMO del Arte",
+   "lat": 42.6947259,
+   "lon": 23.3342231,
+   "cap": 500,
+   "start": "2026-09-17T20:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/ogi23-at-nomo-del-arte-8680",
+   "src": "bilet",
+   "addr": "Ул. Шипка 1"
   },
   {
    "name": "Blockchain Week Bulgaria",
@@ -557,6 +857,16 @@
    "src": "ndk"
   },
   {
+   "name": "Пак Чан-ук: Слугинята (2016)",
+   "venue": "НДК Зала 1",
+   "lat": 42.6847,
+   "lon": 23.3188,
+   "cap": 3380,
+   "start": "2026-10-04T19:00:00+03:00",
+   "url": "",
+   "src": "ndk"
+  },
+  {
    "name": "DisruptHR Sofia vol.7 \"Стари времена\"",
    "venue": "Joy Station",
    "lat": 42.67,
@@ -607,17 +917,6 @@
    "url": "https://www.bilet.bg/bg/events/ista-conference-2026-fest-edition-7690",
    "src": "bilet",
    "addr": "1407 Hladilnika, Sofia"
-  },
-  {
-   "name": "ЖИВИ ДИНОЗАВРИ - В търсене на яйцето - София",
-   "venue": "Асикс Арена",
-   "lat": 42.669,
-   "lon": 23.3757,
-   "cap": 4000,
-   "start": "2026-10-17T13:30:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/zhivi-dinozavri-v-tursene-na-aytseto-sofia-7913",
-   "src": "bilet",
-   "addr": "Ул. Манастирска 35, кв. Гео Милев, София 1111"
   },
   {
    "name": "Frozen Heart Sofia",
@@ -741,17 +1040,6 @@
    "start": "2026-11-13T20:00:00+03:00",
    "url": "",
    "src": "arena"
-  },
-  {
-   "name": "The Italian Jazz Band",
-   "venue": "НДК",
-   "lat": 42.6866,
-   "lon": 23.319,
-   "cap": 3380,
-   "start": "2026-11-14T19:30:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/the-italian-jazz-band-8641",
-   "src": "bilet",
-   "addr": "НДК, бул. България 1, 1000 София"
   },
   {
    "name": "SofiaTalks Business Bootcamp 2026",
