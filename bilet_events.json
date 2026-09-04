@@ -1,7 +1,7 @@
 {
  "source": "bilet.bg",
- "generated": "2026-09-04T08:55:59.743821",
- "count": 38,
+ "generated": "2026-09-04T19:03:05.328008",
+ "count": 37,
  "events": [
   {
    "name": "Cathartica Fest 2026",
@@ -35,17 +35,6 @@
    "url": "https://www.bilet.bg/bg/events/party-cannon-live-in-sofia-7495",
    "src": "bilet",
    "addr": "Булевард \"Илиянци\" 1И"
-  },
-  {
-   "name": "THE RUMJACKS live in Sofia (Celtic Irish Folk Punk)",
-   "venue": "Mixtape 5",
-   "lat": 42.6866,
-   "lon": 23.319,
-   "cap": 900,
-   "start": "2026-09-05T20:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/the-rumjacks-live-in-sofia-celtic-irish-folk-punk-8168",
-   "src": "bilet",
-   "addr": "bul. Bulgaria, podlez Galeriya, bulevard \"Cherni vrah\", 1142 Sofia"
   },
   {
    "name": "Sunday Soda w/ Bagerziev",
