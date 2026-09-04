@@ -1,7 +1,7 @@
 {
  "source": "bilet.bg",
- "generated": "2026-09-03T19:21:18.971226",
- "count": 37,
+ "generated": "2026-09-04T08:55:59.743821",
+ "count": 38,
  "events": [
   {
    "name": "Cathartica Fest 2026",
@@ -189,6 +189,17 @@
    "url": "https://www.bilet.bg/bg/events/nova-cherga-ot-stari-nishki-8514",
    "src": "bilet",
    "addr": "82 чл., 1137 Панчарево"
+  },
+  {
+   "name": "Last Rooftop Date Night of the Summer 🌅",
+   "venue": "Networking Premium (Гурко 16)",
+   "lat": 42.6919,
+   "lon": 23.326,
+   "cap": 500,
+   "start": "2026-09-13T19:30:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/last-rooftop-date-night-of-the-summer-8716",
+   "src": "bilet",
+   "addr": "София Център, ул. Генерал Гурко 16, 1000 София"
   },
   {
    "name": "BULLDOZE live in Sofia",
