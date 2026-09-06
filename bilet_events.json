@@ -1,19 +1,8 @@
 {
  "source": "bilet.bg",
- "generated": "2026-09-06T08:46:01.831576",
+ "generated": "2026-09-06T18:26:37.925016",
  "count": 37,
  "events": [
-  {
-   "name": "Sunday Soda w/ Bagerziev",
-   "venue": "Bar Soda",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2026-09-06T18:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/sunday-soda-w-bagerziev-8681",
-   "src": "bilet",
-   "addr": "Ndk, Bulgaria Blvd 2, 1463 Sofia"
-  },
   {
    "name": "Първи ход: твоята кариера с Христина Иванова - ОНЛАЙН",
    "venue": "M3 Communications",
@@ -101,17 +90,6 @@
    "url": "https://www.bilet.bg/bg/events/secret-crush-one-last-swim-8658",
    "src": "bilet",
    "addr": "Камбаните, ул. Самоковско шосе. 9011, 1138 Панчарево"
-  },
-  {
-   "name": "Икигай Вечер",
-   "venue": "Японски културен център Кокоро",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2026-09-12T18:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/ikigay-vecher-8379",
-   "src": "bilet",
-   "addr": "ул. „Хайдушка Поляна“ 57-58"
   },
   {
    "name": "SODA SUNDAYS x RADIO NOVA",
@@ -255,6 +233,28 @@
    "url": "https://www.bilet.bg/bg/events/duna-pres-isabel-soto-ostgut-ton-at-yalta-garden-r2-8497",
    "src": "bilet",
    "addr": "Булевард Цар Освободител 20, София, България"
+  },
+  {
+   "name": "PERKELE live in Sofia",
+   "venue": "Клуб Строежа",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-09-19T20:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/perkele-live-in-sofia-7802",
+   "src": "bilet",
+   "addr": "София Център, улица „Георги С. Раковски“ 116, 1000 София"
+  },
+  {
+   "name": "MON AMI - OPEN AIR - SEASON CLOSING at Bar Gatto",
+   "venue": "Bar Gatto",
+   "lat": 42.6907,
+   "lon": 23.332,
+   "cap": 300,
+   "start": "2026-09-20T19:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/mon-ami-open-air-season-closing-at-bar-gatto-8722",
+   "src": "bilet",
+   "addr": "София Център, ул. Московска 6, 6 А, 1000 София"
   },
   {
    "name": "Blockchain Week Bulgaria",
