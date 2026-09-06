@@ -1,7 +1,7 @@
 {
  "source": "bilet.bg",
- "generated": "2026-09-05T18:26:22.916062",
- "count": 36,
+ "generated": "2026-09-06T08:46:01.831576",
+ "count": 37,
  "events": [
   {
    "name": "Sunday Soda w/ Bagerziev",
@@ -266,6 +266,17 @@
    "url": "https://www.bilet.bg/bg/events/blockchain-week-bulgaria-7678",
    "src": "bilet",
    "addr": "бул. Цариградско шосе 111Г, 1784 м. Къро"
+  },
+  {
+   "name": "Gallery Rave-view: Sound & Vision After Dark | 25.09",
+   "venue": "One Gallery",
+   "lat": 42.695371,
+   "lon": 23.3269568,
+   "cap": 500,
+   "start": "2026-09-25T20:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/gallery-rave-view-sound-vision-after-dark-2509-8679",
+   "src": "bilet",
+   "addr": "ул. \"Дякон Игнатий\" 1, 1000 София Център"
   },
   {
    "name": "LIQUID MARKET Sofia - Cocktail Festival 2026",
