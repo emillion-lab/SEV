@@ -1,7 +1,7 @@
 {
  "source": "bilet.bg",
- "generated": "2026-09-06T18:26:37.925016",
- "count": 37,
+ "generated": "2026-09-07T09:29:59.185319",
+ "count": 38,
  "events": [
   {
    "name": "Първи ход: твоята кариера с Христина Иванова - ОНЛАЙН",
@@ -24,6 +24,17 @@
    "url": "https://www.bilet.bg/bg/events/cotton-candy-sofia-8643",
    "src": "bilet",
    "addr": "Ул. Георги С. Раковски 108"
+  },
+  {
+   "name": "Trio Mandili Maimunarnika- Sofia",
+   "venue": "Маймунарника",
+   "lat": 42.6830551,
+   "lon": 23.3426429,
+   "cap": 500,
+   "start": "2026-09-11T20:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/trio-mandili-maimunarnika-sofia-7852",
+   "src": "bilet",
+   "addr": "София, Алеята над колодрума, Колодрум Сердика, 1164 Sofia"
   },
   {
    "name": "Moodymann with DANILO PLESSOW, a.k.a. MCDE",
