@@ -1,7 +1,7 @@
 {
  "source": "bilet.bg",
- "generated": "2026-09-08T19:29:39.216733",
- "count": 36,
+ "generated": "2026-09-09T09:03:11.276092",
+ "count": 38,
  "events": [
   {
    "name": "Първи ход: твоята кариера с Христина Иванова - ОНЛАЙН",
@@ -257,6 +257,17 @@
    "addr": "София Център, ул. Генерал Гурко 16, 1000 София"
   },
   {
+   "name": "ДЪЩЕРЯТА НА САМУРАЯ - 50-о юбилейно представление!",
+   "venue": "НДК Зала 1",
+   "lat": 42.6866,
+   "lon": 23.319,
+   "cap": 3380,
+   "start": "2026-09-23T19:30:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/dushterata-na-samuraa-50-o-ubileyno-predstavlenie-8682",
+   "src": "bilet",
+   "addr": "София, ул. \"Емил Берсински\" №5, Sofia, Bulgaria"
+  },
+  {
    "name": "Blockchain Week Bulgaria",
    "venue": "София Тех Парк",
    "lat": 42.6668,
@@ -345,6 +356,17 @@
    "addr": "Ул. Манастирска 35, кв. Гео Милев, София 1111"
   },
   {
+   "name": "DJ KRUSH @ Malkata Tekila Sofia 22/10/2026",
+   "venue": "Малката Текила",
+   "lat": 42.695,
+   "lon": 23.328,
+   "cap": 400,
+   "start": "2026-10-22T20:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/dj-krush-at-malkata-tekila-sofia-22102026-7905",
+   "src": "bilet",
+   "addr": "ул. \"6-ти септември\" 1000 4, 1000 София Център, София"
+  },
+  {
    "name": "DARA - Live",
    "venue": "Пиротска 5",
    "lat": 42.6987,
@@ -389,15 +411,15 @@
    "addr": "Площад България 1"
   },
   {
-   "name": "TARJA: FRISSON LIVE 2027 - Sofia",
-   "venue": "Зала Христо Ботев Студентски Град",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2027-03-18T19:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/tarja-frisson-live-2027-sofia-8439",
+   "name": "Disney - ФАНТАЗИЯ - Концерт на живо",
+   "venue": "НДК",
+   "lat": 42.6866,
+   "lon": 23.319,
+   "cap": 3380,
+   "start": "2027-01-23T18:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/disney-fantazia-kontsert-na-zhivo-8636",
    "src": "bilet",
-   "addr": "Studentski Kompleks, ж.к. Студентски град 26, 1700 Sofia"
+   "addr": "Площад България 1"
   }
  ]
 }
