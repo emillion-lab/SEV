@@ -1,7 +1,7 @@
 {
  "source": "bilet.bg",
- "generated": "2026-09-10T09:28:54.360895",
- "count": 39,
+ "generated": "2026-09-10T19:11:23.104077",
+ "count": 40,
  "events": [
   {
    "name": "Първи ход: твоята кариера с Христина Иванова - ОНЛАЙН",
@@ -57,17 +57,6 @@
    "url": "https://www.bilet.bg/bg/events/legion-inflatable-family-run-sofia-7813",
    "src": "bilet",
    "addr": "гр. София, ж.к. Гео Милев, 1111 Sofia"
-  },
-  {
-   "name": "REFLECTIONS on the Roof",
-   "venue": "Networking Premium (Гурко 16)",
-   "lat": 42.6919,
-   "lon": 23.326,
-   "cap": 500,
-   "start": "2026-09-12T16:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/reflections-on-the-roof-8593",
-   "src": "bilet",
-   "addr": "София Център, ул. Генерал Гурко 16, 1000 София"
   },
   {
    "name": "Децата на прехода @ NOMO del Arte",
@@ -268,6 +257,17 @@
    "addr": "София Център, ул. Московска 6, 6 А, 1000 София"
   },
   {
+   "name": "DIANA FEST 4 on the Rooftop - Svilen Noev - Overhook - Ivan&Ersin Acoustic - Sunblinds - 2",
+   "venue": "Kitchen 59",
+   "lat": 42.6814171,
+   "lon": 23.2903997,
+   "cap": 500,
+   "start": "2026-09-21T18:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/diana-fest-4-on-the-rooftop-svilen-noev-overhook-ivanersin-acoustic-sunblinds-21092026-8684",
+   "src": "bilet",
+   "addr": "Хиподрума, бул. \"Цар Борис III\" 59, 1612 София"
+  },
+  {
    "name": "ДЪЩЕРЯТА НА САМУРАЯ - 50-о юбилейно представление!",
    "venue": "НДК Зала 1",
    "lat": 42.6866,
@@ -321,6 +321,17 @@
    "url": "https://www.bilet.bg/bg/events/aws-community-day-2026-7930",
    "src": "bilet",
    "addr": "бул. Цариградско шосе 111Г, 1784 м. Къро"
+  },
+  {
+   "name": "REFLECTIONS on the Roof",
+   "venue": "Networking Premium (Гурко 16)",
+   "lat": 42.6919,
+   "lon": 23.326,
+   "cap": 500,
+   "start": "2026-10-03T16:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/reflections-on-the-roof-8593",
+   "src": "bilet",
+   "addr": "София Център, ул. Генерал Гурко 16, 1000 София"
   },
   {
    "name": "DisruptHR Sofia vol.7 \"Стари времена\"",
