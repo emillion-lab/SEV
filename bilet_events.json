@@ -1,7 +1,7 @@
 {
  "source": "bilet.bg",
- "generated": "2026-09-11T09:00:20.746976",
- "count": 41,
+ "generated": "2026-09-11T19:13:32.279690",
+ "count": 43,
  "events": [
   {
    "name": "Moodymann with DANILO PLESSOW, a.k.a. MCDE",
@@ -299,6 +299,28 @@
    "url": "https://www.bilet.bg/bg/events/blockchain-week-bulgaria-7678",
    "src": "bilet",
    "addr": "бул. Цариградско шосе 111Г, 1784 м. Къро"
+  },
+  {
+   "name": "City of the Sun (USA) live at Club Pave",
+   "venue": "клуб Паве",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-09-24T20:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/city-of-the-sun-usa-live-at-club-pave-8403",
+   "src": "bilet",
+   "addr": "пл. Славейков 4"
+  },
+  {
+   "name": "JESU/ Born Erased Live In Sofia/Threechords",
+   "venue": "Mixtape 5",
+   "lat": 42.6866,
+   "lon": 23.319,
+   "cap": 900,
+   "start": "2026-09-24T20:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/jesu-born-erased-live-in-sofiathreechords-7244",
+   "src": "bilet",
+   "addr": "bul. Bulgaria, podlez Galeriya, bulevard \"Cherni vrah\", 1142 Sofia"
   },
   {
    "name": "Gallery Rave-view: Sound & Vision After Dark | 25.09",
