@@ -1,30 +1,8 @@
 {
  "source": "bilet.bg",
- "generated": "2026-09-10T19:11:23.104077",
- "count": 40,
+ "generated": "2026-09-11T09:00:20.746976",
+ "count": 41,
  "events": [
-  {
-   "name": "Първи ход: твоята кариера с Христина Иванова - ОНЛАЙН",
-   "venue": "M3 Communications",
-   "lat": 42.668648,
-   "lon": 23.2905689,
-   "cap": 500,
-   "start": "2026-09-08T17:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/purvi-hod-tvoata-kariera-s-hristina-ivanova-onlayn-8576",
-   "src": "bilet",
-   "addr": "бул. „България“ 60, 1680 София"
-  },
-  {
-   "name": "Cotton Candy Sofia 💖🎠",
-   "venue": "Carrusel Club",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2026-09-10T22:30:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/cotton-candy-sofia-8643",
-   "src": "bilet",
-   "addr": "Ул. Георги С. Раковски 108"
-  },
   {
    "name": "Moodymann with DANILO PLESSOW, a.k.a. MCDE",
    "venue": "Ангел Кънчев 1",
@@ -191,6 +169,17 @@
    "addr": "Ул. Шипка 1"
   },
   {
+   "name": "Стендъп на Хижа Септември // 17 Септември 2026",
+   "venue": "Хижа Септември (Витоша)",
+   "lat": 42.5872,
+   "lon": 23.2905,
+   "cap": 500,
+   "start": "2026-09-17T20:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/stendup-na-hizha-septemvri-17-septemvri-2026-8746",
+   "src": "bilet",
+   "addr": "Витоша"
+  },
+  {
    "name": "Импровизационен спектакъл „Чай за двама“",
    "venue": "Театър Оз",
    "lat": null,
@@ -266,6 +255,28 @@
    "url": "https://www.bilet.bg/bg/events/diana-fest-4-on-the-rooftop-svilen-noev-overhook-ivanersin-acoustic-sunblinds-21092026-8684",
    "src": "bilet",
    "addr": "Хиподрума, бул. \"Цар Борис III\" 59, 1612 София"
+  },
+  {
+   "name": "Първи ход: твоята кариера с Христина Ивановах - НА ЖИВО В СОФИЯ",
+   "venue": "M3 Communications",
+   "lat": 42.668648,
+   "lon": 23.2905689,
+   "cap": 500,
+   "start": "2026-09-23T18:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/purvi-hod-tvoata-kariera-s-hristina-ivanovah-na-zhivo-v-sofia-8537",
+   "src": "bilet",
+   "addr": "бул. „България“ 60, 1680 София"
+  },
+  {
+   "name": "Писателско соаре „Мастило и мечти“ на 1 година: Творческо предизвикателство: „Одисея към с",
+   "venue": "Мечталище",
+   "lat": 42.6708452,
+   "lon": 23.3237069,
+   "cap": 500,
+   "start": "2026-09-23T18:45:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/pisatelsko-soare-mastilo-i-mechti-na-1-godina-tvorchesko-predizvikatelstvo-odisea-kum-sebe-si-8648",
+   "src": "bilet",
+   "addr": "Център гр. Лозенец, ул. \"Трепетлика\" 12, 1407 София"
   },
   {
    "name": "ДЪЩЕРЯТА НА САМУРАЯ - 50-о юбилейно представление!",
