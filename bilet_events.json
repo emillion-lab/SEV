@@ -1,30 +1,8 @@
 {
  "source": "bilet.bg",
- "generated": "2026-09-12T08:43:57.545866",
+ "generated": "2026-09-12T18:31:09.784723",
  "count": 41,
  "events": [
-  {
-   "name": "Децата на прехода @ NOMO del Arte",
-   "venue": "бар NOMO del Arte",
-   "lat": 42.6947259,
-   "lon": 23.3342231,
-   "cap": 500,
-   "start": "2026-09-12T17:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/detsata-na-prehoda-at-nomo-del-arte-8709",
-   "src": "bilet",
-   "addr": "Ул. Шипка 1"
-  },
-  {
-   "name": "Secret crush ONE LAST SWIM",
-   "venue": "Cherry Club",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2026-09-12T17:30:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/secret-crush-one-last-swim-8658",
-   "src": "bilet",
-   "addr": "Камбаните, ул. Самоковско шосе. 9011, 1138 Панчарево"
-  },
   {
    "name": "SODA SUNDAYS x RADIO NOVA",
    "venue": "Bar Soda",
@@ -224,6 +202,17 @@
    "addr": "Хиподрума, бул. \"Цар Борис III\" 59, 1612 София"
   },
   {
+   "name": "Децата на прехода @ NOMO del Arte",
+   "venue": "бар NOMO del Arte",
+   "lat": 42.6947259,
+   "lon": 23.3342231,
+   "cap": 500,
+   "start": "2026-09-22T17:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/detsata-na-prehoda-at-nomo-del-arte-8709",
+   "src": "bilet",
+   "addr": "Ул. Шипка 1"
+  },
+  {
    "name": "Първи ход: твоята кариера с Христина Ивановах - НА ЖИВО В СОФИЯ",
    "venue": "M3 Communications",
    "lat": 42.668648,
@@ -299,6 +288,17 @@
    "url": "https://www.bilet.bg/bg/events/mlc-training-collection-2026-2027-8165",
    "src": "bilet",
    "addr": "Гърдова Глававитоса ул. Маринковица 1618 София"
+  },
+  {
+   "name": "СЕКС И ДРАМА в СОФИЯ",
+   "venue": "Клуб Строежа",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-09-25T19:30:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/seks-i-drama-v-sofia-8589",
+   "src": "bilet",
+   "addr": "София Център, улица „Георги С. Раковски“ 116, 1000 София"
   },
   {
    "name": "Gallery Rave-view: Sound & Vision After Dark | 25.09",
