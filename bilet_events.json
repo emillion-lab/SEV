@@ -1,41 +1,8 @@
 {
  "source": "bilet.bg",
- "generated": "2026-09-11T19:13:32.279690",
- "count": 43,
+ "generated": "2026-09-12T08:43:57.545866",
+ "count": 41,
  "events": [
-  {
-   "name": "Moodymann with DANILO PLESSOW, a.k.a. MCDE",
-   "venue": "Ангел Кънчев 1",
-   "lat": 42.6931533,
-   "lon": 23.3226344,
-   "cap": 500,
-   "start": "2026-09-11T22:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/moodymann-with-danilo-plessow-aka-mcde-8547",
-   "src": "bilet",
-   "addr": "ул. Ангел Кънчев 1"
-  },
-  {
-   "name": "HOT ROOM ft. SAVA",
-   "venue": "Sofia - Secret Location",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2026-09-11T23:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/hot-room-ft-sava-8685",
-   "src": "bilet",
-   "addr": ""
-  },
-  {
-   "name": "Legion Inflatable Family Run - Sofia",
-   "venue": "парк Гео Милев",
-   "lat": 42.6866812,
-   "lon": 23.3629065,
-   "cap": 500,
-   "start": "2026-09-12T10:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/legion-inflatable-family-run-sofia-7813",
-   "src": "bilet",
-   "addr": "гр. София, ж.к. Гео Милев, 1111 Sofia"
-  },
   {
    "name": "Децата на прехода @ NOMO del Arte",
    "venue": "бар NOMO del Arte",
@@ -321,6 +288,17 @@
    "url": "https://www.bilet.bg/bg/events/jesu-born-erased-live-in-sofiathreechords-7244",
    "src": "bilet",
    "addr": "bul. Bulgaria, podlez Galeriya, bulevard \"Cherni vrah\", 1142 Sofia"
+  },
+  {
+   "name": "MLC Training Collection 2026 - 2027",
+   "venue": "My Leadership Center",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-09-25T10:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/mlc-training-collection-2026-2027-8165",
+   "src": "bilet",
+   "addr": "Гърдова Глававитоса ул. Маринковица 1618 София"
   },
   {
    "name": "Gallery Rave-view: Sound & Vision After Dark | 25.09",
