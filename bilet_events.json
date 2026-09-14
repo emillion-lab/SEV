@@ -1,41 +1,8 @@
 {
  "source": "bilet.bg",
- "generated": "2026-09-14T10:28:49.828178",
+ "generated": "2026-09-14T20:22:53.932364",
  "count": 42,
  "events": [
-  {
-   "name": "BULLDOZE live in Sofia",
-   "venue": "Grindhouse",
-   "lat": 42.6813722,
-   "lon": 23.3534279,
-   "cap": 500,
-   "start": "2026-09-14T19:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/bulldoze-live-in-sofia-8639",
-   "src": "bilet",
-   "addr": "Бул. Цариградско шосе 73, ж.к. Яворов"
-  },
-  {
-   "name": "\"ИИ или ти? Деактивирай човека!\"",
-   "venue": "Славянска беседа",
-   "lat": 42.6935552,
-   "lon": 23.3284407,
-   "cap": 500,
-   "start": "2026-09-14T19:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/ii-ili-ti-deaktiviray-choveka-8512",
-   "src": "bilet",
-   "addr": "София Център, ул. Георги С. Раковски 127, 1000 София"
-  },
-  {
-   "name": "FRENZEE/ GRIM RHYTHM Live in Sofia/ Mixtape 5/ Threechords",
-   "venue": "Mixtape 5",
-   "lat": 42.6866,
-   "lon": 23.319,
-   "cap": 900,
-   "start": "2026-09-14T20:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/frenzee-grim-rhythm-live-in-sofia-mixtape-5-threechords-8272",
-   "src": "bilet",
-   "addr": "bul. Bulgaria, podlez Galeriya, bulevard \"Cherni vrah\", 1142 Sofia"
-  },
   {
    "name": "KARD Europe Tour 2026",
    "venue": "Парк център Юнак",
@@ -123,6 +90,17 @@
    "url": "https://www.bilet.bg/bg/events/perkele-live-in-sofia-7802",
    "src": "bilet",
    "addr": "София Център, улица „Георги С. Раковски“ 116, 1000 София"
+  },
+  {
+   "name": "Closing Summer with White Off at Yalta garden",
+   "venue": "Yalta Garden",
+   "lat": 42.6918,
+   "lon": 23.3243,
+   "cap": 700,
+   "start": "2026-09-19T22:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/closing-summer-with-white-off-at-yalta-garden-8775",
+   "src": "bilet",
+   "addr": "Булевард Цар Освободител 20, София, България"
   },
   {
    "name": "SLOW JAMZ: 2 Year Anniversary - Sofia",
@@ -213,6 +191,17 @@
    "addr": "бул. Цариградско шосе 111Г, 1784 м. Къро"
   },
   {
+   "name": "Обикновени истории",
+   "venue": "Театър Оз",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-09-24T19:30:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/obiknoveni-istorii-8766",
+   "src": "bilet",
+   "addr": "ул. Леге 10"
+  },
+  {
    "name": "City of the Sun (USA) live at Club Pave",
    "venue": "клуб Паве",
    "lat": null,
@@ -244,6 +233,17 @@
    "url": "https://www.bilet.bg/bg/events/mlc-training-collection-2026-2027-8165",
    "src": "bilet",
    "addr": "Гърдова Глававитоса ул. Маринковица 1618 София"
+  },
+  {
+   "name": "Обыкновенные истории",
+   "venue": "I AM STUDIO",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-09-25T19:30:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/obyknovennye-istorii-8777",
+   "src": "bilet",
+   "addr": "ул. Раковски 149"
   },
   {
    "name": "СЕКС И ДРАМА в СОФИЯ",
