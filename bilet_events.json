@@ -1,19 +1,8 @@
 {
  "source": "bilet.bg",
- "generated": "2026-09-13T18:52:26.136983",
+ "generated": "2026-09-14T10:00:33.723979",
  "count": 42,
  "events": [
-  {
-   "name": "SODA SUNDAYS x RADIO NOVA",
-   "venue": "Bar Soda",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2026-09-13T18:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/soda-sundays-x-radio-nova-8704",
-   "src": "bilet",
-   "addr": "Ndk, Bulgaria Blvd 2, 1463 Sofia"
-  },
   {
    "name": "BULLDOZE live in Sofia",
    "venue": "Grindhouse",
@@ -279,6 +268,17 @@
    "addr": "ул. \"Дякон Игнатий\" 1, 1000 София Център"
   },
   {
+   "name": "SEASON 3 OPENING • FUEL X TOMODACHi",
+   "venue": "Club Mesmeric",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-09-25T23:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/season-3-opening-fuel-x-tomodachi-8768",
+   "src": "bilet",
+   "addr": "София Център, ул. Фритьоф Нансен 25 София"
+  },
+  {
    "name": "Аз рисувам като ... Пийт Мондриан - ателие за деца",
    "venue": "Късноантичен мавзолей - кв. Лозенец",
    "lat": null,
@@ -455,15 +455,15 @@
    "addr": "Площад България 1"
   },
   {
-   "name": "TARJA: FRISSON LIVE 2027 - Sofia",
-   "venue": "Зала Христо Ботев Студентски Град",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2027-03-18T19:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/tarja-frisson-live-2027-sofia-8439",
+   "name": "Chris Norman Live Sofia",
+   "venue": "НДК",
+   "lat": 42.6866,
+   "lon": 23.319,
+   "cap": 3380,
+   "start": "2027-03-19T20:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/chris-norman-live-sofia-8264",
    "src": "bilet",
-   "addr": "Studentski Kompleks, ж.к. Студентски град 26, 1700 Sofia"
+   "addr": "Площад България 1"
   }
  ]
 }
