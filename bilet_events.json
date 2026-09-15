@@ -1,19 +1,8 @@
 {
  "source": "bilet.bg",
- "generated": "2026-09-15T09:31:43.133383",
+ "generated": "2026-09-15T19:45:56.520627",
  "count": 42,
  "events": [
-  {
-   "name": "KARD Europe Tour 2026",
-   "venue": "Парк център Юнак",
-   "lat": 42.686293,
-   "lon": 23.3332861,
-   "cap": 500,
-   "start": "2026-09-15T19:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/kard-europe-tour-2026-8347",
-   "src": "bilet",
-   "addr": "бул. Евлоги и Христо Георгиеви 34"
-  },
   {
    "name": "Керана и Космонавтите на живо в Маймунарника / 16.09",
    "venue": "Маймунарника",
@@ -197,7 +186,7 @@
    "lon": null,
    "cap": 500,
    "start": "2026-09-24T19:30:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/obiknoveni-istorii-8766",
+   "url": "https://www.bilet.bg/bg/events/obiknoveni-istorii-8788",
    "src": "bilet",
    "addr": "ул. Леге 10"
   },
@@ -453,6 +442,17 @@
    "url": "https://www.bilet.bg/bg/events/disney-fantazia-kontsert-na-zhivo-8636",
    "src": "bilet",
    "addr": "Площад България 1"
+  },
+  {
+   "name": "TARJA: FRISSON LIVE 2027 - Sofia",
+   "venue": "Зала Христо Ботев Студентски Град",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2027-03-18T19:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/tarja-frisson-live-2027-sofia-8439",
+   "src": "bilet",
+   "addr": "Studentski Kompleks, ж.к. Студентски град 26, 1700 Sofia"
   },
   {
    "name": "Chris Norman Live Sofia",
