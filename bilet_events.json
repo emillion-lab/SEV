@@ -1,6 +1,6 @@
 {
  "source": "bilet.bg",
- "generated": "2026-09-15T19:45:56.520627",
+ "generated": "2026-09-16T09:23:32.206926",
  "count": 42,
  "events": [
   {
@@ -334,6 +334,17 @@
    "addr": "София Център, ул. Генерал Гурко 16, 1000 София"
   },
   {
+   "name": "PAOLA | ИСКАМ ВСИЧКО Tour 2026 София",
+   "venue": "Joy Station",
+   "lat": 42.67,
+   "lon": 23.352,
+   "cap": 1500,
+   "start": "2026-10-03T19:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/paola-iskam-vsichko-tour-2026-sofia-8509",
+   "src": "bilet",
+   "addr": "Студентски град, ул. \"Акад. Стефан Младенов\" 3"
+  },
+  {
    "name": "DisruptHR Sofia vol.7 \"Стари времена\"",
    "venue": "Joy Station",
    "lat": 42.67,
@@ -442,17 +453,6 @@
    "url": "https://www.bilet.bg/bg/events/disney-fantazia-kontsert-na-zhivo-8636",
    "src": "bilet",
    "addr": "Площад България 1"
-  },
-  {
-   "name": "TARJA: FRISSON LIVE 2027 - Sofia",
-   "venue": "Зала Христо Ботев Студентски Град",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2027-03-18T19:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/tarja-frisson-live-2027-sofia-8439",
-   "src": "bilet",
-   "addr": "Studentski Kompleks, ж.к. Студентски град 26, 1700 Sofia"
   },
   {
    "name": "Chris Norman Live Sofia",
