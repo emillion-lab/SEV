@@ -1,19 +1,8 @@
 {
  "source": "bilet.bg",
- "generated": "2026-09-16T09:23:32.206926",
- "count": 42,
+ "generated": "2026-09-16T19:37:51.049674",
+ "count": 43,
  "events": [
-  {
-   "name": "Керана и Космонавтите на живо в Маймунарника / 16.09",
-   "venue": "Маймунарника",
-   "lat": 42.6830551,
-   "lon": 23.3426429,
-   "cap": 500,
-   "start": "2026-09-16T19:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/kerana-i-kosmonavtite-na-zhivo-v-maymunarnika-1609-8585",
-   "src": "bilet",
-   "addr": "София, Алеята над колодрума, Колодрум Сердика, 1164 Sofia"
-  },
   {
    "name": "Ogi23 @ NOMO del Arte",
    "venue": "бар NOMO del Arte",
@@ -301,6 +290,17 @@
    "addr": "София Център, ул. Генерал Гурко 16, 1000 София"
   },
   {
+   "name": "SATURDAY AFTERNOON PARTY WITH МИТКО ПАВЛОВ VOL.6 @ Бар Петък  - 26.09.2026",
+   "venue": "Networking Premium (Гурко 16)",
+   "lat": 42.6919,
+   "lon": 23.326,
+   "cap": 500,
+   "start": "2026-09-26T18:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/saturday-afternoon-party-with-mitko-pavlov-vol6-at-bar-petuk-26092026-8692",
+   "src": "bilet",
+   "addr": "ул. \"Ген. Гурко\" 21, 1000 София център, София"
+  },
+  {
    "name": "LIQUID MARKET Sofia - Cocktail Festival 2026",
    "venue": "Чистилището",
    "lat": null,
@@ -453,6 +453,17 @@
    "url": "https://www.bilet.bg/bg/events/disney-fantazia-kontsert-na-zhivo-8636",
    "src": "bilet",
    "addr": "Площад България 1"
+  },
+  {
+   "name": "TARJA: FRISSON LIVE 2027 - Sofia",
+   "venue": "Зала Христо Ботев Студентски Град",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2027-03-18T19:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/tarja-frisson-live-2027-sofia-8439",
+   "src": "bilet",
+   "addr": "Studentski Kompleks, ж.к. Студентски град 26, 1700 Sofia"
   },
   {
    "name": "Chris Norman Live Sofia",
