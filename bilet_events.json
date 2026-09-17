@@ -1,30 +1,8 @@
 {
  "source": "bilet.bg",
- "generated": "2026-09-17T09:54:46.854602",
- "count": 43,
+ "generated": "2026-09-17T19:47:24.711025",
+ "count": 42,
  "events": [
-  {
-   "name": "Ogi23 @ NOMO del Arte",
-   "venue": "бар NOMO del Arte",
-   "lat": 42.6947259,
-   "lon": 23.3342231,
-   "cap": 500,
-   "start": "2026-09-17T20:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/ogi23-at-nomo-del-arte-8680",
-   "src": "bilet",
-   "addr": "Ул. Шипка 1"
-  },
-  {
-   "name": "Стендъп на Хижа Септември // 17 Септември 2026",
-   "venue": "Хижа Септември (Витоша)",
-   "lat": 42.5872,
-   "lon": 23.2905,
-   "cap": 500,
-   "start": "2026-09-17T20:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/stendup-na-hizha-septemvri-17-septemvri-2026-8746",
-   "src": "bilet",
-   "addr": "Витоша"
-  },
   {
    "name": "Импровизационен спектакъл „Чай за двама“",
    "venue": "Театър Оз",
@@ -48,17 +26,6 @@
    "addr": "Бул. Цар Освободилте №10"
   },
   {
-   "name": "DUNA pres. ISABEL SOTO [Ostgut Ton] at YALTA GARDEN & R2",
-   "venue": "Yalta Garden",
-   "lat": 42.6918,
-   "lon": 23.3243,
-   "cap": 700,
-   "start": "2026-09-19T20:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/duna-pres-isabel-soto-ostgut-ton-at-yalta-garden-r2-8497",
-   "src": "bilet",
-   "addr": "Булевард Цар Освободител 20, София, България"
-  },
-  {
    "name": "PERKELE live in Sofia",
    "venue": "Клуб Строежа",
    "lat": null,
@@ -77,6 +44,17 @@
    "cap": 700,
    "start": "2026-09-19T22:00:00+03:00",
    "url": "https://www.bilet.bg/bg/events/closing-summer-with-white-off-at-yalta-garden-8775",
+   "src": "bilet",
+   "addr": "Булевард Цар Освободител 20, София, България"
+  },
+  {
+   "name": "DUNA pres. ISABEL SOTO [Ostgut Ton] at YALTA CLUB",
+   "venue": "Yalta Garden",
+   "lat": 42.6918,
+   "lon": 23.3243,
+   "cap": 700,
+   "start": "2026-09-19T22:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/duna-pres-isabel-soto-ostgut-ton-at-yalta-club-8497",
    "src": "bilet",
    "addr": "Булевард Цар Освободител 20, София, България"
   },
@@ -246,6 +224,17 @@
    "addr": "ул. \"Дякон Игнатий\" 1, 1000 София Център"
   },
   {
+   "name": "PARAPLANNER - acoustic live - 25.09 - VIDEO PROMO",
+   "venue": "Клуб за Естетическо Възпитание на Артиста",
+   "lat": 42.6918756,
+   "lon": 23.3254914,
+   "cap": 500,
+   "start": "2026-09-25T20:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/paraplanner-acoustic-live-2509-video-promo-8798",
+   "src": "bilet",
+   "addr": "улица „Георги С. Раковски“ 114, 1000 София Център, София"
+  },
+  {
    "name": "SEASON 3 OPENING • FUEL X TOMODACHi",
    "venue": "Club Mesmeric",
    "lat": null,
@@ -400,6 +389,17 @@
    "addr": "Ул. Манастирска 35, кв. Гео Милев, София 1111"
   },
   {
+   "name": "Asia Motor Show 2026",
+   "venue": "Интер Експо Център",
+   "lat": 42.652,
+   "lon": 23.376,
+   "cap": 3000,
+   "start": "2026-10-22T10:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/asia-motor-show-2026-8390",
+   "src": "bilet",
+   "addr": "бул. Цариградско шосе 147"
+  },
+  {
    "name": "DJ KRUSH @ Malkata Tekila Sofia 22/10/2026",
    "venue": "Малката Текила",
    "lat": 42.695,
@@ -462,17 +462,6 @@
    "cap": 3380,
    "start": "2027-01-23T18:00:00+03:00",
    "url": "https://www.bilet.bg/bg/events/disney-fantazia-kontsert-na-zhivo-8636",
-   "src": "bilet",
-   "addr": "Площад България 1"
-  },
-  {
-   "name": "Chris Norman Live Sofia",
-   "venue": "НДК",
-   "lat": 42.6866,
-   "lon": 23.319,
-   "cap": 3380,
-   "start": "2027-03-19T20:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/chris-norman-live-sofia-8264",
    "src": "bilet",
    "addr": "Площад България 1"
   }
