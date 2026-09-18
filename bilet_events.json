@@ -1,19 +1,8 @@
 {
  "source": "bilet.bg",
- "generated": "2026-09-18T09:05:30.622250",
+ "generated": "2026-09-18T19:06:06.738289",
  "count": 42,
  "events": [
-  {
-   "name": "Импровизационен спектакъл „Чай за двама“",
-   "venue": "Театър Оз",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2026-09-18T19:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/improvizatsionen-spektakul-chay-za-dvama-8635",
-   "src": "bilet",
-   "addr": "ул. Леге 10"
-  },
   {
    "name": "Issues For The Government presents: Anti Social Social Party",
    "venue": "Клуб ОБЛК",
@@ -57,17 +46,6 @@
    "url": "https://www.bilet.bg/bg/events/duna-pres-isabel-soto-ostgut-ton-at-yalta-club-8497",
    "src": "bilet",
    "addr": "Булевард Цар Освободител 20, София, България"
-  },
-  {
-   "name": "SLOW JAMZ: 2 Year Anniversary - Sofia",
-   "venue": "Networking Premium (Гурко 16)",
-   "lat": 42.6919,
-   "lon": 23.326,
-   "cap": 500,
-   "start": "2026-09-20T18:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/slow-jamz-2-year-anniversary-sofia-8737",
-   "src": "bilet",
-   "addr": "София Център, ул. Генерал Гурко 16, 1000 София"
   },
   {
    "name": "MON AMI - OPEN AIR - SEASON CLOSING at Bar Gatto",
@@ -301,6 +279,39 @@
    "addr": "Орландовци, ул. Индустриална 1202 София"
   },
   {
+   "name": "Детски тур из Древна Сердика",
+   "venue": "Nexus Space",
+   "lat": 42.6985861,
+   "lon": 23.3192791,
+   "cap": 500,
+   "start": "2026-09-27T16:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/detski-tur-iz-drevna-serdika-8718",
+   "src": "bilet",
+   "addr": "София Център, ул. \"Княз Борис I\" 121, 1000 София"
+  },
+  {
+   "name": "Autumn Crush 🍂 by Singles of Sofia",
+   "venue": "Kick's",
+   "lat": 42.6914004,
+   "lon": 23.3297092,
+   "cap": 500,
+   "start": "2026-09-27T19:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/autumn-crush-by-singles-of-sofia-8778",
+   "src": "bilet",
+   "addr": "ул. Цар Иван Шишман 22, 1000 Sofia"
+  },
+  {
+   "name": "Slomosa (NOR) w/ Godsleep (GR), Sawber (BG) на живо в Sofia",
+   "venue": "клуб Паве",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-09-27T20:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/slomosa-nor-w-godsleep-gr-sawber-bg-na-zhivo-v-sofia-8050",
+   "src": "bilet",
+   "addr": "пл. Славейков 4"
+  },
+  {
    "name": "LIQUID MARKET Sofia - Cocktail Festival 2026",
    "venue": "Чистилището",
    "lat": null,
@@ -431,17 +442,6 @@
    "url": "https://www.bilet.bg/bg/events/brand-talks-2026-8449",
    "src": "bilet",
    "addr": "Студентски град, ул. \"Акад. Стефан Младенов\" 3"
-  },
-  {
-   "name": "SofiaTalks Business Bootcamp 2026",
-   "venue": "София Тех Парк",
-   "lat": 42.6668,
-   "lon": 23.376,
-   "cap": 1500,
-   "start": "2026-11-22T09:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/sofiatalks-business-bootcamp-2026-8246",
-   "src": "bilet",
-   "addr": "бул. Цариградско шосе 111Г, 1784 м. Къро"
   },
   {
    "name": "Михаела Маринова - Концерт - част от програмата \"Салон на изкуствата\" - Есен 2026 НДК",
