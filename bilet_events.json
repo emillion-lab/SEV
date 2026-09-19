@@ -1,18 +1,18 @@
 {
  "source": "bilet.bg",
- "generated": "2026-09-18T19:06:06.738289",
- "count": 42,
+ "generated": "2026-09-19T08:53:11.719933",
+ "count": 44,
  "events": [
   {
-   "name": "Issues For The Government presents: Anti Social Social Party",
-   "venue": "Клуб ОБЛК",
-   "lat": null,
-   "lon": null,
+   "name": "LR Power Day September 26",
+   "venue": "Rainbow Plaza",
+   "lat": 42.6657853,
+   "lon": 23.3261392,
    "cap": 500,
-   "start": "2026-09-18T22:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/issues-for-the-government-presents-anti-social-social-party-8706",
+   "start": "2026-09-19T13:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/lr-power-day-september-26-8516",
    "src": "bilet",
-   "addr": "Бул. Цар Освободилте №10"
+   "addr": "ул. Атанас Дуков 29\r\n"
   },
   {
    "name": "PERKELE live in Sofia",
@@ -290,6 +290,17 @@
    "addr": "София Център, ул. \"Княз Борис I\" 121, 1000 София"
   },
   {
+   "name": "GROOVERZ x Soda Sundays",
+   "venue": "Bar Soda",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-09-27T18:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/grooverz-x-soda-sundays-8805",
+   "src": "bilet",
+   "addr": "Ndk, Bulgaria Blvd 2, 1463 Sofia"
+  },
+  {
    "name": "Autumn Crush 🍂 by Singles of Sofia",
    "venue": "Kick's",
    "lat": 42.6914004,
@@ -299,17 +310,6 @@
    "url": "https://www.bilet.bg/bg/events/autumn-crush-by-singles-of-sofia-8778",
    "src": "bilet",
    "addr": "ул. Цар Иван Шишман 22, 1000 Sofia"
-  },
-  {
-   "name": "Slomosa (NOR) w/ Godsleep (GR), Sawber (BG) на живо в Sofia",
-   "venue": "клуб Паве",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2026-09-27T20:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/slomosa-nor-w-godsleep-gr-sawber-bg-na-zhivo-v-sofia-8050",
-   "src": "bilet",
-   "addr": "пл. Славейков 4"
   },
   {
    "name": "LIQUID MARKET Sofia - Cocktail Festival 2026",
@@ -332,6 +332,17 @@
    "url": "https://www.bilet.bg/bg/events/aws-community-day-2026-7930",
    "src": "bilet",
    "addr": "бул. Цариградско шосе 111Г, 1784 м. Къро"
+  },
+  {
+   "name": "Фестивалът \"Общувай\"",
+   "venue": "Интерпред - Световен търговски център",
+   "lat": 42.670303,
+   "lon": 23.3510647,
+   "cap": 500,
+   "start": "2026-10-03T10:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/festivalut-obshtuvay-8412",
+   "src": "bilet",
+   "addr": "бул. „Драган Цанков“ 36"
   },
   {
    "name": "REFLECTIONS on the Roof",
@@ -376,6 +387,17 @@
    "url": "https://www.bilet.bg/bg/events/mayhem-death-over-europe-tour-8484",
    "src": "bilet",
    "addr": "Studentski Kompleks, ж.к. Студентски град 26, 1700 Sofia"
+  },
+  {
+   "name": "SARAB (FR) LIVE IN SOFIA + ETHEREA / Club Mixtape 5 / 13.10",
+   "venue": "Mixtape 5",
+   "lat": 42.6866,
+   "lon": 23.319,
+   "cap": 900,
+   "start": "2026-10-13T19:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/sarab-fr-live-in-sofia-etherea-club-mixtape-5-1310-8638",
+   "src": "bilet",
+   "addr": "bul. Bulgaria, podlez Galeriya, bulevard \"Cherni vrah\", 1142 Sofia"
   },
   {
    "name": "ISTA Conference 2026- Fest Edition",
