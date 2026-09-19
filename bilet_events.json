@@ -1,30 +1,8 @@
 {
  "source": "bilet.bg",
- "generated": "2026-09-19T08:53:11.719933",
- "count": 44,
+ "generated": "2026-09-19T18:41:16.401184",
+ "count": 46,
  "events": [
-  {
-   "name": "LR Power Day September 26",
-   "venue": "Rainbow Plaza",
-   "lat": 42.6657853,
-   "lon": 23.3261392,
-   "cap": 500,
-   "start": "2026-09-19T13:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/lr-power-day-september-26-8516",
-   "src": "bilet",
-   "addr": "ул. Атанас Дуков 29\r\n"
-  },
-  {
-   "name": "PERKELE live in Sofia",
-   "venue": "Клуб Строежа",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2026-09-19T20:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/perkele-live-in-sofia-7802",
-   "src": "bilet",
-   "addr": "София Център, улица „Георги С. Раковски“ 116, 1000 София"
-  },
   {
    "name": "Closing Summer with White Off at Yalta garden",
    "venue": "Yalta Garden",
@@ -46,6 +24,17 @@
    "url": "https://www.bilet.bg/bg/events/duna-pres-isabel-soto-ostgut-ton-at-yalta-club-8497",
    "src": "bilet",
    "addr": "Булевард Цар Освободител 20, София, България"
+  },
+  {
+   "name": "SLOW JAMZ: 2 Year Anniversary - Sofia",
+   "venue": "Networking Premium (Гурко 16)",
+   "lat": 42.6919,
+   "lon": 23.326,
+   "cap": 500,
+   "start": "2026-09-20T18:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/slow-jamz-2-year-anniversary-sofia-8737",
+   "src": "bilet",
+   "addr": "София Център, ул. Генерал Гурко 16, 1000 София"
   },
   {
    "name": "MON AMI - OPEN AIR - SEASON CLOSING at Bar Gatto",
@@ -312,6 +301,28 @@
    "addr": "ул. Цар Иван Шишман 22, 1000 Sofia"
   },
   {
+   "name": "Slomosa (NOR) w/ Godsleep (GR), Sawber (BG) на живо в Sofia",
+   "venue": "клуб Паве",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-09-27T20:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/slomosa-nor-w-godsleep-gr-sawber-bg-na-zhivo-v-sofia-8050",
+   "src": "bilet",
+   "addr": "пл. Славейков 4"
+  },
+  {
+   "name": "Fall in Love 🍂 by Singles of Sofia",
+   "venue": "НДК",
+   "lat": 42.6866,
+   "lon": 23.319,
+   "cap": 3380,
+   "start": "2026-09-30T19:30:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/fall-in-love-by-singles-of-sofia-8745",
+   "src": "bilet",
+   "addr": "НДК, бул. „България“ 2, 1463 София"
+  },
+  {
    "name": "LIQUID MARKET Sofia - Cocktail Festival 2026",
    "venue": "Чистилището",
    "lat": null,
@@ -464,6 +475,17 @@
    "url": "https://www.bilet.bg/bg/events/brand-talks-2026-8449",
    "src": "bilet",
    "addr": "Студентски град, ул. \"Акад. Стефан Младенов\" 3"
+  },
+  {
+   "name": "SofiaTalks Business Bootcamp 2026",
+   "venue": "София Тех Парк",
+   "lat": 42.6668,
+   "lon": 23.376,
+   "cap": 1500,
+   "start": "2026-11-22T09:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/sofiatalks-business-bootcamp-2026-8246",
+   "src": "bilet",
+   "addr": "бул. Цариградско шосе 111Г, 1784 м. Къро"
   },
   {
    "name": "Михаела Маринова - Концерт - част от програмата \"Салон на изкуствата\" - Есен 2026 НДК",
