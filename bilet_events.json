@@ -1,30 +1,8 @@
 {
  "source": "bilet.bg",
- "generated": "2026-09-20T09:22:57.579509",
- "count": 45,
+ "generated": "2026-09-20T18:55:39.147838",
+ "count": 47,
  "events": [
-  {
-   "name": "SLOW JAMZ: 2 Year Anniversary - Sofia",
-   "venue": "Networking Premium (Гурко 16)",
-   "lat": 42.6919,
-   "lon": 23.326,
-   "cap": 500,
-   "start": "2026-09-20T18:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/slow-jamz-2-year-anniversary-sofia-8737",
-   "src": "bilet",
-   "addr": "София Център, ул. Генерал Гурко 16, 1000 София"
-  },
-  {
-   "name": "MON AMI - OPEN AIR - SEASON CLOSING at Bar Gatto",
-   "venue": "Bar Gatto",
-   "lat": 42.6907,
-   "lon": 23.332,
-   "cap": 300,
-   "start": "2026-09-20T19:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/mon-ami-open-air-season-closing-at-bar-gatto-8722",
-   "src": "bilet",
-   "addr": "София Център, ул. Московска 6, 6 А, 1000 София"
-  },
   {
    "name": "DIANA FEST 4 on the Rooftop - Svilen Noev - Overhook - Ivan&Ersin Acoustic - Sunblinds - 2",
    "venue": "Kitchen 59",
@@ -90,6 +68,17 @@
    "url": "https://www.bilet.bg/bg/events/blockchain-week-bulgaria-7678",
    "src": "bilet",
    "addr": "бул. Цариградско шосе 111Г, 1784 м. Къро"
+  },
+  {
+   "name": "The Best of Garou Sofia",
+   "venue": "НДК",
+   "lat": 42.6866,
+   "lon": 23.319,
+   "cap": 3380,
+   "start": "2026-09-24T19:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/the-best-of-garou-sofia-8739",
+   "src": "bilet",
+   "addr": "Площад България 1"
   },
   {
    "name": "Обикновени истории",
@@ -189,6 +178,28 @@
    "url": "https://www.bilet.bg/bg/events/season-3-opening-fuel-x-tomodachi-8768",
    "src": "bilet",
    "addr": "София Център, ул. Фритьоф Нансен 25 София"
+  },
+  {
+   "name": "The Fantastic Four  DJ STEVEN",
+   "venue": "CLWD",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-09-25T23:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/the-fantastic-four-dj-steven-8705",
+   "src": "bilet",
+   "addr": "София Център, ул. Шипка 6"
+  },
+  {
+   "name": "The Wonder Girls EMO/ROCK Night @ MIXTAPE 5, София",
+   "venue": "Mixtape 5",
+   "lat": 42.6866,
+   "lon": 23.319,
+   "cap": 900,
+   "start": "2026-09-25T23:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/the-wonder-girls-emorock-night-at-mixtape-5-sofia-8678",
+   "src": "bilet",
+   "addr": "bul. Bulgaria, podlez Galeriya, bulevard \"Cherni vrah\", 1142 Sofia"
   },
   {
    "name": "Аз рисувам като ... Пийт Мондриан - ателие за деца",
@@ -453,6 +464,17 @@
    "url": "https://www.bilet.bg/bg/events/brand-talks-2026-8449",
    "src": "bilet",
    "addr": "Студентски град, ул. \"Акад. Стефан Младенов\" 3"
+  },
+  {
+   "name": "The Italian Jazz Band",
+   "venue": "НДК",
+   "lat": 42.6866,
+   "lon": 23.319,
+   "cap": 3380,
+   "start": "2026-11-14T19:30:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/the-italian-jazz-band-8641",
+   "src": "bilet",
+   "addr": "НДК, бул. България 1, 1000 София"
   },
   {
    "name": "SofiaTalks Business Bootcamp 2026",
