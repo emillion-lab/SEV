@@ -1,19 +1,8 @@
 {
  "source": "bilet.bg",
- "generated": "2026-09-22T09:23:20.916835",
+ "generated": "2026-09-22T19:48:24.499001",
  "count": 47,
  "events": [
-  {
-   "name": "Децата на прехода @ NOMO del Arte",
-   "venue": "бар NOMO del Arte",
-   "lat": 42.6947259,
-   "lon": 23.3342231,
-   "cap": 500,
-   "start": "2026-09-22T17:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/detsata-na-prehoda-at-nomo-del-arte-8709",
-   "src": "bilet",
-   "addr": "Ул. Шипка 1"
-  },
   {
    "name": "Първи ход: твоята кариера с Христина Иванова - НА ЖИВО В СОФИЯ",
    "venue": "M3 Communications",
@@ -508,6 +497,17 @@
    "url": "https://www.bilet.bg/bg/events/disney-fantazia-kontsert-na-zhivo-8636",
    "src": "bilet",
    "addr": "Площад България 1"
+  },
+  {
+   "name": "U.D.O. - TRIPLE ANNIVERSARY Tour 2027",
+   "venue": "Зала Христо Ботев Студентски Град",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2027-02-04T20:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/udo-triple-anniversary-tour-2027-8085",
+   "src": "bilet",
+   "addr": "Studentski Kompleks, ж.к. Студентски град 26, 1700 Sofia"
   },
   {
    "name": "TARJA: FRISSON LIVE 2027 - Sofia",
