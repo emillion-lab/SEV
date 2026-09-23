@@ -1,7 +1,7 @@
 {
  "source": "bilet.bg",
- "generated": "2026-09-23T09:24:12.540954",
- "count": 46,
+ "generated": "2026-09-23T19:44:39.070350",
+ "count": 45,
  "events": [
   {
    "name": "Първи ход: твоята кариера с Христина Иванова - НА ЖИВО В СОФИЯ",
@@ -13,28 +13,6 @@
    "url": "https://www.bilet.bg/bg/events/purvi-hod-tvoata-kariera-s-hristina-ivanova-na-zhivo-v-sofia-8537",
    "src": "bilet",
    "addr": "бул. „България“ 60, 1680 София"
-  },
-  {
-   "name": "Писателско соаре „Мастило и мечти“ на 1 година: Творческо предизвикателство: „Одисея към с",
-   "venue": "Мечталище",
-   "lat": 42.6708452,
-   "lon": 23.3237069,
-   "cap": 500,
-   "start": "2026-09-23T18:45:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/pisatelsko-soare-mastilo-i-mechti-na-1-godina-tvorchesko-predizvikatelstvo-odisea-kum-sebe-si-8648",
-   "src": "bilet",
-   "addr": "Център гр. Лозенец, ул. \"Трепетлика\" 12, 1407 София"
-  },
-  {
-   "name": "ДЪЩЕРЯТА НА САМУРАЯ - 50-о юбилейно представление!",
-   "venue": "НДК Зала 1",
-   "lat": 42.6866,
-   "lon": 23.319,
-   "cap": 3380,
-   "start": "2026-09-23T19:30:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/dushterata-na-samuraa-50-o-ubileyno-predstavlenie-8682",
-   "src": "bilet",
-   "addr": "София, ул. \"Емил Берсински\" №5, Sofia, Bulgaria"
   },
   {
    "name": "Blockchain Week Bulgaria",
@@ -497,6 +475,17 @@
    "url": "https://www.bilet.bg/bg/events/disney-fantazia-kontsert-na-zhivo-8636",
    "src": "bilet",
    "addr": "Площад България 1"
+  },
+  {
+   "name": "U.D.O. - TRIPLE ANNIVERSARY Tour 2027",
+   "venue": "Зала Христо Ботев Студентски Град",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2027-02-04T20:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/udo-triple-anniversary-tour-2027-8085",
+   "src": "bilet",
+   "addr": "Studentski Kompleks, ж.к. Студентски град 26, 1700 Sofia"
   },
   {
    "name": "TARJA: FRISSON LIVE 2027 - Sofia",
