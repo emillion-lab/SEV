@@ -1,7 +1,7 @@
 {
  "source": "bilet.bg",
- "generated": "2026-09-23T19:44:39.070350",
- "count": 45,
+ "generated": "2026-09-24T09:24:17.809672",
+ "count": 44,
  "events": [
   {
    "name": "Първи ход: твоята кариера с Христина Иванова - НА ЖИВО В СОФИЯ",
@@ -24,17 +24,6 @@
    "url": "https://www.bilet.bg/bg/events/blockchain-week-bulgaria-7678",
    "src": "bilet",
    "addr": "бул. Цариградско шосе 111Г, 1784 м. Къро"
-  },
-  {
-   "name": "The Best of Garou Sofia",
-   "venue": "НДК",
-   "lat": 42.6866,
-   "lon": 23.319,
-   "cap": 3380,
-   "start": "2026-09-24T19:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/the-best-of-garou-sofia-8739",
-   "src": "bilet",
-   "addr": "Площад България 1"
   },
   {
    "name": "Обикновени истории",
