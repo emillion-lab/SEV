@@ -1,6 +1,6 @@
 {
  "source": "bilet.bg",
- "generated": "2026-09-25T09:42:11.944421",
+ "generated": "2026-09-25T20:05:05.452574",
  "count": 41,
  "events": [
   {
@@ -26,28 +26,6 @@
    "addr": "Гърдова Глававитоса ул. Маринковица 1618 София"
   },
   {
-   "name": "Обыкновенные истории",
-   "venue": "I AM STUDIO",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2026-09-25T19:30:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/obyknovennye-istorii-8777",
-   "src": "bilet",
-   "addr": "ул. Раковски 149"
-  },
-  {
-   "name": "СЕКС И ДРАМА в СОФИЯ",
-   "venue": "Клуб Строежа",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2026-09-25T19:30:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/seks-i-drama-v-sofia-8589",
-   "src": "bilet",
-   "addr": "София Център, улица „Георги С. Раковски“ 116, 1000 София"
-  },
-  {
    "name": "Gallery Rave-view: Sound & Vision After Dark | 25.09",
    "venue": "One Gallery",
    "lat": 42.695371,
@@ -57,17 +35,6 @@
    "url": "https://www.bilet.bg/bg/events/gallery-rave-view-sound-vision-after-dark-2509-8679",
    "src": "bilet",
    "addr": "ул. \"Дякон Игнатий\" 1, 1000 София Център"
-  },
-  {
-   "name": "PARAPLANNER - acoustic live - 25.09 - VIDEO PROMO",
-   "venue": "Клуб за Естетическо Възпитание на Артиста",
-   "lat": 42.6918756,
-   "lon": 23.3254914,
-   "cap": 500,
-   "start": "2026-09-25T20:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/paraplanner-acoustic-live-2509-video-promo-8798",
-   "src": "bilet",
-   "addr": "улица „Георги С. Раковски“ 114, 1000 София Център, София"
   },
   {
    "name": "SEASON 3 OPENING • FUEL X TOMODACHi",
@@ -365,6 +332,39 @@
    "url": "https://www.bilet.bg/bg/events/dara-live-7499",
    "src": "bilet",
    "addr": "Ул. Пиротска 5 1000 София Център"
+  },
+  {
+   "name": "NICKA Halloween Concert \"Хиляди Лица\" / Mixtape 5 / 31.10",
+   "venue": "Mixtape 5",
+   "lat": 42.6866,
+   "lon": 23.319,
+   "cap": 900,
+   "start": "2026-10-31T19:30:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/nicka-halloween-concert-hiladi-litsa-mixtape-5-3110-8764",
+   "src": "bilet",
+   "addr": "bul. Bulgaria, podlez Galeriya, bulevard \"Cherni vrah\", 1142 Sofia"
+  },
+  {
+   "name": "HALLOWEEN PARANOIA 3, Sofia Halloween fest 2026, Chistilishteto",
+   "venue": "Чистилището",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-10-31T21:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/halloween-paranoia-3-sofia-halloween-fest-2026-chistilishteto-8753",
+   "src": "bilet",
+   "addr": "Орландовци, ул. Индустриална 1202 София"
+  },
+  {
+   "name": "Halloween Night with The Wonder GIrls / Club Mixtape 5 / 31.10",
+   "venue": "Mixtape 5",
+   "lat": 42.6866,
+   "lon": 23.319,
+   "cap": 900,
+   "start": "2026-10-31T23:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/halloween-night-with-the-wonder-girls-club-mixtape-5-3110-8823",
+   "src": "bilet",
+   "addr": "bul. Bulgaria, podlez Galeriya, bulevard \"Cherni vrah\", 1142 Sofia"
   },
   {
    "name": "BRAND TALKs 2026",
