@@ -1,7 +1,7 @@
 {
  "source": "bilet.bg",
- "generated": "2026-09-24T20:02:45.900178",
- "count": 40,
+ "generated": "2026-09-25T09:42:11.944421",
+ "count": 41,
  "events": [
   {
    "name": "Първи ход: твоята кариера с Христина Иванова - НА ЖИВО В СОФИЯ",
@@ -288,6 +288,17 @@
    "url": "https://www.bilet.bg/bg/events/mayhem-death-over-europe-tour-8484",
    "src": "bilet",
    "addr": "Studentski Kompleks, ж.к. Студентски град 26, 1700 Sofia"
+  },
+  {
+   "name": "Destroy Your Future LIVE + Scotopia / Club Mixtape 5 / 09.10",
+   "venue": "Mixtape 5",
+   "lat": 42.6866,
+   "lon": 23.319,
+   "cap": 900,
+   "start": "2026-10-09T20:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/destroy-your-future-live-scotopia-club-mixtape-5-0910-8666",
+   "src": "bilet",
+   "addr": "bul. Bulgaria, podlez Galeriya, bulevard \"Cherni vrah\", 1142 Sofia"
   },
   {
    "name": "SARAB (FR) LIVE IN SOFIA + ETHEREA / Club Mixtape 5 / 13.10",
