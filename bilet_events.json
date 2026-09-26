@@ -1,7 +1,7 @@
 {
  "source": "bilet.bg",
- "generated": "2026-09-25T20:05:05.452574",
- "count": 41,
+ "generated": "2026-09-26T09:26:31.412637",
+ "count": 38,
  "events": [
   {
    "name": "Първи ход: твоята кариера с Христина Иванова - НА ЖИВО В СОФИЯ",
@@ -24,61 +24,6 @@
    "url": "https://www.bilet.bg/bg/events/mlc-training-collection-2026-2027-8165",
    "src": "bilet",
    "addr": "Гърдова Глававитоса ул. Маринковица 1618 София"
-  },
-  {
-   "name": "Gallery Rave-view: Sound & Vision After Dark | 25.09",
-   "venue": "One Gallery",
-   "lat": 42.695371,
-   "lon": 23.3269568,
-   "cap": 500,
-   "start": "2026-09-25T20:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/gallery-rave-view-sound-vision-after-dark-2509-8679",
-   "src": "bilet",
-   "addr": "ул. \"Дякон Игнатий\" 1, 1000 София Център"
-  },
-  {
-   "name": "SEASON 3 OPENING • FUEL X TOMODACHi",
-   "venue": "Club Mesmeric",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2026-09-25T23:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/season-3-opening-fuel-x-tomodachi-8768",
-   "src": "bilet",
-   "addr": "София Център, ул. Фритьоф Нансен 25 София"
-  },
-  {
-   "name": "The Fantastic Four  DJ STEVEN",
-   "venue": "CLWD",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2026-09-25T23:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/the-fantastic-four-dj-steven-8705",
-   "src": "bilet",
-   "addr": "София Център, ул. Шипка 6"
-  },
-  {
-   "name": "The Wonder Girls EMO/ROCK Night @ MIXTAPE 5, София",
-   "venue": "Mixtape 5",
-   "lat": 42.6866,
-   "lon": 23.319,
-   "cap": 900,
-   "start": "2026-09-25T23:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/the-wonder-girls-emorock-night-at-mixtape-5-sofia-8678",
-   "src": "bilet",
-   "addr": "bul. Bulgaria, podlez Galeriya, bulevard \"Cherni vrah\", 1142 Sofia"
-  },
-  {
-   "name": "Аз рисувам като ... Пийт Мондриан - ателие за деца",
-   "venue": "Късноантичен мавзолей - кв. Лозенец",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2026-09-26T11:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/az-risuvam-kato-piyt-mondrian-atelie-za-detsa-8610",
-   "src": "bilet",
-   "addr": "кв. Лозенец, адрес: ж.г. Южен парк, ул. „Димитър Хаджикоцев“ 108-112,"
   },
   {
    "name": "Аз рисувам като ... Пийт Мондриан - ателие за възрастни",
@@ -191,6 +136,17 @@
    "addr": "Орландовци, ул. Индустриална 1202 София"
   },
   {
+   "name": "ОСТАВА: LIVE & VISUAL EXPERIENCE @ Malkata Tekila Sofia 02/10/26",
+   "venue": "Малката Текила",
+   "lat": 42.695,
+   "lon": 23.328,
+   "cap": 400,
+   "start": "2026-10-02T19:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/ostava-live-visual-experience-at-malkata-tekila-sofia-021026-8748",
+   "src": "bilet",
+   "addr": "ул. Ангел Кънчев 1"
+  },
+  {
    "name": "AWS Community Day 2026",
    "venue": "София Тех Парк",
    "lat": 42.6668,
@@ -266,6 +222,17 @@
    "url": "https://www.bilet.bg/bg/events/destroy-your-future-live-scotopia-club-mixtape-5-0910-8666",
    "src": "bilet",
    "addr": "bul. Bulgaria, podlez Galeriya, bulevard \"Cherni vrah\", 1142 Sofia"
+  },
+  {
+   "name": "back to CHILDHOOD",
+   "venue": "Клуб Грамофон",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-10-09T23:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/back-to-childhood-8686",
+   "src": "bilet",
+   "addr": "ул. Будапеща 6 "
   },
   {
    "name": "SARAB (FR) LIVE IN SOFIA + ETHEREA / Club Mixtape 5 / 13.10",
