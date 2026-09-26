@@ -1,7 +1,7 @@
 {
  "source": "bilet.bg",
- "generated": "2026-09-26T09:26:31.412637",
- "count": 38,
+ "generated": "2026-09-26T19:17:27.839145",
+ "count": 35,
  "events": [
   {
    "name": "Първи ход: твоята кариера с Христина Иванова - НА ЖИВО В СОФИЯ",
@@ -24,39 +24,6 @@
    "url": "https://www.bilet.bg/bg/events/mlc-training-collection-2026-2027-8165",
    "src": "bilet",
    "addr": "Гърдова Глававитоса ул. Маринковица 1618 София"
-  },
-  {
-   "name": "Аз рисувам като ... Пийт Мондриан - ателие за възрастни",
-   "venue": "Късноантичен мавзолей - кв. Лозенец",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2026-09-26T14:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/az-risuvam-kato-piyt-mondrian-atelie-za-vuzrastni-8606",
-   "src": "bilet",
-   "addr": "кв. Лозенец, адрес: ж.г. Южен парк, ул. „Димитър Хаджикоцев“ 108-112,"
-  },
-  {
-   "name": "Cake on the Roof by House of Cake",
-   "venue": "Networking Premium (Гурко 16)",
-   "lat": 42.6919,
-   "lon": 23.326,
-   "cap": 500,
-   "start": "2026-09-26T16:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/cake-on-the-roof-by-house-of-cake-8734",
-   "src": "bilet",
-   "addr": "София Център, ул. Генерал Гурко 16, 1000 София"
-  },
-  {
-   "name": "SATURDAY AFTERNOON PARTY WITH МИТКО ПАВЛОВ VOL.6 @ Бар Петък  - 26.09.2026",
-   "venue": "Networking Premium (Гурко 16)",
-   "lat": 42.6919,
-   "lon": 23.326,
-   "cap": 500,
-   "start": "2026-09-26T18:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/saturday-afternoon-party-with-mitko-pavlov-vol6-at-bar-petuk-26092026-8692",
-   "src": "bilet",
-   "addr": "ул. \"Ген. Гурко\" 21, 1000 София център, София"
   },
   {
    "name": "Синьо лято",
