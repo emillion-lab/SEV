@@ -1,7 +1,7 @@
 {
  "source": "bilet.bg",
- "generated": "2026-09-26T19:17:27.839145",
- "count": 35,
+ "generated": "2026-09-27T10:06:05.886540",
+ "count": 38,
  "events": [
   {
    "name": "Първи ход: твоята кариера с Христина Иванова - НА ЖИВО В СОФИЯ",
@@ -24,17 +24,6 @@
    "url": "https://www.bilet.bg/bg/events/mlc-training-collection-2026-2027-8165",
    "src": "bilet",
    "addr": "Гърдова Глававитоса ул. Маринковица 1618 София"
-  },
-  {
-   "name": "Синьо лято",
-   "venue": "Чистилището",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2026-09-26T21:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/sino-lato-8785",
-   "src": "bilet",
-   "addr": "Орландовци, ул. Индустриална 1202 София"
   },
   {
    "name": "Детски тур из Древна Сердика",
@@ -112,6 +101,17 @@
    "url": "https://www.bilet.bg/bg/events/ostava-live-visual-experience-at-malkata-tekila-sofia-021026-8748",
    "src": "bilet",
    "addr": "ул. Ангел Кънчев 1"
+  },
+  {
+   "name": "Лексикон парти - Най-обичаните хитове на 90-те и изненади, за които няма да споменаваме",
+   "venue": "Gravity bar",
+   "lat": 42.6975117,
+   "lon": 23.3261987,
+   "cap": 500,
+   "start": "2026-10-02T19:30:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/leksikon-parti-nay-obichanite-hitove-na-90-te-i-iznenadi-za-koito-nama-da-spomenavame-8707",
+   "src": "bilet",
+   "addr": "София Център, ул. Московска 3, 1000 София"
   },
   {
    "name": "AWS Community Day 2026",
@@ -202,6 +202,17 @@
    "addr": "ул. Будапеща 6 "
   },
   {
+   "name": "Autumn Wave Fest",
+   "venue": "клуб Паве",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-10-10T19:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/autumn-wave-fest-8071",
+   "src": "bilet",
+   "addr": "пл. Славейков 4"
+  },
+  {
    "name": "SARAB (FR) LIVE IN SOFIA + ETHEREA / Club Mixtape 5 / 13.10",
    "venue": "Mixtape 5",
    "lat": 42.6866,
@@ -222,6 +233,17 @@
    "url": "https://www.bilet.bg/bg/events/ista-conference-2026-fest-edition-7690",
    "src": "bilet",
    "addr": "1407 Hladilnika, Sofia"
+  },
+  {
+   "name": "Аз рисувам като ... Винсент Ван Гог - ателие за деца",
+   "venue": "АРТ Къща",
+   "lat": 42.6892355,
+   "lon": 23.3087338,
+   "cap": 500,
+   "start": "2026-10-17T14:30:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/az-risuvam-kato-vinsent-van-gog-atelie-za-detsa-8545",
+   "src": "bilet",
+   "addr": "ул. \"Дукатска планина\" 18, 1606 София"
   },
   {
    "name": "Frozen Heart Sofia",
@@ -387,6 +409,17 @@
    "url": "https://www.bilet.bg/bg/events/tarja-frisson-live-2027-sofia-8439",
    "src": "bilet",
    "addr": "Studentski Kompleks, ж.к. Студентски град 26, 1700 Sofia"
+  },
+  {
+   "name": "Chris Norman Live Sofia",
+   "venue": "НДК",
+   "lat": 42.6866,
+   "lon": 23.319,
+   "cap": 3380,
+   "start": "2027-03-19T20:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/chris-norman-live-sofia-8264",
+   "src": "bilet",
+   "addr": "Площад България 1"
   }
  ]
 }
