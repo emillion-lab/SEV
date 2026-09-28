@@ -1,7 +1,7 @@
 {
  "source": "bilet.bg",
- "generated": "2026-09-28T11:36:09.804570",
- "count": 35,
+ "generated": "2026-09-28T22:10:22.743623",
+ "count": 36,
  "events": [
   {
    "name": "Първи ход: твоята кариера с Христина Иванова - НА ЖИВО В СОФИЯ",
@@ -266,6 +266,17 @@
    "url": "https://www.bilet.bg/bg/events/dara-live-7499",
    "src": "bilet",
    "addr": "Ул. Пиротска 5 1000 София Център"
+  },
+  {
+   "name": "Infected Halloween 2026 | Day & Night Fest",
+   "venue": "Sofia - Secret Location",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-10-31T14:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/infected-halloween-2026-day-night-fest-8715",
+   "src": "bilet",
+   "addr": ""
   },
   {
    "name": "NICKA Halloween Concert \"Хиляди Лица\" / Mixtape 5 / 31.10",
