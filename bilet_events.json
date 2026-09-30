@@ -1,19 +1,8 @@
 {
  "source": "bilet.bg",
- "generated": "2026-09-29T20:55:13.318664",
- "count": 35,
+ "generated": "2026-09-30T10:35:52.469401",
+ "count": 37,
  "events": [
-  {
-   "name": "Първи ход: твоята кариера с Христина Иванова - НА ЖИВО В СОФИЯ",
-   "venue": "M3 Communications",
-   "lat": 42.668648,
-   "lon": 23.2905689,
-   "cap": 500,
-   "start": "2026-09-23T18:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/purvi-hod-tvoata-kariera-s-hristina-ivanova-na-zhivo-v-sofia-8537",
-   "src": "bilet",
-   "addr": "бул. „България“ 60, 1680 София"
-  },
   {
    "name": "MLC Training Collection 2026 - 2027",
    "venue": "My Leadership Center",
@@ -48,6 +37,28 @@
    "addr": "Орландовци, ул. Индустриална 1202 София"
   },
   {
+   "name": "BARTOK GOTHIC 6 Live@Mixtape 5",
+   "venue": "Mixtape 5",
+   "lat": 42.6866,
+   "lon": 23.319,
+   "cap": 900,
+   "start": "2026-10-01T20:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/bartok-gothic-6-live-at-mixtape-5-8771",
+   "src": "bilet",
+   "addr": "bul. Bulgaria, podlez Galeriya, bulevard \"Cherni vrah\", 1142 Sofia"
+  },
+  {
+   "name": "Визии за апокалипсиса в киното",
+   "venue": "Nexus Space",
+   "lat": 42.6985861,
+   "lon": 23.3192791,
+   "cap": 500,
+   "start": "2026-10-02T18:30:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/vizii-za-apokalipsisa-v-kinoto-8711",
+   "src": "bilet",
+   "addr": "София Център, ул. \"Княз Борис I\" 121, 1000 София"
+  },
+  {
    "name": "ОСТАВА: LIVE & VISUAL EXPERIENCE @ Malkata Tekila Sofia 02/10/26",
    "venue": "Малката Текила",
    "lat": 42.695,
@@ -79,6 +90,17 @@
    "url": "https://www.bilet.bg/bg/events/element-clan-pres-metal-vs-bass-w-eric-hutchence-zardonic-mixtape-5-0210-8612",
    "src": "bilet",
    "addr": "bul. Bulgaria, podlez Galeriya, bulevard \"Cherni vrah\", 1142 Sofia"
+  },
+  {
+   "name": "90s kids @ Malkata tekila Sofia - Angel Kanchev 1 - 02.10.2026",
+   "venue": "Малката Текила",
+   "lat": 42.695,
+   "lon": 23.328,
+   "cap": 400,
+   "start": "2026-10-02T22:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/90s-kids-at-malkata-tekila-sofia-angel-kanchev-1-02102026-8812",
+   "src": "bilet",
+   "addr": "ул. Ангел Кънчев 1"
   },
   {
    "name": "AWS Community Day 2026",
