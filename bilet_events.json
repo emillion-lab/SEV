@@ -1,7 +1,7 @@
 {
  "source": "bilet.bg",
- "generated": "2026-09-30T10:35:52.469401",
- "count": 37,
+ "generated": "2026-09-30T20:53:46.088107",
+ "count": 36,
  "events": [
   {
    "name": "MLC Training Collection 2026 - 2027",
@@ -13,17 +13,6 @@
    "url": "https://www.bilet.bg/bg/events/mlc-training-collection-2026-2027-8165",
    "src": "bilet",
    "addr": "Гърдова Глававитоса ул. Маринковица 1618 София"
-  },
-  {
-   "name": "Fall in Love 🍂 by Singles of Sofia",
-   "venue": "НДК",
-   "lat": 42.6866,
-   "lon": 23.319,
-   "cap": 3380,
-   "start": "2026-09-30T19:30:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/fall-in-love-by-singles-of-sofia-8745",
-   "src": "bilet",
-   "addr": "НДК, бул. „България“ 2, 1463 София"
   },
   {
    "name": "LIQUID MARKET Sofia - Cocktail Festival 2026",
