@@ -1,7 +1,7 @@
 {
  "source": "bilet.bg",
- "generated": "2026-10-01T11:28:51.446814",
- "count": 46,
+ "generated": "2026-10-01T21:07:40.159848",
+ "count": 45,
  "events": [
   {
    "name": "MLC Training Collection 2026 - 2027",
@@ -24,17 +24,6 @@
    "url": "https://www.bilet.bg/bg/events/liquid-market-sofia-cocktail-festival-2026-6972",
    "src": "bilet",
    "addr": "Орландовци, ул. Индустриална 1202 София"
-  },
-  {
-   "name": "BARTOK GOTHIC 6 Live@Mixtape 5",
-   "venue": "Mixtape 5",
-   "lat": 42.6866,
-   "lon": 23.319,
-   "cap": 900,
-   "start": "2026-10-01T20:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/bartok-gothic-6-live-at-mixtape-5-8771",
-   "src": "bilet",
-   "addr": "bul. Bulgaria, podlez Galeriya, bulevard \"Cherni vrah\", 1142 Sofia"
   },
   {
    "name": "Arika Adams - Overground Album Promo",
@@ -90,17 +79,6 @@
    "url": "https://www.bilet.bg/bg/events/element-clan-pres-metal-vs-bass-w-eric-hutchence-zardonic-mixtape-5-0210-8612",
    "src": "bilet",
    "addr": "bul. Bulgaria, podlez Galeriya, bulevard \"Cherni vrah\", 1142 Sofia"
-  },
-  {
-   "name": "RDMK LIVE - 02.10.2026 - Бар Петък",
-   "venue": "Networking Premium (Гурко 16)",
-   "lat": 42.6919,
-   "lon": 23.326,
-   "cap": 500,
-   "start": "2026-10-02T21:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/rdmk-live-02102026-bar-petuk-8772",
-   "src": "bilet",
-   "addr": "ул. \"Ген. Гурко\" 21, 1000 София център, София"
   },
   {
    "name": "90s kids @ Malkata tekila Sofia - Angel Kanchev 1 - 02.10.2026",
@@ -321,6 +299,17 @@
    "url": "https://www.bilet.bg/bg/events/madball-live-in-sofia-desolated-combust-expectations-8517",
    "src": "bilet",
    "addr": "София, ул. \"Емил Берсински\" № 5"
+  },
+  {
+   "name": "Mega Draglesque Cabaret",
+   "venue": "НДК",
+   "lat": 42.6866,
+   "lon": 23.319,
+   "cap": 3380,
+   "start": "2026-10-09T19:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/mega-draglesque-cabaret-8605",
+   "src": "bilet",
+   "addr": "НДК, п-д \"България\" 1  "
   },
   {
    "name": "MAYHEM: Death Over Europe Tour",
