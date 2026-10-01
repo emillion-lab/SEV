@@ -1,44 +1,12 @@
 {
- "generated": "2026-09-28T11:36:09.888810+00:00",
- "count": 55,
+ "generated": "2026-10-01T11:28:51.539267+00:00",
+ "count": 62,
  "sources_ok": [
   "arena",
   "bilet",
   "ndk"
  ],
  "events": [
-  {
-   "name": "Първи ход: твоята кариера с Христина Иванова - НА ЖИВО В СОФИЯ",
-   "venue": "M3 Communications",
-   "lat": 42.668648,
-   "lon": 23.2905689,
-   "cap": 500,
-   "start": "2026-09-23T18:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/purvi-hod-tvoata-kariera-s-hristina-ivanova-na-zhivo-v-sofia-8537",
-   "src": "bilet",
-   "addr": "бул. „България“ 60, 1680 София"
-  },
-  {
-   "name": "Дракула - Мюзикълът",
-   "venue": "НДК Зала 1",
-   "lat": 42.6847,
-   "lon": 23.3188,
-   "cap": 3380,
-   "start": "2026-09-28T19:00:00+03:00",
-   "url": "",
-   "src": "ndk"
-  },
-  {
-   "name": "Fall in Love 🍂 by Singles of Sofia",
-   "venue": "НДК",
-   "lat": 42.6866,
-   "lon": 23.319,
-   "cap": 3380,
-   "start": "2026-09-30T19:30:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/fall-in-love-by-singles-of-sofia-8745",
-   "src": "bilet",
-   "addr": "НДК, бул. „България“ 2, 1463 София"
-  },
   {
    "name": "Японски графичен дизайн | САЛОН НА ИЗКУСТВАТА",
    "venue": "НДК Зала 1",
@@ -50,14 +18,15 @@
    "src": "ndk"
   },
   {
-   "name": "DEEP PURPLE",
-   "venue": "Арена 8888 София",
-   "lat": 42.67137,
-   "lon": 23.36932,
-   "cap": 12000,
+   "name": "BARTOK GOTHIC 6 Live@Mixtape 5",
+   "venue": "Mixtape 5",
+   "lat": 42.6866,
+   "lon": 23.319,
+   "cap": 900,
    "start": "2026-10-01T20:00:00+03:00",
-   "url": "",
-   "src": "arena"
+   "url": "https://www.bilet.bg/bg/events/bartok-gothic-6-live-at-mixtape-5-8771",
+   "src": "bilet",
+   "addr": "bul. Bulgaria, podlez Galeriya, bulevard \"Cherni vrah\", 1142 Sofia"
   },
   {
    "name": "Салон на изкуствата / Събития",
@@ -101,6 +70,17 @@
    "addr": "ул. Ангел Кънчев 1"
   },
   {
+   "name": "Дантела от ноти",
+   "venue": "Музей Борис Христов",
+   "lat": 42.6937279,
+   "lon": 23.3166384,
+   "cap": 500,
+   "start": "2026-10-02T19:30:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/dantela-ot-noti-8811",
+   "src": "bilet",
+   "addr": "София Център, ул. Цар Самуил, 1000 София"
+  },
+  {
    "name": "Лексикон парти - Най-обичаните хитове на 90-те и изненади, за които няма да споменаваме",
    "venue": "Gravity bar",
    "lat": 42.6975117,
@@ -121,6 +101,28 @@
    "url": "https://www.bilet.bg/bg/events/element-clan-pres-metal-vs-bass-w-eric-hutchence-zardonic-mixtape-5-0210-8612",
    "src": "bilet",
    "addr": "bul. Bulgaria, podlez Galeriya, bulevard \"Cherni vrah\", 1142 Sofia"
+  },
+  {
+   "name": "RDMK LIVE - 02.10.2026 - Бар Петък",
+   "venue": "Networking Premium (Гурко 16)",
+   "lat": 42.6919,
+   "lon": 23.326,
+   "cap": 500,
+   "start": "2026-10-02T21:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/rdmk-live-02102026-bar-petuk-8772",
+   "src": "bilet",
+   "addr": "ул. \"Ген. Гурко\" 21, 1000 София център, София"
+  },
+  {
+   "name": "90s kids @ Malkata tekila Sofia - Angel Kanchev 1 - 02.10.2026",
+   "venue": "Малката Текила",
+   "lat": 42.695,
+   "lon": 23.328,
+   "cap": 400,
+   "start": "2026-10-02T22:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/90s-kids-at-malkata-tekila-sofia-angel-kanchev-1-02102026-8812",
+   "src": "bilet",
+   "addr": "ул. Ангел Кънчев 1"
   },
   {
    "name": "AWS Community Day 2026",
@@ -145,15 +147,37 @@
    "addr": "бул. „Драган Цанков“ 36"
   },
   {
-   "name": "REFLECTIONS on the Roof",
-   "venue": "Networking Premium (Гурко 16)",
-   "lat": 42.6919,
-   "lon": 23.326,
+   "name": "Детски тур из Древна Сердика",
+   "venue": "Nexus Space",
+   "lat": 42.6985861,
+   "lon": 23.3192791,
    "cap": 500,
-   "start": "2026-10-03T16:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/reflections-on-the-roof-8593",
+   "start": "2026-10-03T11:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/detski-tur-iz-drevna-serdika-8898",
    "src": "bilet",
-   "addr": "София Център, ул. Генерал Гурко 16, 1000 София"
+   "addr": "София Център, ул. \"Княз Борис I\" 121, 1000 София"
+  },
+  {
+   "name": "Лазерен лабиринт \"Фотоника\"",
+   "venue": "Nexus Space",
+   "lat": 42.6985861,
+   "lon": 23.3192791,
+   "cap": 500,
+   "start": "2026-10-03T17:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/lazeren-labirint-fotonika-8879",
+   "src": "bilet",
+   "addr": "София Център, ул. \"Княз Борис I\" 121, 1000 София"
+  },
+  {
+   "name": "Azymuth [LIVE] @ Malkata Tekila Sofia 03/10/2026",
+   "venue": "Малката Текила",
+   "lat": 42.695,
+   "lon": 23.328,
+   "cap": 400,
+   "start": "2026-10-03T19:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/azymuth-live-at-malkata-tekila-sofia-03102026-8156",
+   "src": "bilet",
+   "addr": "ул. Ангел Кънчев 1"
   },
   {
    "name": "PAOLA | ИСКАМ ВСИЧКО Tour 2026 София",
@@ -167,6 +191,17 @@
    "addr": "Студентски град, ул. \"Акад. Стефан Младенов\" 3"
   },
   {
+   "name": "Liquidizer @ Malkata Tekila Sofia 03/10/2026",
+   "venue": "Малката Текила",
+   "lat": 42.695,
+   "lon": 23.328,
+   "cap": 400,
+   "start": "2026-10-03T22:30:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/liquidizer-at-malkata-tekila-sofia-03102026-8741",
+   "src": "bilet",
+   "addr": "ул. Ангел Кънчев 1"
+  },
+  {
    "name": "Next Level & Flais Les Mills 2026",
    "venue": "Joy Station",
    "lat": 42.67,
@@ -176,6 +211,17 @@
    "url": "https://www.bilet.bg/bg/events/next-level-flais-les-mills-2026-8387",
    "src": "bilet",
    "addr": "Студентски град, ул. \"Акад. Стефан Младенов\" 3"
+  },
+  {
+   "name": "Психологическите типове на Юнг и Майерс-Бригс – професии с примери от киното",
+   "venue": "Nexus Space",
+   "lat": 42.6985861,
+   "lon": 23.3192791,
+   "cap": 500,
+   "start": "2026-10-04T11:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/psihologicheskite-tipove-na-ung-i-mayers-brigs-profesii-s-primeri-ot-kinoto-8713",
+   "src": "bilet",
+   "addr": "София Център, ул. \"Княз Борис I\" 121, 1000 София"
   },
   {
    "name": "Пак Чан-ук: Слугинята (2016)",
@@ -209,15 +255,59 @@
    "addr": "Студентски град, ул. \"Акад. Стефан Младенов\" 3"
   },
   {
-   "name": "Destroy Your Future LIVE + Scotopia / Club Mixtape 5 / 09.10",
+   "name": "Before We Met by Singles of Sofia",
+   "venue": "Networking Premium (Гурко 16)",
+   "lat": 42.6919,
+   "lon": 23.326,
+   "cap": 500,
+   "start": "2026-10-08T19:30:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/before-we-met-by-singles-of-sofia-8897",
+   "src": "bilet",
+   "addr": "София Център, ул. Генерал Гурко 19, 1000 София"
+  },
+  {
+   "name": "Raid Kyu Quartet (SRB) at Club Mixtape 5",
    "venue": "Mixtape 5",
    "lat": 42.6866,
    "lon": 23.319,
    "cap": 900,
-   "start": "2026-10-09T20:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/destroy-your-future-live-scotopia-club-mixtape-5-0910-8666",
+   "start": "2026-10-08T19:30:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/raid-kyu-quartet-srb-at-club-mixtape-5-8660",
    "src": "bilet",
    "addr": "bul. Bulgaria, podlez Galeriya, bulevard \"Cherni vrah\", 1142 Sofia"
+  },
+  {
+   "name": "Концерт на Аннамари Олà, Петър Йорданов - Бъни и Жаклин Дишлиев - Джей в София / 08.10 / S",
+   "venue": "Schroedinger Bar",
+   "lat": 42.7032075,
+   "lon": 23.3328912,
+   "cap": 500,
+   "start": "2026-10-08T20:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/kontsert-na-annamari-ola-petur-yordanov-buni-i-zhaklin-dishliev-dzhey-v-sofia-0810-schroedinger-bar-8824",
+   "src": "bilet",
+   "addr": "ул. „Св. Св. Кирил и Методий\" 1"
+  },
+  {
+   "name": "MONA LIVE - “ЖИВА” ALBUM PREVIEW - 08.10.2026 - Бар Петък",
+   "venue": "Networking Premium (Гурко 16)",
+   "lat": 42.6919,
+   "lon": 23.326,
+   "cap": 500,
+   "start": "2026-10-08T21:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/mona-live-zhiva-album-preview-08102026-bar-petuk-8773",
+   "src": "bilet",
+   "addr": "ул. \"Ген. Гурко\" 21, 1000 София център, София"
+  },
+  {
+   "name": "MADBALL live in Sofia + Desolated / Combust / Expectations",
+   "venue": "Топлоцентрала",
+   "lat": 42.6800029,
+   "lon": 23.3155763,
+   "cap": 500,
+   "start": "2026-10-09T19:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/madball-live-in-sofia-desolated-combust-expectations-8517",
+   "src": "bilet",
+   "addr": "София, ул. \"Емил Берсински\" № 5"
   },
   {
    "name": "Алехандро Ходоровски: Къртицата (1970)",
@@ -258,17 +348,6 @@
    "start": "2026-10-12T19:00:00+03:00",
    "url": "",
    "src": "ndk"
-  },
-  {
-   "name": "SARAB (FR) LIVE IN SOFIA + ETHEREA / Club Mixtape 5 / 13.10",
-   "venue": "Mixtape 5",
-   "lat": 42.6866,
-   "lon": 23.319,
-   "cap": 900,
-   "start": "2026-10-13T19:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/sarab-fr-live-in-sofia-etherea-club-mixtape-5-1310-8638",
-   "src": "bilet",
-   "addr": "bul. Bulgaria, podlez Galeriya, bulevard \"Cherni vrah\", 1142 Sofia"
   },
   {
    "name": "ИЛИЯ ЛУКОВ и ПРИЯТЕЛИ „С БЪЛГАРИЯ В СЪРЦЕТО“",
@@ -342,6 +421,26 @@
    "start": "2026-10-17T20:00:00+03:00",
    "url": "",
    "src": "arena"
+  },
+  {
+   "name": "Салон на изкуствата / Събития",
+   "venue": "НДК Зала 1",
+   "lat": 42.6847,
+   "lon": 23.3188,
+   "cap": 3380,
+   "start": "2026-10-18T19:00:00+03:00",
+   "url": "",
+   "src": "ndk"
+  },
+  {
+   "name": "ONE NIGHT STAND",
+   "venue": "НДК Зала 1",
+   "lat": 42.6847,
+   "lon": 23.3188,
+   "cap": 3380,
+   "start": "2026-10-18T19:00:00+03:00",
+   "url": "",
+   "src": "ndk"
   },
   {
    "name": "Asia Motor Show 2026",
@@ -429,6 +528,16 @@
    "src": "arena"
   },
   {
+   "name": "CECA",
+   "venue": "Арена 8888 София",
+   "lat": 42.67137,
+   "lon": 23.36932,
+   "cap": 12000,
+   "start": "2026-11-08T20:00:00+03:00",
+   "url": "",
+   "src": "arena"
+  },
+  {
    "name": "BRAND TALKs 2026",
    "venue": "Joy Station",
    "lat": 42.67,
@@ -440,26 +549,6 @@
    "addr": "Студентски град, ул. \"Акад. Стефан Младенов\" 3"
   },
   {
-   "name": "Как да стигна до залата, планиране на маршрут?",
-   "venue": "Арена 8888 София",
-   "lat": 42.67137,
-   "lon": 23.36932,
-   "cap": 12000,
-   "start": "2026-11-10T20:00:00+03:00",
-   "url": "",
-   "src": "arena"
-  },
-  {
-   "name": "CECA",
-   "venue": "Арена 8888 София",
-   "lat": 42.67137,
-   "lon": 23.36932,
-   "cap": 12000,
-   "start": "2026-11-10T20:00:00+03:00",
-   "url": "",
-   "src": "arena"
-  },
-  {
    "name": "25-75 лева",
    "venue": "Арена 8888 София",
    "lat": 42.67137,
@@ -468,17 +557,6 @@
    "start": "2026-11-13T20:00:00+03:00",
    "url": "",
    "src": "arena"
-  },
-  {
-   "name": "The Italian Jazz Band",
-   "venue": "НДК",
-   "lat": 42.6866,
-   "lon": 23.319,
-   "cap": 3380,
-   "start": "2026-11-14T19:30:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/the-italian-jazz-band-8641",
-   "src": "bilet",
-   "addr": "НДК, бул. България 1, 1000 София"
   },
   {
    "name": "Echoes Of Balkana: Khanъ, Tickle The Sage & E-An-Na (RO) Live / Club Mixtape 5 / 14.11",
@@ -512,17 +590,6 @@
    "src": "arena"
   },
   {
-   "name": "SofiaTalks Business Bootcamp 2026",
-   "venue": "София Тех Парк",
-   "lat": 42.6668,
-   "lon": 23.376,
-   "cap": 1500,
-   "start": "2026-11-22T09:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/sofiatalks-business-bootcamp-2026-8246",
-   "src": "bilet",
-   "addr": "бул. Цариградско шосе 111Г, 1784 м. Къро"
-  },
-  {
    "name": "Михаела Маринова - Концерт - част от програмата \"Салон на изкуствата\" - Есен 2026 НДК",
    "venue": "НДК",
    "lat": 42.6866,
@@ -550,6 +617,16 @@
    "lon": 23.36932,
    "cap": 12000,
    "start": "2026-12-07T20:00:00+03:00",
+   "url": "",
+   "src": "arena"
+  },
+  {
+   "name": "K-Pop Forever",
+   "venue": "Арена 8888 София",
+   "lat": 42.67137,
+   "lon": 23.36932,
+   "cap": 12000,
+   "start": "2026-12-15T20:00:00+03:00",
    "url": "",
    "src": "arena"
   },
