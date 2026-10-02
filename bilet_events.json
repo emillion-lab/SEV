@@ -1,7 +1,7 @@
 {
  "source": "bilet.bg",
- "generated": "2026-10-02T10:36:27.990819",
- "count": 45,
+ "generated": "2026-10-02T20:50:52.747363",
+ "count": 40,
  "events": [
   {
    "name": "MLC Training Collection 2026 - 2027",
@@ -24,50 +24,6 @@
    "url": "https://www.bilet.bg/bg/events/liquid-market-sofia-cocktail-festival-2026-6972",
    "src": "bilet",
    "addr": "Орландовци, ул. Индустриална 1202 София"
-  },
-  {
-   "name": "Arika Adams - Overground Album Promo",
-   "venue": "Клуб Строежа",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2026-10-02T19:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/arika-adams-overground-album-promo-8742",
-   "src": "bilet",
-   "addr": "София Център, улица „Георги С. Раковски“ 116, 1000 София"
-  },
-  {
-   "name": "ОСТАВА: LIVE & VISUAL EXPERIENCE @ Malkata Tekila Sofia 02/10/26",
-   "venue": "Малката Текила",
-   "lat": 42.695,
-   "lon": 23.328,
-   "cap": 400,
-   "start": "2026-10-02T19:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/ostava-live-visual-experience-at-malkata-tekila-sofia-021026-8748",
-   "src": "bilet",
-   "addr": "ул. Ангел Кънчев 1"
-  },
-  {
-   "name": "Дантела от ноти",
-   "venue": "Музей Борис Христов",
-   "lat": 42.6937279,
-   "lon": 23.3166384,
-   "cap": 500,
-   "start": "2026-10-02T19:30:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/dantela-ot-noti-8811",
-   "src": "bilet",
-   "addr": "София Център, ул. Цар Самуил, 1000 София"
-  },
-  {
-   "name": "Лексикон парти - Най-обичаните хитове на 90-те и изненади, за които няма да споменаваме",
-   "venue": "Gravity bar",
-   "lat": 42.6975117,
-   "lon": 23.3261987,
-   "cap": 500,
-   "start": "2026-10-02T19:30:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/leksikon-parti-nay-obichanite-hitove-na-90-te-i-iznenadi-za-koito-nama-da-spomenavame-8707",
-   "src": "bilet",
-   "addr": "София Център, ул. Московска 3, 1000 София"
   },
   {
    "name": "Element Clan pres. METAL VS BASS w/ Eric Hutchence & ZARDONIC / Mixtape 5 / 02.10",
@@ -202,17 +158,6 @@
    "addr": "Студентски град, ул. \"Акад. Стефан Младенов\" 3"
   },
   {
-   "name": "Психологическите типове на Юнг и Майерс-Бригс – професии с примери от киното",
-   "venue": "Nexus Space",
-   "lat": 42.6985861,
-   "lon": 23.3192791,
-   "cap": 500,
-   "start": "2026-10-04T11:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/psihologicheskite-tipove-na-ung-i-mayers-brigs-profesii-s-primeri-ot-kinoto-8713",
-   "src": "bilet",
-   "addr": "София Център, ул. \"Княз Борис I\" 121, 1000 София"
-  },
-  {
    "name": "DisruptHR Sofia vol.7 \"Стари времена\"",
    "venue": "Joy Station",
    "lat": 42.67,
@@ -235,17 +180,6 @@
    "addr": "ул. Оборище 73"
   },
   {
-   "name": "Презентация: Планините и хората през погледа на Стефан Попов",
-   "venue": "Сцена Централни хали",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2026-10-08T19:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/prezentatsia-planinite-i-horata-prez-pogleda-na-stefan-popov-8821",
-   "src": "bilet",
-   "addr": "бул. Мария Луиза 25,"
-  },
-  {
    "name": "Before We Met by Singles of Sofia",
    "venue": "Networking Premium (Гурко 16)",
    "lat": 42.6919,
@@ -255,17 +189,6 @@
    "url": "https://www.bilet.bg/bg/events/before-we-met-by-singles-of-sofia-8897",
    "src": "bilet",
    "addr": "София Център, ул. Генерал Гурко 19, 1000 София"
-  },
-  {
-   "name": "Raid Kyu Quartet (SRB) at Club Mixtape 5",
-   "venue": "Mixtape 5",
-   "lat": 42.6866,
-   "lon": 23.319,
-   "cap": 900,
-   "start": "2026-10-08T19:30:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/raid-kyu-quartet-srb-at-club-mixtape-5-8660",
-   "src": "bilet",
-   "addr": "bul. Bulgaria, podlez Galeriya, bulevard \"Cherni vrah\", 1142 Sofia"
   },
   {
    "name": "Концерт на Аннамари Олà, Петър Йорданов - Бъни и Жаклин Дишлиев - Джей в София / 08.10 / S",
@@ -323,6 +246,17 @@
    "addr": "Studentski Kompleks, ж.к. Студентски град 26, 1700 Sofia"
   },
   {
+   "name": "Destroy Your Future LIVE + Scotopia / Club Mixtape 5 / 09.10",
+   "venue": "Mixtape 5",
+   "lat": 42.6866,
+   "lon": 23.319,
+   "cap": 900,
+   "start": "2026-10-09T20:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/destroy-your-future-live-scotopia-club-mixtape-5-0910-8666",
+   "src": "bilet",
+   "addr": "bul. Bulgaria, podlez Galeriya, bulevard \"Cherni vrah\", 1142 Sofia"
+  },
+  {
    "name": "back to CHILDHOOD",
    "venue": "Клуб Грамофон",
    "lat": null,
@@ -343,6 +277,17 @@
    "url": "https://www.bilet.bg/bg/events/autumn-wave-fest-8071",
    "src": "bilet",
    "addr": "пл. Славейков 4"
+  },
+  {
+   "name": "Нощ на светлината - The Show",
+   "venue": "Пиротска 5",
+   "lat": 42.6987,
+   "lon": 23.3195,
+   "cap": 600,
+   "start": "2026-10-13T19:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/nosht-na-svetlinata-the-show-8779",
+   "src": "bilet",
+   "addr": "Ул. Пиротска 5 1000 София Център"
   },
   {
    "name": "ISTA Conference 2026- Fest Edition",
