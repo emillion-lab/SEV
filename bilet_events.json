@@ -1,6 +1,6 @@
 {
  "source": "bilet.bg",
- "generated": "2026-10-04T10:40:51.739407",
+ "generated": "2026-10-04T19:44:14.230698",
  "count": 36,
  "events": [
   {
@@ -57,17 +57,6 @@
    "url": "https://www.bilet.bg/bg/events/before-we-met-by-singles-of-sofia-8897",
    "src": "bilet",
    "addr": "София Център, ул. Генерал Гурко 19, 1000 София"
-  },
-  {
-   "name": "Raid Kyu Quartet (SRB) at Club Mixtape 5",
-   "venue": "Mixtape 5",
-   "lat": 42.6866,
-   "lon": 23.319,
-   "cap": 900,
-   "start": "2026-10-08T19:30:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/raid-kyu-quartet-srb-at-club-mixtape-5-8660",
-   "src": "bilet",
-   "addr": "bul. Bulgaria, podlez Galeriya, bulevard \"Cherni vrah\", 1142 Sofia"
   },
   {
    "name": "Концерт на Аннамари Олà, Петър Йорданов - Бъни и Жаклин Дишлиев - Джей в София / 08.10 / S",
@@ -136,13 +125,13 @@
    "addr": "bul. Bulgaria, podlez Galeriya, bulevard \"Cherni vrah\", 1142 Sofia"
   },
   {
-   "name": "MILENITTA & ??? w/ ANDRE & ELEM, DARIYA BOEVA, DENITSA NIKOLOVA @OBLK",
+   "name": "MILENITTA & JLUCH w/ ANDRE & ELEM, DARIYA BOEVA, DENITSA NIKOLOVA @OBLK",
    "venue": "Клуб ОБЛК",
    "lat": null,
    "lon": null,
    "cap": 500,
    "start": "2026-10-09T20:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/milenitta-w-andre-elem-dariya-boeva-denitsa-nikolova-at-oblk-8938",
+   "url": "https://www.bilet.bg/bg/events/milenitta-jluch-w-andre-elem-dariya-boeva-denitsa-nikolova-at-oblk-8938",
    "src": "bilet",
    "addr": "Бул. Цар Освободилте №10"
   },
@@ -200,6 +189,17 @@
    "url": "https://www.bilet.bg/bg/events/conspiracy-raves-presents-8708",
    "src": "bilet",
    "addr": "Орландовци, ул. Индустриална 1202 София"
+  },
+  {
+   "name": "Position Chrome Label Night in Sofia",
+   "venue": "Студио Орфей",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-10-10T22:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/position-chrome-label-night-in-sofia-8623",
+   "src": "bilet",
+   "addr": "ж.к. Изгрев, бул. “Самоков” 60, 1113 София"
   },
   {
    "name": "Нощ на светлината - The Show",
