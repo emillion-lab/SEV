@@ -1,7 +1,7 @@
 {
  "source": "bilet.bg",
- "generated": "2026-10-03T19:19:39.164991",
- "count": 37,
+ "generated": "2026-10-04T10:40:51.739407",
+ "count": 36,
  "events": [
   {
    "name": "MLC Training Collection 2026 - 2027",
@@ -13,61 +13,6 @@
    "url": "https://www.bilet.bg/bg/events/mlc-training-collection-2026-2027-8165",
    "src": "bilet",
    "addr": "Гърдова Глававитоса ул. Маринковица 1618 София"
-  },
-  {
-   "name": "LIQUID MARKET Sofia - Cocktail Festival 2026",
-   "venue": "Чистилището",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2026-10-01T16:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/liquid-market-sofia-cocktail-festival-2026-6972",
-   "src": "bilet",
-   "addr": "Орландовци, ул. Индустриална 1202 София"
-  },
-  {
-   "name": "giegling in sofia",
-   "venue": "Sofia - Secret Location",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2026-10-03T18:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/giegling-in-sofia-8767",
-   "src": "bilet",
-   "addr": ""
-  },
-  {
-   "name": "Liquidizer @ Malkata Tekila Sofia 03/10/2026",
-   "venue": "Малката Текила",
-   "lat": 42.695,
-   "lon": 23.328,
-   "cap": 400,
-   "start": "2026-10-03T22:30:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/liquidizer-at-malkata-tekila-sofia-03102026-8741",
-   "src": "bilet",
-   "addr": "ул. Ангел Кънчев 1"
-  },
-  {
-   "name": "Next Level & Flais Les Mills 2026",
-   "venue": "Joy Station",
-   "lat": 42.67,
-   "lon": 23.352,
-   "cap": 1500,
-   "start": "2026-10-04T09:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/next-level-flais-les-mills-2026-8387",
-   "src": "bilet",
-   "addr": "Студентски град, ул. \"Акад. Стефан Младенов\" 3"
-  },
-  {
-   "name": "Психологическите типове на Юнг и Майерс-Бригс – професии с примери от киното",
-   "venue": "Nexus Space",
-   "lat": 42.6985861,
-   "lon": 23.3192791,
-   "cap": 500,
-   "start": "2026-10-04T11:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/psihologicheskite-tipove-na-ung-i-mayers-brigs-profesii-s-primeri-ot-kinoto-8713",
-   "src": "bilet",
-   "addr": "София Център, ул. \"Княз Борис I\" 121, 1000 София"
   },
   {
    "name": "DisruptHR Sofia vol.7 \"Стари времена\"",
@@ -112,6 +57,17 @@
    "url": "https://www.bilet.bg/bg/events/before-we-met-by-singles-of-sofia-8897",
    "src": "bilet",
    "addr": "София Център, ул. Генерал Гурко 19, 1000 София"
+  },
+  {
+   "name": "Raid Kyu Quartet (SRB) at Club Mixtape 5",
+   "venue": "Mixtape 5",
+   "lat": 42.6866,
+   "lon": 23.319,
+   "cap": 900,
+   "start": "2026-10-08T19:30:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/raid-kyu-quartet-srb-at-club-mixtape-5-8660",
+   "src": "bilet",
+   "addr": "bul. Bulgaria, podlez Galeriya, bulevard \"Cherni vrah\", 1142 Sofia"
   },
   {
    "name": "Концерт на Аннамари Олà, Петър Йорданов - Бъни и Жаклин Дишлиев - Джей в София / 08.10 / S",
@@ -222,6 +178,28 @@
    "url": "https://www.bilet.bg/bg/events/lulakovi-noshti-8770",
    "src": "bilet",
    "addr": "НДК, бул. България 1, 1000 София"
+  },
+  {
+   "name": "PUSSY RIOT : Riot Days live in Sofia",
+   "venue": "Малката Текила",
+   "lat": 42.695,
+   "lon": 23.328,
+   "cap": 400,
+   "start": "2026-10-10T20:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/pussy-riot-riot-days-live-in-sofia-8601",
+   "src": "bilet",
+   "addr": "ул. Ангел Кънчев 1"
+  },
+  {
+   "name": "Conspiracy Raves Presents",
+   "venue": "Чистилището",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-10-10T22:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/conspiracy-raves-presents-8708",
+   "src": "bilet",
+   "addr": "Орландовци, ул. Индустриална 1202 София"
   },
   {
    "name": "Нощ на светлината - The Show",
@@ -407,6 +385,17 @@
    "cap": 3380,
    "start": "2027-01-23T18:00:00+03:00",
    "url": "https://www.bilet.bg/bg/events/disney-fantazia-kontsert-na-zhivo-8636",
+   "src": "bilet",
+   "addr": "Площад България 1"
+  },
+  {
+   "name": "Chris Norman Live Sofia",
+   "venue": "НДК",
+   "lat": 42.6866,
+   "lon": 23.319,
+   "cap": 3380,
+   "start": "2027-03-19T20:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/chris-norman-live-sofia-8264",
    "src": "bilet",
    "addr": "Площад България 1"
   }
