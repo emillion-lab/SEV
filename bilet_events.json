@@ -1,7 +1,7 @@
 {
  "source": "bilet.bg",
- "generated": "2026-10-04T19:44:14.230698",
- "count": 36,
+ "generated": "2026-10-05T11:40:37.355281",
+ "count": 35,
  "events": [
   {
    "name": "MLC Training Collection 2026 - 2027",
@@ -167,17 +167,6 @@
    "url": "https://www.bilet.bg/bg/events/lulakovi-noshti-8770",
    "src": "bilet",
    "addr": "НДК, бул. България 1, 1000 София"
-  },
-  {
-   "name": "PUSSY RIOT : Riot Days live in Sofia",
-   "venue": "Малката Текила",
-   "lat": 42.695,
-   "lon": 23.328,
-   "cap": 400,
-   "start": "2026-10-10T20:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/pussy-riot-riot-days-live-in-sofia-8601",
-   "src": "bilet",
-   "addr": "ул. Ангел Кънчев 1"
   },
   {
    "name": "Conspiracy Raves Presents",
