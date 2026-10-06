@@ -1,7 +1,7 @@
 {
  "source": "bilet.bg",
- "generated": "2026-10-06T11:23:49.146425",
- "count": 35,
+ "generated": "2026-10-06T21:05:12.368504",
+ "count": 36,
  "events": [
   {
    "name": "MLC Training Collection 2026 - 2027",
@@ -103,17 +103,6 @@
    "addr": "НДК, п-д \"България\" 1  "
   },
   {
-   "name": "MAYHEM: Death Over Europe Tour",
-   "venue": "Зала Христо Ботев Студентски Град",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2026-10-09T19:30:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/mayhem-death-over-europe-tour-8484",
-   "src": "bilet",
-   "addr": "Studentski Kompleks, ж.к. Студентски град 26, 1700 Sofia"
-  },
-  {
    "name": "Destroy Your Future LIVE + Scotopia / Club Mixtape 5 / 09.10",
    "venue": "Mixtape 5",
    "lat": 42.6866,
@@ -123,6 +112,17 @@
    "url": "https://www.bilet.bg/bg/events/destroy-your-future-live-scotopia-club-mixtape-5-0910-8666",
    "src": "bilet",
    "addr": "bul. Bulgaria, podlez Galeriya, bulevard \"Cherni vrah\", 1142 Sofia"
+  },
+  {
+   "name": "MAYHEM: Death Over Europe Tour",
+   "venue": "Зала Христо Ботев Студентски Град",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-10-09T20:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/mayhem-death-over-europe-tour-8484",
+   "src": "bilet",
+   "addr": "Studentski Kompleks, ж.к. Студентски град 26, 1700 Sofia"
   },
   {
    "name": "MILENITTA & JLUCH w/ ANDRE & ELEM, DARIYA BOEVA, DENITSA NIKOLOVA @OBLK",
@@ -343,6 +343,17 @@
    "url": "https://www.bilet.bg/bg/events/echoes-of-balkana-khanu-tickle-the-sage-e-an-na-ro-live-club-mixtape-5-1411-8495",
    "src": "bilet",
    "addr": "bul. Bulgaria, podlez Galeriya, bulevard \"Cherni vrah\", 1142 Sofia"
+  },
+  {
+   "name": "Dara Ekimova Live @Stroeja",
+   "venue": "Клуб Строежа",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-11-19T19:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/dara-ekimova-live-at-stroeja-8780",
+   "src": "bilet",
+   "addr": "София Център, улица „Георги С. Раковски“ 116, 1000 София"
   },
   {
    "name": "Аз рисувам като ... Пабло Пикасо - ателие за деца",
