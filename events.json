@@ -1,22 +1,12 @@
 {
- "generated": "2026-10-05T12:11:18.501233+00:00",
- "count": 51,
+ "generated": "2026-10-08T11:52:58.660115+00:00",
+ "count": 54,
  "sources_ok": [
   "arena",
   "bilet",
   "ndk"
  ],
  "events": [
-  {
-   "name": "ПОД ПРИКРИТИЕ 6 - ПРЕМИЕРА",
-   "venue": "НДК Зала 1",
-   "lat": 42.6847,
-   "lon": 23.3188,
-   "cap": 3380,
-   "start": "2026-10-06T19:00:00+03:00",
-   "url": "",
-   "src": "ndk"
-  },
   {
    "name": "DisruptHR Sofia vol.7 \"Стари времена\"",
    "venue": "Joy Station",
@@ -93,6 +83,16 @@
    "url": "https://www.bilet.bg/bg/events/destroy-your-future-live-scotopia-club-mixtape-5-0910-8666",
    "src": "bilet",
    "addr": "bul. Bulgaria, podlez Galeriya, bulevard \"Cherni vrah\", 1142 Sofia"
+  },
+  {
+   "name": "Салон на изкуствата / Събития",
+   "venue": "НДК Зала 1",
+   "lat": 42.6847,
+   "lon": 23.3188,
+   "cap": 3380,
+   "start": "2026-10-10T19:00:00+03:00",
+   "url": "",
+   "src": "ndk"
   },
   {
    "name": "Алехандро Ходоровски: Къртицата (1970)",
@@ -428,6 +428,16 @@
    "addr": "bul. Bulgaria, podlez Galeriya, bulevard \"Cherni vrah\", 1142 Sofia"
   },
   {
+   "name": "Света гора в София | САЛОН НА ИЗКУСТВАТА",
+   "venue": "НДК Зала 1",
+   "lat": 42.6847,
+   "lon": 23.3188,
+   "cap": 3380,
+   "start": "2026-11-15T19:00:00+03:00",
+   "url": "",
+   "src": "ndk"
+  },
+  {
    "name": "Емануела втора дата",
    "venue": "Арена 8888 София",
    "lat": 42.67137,
@@ -521,6 +531,26 @@
    "src": "arena"
   },
   {
+   "name": "STOITCHKOV THE SHOW",
+   "venue": "Арена 8888 София",
+   "lat": 42.67137,
+   "lon": 23.36932,
+   "cap": 12000,
+   "start": "2027-03-10T20:00:00+03:00",
+   "url": "",
+   "src": "arena"
+  },
+  {
+   "name": "Последни публикации",
+   "venue": "Арена 8888 София",
+   "lat": 42.67137,
+   "lon": 23.36932,
+   "cap": 12000,
+   "start": "2027-03-10T20:00:00+03:00",
+   "url": "",
+   "src": "arena"
+  },
+  {
    "name": "Chris Norman Live Sofia",
    "venue": "НДК",
    "lat": 42.6866,
@@ -532,7 +562,7 @@
    "addr": "Площад България 1"
   },
   {
-   "name": "STOITCHKOV THE SHOW",
+   "name": "Андре Рийо André Rieu",
    "venue": "Арена 8888 София",
    "lat": 42.67137,
    "lon": 23.36932,
