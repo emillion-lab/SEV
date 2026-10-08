@@ -1,7 +1,7 @@
 {
  "source": "bilet.bg",
- "generated": "2026-10-07T21:24:29.778043",
- "count": 36,
+ "generated": "2026-10-08T11:29:41.061870",
+ "count": 35,
  "events": [
   {
    "name": "MLC Training Collection 2026 - 2027",
@@ -35,17 +35,6 @@
    "url": "https://www.bilet.bg/bg/events/obuvkite-na-van-gog-nauchi-istoriata-narisuvay-kartinata-8905",
    "src": "bilet",
    "addr": "ул. Оборище 73"
-  },
-  {
-   "name": "Презентация: Планините и хората през погледа на Стефан Попов",
-   "venue": "Сцена Централни хали",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2026-10-08T19:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/prezentatsia-planinite-i-horata-prez-pogleda-na-stefan-popov-8821",
-   "src": "bilet",
-   "addr": "бул. Мария Луиза 25,"
   },
   {
    "name": "Before We Met by Singles of Sofia",
@@ -180,15 +169,15 @@
    "addr": "Орландовци, ул. Индустриална 1202 София"
   },
   {
-   "name": "Position Chrome Label Night in Sofia",
-   "venue": "Студио Орфей",
+   "name": "Cake on the CLWD",
+   "venue": "CLWD",
    "lat": null,
    "lon": null,
    "cap": 500,
-   "start": "2026-10-10T22:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/position-chrome-label-night-in-sofia-8623",
+   "start": "2026-10-11T17:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/cake-on-the-clwd-8810",
    "src": "bilet",
-   "addr": "ж.к. Изгрев, бул. “Самоков” 60, 1113 София"
+   "addr": "София Център, ул. Шипка 6"
   },
   {
    "name": "Нощ на светлината - The Show",
