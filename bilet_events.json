@@ -1,7 +1,7 @@
 {
  "source": "bilet.bg",
- "generated": "2026-10-08T11:52:58.587736",
- "count": 35,
+ "generated": "2026-10-08T21:25:17.166786",
+ "count": 32,
  "events": [
   {
    "name": "MLC Training Collection 2026 - 2027",
@@ -13,61 +13,6 @@
    "url": "https://www.bilet.bg/bg/events/mlc-training-collection-2026-2027-8165",
    "src": "bilet",
    "addr": "Гърдова Глававитоса ул. Маринковица 1618 София"
-  },
-  {
-   "name": "DisruptHR Sofia vol.7 \"Стари времена\"",
-   "venue": "Joy Station",
-   "lat": 42.67,
-   "lon": 23.352,
-   "cap": 1500,
-   "start": "2026-10-08T18:30:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/disrupthr-sofia-vol7-stari-vremena-8254",
-   "src": "bilet",
-   "addr": "Студентски град, ул. \"Акад. Стефан Младенов\" 3"
-  },
-  {
-   "name": "Обувките на Ван Гог - научи историята, нарисувай картината",
-   "venue": "Читалище \"Алеко Константинов - 1897 г.\"",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2026-10-08T18:30:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/obuvkite-na-van-gog-nauchi-istoriata-narisuvay-kartinata-8905",
-   "src": "bilet",
-   "addr": "ул. Оборище 73"
-  },
-  {
-   "name": "Before We Met by Singles of Sofia",
-   "venue": "Networking Premium (Гурко 16)",
-   "lat": 42.6919,
-   "lon": 23.326,
-   "cap": 500,
-   "start": "2026-10-08T19:30:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/before-we-met-by-singles-of-sofia-8897",
-   "src": "bilet",
-   "addr": "София Център, ул. Генерал Гурко 19, 1000 София"
-  },
-  {
-   "name": "Концерт на Аннамари Олà, Петър Йорданов - Бъни и Жаклин Дишлиев - Джей в София / 08.10 / S",
-   "venue": "Schroedinger Bar",
-   "lat": 42.7032075,
-   "lon": 23.3328912,
-   "cap": 500,
-   "start": "2026-10-08T20:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/kontsert-na-annamari-ola-petur-yordanov-buni-i-zhaklin-dishliev-dzhey-v-sofia-0810-schroedinger-bar-8824",
-   "src": "bilet",
-   "addr": "ул. „Св. Св. Кирил и Методий\" 1"
-  },
-  {
-   "name": "MONA LIVE - “ЖИВА” ALBUM PREVIEW - 08.10.2026 - Бар Петък",
-   "venue": "Networking Premium (Гурко 16)",
-   "lat": 42.6919,
-   "lon": 23.326,
-   "cap": 500,
-   "start": "2026-10-08T21:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/mona-live-zhiva-album-preview-08102026-bar-petuk-8773",
-   "src": "bilet",
-   "addr": "ул. \"Ген. Гурко\" 21, 1000 София център, София"
   },
   {
    "name": "MADBALL live in Sofia + Desolated / Combust / Expectations",
@@ -158,6 +103,17 @@
    "addr": "НДК, бул. България 1, 1000 София"
   },
   {
+   "name": "PUSSY RIOT : Riot Days live in Sofia",
+   "venue": "Малката Текила",
+   "lat": 42.695,
+   "lon": 23.328,
+   "cap": 400,
+   "start": "2026-10-10T20:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/pussy-riot-riot-days-live-in-sofia-8601",
+   "src": "bilet",
+   "addr": "ул. Ангел Кънчев 1"
+  },
+  {
    "name": "Conspiracy Raves Presents",
    "venue": "Чистилището",
    "lat": null,
@@ -167,6 +123,17 @@
    "url": "https://www.bilet.bg/bg/events/conspiracy-raves-presents-8708",
    "src": "bilet",
    "addr": "Орландовци, ул. Индустриална 1202 София"
+  },
+  {
+   "name": "Position Chrome Label Night in Sofia",
+   "venue": "Студио Орфей",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-10-10T22:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/position-chrome-label-night-in-sofia-8623",
+   "src": "bilet",
+   "addr": "ж.к. Изгрев, бул. “Самоков” 60, 1113 София"
   },
   {
    "name": "Cake on the CLWD",
