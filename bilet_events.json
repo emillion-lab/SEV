@@ -1,7 +1,7 @@
 {
  "source": "bilet.bg",
- "generated": "2026-10-09T11:25:13.682072",
- "count": 32,
+ "generated": "2026-10-09T21:02:46.886626",
+ "count": 34,
  "events": [
   {
    "name": "MLC Training Collection 2026 - 2027",
@@ -13,72 +13,6 @@
    "url": "https://www.bilet.bg/bg/events/mlc-training-collection-2026-2027-8165",
    "src": "bilet",
    "addr": "Гърдова Глававитоса ул. Маринковица 1618 София"
-  },
-  {
-   "name": "MADBALL live in Sofia + Desolated / Combust / Expectations",
-   "venue": "Топлоцентрала",
-   "lat": 42.6800029,
-   "lon": 23.3155763,
-   "cap": 500,
-   "start": "2026-10-09T19:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/madball-live-in-sofia-desolated-combust-expectations-8517",
-   "src": "bilet",
-   "addr": "София, ул. \"Емил Берсински\" № 5"
-  },
-  {
-   "name": "Mega Draglesque Cabaret",
-   "venue": "НДК",
-   "lat": 42.6866,
-   "lon": 23.319,
-   "cap": 3380,
-   "start": "2026-10-09T19:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/mega-draglesque-cabaret-8605",
-   "src": "bilet",
-   "addr": "НДК, п-д \"България\" 1  "
-  },
-  {
-   "name": "Destroy Your Future LIVE + Scotopia / Club Mixtape 5 / 09.10",
-   "venue": "Mixtape 5",
-   "lat": 42.6866,
-   "lon": 23.319,
-   "cap": 900,
-   "start": "2026-10-09T20:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/destroy-your-future-live-scotopia-club-mixtape-5-0910-8666",
-   "src": "bilet",
-   "addr": "bul. Bulgaria, podlez Galeriya, bulevard \"Cherni vrah\", 1142 Sofia"
-  },
-  {
-   "name": "MAYHEM: Death Over Europe Tour",
-   "venue": "Зала Христо Ботев Студентски Град",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2026-10-09T20:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/mayhem-death-over-europe-tour-8484",
-   "src": "bilet",
-   "addr": "Studentski Kompleks, ж.к. Студентски град 26, 1700 Sofia"
-  },
-  {
-   "name": "MILENITTA & JLUCH w/ ANDRE & ELEM, DARIYA BOEVA, DENITSA NIKOLOVA @OBLK",
-   "venue": "Клуб ОБЛК",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2026-10-09T20:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/milenitta-jluch-w-andre-elem-dariya-boeva-denitsa-nikolova-at-oblk-8938",
-   "src": "bilet",
-   "addr": "Бул. Цар Освободилте №10"
-  },
-  {
-   "name": "back to CHILDHOOD",
-   "venue": "Клуб Грамофон",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2026-10-09T23:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/back-to-childhood-8686",
-   "src": "bilet",
-   "addr": "ул. Будапеща 6 "
   },
   {
    "name": "Autumn Wave Fest",
@@ -169,6 +103,61 @@
    "addr": "1407 Hladilnika, Sofia"
   },
   {
+   "name": "ISTA FEST EDITION - Workshop: Human Systems Under Pressure: performance, recovery and tool",
+   "venue": "Sofia Event Center",
+   "lat": 42.6607,
+   "lon": 23.3122,
+   "cap": 2000,
+   "start": "2026-10-15T11:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/ista-fest-edition-workshop-human-systems-under-pressure-performance-recovery-and-tools-for-healthier-work-8919",
+   "src": "bilet",
+   "addr": "1407 Hladilnika, Sofia"
+  },
+  {
+   "name": "ISTA FEST EDITION - Workshop: Hack the Agent: Hands-on AI Agent Security",
+   "venue": "Sofia Event Center",
+   "lat": 42.6607,
+   "lon": 23.3122,
+   "cap": 2000,
+   "start": "2026-10-15T15:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/ista-fest-edition-workshop-hack-the-agent-hands-on-ai-agent-security-8983",
+   "src": "bilet",
+   "addr": "1407 Hladilnika, Sofia"
+  },
+  {
+   "name": "PESTILENCE - Първо хедлайнерско шоу в България",
+   "venue": "Клуб \"При Черепите\"",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-10-15T19:30:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/pestilence-purvo-hedlaynersko-shou-v-bulgaria-7693",
+   "src": "bilet",
+   "addr": "Булевард \"Илиянци\" 1И"
+  },
+  {
+   "name": "ALL AGES SPLITKID & HOMELESZ w/ MGL ACHO, SKI, HOSTILE, TN, GOGZZZY, ACHODJU, AFRATA",
+   "venue": "Клуб ОБЛК",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-10-16T18:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/all-ages-splitkid-homelesz-w-mgl-acho-ski-hostile-tn-gogzzzy-achodju-afrata-8977",
+   "src": "bilet",
+   "addr": "Бул. Цар Освободилте №10"
+  },
+  {
+   "name": "KPOP the QUIZ",
+   "venue": "Клуб Грамофон",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-10-16T19:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/kpop-the-quiz-8723",
+   "src": "bilet",
+   "addr": "ул. Будапеща 6 "
+  },
+  {
    "name": "Аз рисувам като ... Винсент Ван Гог - ателие за деца",
    "venue": "АРТ Къща",
    "lat": 42.6892355,
@@ -178,6 +167,39 @@
    "url": "https://www.bilet.bg/bg/events/az-risuvam-kato-vinsent-van-gog-atelie-za-detsa-8545",
    "src": "bilet",
    "addr": "ул. \"Дукатска планина\" 18, 1606 София"
+  },
+  {
+   "name": "Аз рисувам като ... Винсент Ван Гог - ателие за възрастни",
+   "venue": "АРТ Къща",
+   "lat": 42.6892355,
+   "lon": 23.3087338,
+   "cap": 500,
+   "start": "2026-10-17T18:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/az-risuvam-kato-vinsent-van-gog-atelie-za-vuzrastni-8528",
+   "src": "bilet",
+   "addr": "ул. \"Дукатска планина\" 18, 1606 София"
+  },
+  {
+   "name": "\"Камшичен вятър\"- сайт-спесифик (не)театрално риалити - 19:00 ч",
+   "venue": "Културен център Бобина",
+   "lat": 42.6988274,
+   "lon": 23.325244,
+   "cap": 500,
+   "start": "2026-10-17T19:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/kamshichen-vatur-sayt-spesifik-neteatralno-rialiti-1900-ch-8885",
+   "src": "bilet",
+   "addr": "Ул. Триадица 5А, София, 1000"
+  },
+  {
+   "name": "12 години 5 o'clock",
+   "venue": "Mixtape 5",
+   "lat": 42.6866,
+   "lon": 23.319,
+   "cap": 900,
+   "start": "2026-10-17T20:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/12-godini-5-oclock-8789",
+   "src": "bilet",
+   "addr": "bul. Bulgaria, podlez Galeriya, bulevard \"Cherni vrah\", 1142 Sofia"
   },
   {
    "name": "Asia Motor Show 2026",
