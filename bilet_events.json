@@ -1,7 +1,7 @@
 {
  "source": "bilet.bg",
- "generated": "2026-10-09T21:02:46.886626",
- "count": 34,
+ "generated": "2026-10-10T10:43:12.436618",
+ "count": 36,
  "events": [
   {
    "name": "MLC Training Collection 2026 - 2027",
@@ -68,6 +68,17 @@
    "url": "https://www.bilet.bg/bg/events/position-chrome-label-night-in-sofia-8623",
    "src": "bilet",
    "addr": "ж.к. Изгрев, бул. “Самоков” 60, 1113 София"
+  },
+  {
+   "name": "LR Health Academy 2026",
+   "venue": "Интер Експо Център",
+   "lat": 42.652,
+   "lon": 23.376,
+   "cap": 3000,
+   "start": "2026-10-11T10:30:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/lr-health-academy-2026-8515",
+   "src": "bilet",
+   "addr": "бул. „Цариградско шосе“ 147, 1784 7-ми 11-ти"
   },
   {
    "name": "Cake on the CLWD",
@@ -200,6 +211,17 @@
    "url": "https://www.bilet.bg/bg/events/12-godini-5-oclock-8789",
    "src": "bilet",
    "addr": "bul. Bulgaria, podlez Galeriya, bulevard \"Cherni vrah\", 1142 Sofia"
+  },
+  {
+   "name": "Lucky Number Nick (Album Promo) w/ Los Chill (ES) live at PAVE",
+   "venue": "клуб Паве",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-10-17T20:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/lucky-number-nick-album-promo-w-los-chill-es-live-at-pave-8857",
+   "src": "bilet",
+   "addr": "пл. Славейков 4"
   },
   {
    "name": "Asia Motor Show 2026",
