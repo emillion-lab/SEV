@@ -1,7 +1,7 @@
 {
  "source": "bilet.bg",
- "generated": "2026-10-10T10:43:12.436618",
- "count": 36,
+ "generated": "2026-10-10T20:12:04.774943",
+ "count": 41,
  "events": [
   {
    "name": "MLC Training Collection 2026 - 2027",
@@ -24,28 +24,6 @@
    "url": "https://www.bilet.bg/bg/events/autumn-wave-fest-8071",
    "src": "bilet",
    "addr": "пл. Славейков 4"
-  },
-  {
-   "name": "Люлякови Нощи",
-   "venue": "НДК",
-   "lat": 42.6866,
-   "lon": 23.319,
-   "cap": 3380,
-   "start": "2026-10-10T20:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/lulakovi-noshti-8770",
-   "src": "bilet",
-   "addr": "НДК, бул. България 1, 1000 София"
-  },
-  {
-   "name": "PUSSY RIOT : Riot Days live in Sofia",
-   "venue": "Малката Текила",
-   "lat": 42.695,
-   "lon": 23.328,
-   "cap": 400,
-   "start": "2026-10-10T20:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/pussy-riot-riot-days-live-in-sofia-8601",
-   "src": "bilet",
-   "addr": "ул. Ангел Кънчев 1"
   },
   {
    "name": "Conspiracy Raves Presents",
@@ -222,6 +200,83 @@
    "url": "https://www.bilet.bg/bg/events/lucky-number-nick-album-promo-w-los-chill-es-live-at-pave-8857",
    "src": "bilet",
    "addr": "пл. Славейков 4"
+  },
+  {
+   "name": "\"Камшичен вятър\"- сайт-спесифик (не)театрално риалити - 21:00 ч",
+   "venue": "Културен център Бобина",
+   "lat": 42.6988274,
+   "lon": 23.325244,
+   "cap": 500,
+   "start": "2026-10-17T21:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/kamshichen-vatur-sayt-spesifik-neteatralno-rialiti-2100-ch-8886",
+   "src": "bilet",
+   "addr": "Ул. Триадица 5А, София, 1000"
+  },
+  {
+   "name": "HANDPAN AROUND THE WORLD: Ivan Judas (CRO), Bozhidar Stoichkov & Bunyverse",
+   "venue": "Тайна локация - София",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-10-18T19:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/handpan-around-the-world-ivan-judas-cro-bozhidar-stoichkov-bunyverse-8975",
+   "src": "bilet",
+   "addr": ""
+  },
+  {
+   "name": "Бизнес Вечер: Нови Контакти и Разговор с Младен Борисов от eBag",
+   "venue": "Клуб Грамофон",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-10-19T19:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/biznes-vecher-novi-kontakti-i-razgovor-s-mladen-borisov-ot-ebag-8917",
+   "src": "bilet",
+   "addr": "ул. Будапеща 6 "
+  },
+  {
+   "name": "Филмова прожекция на “The Way Out” - Бар Петък - 20.10.2026",
+   "venue": "Networking Premium (Гурко 16)",
+   "lat": 42.6919,
+   "lon": 23.326,
+   "cap": 500,
+   "start": "2026-10-20T18:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/filmova-prozhektsia-na-the-way-out-bar-petuk-20102026-8928",
+   "src": "bilet",
+   "addr": "ул. \"Ген. Гурко\" 21, 1000 София център, София"
+  },
+  {
+   "name": "Изцеление отвътре и отвън - София",
+   "venue": "SOHO",
+   "lat": 42.6641527,
+   "lon": 23.2881605,
+   "cap": 500,
+   "start": "2026-10-20T19:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/iztselenie-otvutre-i-otvun-sofia-9000",
+   "src": "bilet",
+   "addr": "София Център, ул. \"Искър\" 4, 1000 София"
+  },
+  {
+   "name": "\"Пролуката''",
+   "venue": "Арт зала Хайтов",
+   "lat": 42.6753427,
+   "lon": 23.3575957,
+   "cap": 500,
+   "start": "2026-10-20T19:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/prolukata-8726",
+   "src": "bilet",
+   "addr": "ул. Ю. Гагарин 7"
+  },
+  {
+   "name": "Писателско соаре „Мастило и мечти“ - 21.10",
+   "venue": "Мечталище",
+   "lat": 42.6708452,
+   "lon": 23.3237069,
+   "cap": 500,
+   "start": "2026-10-21T18:45:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/pisatelsko-soare-mastilo-i-mechti-2110-8649",
+   "src": "bilet",
+   "addr": "Център гр. Лозенец, ул. \"Трепетлика\" 12, 1407 София"
   },
   {
    "name": "Asia Motor Show 2026",
