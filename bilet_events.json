@@ -1,7 +1,7 @@
 {
  "source": "bilet.bg",
- "generated": "2026-10-10T20:12:04.774943",
- "count": 41,
+ "generated": "2026-10-11T10:56:15.660053",
+ "count": 40,
  "events": [
   {
    "name": "MLC Training Collection 2026 - 2027",
@@ -13,39 +13,6 @@
    "url": "https://www.bilet.bg/bg/events/mlc-training-collection-2026-2027-8165",
    "src": "bilet",
    "addr": "Гърдова Глававитоса ул. Маринковица 1618 София"
-  },
-  {
-   "name": "Autumn Wave Fest",
-   "venue": "клуб Паве",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2026-10-10T19:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/autumn-wave-fest-8071",
-   "src": "bilet",
-   "addr": "пл. Славейков 4"
-  },
-  {
-   "name": "Conspiracy Raves Presents",
-   "venue": "Чистилището",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2026-10-10T22:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/conspiracy-raves-presents-8708",
-   "src": "bilet",
-   "addr": "Орландовци, ул. Индустриална 1202 София"
-  },
-  {
-   "name": "Position Chrome Label Night in Sofia",
-   "venue": "Студио Орфей",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2026-10-10T22:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/position-chrome-label-night-in-sofia-8623",
-   "src": "bilet",
-   "addr": "ж.к. Изгрев, бул. “Самоков” 60, 1113 София"
   },
   {
    "name": "LR Health Academy 2026",
@@ -202,6 +169,17 @@
    "addr": "пл. Славейков 4"
   },
   {
+   "name": "RAMMSTEIN by ELINOR",
+   "venue": "Клуб ОБЛК",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-10-17T20:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/rammstein-by-elinor-8792",
+   "src": "bilet",
+   "addr": "Бул. Цар Освободилте №10"
+  },
+  {
    "name": "\"Камшичен вятър\"- сайт-спесифик (не)театрално риалити - 21:00 ч",
    "venue": "Културен център Бобина",
    "lat": 42.6988274,
@@ -211,6 +189,17 @@
    "url": "https://www.bilet.bg/bg/events/kamshichen-vatur-sayt-spesifik-neteatralno-rialiti-2100-ch-8886",
    "src": "bilet",
    "addr": "Ул. Триадица 5А, София, 1000"
+  },
+  {
+   "name": "Reggaeton Flow Live - Maluma Edition",
+   "venue": "Клуб Грамофон",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-10-17T23:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/reggaeton-flow-live-maluma-edition-8687",
+   "src": "bilet",
+   "addr": "ул. Будапеща 6 "
   },
   {
    "name": "HANDPAN AROUND THE WORLD: Ivan Judas (CRO), Bozhidar Stoichkov & Bunyverse",
