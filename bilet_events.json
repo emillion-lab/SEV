@@ -1,7 +1,7 @@
 {
  "source": "bilet.bg",
- "generated": "2026-10-12T12:57:13.206061",
- "count": 40,
+ "generated": "2026-10-12T23:06:22.191489",
+ "count": 39,
  "events": [
   {
    "name": "MLC Training Collection 2026 - 2027",
@@ -35,17 +35,6 @@
    "url": "https://www.bilet.bg/bg/events/nosht-na-svetlinata-the-show-8779",
    "src": "bilet",
    "addr": "Ул. Пиротска 5 1000 София Център"
-  },
-  {
-   "name": "SARAB (FR) LIVE IN SOFIA + ETHEREA / Club Mixtape 5 / 13.10",
-   "venue": "Mixtape 5",
-   "lat": 42.6866,
-   "lon": 23.319,
-   "cap": 900,
-   "start": "2026-10-13T19:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/sarab-fr-live-in-sofia-etherea-club-mixtape-5-1310-8638",
-   "src": "bilet",
-   "addr": "bul. Bulgaria, podlez Galeriya, bulevard \"Cherni vrah\", 1142 Sofia"
   },
   {
    "name": "ISTA Conference 2026- Fest Edition",
