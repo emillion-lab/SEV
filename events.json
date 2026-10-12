@@ -1,6 +1,6 @@
 {
- "generated": "2026-10-08T11:52:58.660115+00:00",
- "count": 54,
+ "generated": "2026-10-12T12:57:13.310317+00:00",
+ "count": 55,
  "sources_ok": [
   "arena",
   "bilet",
@@ -8,81 +8,15 @@
  ],
  "events": [
   {
-   "name": "DisruptHR Sofia vol.7 \"Стари времена\"",
-   "venue": "Joy Station",
-   "lat": 42.67,
-   "lon": 23.352,
-   "cap": 1500,
-   "start": "2026-10-08T18:30:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/disrupthr-sofia-vol7-stari-vremena-8254",
+   "name": "LR Health Academy 2026",
+   "venue": "Интер Експо Център",
+   "lat": 42.652,
+   "lon": 23.376,
+   "cap": 3000,
+   "start": "2026-10-11T10:30:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/lr-health-academy-2026-8515",
    "src": "bilet",
-   "addr": "Студентски град, ул. \"Акад. Стефан Младенов\" 3"
-  },
-  {
-   "name": "Before We Met by Singles of Sofia",
-   "venue": "Networking Premium (Гурко 16)",
-   "lat": 42.6919,
-   "lon": 23.326,
-   "cap": 500,
-   "start": "2026-10-08T19:30:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/before-we-met-by-singles-of-sofia-8897",
-   "src": "bilet",
-   "addr": "София Център, ул. Генерал Гурко 19, 1000 София"
-  },
-  {
-   "name": "Концерт на Аннамари Олà, Петър Йорданов - Бъни и Жаклин Дишлиев - Джей в София / 08.10 / S",
-   "venue": "Schroedinger Bar",
-   "lat": 42.7032075,
-   "lon": 23.3328912,
-   "cap": 500,
-   "start": "2026-10-08T20:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/kontsert-na-annamari-ola-petur-yordanov-buni-i-zhaklin-dishliev-dzhey-v-sofia-0810-schroedinger-bar-8824",
-   "src": "bilet",
-   "addr": "ул. „Св. Св. Кирил и Методий\" 1"
-  },
-  {
-   "name": "MONA LIVE - “ЖИВА” ALBUM PREVIEW - 08.10.2026 - Бар Петък",
-   "venue": "Networking Premium (Гурко 16)",
-   "lat": 42.6919,
-   "lon": 23.326,
-   "cap": 500,
-   "start": "2026-10-08T21:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/mona-live-zhiva-album-preview-08102026-bar-petuk-8773",
-   "src": "bilet",
-   "addr": "ул. \"Ген. Гурко\" 21, 1000 София център, София"
-  },
-  {
-   "name": "MADBALL live in Sofia + Desolated / Combust / Expectations",
-   "venue": "Топлоцентрала",
-   "lat": 42.6800029,
-   "lon": 23.3155763,
-   "cap": 500,
-   "start": "2026-10-09T19:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/madball-live-in-sofia-desolated-combust-expectations-8517",
-   "src": "bilet",
-   "addr": "София, ул. \"Емил Берсински\" № 5"
-  },
-  {
-   "name": "Mega Draglesque Cabaret",
-   "venue": "НДК",
-   "lat": 42.6866,
-   "lon": 23.319,
-   "cap": 3380,
-   "start": "2026-10-09T19:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/mega-draglesque-cabaret-8605",
-   "src": "bilet",
-   "addr": "НДК, п-д \"България\" 1  "
-  },
-  {
-   "name": "Destroy Your Future LIVE + Scotopia / Club Mixtape 5 / 09.10",
-   "venue": "Mixtape 5",
-   "lat": 42.6866,
-   "lon": 23.319,
-   "cap": 900,
-   "start": "2026-10-09T20:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/destroy-your-future-live-scotopia-club-mixtape-5-0910-8666",
-   "src": "bilet",
-   "addr": "bul. Bulgaria, podlez Galeriya, bulevard \"Cherni vrah\", 1142 Sofia"
+   "addr": "бул. „Цариградско шосе“ 147, 1784 7-ми 11-ти"
   },
   {
    "name": "Салон на изкуствата / Събития",
@@ -90,48 +24,17 @@
    "lat": 42.6847,
    "lon": 23.3188,
    "cap": 3380,
-   "start": "2026-10-10T19:00:00+03:00",
+   "start": "2026-10-12T19:00:00+03:00",
    "url": "",
    "src": "ndk"
   },
   {
-   "name": "Алехандро Ходоровски: Къртицата (1970)",
+   "name": "40-ото издание на „Киномания“ – празник на киното със световни шедьоври и специални събития",
    "venue": "НДК Зала 1",
    "lat": 42.6847,
    "lon": 23.3188,
    "cap": 3380,
-   "start": "2026-10-10T19:00:00+03:00",
-   "url": "",
-   "src": "ndk"
-  },
-  {
-   "name": "A$AP Rocky",
-   "venue": "Арена 8888 София",
-   "lat": 42.67137,
-   "lon": 23.36932,
-   "cap": 12000,
-   "start": "2026-10-10T20:00:00+03:00",
-   "url": "",
-   "src": "arena"
-  },
-  {
-   "name": "Люлякови Нощи",
-   "venue": "НДК",
-   "lat": 42.6866,
-   "lon": 23.319,
-   "cap": 3380,
-   "start": "2026-10-10T20:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/lulakovi-noshti-8770",
-   "src": "bilet",
-   "addr": "НДК, бул. България 1, 1000 София"
-  },
-  {
-   "name": "Алехандро Ходоровски: Свещената планина (1973)",
-   "venue": "НДК Зала 1",
-   "lat": 42.6847,
-   "lon": 23.3188,
-   "cap": 3380,
-   "start": "2026-10-11T19:00:00+03:00",
+   "start": "2026-10-12T19:00:00+03:00",
    "url": "",
    "src": "ndk"
   },
@@ -155,6 +58,17 @@
    "url": "https://www.bilet.bg/bg/events/nosht-na-svetlinata-the-show-8779",
    "src": "bilet",
    "addr": "Ул. Пиротска 5 1000 София Център"
+  },
+  {
+   "name": "SARAB (FR) LIVE IN SOFIA + ETHEREA / Club Mixtape 5 / 13.10",
+   "venue": "Mixtape 5",
+   "lat": 42.6866,
+   "lon": 23.319,
+   "cap": 900,
+   "start": "2026-10-13T19:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/sarab-fr-live-in-sofia-etherea-club-mixtape-5-1310-8638",
+   "src": "bilet",
+   "addr": "bul. Bulgaria, podlez Galeriya, bulevard \"Cherni vrah\", 1142 Sofia"
   },
   {
    "name": "ИЛИЯ ЛУКОВ и ПРИЯТЕЛИ „С БЪЛГАРИЯ В СЪРЦЕТО“",
@@ -188,6 +102,28 @@
    "addr": "1407 Hladilnika, Sofia"
   },
   {
+   "name": "ISTA FEST EDITION - Workshop: Human Systems Under Pressure: performance, recovery and tool",
+   "venue": "Sofia Event Center",
+   "lat": 42.6607,
+   "lon": 23.3122,
+   "cap": 2000,
+   "start": "2026-10-15T11:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/ista-fest-edition-workshop-human-systems-under-pressure-performance-recovery-and-tools-for-healthier-work-8919",
+   "src": "bilet",
+   "addr": "1407 Hladilnika, Sofia"
+  },
+  {
+   "name": "ISTA FEST EDITION - Workshop: Hack the Agent: Hands-on AI Agent Security",
+   "venue": "Sofia Event Center",
+   "lat": 42.6607,
+   "lon": 23.3122,
+   "cap": 2000,
+   "start": "2026-10-15T15:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/ista-fest-edition-workshop-hack-the-agent-hands-on-ai-agent-security-8983",
+   "src": "bilet",
+   "addr": "1407 Hladilnika, Sofia"
+  },
+  {
    "name": "Куклите помнят | САЛОН НА ИЗКУСТВАТА",
    "venue": "НДК Зала 1",
    "lat": 42.6847,
@@ -209,14 +145,26 @@
    "addr": "ул. \"Дукатска планина\" 18, 1606 София"
   },
   {
-   "name": "Аца Лукас, Миле Китич и Саша Матич",
-   "venue": "Арена 8888 София",
-   "lat": 42.67137,
-   "lon": 23.36932,
-   "cap": 12000,
+   "name": "\"Камшичен вятър\"- сайт-спесифик (не)театрално риалити - 19:00 ч",
+   "venue": "Културен център Бобина",
+   "lat": 42.6988274,
+   "lon": 23.325244,
+   "cap": 500,
+   "start": "2026-10-17T19:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/kamshichen-vatur-sayt-spesifik-neteatralno-rialiti-1900-ch-8885",
+   "src": "bilet",
+   "addr": "Ул. Триадица 5А, София, 1000"
+  },
+  {
+   "name": "12 години 5 o'clock",
+   "venue": "Mixtape 5",
+   "lat": 42.6866,
+   "lon": 23.319,
+   "cap": 900,
    "start": "2026-10-17T20:00:00+03:00",
-   "url": "",
-   "src": "arena"
+   "url": "https://www.bilet.bg/bg/events/12-godini-5-oclock-8789",
+   "src": "bilet",
+   "addr": "bul. Bulgaria, podlez Galeriya, bulevard \"Cherni vrah\", 1142 Sofia"
   },
   {
    "name": "Салон на изкуствата / Събития",
@@ -229,7 +177,7 @@
    "src": "ndk"
   },
   {
-   "name": "ONE NIGHT STAND",
+   "name": "ЗЛАТКА, ЗЛАТНОТО МОМИЧЕ | САЛОН НА ИЗКУСТВАТА",
    "venue": "НДК Зала 1",
    "lat": 42.6847,
    "lon": 23.3188,
@@ -239,7 +187,7 @@
    "src": "ndk"
   },
   {
-   "name": "ЗЛАТКА, ЗЛАТНОТО МОМИЧЕ | САЛОН НА ИЗКУСТВАТА",
+   "name": "ONE NIGHT STAND",
    "venue": "НДК Зала 1",
    "lat": 42.6847,
    "lon": 23.3188,
@@ -279,6 +227,70 @@
    "src": "ndk"
   },
   {
+   "name": "Mamma Mia! | САЛОН НА ИЗКУСТВАТА",
+   "venue": "НДК Зала 1",
+   "lat": 42.6847,
+   "lon": 23.3188,
+   "cap": 3380,
+   "start": "2026-10-19T19:00:00+03:00",
+   "url": "",
+   "src": "ndk"
+  },
+  {
+   "name": "Филмова прожекция на “The Way Out” - Бар Петък - 20.10.2026",
+   "venue": "Networking Premium (Гурко 16)",
+   "lat": 42.6919,
+   "lon": 23.326,
+   "cap": 500,
+   "start": "2026-10-20T18:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/filmova-prozhektsia-na-the-way-out-bar-petuk-20102026-8928",
+   "src": "bilet",
+   "addr": "ул. \"Ген. Гурко\" 21, 1000 София център, София"
+  },
+  {
+   "name": "Изцеление отвътре и отвън - София",
+   "venue": "SOHO",
+   "lat": 42.6641527,
+   "lon": 23.2881605,
+   "cap": 500,
+   "start": "2026-10-20T19:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/iztselenie-otvutre-i-otvun-sofia-9000",
+   "src": "bilet",
+   "addr": "София Център, ул. \"Искър\" 4, 1000 София"
+  },
+  {
+   "name": "\"Пролуката''",
+   "venue": "Арт зала Хайтов",
+   "lat": 42.6753427,
+   "lon": 23.3575957,
+   "cap": 500,
+   "start": "2026-10-20T19:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/prolukata-8726",
+   "src": "bilet",
+   "addr": "ул. Ю. Гагарин 7"
+  },
+  {
+   "name": "Писателско соаре „Мастило и мечти“ - 21.10",
+   "venue": "Мечталище",
+   "lat": 42.6708452,
+   "lon": 23.3237069,
+   "cap": 500,
+   "start": "2026-10-21T18:45:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/pisatelsko-soare-mastilo-i-mechti-2110-8649",
+   "src": "bilet",
+   "addr": "Център гр. Лозенец, ул. \"Трепетлика\" 12, 1407 София"
+  },
+  {
+   "name": "Ричард Фланаган в България | Премира на ВЪПРОС 7 | САЛОН НА ИЗКУСТВАТА",
+   "venue": "НДК Зала 1",
+   "lat": 42.6847,
+   "lon": 23.3188,
+   "cap": 3380,
+   "start": "2026-10-21T19:00:00+03:00",
+   "url": "",
+   "src": "ndk"
+  },
+  {
    "name": "Asia Motor Show 2026",
    "venue": "Интер Експо Център",
    "lat": 42.652,
@@ -299,6 +311,17 @@
    "url": "https://www.bilet.bg/bg/events/dj-krush-at-malkata-tekila-sofia-22102026-7905",
    "src": "bilet",
    "addr": "ул. Ангел Кънчев 1"
+  },
+  {
+   "name": "Challenge Accepted Events 2026 - The Connection",
+   "venue": "София Тех Парк",
+   "lat": 42.6668,
+   "lon": 23.376,
+   "cap": 1500,
+   "start": "2026-10-23T09:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/challenge-accepted-events-2026-the-connection-7352",
+   "src": "bilet",
+   "addr": "бул. Цариградско шосе 111Г, 1784 м. Къро"
   },
   {
    "name": "Аз рисувам като ... Пол Сезан - ателие за деца",
@@ -334,16 +357,6 @@
    "addr": "bul. Bulgaria, podlez Galeriya, bulevard \"Cherni vrah\", 1142 Sofia"
   },
   {
-   "name": "КУ-КУ БЕНД И ИВАНА ПРЕДСТАВЯТ: “ШАМПАНСКО И СЪЛЗИ”",
-   "venue": "Арена 8888 София",
-   "lat": 42.67137,
-   "lon": 23.36932,
-   "cap": 12000,
-   "start": "2026-10-31T20:00:00+03:00",
-   "url": "",
-   "src": "arena"
-  },
-  {
    "name": "Halloween Night with The Wonder GIrls / Club Mixtape 5 / 31.10",
    "venue": "Mixtape 5",
    "lat": 42.6866,
@@ -355,7 +368,7 @@
    "addr": "bul. Bulgaria, podlez Galeriya, bulevard \"Cherni vrah\", 1142 Sofia"
   },
   {
-   "name": "10 ГОДИНИ MBTxBM & GIO PIKA | HALLOWEEN MASQUERADE",
+   "name": "КУ-КУ БЕНД И ИВАНА ПРЕДСТАВЯТ: “ШАМПАНСКО И СЪЛЗИ”",
    "venue": "Арена 8888 София",
    "lat": 42.67137,
    "lon": 23.36932,
@@ -394,17 +407,6 @@
    "start": "2026-11-08T20:00:00+03:00",
    "url": "",
    "src": "arena"
-  },
-  {
-   "name": "BRAND TALKs 2026",
-   "venue": "Joy Station",
-   "lat": 42.67,
-   "lon": 23.352,
-   "cap": 1500,
-   "start": "2026-11-10T10:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/brand-talks-2026-8449",
-   "src": "bilet",
-   "addr": "Студентски град, ул. \"Акад. Стефан Младенов\" 3"
   },
   {
    "name": "25-75 лева",
@@ -536,12 +538,22 @@
    "lat": 42.67137,
    "lon": 23.36932,
    "cap": 12000,
+   "start": "2027-02-13T20:00:00+03:00",
+   "url": "",
+   "src": "arena"
+  },
+  {
+   "name": "НОВО",
+   "venue": "Арена 8888 София",
+   "lat": 42.67137,
+   "lon": 23.36932,
+   "cap": 12000,
    "start": "2027-03-10T20:00:00+03:00",
    "url": "",
    "src": "arena"
   },
   {
-   "name": "Последни публикации",
+   "name": "09.10.2026 A$AP Rocky – информация за посетители",
    "venue": "Арена 8888 София",
    "lat": 42.67137,
    "lon": 23.36932,
