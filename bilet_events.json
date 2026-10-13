@@ -1,7 +1,7 @@
 {
  "source": "bilet.bg",
- "generated": "2026-10-13T11:57:32.464925",
- "count": 39,
+ "generated": "2026-10-13T21:22:24.788962",
+ "count": 38,
  "events": [
   {
    "name": "MLC Training Collection 2026 - 2027",
@@ -24,17 +24,6 @@
    "url": "https://www.bilet.bg/bg/events/lr-health-academy-2026-8515",
    "src": "bilet",
    "addr": "бул. „Цариградско шосе“ 147, 1784 7-ми 11-ти"
-  },
-  {
-   "name": "Нощ на светлината - The Show",
-   "venue": "Пиротска 5",
-   "lat": 42.6987,
-   "lon": 23.3195,
-   "cap": 600,
-   "start": "2026-10-13T19:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/nosht-na-svetlinata-the-show-8779",
-   "src": "bilet",
-   "addr": "Ул. Пиротска 5 1000 София Център"
   },
   {
    "name": "ISTA Conference 2026- Fest Edition",
