@@ -1,7 +1,7 @@
 {
  "source": "bilet.bg",
- "generated": "2026-10-13T21:22:24.788962",
- "count": 38,
+ "generated": "2026-10-14T09:37:21.119599",
+ "count": 39,
  "events": [
   {
    "name": "MLC Training Collection 2026 - 2027",
@@ -264,6 +264,17 @@
    "cap": 400,
    "start": "2026-10-22T20:00:00+03:00",
    "url": "https://www.bilet.bg/bg/events/dj-krush-at-malkata-tekila-sofia-22102026-7905",
+   "src": "bilet",
+   "addr": "ул. Ангел Кънчев 1"
+  },
+  {
+   "name": "Нощта на Гетсби @Pineapple Express 22/10/2026",
+   "venue": "Малката Текила",
+   "lat": 42.695,
+   "lon": 23.328,
+   "cap": 400,
+   "start": "2026-10-22T20:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/noshtta-na-getsbi-at-pineapple-express-22102026-9024",
    "src": "bilet",
    "addr": "ул. Ангел Кънчев 1"
   },
