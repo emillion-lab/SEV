@@ -1,7 +1,7 @@
 {
  "source": "bilet.bg",
- "generated": "2026-10-14T09:37:21.119599",
- "count": 39,
+ "generated": "2026-10-14T20:17:49.617340",
+ "count": 38,
  "events": [
   {
    "name": "MLC Training Collection 2026 - 2027",
@@ -147,17 +147,6 @@
    "addr": "пл. Славейков 4"
   },
   {
-   "name": "RAMMSTEIN by ELINOR",
-   "venue": "Клуб ОБЛК",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2026-10-17T20:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/rammstein-by-elinor-8792",
-   "src": "bilet",
-   "addr": "Бул. Цар Освободилте №10"
-  },
-  {
    "name": "\"Камшичен вятър\"- сайт-спесифик (не)театрално риалити - 21:00 ч",
    "venue": "Културен център Бобина",
    "lat": 42.6988274,
@@ -169,17 +158,6 @@
    "addr": "Ул. Триадица 5А, София, 1000"
   },
   {
-   "name": "Reggaeton Flow Live - Maluma Edition",
-   "venue": "Клуб Грамофон",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2026-10-17T23:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/reggaeton-flow-live-maluma-edition-8687",
-   "src": "bilet",
-   "addr": "ул. Будапеща 6 "
-  },
-  {
    "name": "HANDPAN AROUND THE WORLD: Ivan Judas (CRO), Bozhidar Stoichkov & Bunyverse",
    "venue": "Тайна локация - София",
    "lat": null,
@@ -189,6 +167,17 @@
    "url": "https://www.bilet.bg/bg/events/handpan-around-the-world-ivan-judas-cro-bozhidar-stoichkov-bunyverse-8975",
    "src": "bilet",
    "addr": ""
+  },
+  {
+   "name": "Концерт на група ТЛЕН, със специалното участие на CROCS IN TEARS и ГОСТ",
+   "venue": "клуб Паве",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-10-18T20:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/kontsert-na-grupa-tlen-sus-spetsialnoto-uchastie-na-crocs-in-tears-i-gost-9033",
+   "src": "bilet",
+   "addr": "пл. Славейков 4"
   },
   {
    "name": "Бизнес Вечер: Нови Контакти и Разговор с Младен Борисов от eBag",
