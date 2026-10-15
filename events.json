@@ -1,117 +1,12 @@
 {
- "generated": "2026-10-12T12:57:13.310317+00:00",
- "count": 55,
+ "generated": "2026-10-15T09:42:21.225948+00:00",
+ "count": 54,
  "sources_ok": [
   "arena",
   "bilet",
   "ndk"
  ],
  "events": [
-  {
-   "name": "LR Health Academy 2026",
-   "venue": "Интер Експо Център",
-   "lat": 42.652,
-   "lon": 23.376,
-   "cap": 3000,
-   "start": "2026-10-11T10:30:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/lr-health-academy-2026-8515",
-   "src": "bilet",
-   "addr": "бул. „Цариградско шосе“ 147, 1784 7-ми 11-ти"
-  },
-  {
-   "name": "Салон на изкуствата / Събития",
-   "venue": "НДК Зала 1",
-   "lat": 42.6847,
-   "lon": 23.3188,
-   "cap": 3380,
-   "start": "2026-10-12T19:00:00+03:00",
-   "url": "",
-   "src": "ndk"
-  },
-  {
-   "name": "40-ото издание на „Киномания“ – празник на киното със световни шедьоври и специални събития",
-   "venue": "НДК Зала 1",
-   "lat": 42.6847,
-   "lon": 23.3188,
-   "cap": 3380,
-   "start": "2026-10-12T19:00:00+03:00",
-   "url": "",
-   "src": "ndk"
-  },
-  {
-   "name": "Белчевият род го има",
-   "venue": "НДК Зала 1",
-   "lat": 42.6847,
-   "lon": 23.3188,
-   "cap": 3380,
-   "start": "2026-10-12T19:00:00+03:00",
-   "url": "",
-   "src": "ndk"
-  },
-  {
-   "name": "Нощ на светлината - The Show",
-   "venue": "Пиротска 5",
-   "lat": 42.6987,
-   "lon": 23.3195,
-   "cap": 600,
-   "start": "2026-10-13T19:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/nosht-na-svetlinata-the-show-8779",
-   "src": "bilet",
-   "addr": "Ул. Пиротска 5 1000 София Център"
-  },
-  {
-   "name": "SARAB (FR) LIVE IN SOFIA + ETHEREA / Club Mixtape 5 / 13.10",
-   "venue": "Mixtape 5",
-   "lat": 42.6866,
-   "lon": 23.319,
-   "cap": 900,
-   "start": "2026-10-13T19:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/sarab-fr-live-in-sofia-etherea-club-mixtape-5-1310-8638",
-   "src": "bilet",
-   "addr": "bul. Bulgaria, podlez Galeriya, bulevard \"Cherni vrah\", 1142 Sofia"
-  },
-  {
-   "name": "ИЛИЯ ЛУКОВ и ПРИЯТЕЛИ „С БЪЛГАРИЯ В СЪРЦЕТО“",
-   "venue": "НДК Зала 1",
-   "lat": 42.6847,
-   "lon": 23.3188,
-   "cap": 3380,
-   "start": "2026-10-14T19:00:00+03:00",
-   "url": "",
-   "src": "ndk"
-  },
-  {
-   "name": "Акира Куросава: Сънища (1990)",
-   "venue": "НДК Зала 1",
-   "lat": 42.6847,
-   "lon": 23.3188,
-   "cap": 3380,
-   "start": "2026-10-14T19:00:00+03:00",
-   "url": "",
-   "src": "ndk"
-  },
-  {
-   "name": "ISTA Conference 2026- Fest Edition",
-   "venue": "Sofia Event Center",
-   "lat": 42.6607,
-   "lon": 23.3122,
-   "cap": 2000,
-   "start": "2026-10-15T09:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/ista-conference-2026-fest-edition-7690",
-   "src": "bilet",
-   "addr": "1407 Hladilnika, Sofia"
-  },
-  {
-   "name": "ISTA FEST EDITION - Workshop: Human Systems Under Pressure: performance, recovery and tool",
-   "venue": "Sofia Event Center",
-   "lat": 42.6607,
-   "lon": 23.3122,
-   "cap": 2000,
-   "start": "2026-10-15T11:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/ista-fest-edition-workshop-human-systems-under-pressure-performance-recovery-and-tools-for-healthier-work-8919",
-   "src": "bilet",
-   "addr": "1407 Hladilnika, Sofia"
-  },
   {
    "name": "ISTA FEST EDITION - Workshop: Hack the Agent: Hands-on AI Agent Security",
    "venue": "Sofia Event Center",
@@ -122,6 +17,16 @@
    "url": "https://www.bilet.bg/bg/events/ista-fest-edition-workshop-hack-the-agent-hands-on-ai-agent-security-8983",
    "src": "bilet",
    "addr": "1407 Hladilnika, Sofia"
+  },
+  {
+   "name": "Салон на изкуствата / Събития",
+   "venue": "НДК Зала 1",
+   "lat": 42.6847,
+   "lon": 23.3188,
+   "cap": 3380,
+   "start": "2026-10-15T19:00:00+03:00",
+   "url": "",
+   "src": "ndk"
   },
   {
    "name": "Куклите помнят | САЛОН НА ИЗКУСТВАТА",
@@ -187,6 +92,16 @@
    "src": "ndk"
   },
   {
+   "name": "Творческа работилница за деца | САЛОН НА ИЗКУСТВАТА",
+   "venue": "НДК Зала 1",
+   "lat": 42.6847,
+   "lon": 23.3188,
+   "cap": 3380,
+   "start": "2026-10-18T19:00:00+03:00",
+   "url": "",
+   "src": "ndk"
+  },
+  {
    "name": "ONE NIGHT STAND",
    "venue": "НДК Зала 1",
    "lat": 42.6847,
@@ -208,16 +123,6 @@
   },
   {
    "name": "В градините на Алхамбра | САЛОН НА ИЗКУСТВАТА",
-   "venue": "НДК Зала 1",
-   "lat": 42.6847,
-   "lon": 23.3188,
-   "cap": 3380,
-   "start": "2026-10-18T19:00:00+03:00",
-   "url": "",
-   "src": "ndk"
-  },
-  {
-   "name": "Творческа работилница за деца | САЛОН НА ИЗКУСТВАТА",
    "venue": "НДК Зала 1",
    "lat": 42.6847,
    "lon": 23.3188,
@@ -302,6 +207,26 @@
    "addr": "бул. Цариградско шосе 147"
   },
   {
+   "name": "Салон на изкуствата / Събития",
+   "venue": "НДК Зала 1",
+   "lat": 42.6847,
+   "lon": 23.3188,
+   "cap": 3380,
+   "start": "2026-10-22T19:00:00+03:00",
+   "url": "",
+   "src": "ndk"
+  },
+  {
+   "name": "Алхимия на времето | САЛОН НА ИЗКУСТВАТА",
+   "venue": "НДК Зала 1",
+   "lat": 42.6847,
+   "lon": 23.3188,
+   "cap": 3380,
+   "start": "2026-10-22T19:00:00+03:00",
+   "url": "",
+   "src": "ndk"
+  },
+  {
    "name": "DJ KRUSH @ Malkata Tekila Sofia 22/10/2026",
    "venue": "Малката Текила",
    "lat": 42.695,
@@ -309,6 +234,17 @@
    "cap": 400,
    "start": "2026-10-22T20:00:00+03:00",
    "url": "https://www.bilet.bg/bg/events/dj-krush-at-malkata-tekila-sofia-22102026-7905",
+   "src": "bilet",
+   "addr": "ул. Ангел Кънчев 1"
+  },
+  {
+   "name": "Нощта на Гетсби @Pineapple Express 22/10/2026",
+   "venue": "Малката Текила",
+   "lat": 42.695,
+   "lon": 23.328,
+   "cap": 400,
+   "start": "2026-10-22T20:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/noshtta-na-getsbi-at-pineapple-express-22102026-9024",
    "src": "bilet",
    "addr": "ул. Ангел Кънчев 1"
   },
@@ -324,6 +260,28 @@
    "addr": "бул. Цариградско шосе 111Г, 1784 м. Къро"
   },
   {
+   "name": "LAPHROAIG -УИСКИ МАЙСТОРСКИ КЛАС |  BEYOND The SMOKE",
+   "venue": "Sofia Event Center",
+   "lat": 42.6607,
+   "lon": 23.3122,
+   "cap": 2000,
+   "start": "2026-10-23T17:30:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/laphroaig-uiski-maystorski-klas-beyond-the-smoke-8873",
+   "src": "bilet",
+   "addr": "1407 Hladilnika, Sofia"
+  },
+  {
+   "name": "DOS MADERAS РОМ МАЙСТОРСКИ КЛАС | – Пътешествие от Карибите през Азия до Херез",
+   "venue": "Sofia Event Center",
+   "lat": 42.6607,
+   "lon": 23.3122,
+   "cap": 2000,
+   "start": "2026-10-23T18:45:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/dos-maderas-rom-maystorski-klas-puteshestvie-ot-karibite-prez-azia-do-herez-8714",
+   "src": "bilet",
+   "addr": "1407 Hladilnika, Sofia"
+  },
+  {
    "name": "Аз рисувам като ... Пол Сезан - ателие за деца",
    "venue": "АРТ Къща",
    "lat": 42.6892355,
@@ -333,6 +291,26 @@
    "url": "https://www.bilet.bg/bg/events/az-risuvam-kato-pol-sezan-atelie-za-detsa-8548",
    "src": "bilet",
    "addr": "ул. \"Дукатска планина\" 18, 1606 София"
+  },
+  {
+   "name": "Салон на изкуствата / Събития",
+   "venue": "НДК Зала 1",
+   "lat": 42.6847,
+   "lon": 23.3188,
+   "cap": 3380,
+   "start": "2026-10-27T19:00:00+03:00",
+   "url": "",
+   "src": "ndk"
+  },
+  {
+   "name": "ЕКСКЛУЗИВНОТО STAND UP ШОУ НА ЗДРАВА КАМЕНОВА \"ЗДРАВА И ПОЛОВИНА\"",
+   "venue": "НДК Зала 1",
+   "lat": 42.6847,
+   "lon": 23.3188,
+   "cap": 3380,
+   "start": "2026-10-27T19:00:00+03:00",
+   "url": "",
+   "src": "ndk"
   },
   {
    "name": "DARA - Live",
@@ -366,6 +344,16 @@
    "url": "https://www.bilet.bg/bg/events/halloween-night-with-the-wonder-girls-club-mixtape-5-3110-8823",
    "src": "bilet",
    "addr": "bul. Bulgaria, podlez Galeriya, bulevard \"Cherni vrah\", 1142 Sofia"
+  },
+  {
+   "name": "НевиДИМО дете | САЛОН НА ИЗКУСТВАТА",
+   "venue": "НДК Зала 1",
+   "lat": 42.6847,
+   "lon": 23.3188,
+   "cap": 3380,
+   "start": "2026-11-01T19:00:00+03:00",
+   "url": "",
+   "src": "ndk"
   },
   {
    "name": "КУ-КУ БЕНД И ИВАНА ПРЕДСТАВЯТ: “ШАМПАНСКО И СЪЛЗИ”",
