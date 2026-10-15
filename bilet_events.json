@@ -1,7 +1,7 @@
 {
  "source": "bilet.bg",
- "generated": "2026-10-15T09:42:21.138790",
- "count": 38,
+ "generated": "2026-10-15T19:58:30.388863",
+ "count": 39,
  "events": [
   {
    "name": "MLC Training Collection 2026 - 2027",
@@ -13,28 +13,6 @@
    "url": "https://www.bilet.bg/bg/events/mlc-training-collection-2026-2027-8165",
    "src": "bilet",
    "addr": "Гърдова Глававитоса ул. Маринковица 1618 София"
-  },
-  {
-   "name": "ISTA FEST EDITION - Workshop: Hack the Agent: Hands-on AI Agent Security",
-   "venue": "Sofia Event Center",
-   "lat": 42.6607,
-   "lon": 23.3122,
-   "cap": 2000,
-   "start": "2026-10-15T15:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/ista-fest-edition-workshop-hack-the-agent-hands-on-ai-agent-security-8983",
-   "src": "bilet",
-   "addr": "1407 Hladilnika, Sofia"
-  },
-  {
-   "name": "PESTILENCE - Първо хедлайнерско шоу в България",
-   "venue": "Клуб \"При Черепите\"",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2026-10-15T19:30:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/pestilence-purvo-hedlaynersko-shou-v-bulgaria-7693",
-   "src": "bilet",
-   "addr": "Булевард \"Илиянци\" 1И"
   },
   {
    "name": "ALL AGES SPLITKID & HOMELESZ w/ MGL ACHO, SKI, HOSTILE, TN, GOGZZZY, ACHODJU, AFRATA",
@@ -134,6 +112,28 @@
    "url": "https://www.bilet.bg/bg/events/kamshichen-vatur-sayt-spesifik-neteatralno-rialiti-2100-ch-8886",
    "src": "bilet",
    "addr": "Ул. Триадица 5А, София, 1000"
+  },
+  {
+   "name": "Reggaeton Flow Live - Maluma Edition",
+   "venue": "Клуб Грамофон",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-10-17T23:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/reggaeton-flow-live-maluma-edition-8687",
+   "src": "bilet",
+   "addr": "ул. Будапеща 6 "
+  },
+  {
+   "name": "SECTA - \"НАГЪЛ\" Album Promo ALL AGES / Mixtape 5",
+   "venue": "Mixtape 5",
+   "lat": 42.6866,
+   "lon": 23.319,
+   "cap": 900,
+   "start": "2026-10-18T18:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/secta-nagul-album-promo-all-ages-mixtape-5-8987",
+   "src": "bilet",
+   "addr": "bul. Bulgaria, podlez Galeriya, bulevard \"Cherni vrah\", 1142 Sofia"
   },
   {
    "name": "HANDPAN AROUND THE WORLD: Ivan Judas (CRO), Bozhidar Stoichkov & Bunyverse",
@@ -279,6 +279,28 @@
    "addr": "1407 Hladilnika, Sofia"
   },
   {
+   "name": "GenZ vs Millennials Стендъп комедия // 23 Октомври, Дом на културата Средец",
+   "venue": "Дом на културата \"Средец\"",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-10-23T20:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/genz-vs-millennials-stendup-komedia-23-oktomvri-dom-na-kulturata-sredets-8995",
+   "src": "bilet",
+   "addr": "бул. Кракра 2А"
+  },
+  {
+   "name": "MUNGO’S HI FI & DJ VADIM @ Malkata Tekila Sofia 23/10/2026",
+   "venue": "Малката Текила",
+   "lat": 42.695,
+   "lon": 23.328,
+   "cap": 400,
+   "start": "2026-10-23T20:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/mungos-hi-fi-dj-vadim-at-malkata-tekila-sofia-23102026-8941",
+   "src": "bilet",
+   "addr": "ул. Ангел Кънчев 1"
+  },
+  {
    "name": "Аз рисувам като ... Пол Сезан - ателие за деца",
    "venue": "АРТ Къща",
    "lat": 42.6892355,
@@ -301,17 +323,6 @@
    "addr": "Ул. Пиротска 5 1000 София Център"
   },
   {
-   "name": "Infected Halloween 2026 | Day & Night Fest",
-   "venue": "Sofia - Secret Location",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2026-10-31T14:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/infected-halloween-2026-day-night-fest-8715",
-   "src": "bilet",
-   "addr": ""
-  },
-  {
    "name": "NICKA Halloween Concert \"Хиляди Лица\" / Mixtape 5 / 31.10",
    "venue": "Mixtape 5",
    "lat": 42.6866,
@@ -321,6 +332,17 @@
    "url": "https://www.bilet.bg/bg/events/nicka-halloween-concert-hiladi-litsa-mixtape-5-3110-8764",
    "src": "bilet",
    "addr": "bul. Bulgaria, podlez Galeriya, bulevard \"Cherni vrah\", 1142 Sofia"
+  },
+  {
+   "name": "Infected Halloween 2026 | Day & Night Fest",
+   "venue": "Sofia - Secret Location",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-10-31T20:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/infected-halloween-2026-day-night-fest-8715",
+   "src": "bilet",
+   "addr": ""
   },
   {
    "name": "HALLOWEEN PARANOIA 3, Sofia Halloween fest 2026, Chistilishteto",
@@ -334,6 +356,17 @@
    "addr": "Орландовци, ул. Индустриална 1202 София"
   },
   {
+   "name": "Shame Party Halloween Ball 2",
+   "venue": "Малката Текила",
+   "lat": 42.695,
+   "lon": 23.328,
+   "cap": 400,
+   "start": "2026-10-31T22:30:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/shame-party-halloween-ball-2-8765",
+   "src": "bilet",
+   "addr": "ул. Ангел Кънчев 1"
+  },
+  {
    "name": "Halloween Night with The Wonder GIrls / Club Mixtape 5 / 31.10",
    "venue": "Mixtape 5",
    "lat": 42.6866,
@@ -343,17 +376,6 @@
    "url": "https://www.bilet.bg/bg/events/halloween-night-with-the-wonder-girls-club-mixtape-5-3110-8823",
    "src": "bilet",
    "addr": "bul. Bulgaria, podlez Galeriya, bulevard \"Cherni vrah\", 1142 Sofia"
-  },
-  {
-   "name": "Аз рисувам като ... Фрида Кало - ателие за деца",
-   "venue": "АРТ Къща",
-   "lat": 42.6892355,
-   "lon": 23.3087338,
-   "cap": 500,
-   "start": "2026-11-07T14:30:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/az-risuvam-kato-frida-kalo-atelie-za-detsa-8549",
-   "src": "bilet",
-   "addr": "ул. \"Дукатска планина\" 18, 1606 София"
   },
   {
    "name": "Echoes Of Balkana: Khanъ, Tickle The Sage & E-An-Na (RO) Live / Club Mixtape 5 / 14.11",
@@ -376,17 +398,6 @@
    "url": "https://www.bilet.bg/bg/events/dara-ekimova-live-at-stroeja-8780",
    "src": "bilet",
    "addr": "София Център, улица „Георги С. Раковски“ 116, 1000 София"
-  },
-  {
-   "name": "Аз рисувам като ... Пабло Пикасо - ателие за деца",
-   "venue": "АРТ Къща",
-   "lat": 42.6892355,
-   "lon": 23.3087338,
-   "cap": 500,
-   "start": "2026-11-21T14:30:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/az-risuvam-kato-pablo-pikaso-atelie-za-detsa-8550",
-   "src": "bilet",
-   "addr": "ул. \"Дукатска планина\" 18, 1606 София"
   },
   {
    "name": "Михаела Маринова - Концерт - част от програмата \"Салон на изкуствата\" - Есен 2026 НДК",
