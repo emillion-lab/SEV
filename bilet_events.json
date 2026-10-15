@@ -1,6 +1,6 @@
 {
  "source": "bilet.bg",
- "generated": "2026-10-14T20:17:49.617340",
+ "generated": "2026-10-15T09:15:15.677002",
  "count": 38,
  "events": [
   {
@@ -13,39 +13,6 @@
    "url": "https://www.bilet.bg/bg/events/mlc-training-collection-2026-2027-8165",
    "src": "bilet",
    "addr": "Гърдова Глававитоса ул. Маринковица 1618 София"
-  },
-  {
-   "name": "LR Health Academy 2026",
-   "venue": "Интер Експо Център",
-   "lat": 42.652,
-   "lon": 23.376,
-   "cap": 3000,
-   "start": "2026-10-11T10:30:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/lr-health-academy-2026-8515",
-   "src": "bilet",
-   "addr": "бул. „Цариградско шосе“ 147, 1784 7-ми 11-ти"
-  },
-  {
-   "name": "ISTA Conference 2026- Fest Edition",
-   "venue": "Sofia Event Center",
-   "lat": 42.6607,
-   "lon": 23.3122,
-   "cap": 2000,
-   "start": "2026-10-15T09:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/ista-conference-2026-fest-edition-7690",
-   "src": "bilet",
-   "addr": "1407 Hladilnika, Sofia"
-  },
-  {
-   "name": "ISTA FEST EDITION - Workshop: Human Systems Under Pressure: performance, recovery and tool",
-   "venue": "Sofia Event Center",
-   "lat": 42.6607,
-   "lon": 23.3122,
-   "cap": 2000,
-   "start": "2026-10-15T11:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/ista-fest-edition-workshop-human-systems-under-pressure-performance-recovery-and-tools-for-healthier-work-8919",
-   "src": "bilet",
-   "addr": "1407 Hladilnika, Sofia"
   },
   {
    "name": "ISTA FEST EDITION - Workshop: Hack the Agent: Hands-on AI Agent Security",
@@ -145,6 +112,17 @@
    "url": "https://www.bilet.bg/bg/events/lucky-number-nick-album-promo-w-los-chill-es-live-at-pave-8857",
    "src": "bilet",
    "addr": "пл. Славейков 4"
+  },
+  {
+   "name": "RAMMSTEIN by ELINOR",
+   "venue": "Клуб ОБЛК",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-10-17T20:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/rammstein-by-elinor-8792",
+   "src": "bilet",
+   "addr": "Бул. Цар Освободилте №10"
   },
   {
    "name": "\"Камшичен вятър\"- сайт-спесифик (не)театрално риалити - 21:00 ч",
@@ -277,6 +255,28 @@
    "url": "https://www.bilet.bg/bg/events/challenge-accepted-events-2026-the-connection-7352",
    "src": "bilet",
    "addr": "бул. Цариградско шосе 111Г, 1784 м. Къро"
+  },
+  {
+   "name": "LAPHROAIG -УИСКИ МАЙСТОРСКИ КЛАС |  BEYOND The SMOKE",
+   "venue": "Sofia Event Center",
+   "lat": 42.6607,
+   "lon": 23.3122,
+   "cap": 2000,
+   "start": "2026-10-23T17:30:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/laphroaig-uiski-maystorski-klas-beyond-the-smoke-8873",
+   "src": "bilet",
+   "addr": "1407 Hladilnika, Sofia"
+  },
+  {
+   "name": "DOS MADERAS РОМ МАЙСТОРСКИ КЛАС | – Пътешествие от Карибите през Азия до Херез",
+   "venue": "Sofia Event Center",
+   "lat": 42.6607,
+   "lon": 23.3122,
+   "cap": 2000,
+   "start": "2026-10-23T18:45:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/dos-maderas-rom-maystorski-klas-puteshestvie-ot-karibite-prez-azia-do-herez-8714",
+   "src": "bilet",
+   "addr": "1407 Hladilnika, Sofia"
   },
   {
    "name": "Аз рисувам като ... Пол Сезан - ателие за деца",
