@@ -1,6 +1,6 @@
 {
  "source": "bilet.bg",
- "generated": "2026-10-16T09:08:28.918913",
+ "generated": "2026-10-16T19:38:02.010477",
  "count": 39,
  "events": [
   {
@@ -13,28 +13,6 @@
    "url": "https://www.bilet.bg/bg/events/mlc-training-collection-2026-2027-8165",
    "src": "bilet",
    "addr": "Гърдова Глававитоса ул. Маринковица 1618 София"
-  },
-  {
-   "name": "ALL AGES SPLITKID & HOMELESZ w/ MGL ACHO, SKI, HOSTILE, TN, GOGZZZY, ACHODJU, AFRATA",
-   "venue": "Клуб ОБЛК",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2026-10-16T18:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/all-ages-splitkid-homelesz-w-mgl-acho-ski-hostile-tn-gogzzzy-achodju-afrata-8977",
-   "src": "bilet",
-   "addr": "Бул. Цар Освободилте №10"
-  },
-  {
-   "name": "KPOP the QUIZ",
-   "venue": "Клуб Грамофон",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2026-10-16T19:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/kpop-the-quiz-8723",
-   "src": "bilet",
-   "addr": "ул. Будапеща 6 "
   },
   {
    "name": "Аз рисувам като ... Винсент Ван Гог - ателие за деца",
@@ -78,7 +56,7 @@
    "start": "2026-10-17T20:00:00+03:00",
    "url": "https://www.bilet.bg/bg/events/12-godini-5-oclock-8789",
    "src": "bilet",
-   "addr": "bul. Bulgaria, podlez Galeriya, bulevard \"Cherni vrah\", 1142 Sofia"
+   "addr": "Подлез @ Витамин Б, бул. Галерия, бул. Черни връх"
   },
   {
    "name": "Lucky Number Nick (Album Promo) w/ Los Chill (ES) live at PAVE",
@@ -133,7 +111,7 @@
    "start": "2026-10-18T18:00:00+03:00",
    "url": "https://www.bilet.bg/bg/events/secta-nagul-album-promo-all-ages-mixtape-5-8987",
    "src": "bilet",
-   "addr": "bul. Bulgaria, podlez Galeriya, bulevard \"Cherni vrah\", 1142 Sofia"
+   "addr": "Подлез @ Витамин Б, бул. Галерия, бул. Черни връх"
   },
   {
    "name": "HANDPAN AROUND THE WORLD: Ivan Judas (CRO), Bozhidar Stoichkov & Bunyverse",
@@ -301,6 +279,28 @@
    "addr": "ул. Ангел Кънчев 1"
   },
   {
+   "name": "SHIZUOKA-УИСКИ МАЙСТОРСКИ КЛАС  | MODERN JAPANESE SINGLE Malt",
+   "venue": "Sofia Event Center",
+   "lat": 42.6607,
+   "lon": 23.3122,
+   "cap": 2000,
+   "start": "2026-10-23T22:30:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/shizuoka-uiski-maystorski-klas-modern-japanese-single-malt-8881",
+   "src": "bilet",
+   "addr": "1407 Hladilnika, Sofia"
+  },
+  {
+   "name": "”Гняв, интимност и любов”, уъркшоп с танца на 5-те ритъма",
+   "venue": "Пространството",
+   "lat": 42.6574085,
+   "lon": 23.3649572,
+   "cap": 500,
+   "start": "2026-10-24T11:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/gnav-intimnost-i-lubov-uurkshop-s-tantsa-na-5-te-rituma-8703",
+   "src": "bilet",
+   "addr": "София Център, ул. Шейново 7 , 1504 София"
+  },
+  {
    "name": "Аз рисувам като ... Пол Сезан - ателие за деца",
    "venue": "АРТ Къща",
    "lat": 42.6892355,
@@ -320,7 +320,7 @@
    "start": "2026-10-30T19:00:00+03:00",
    "url": "https://www.bilet.bg/bg/events/dara-live-7499",
    "src": "bilet",
-   "addr": "Ул. Пиротска 5 1000 София Център"
+   "addr": "Център, ул. Пиротска 5"
   },
   {
    "name": "NICKA Halloween Concert \"Хиляди Лица\" / Mixtape 5 / 31.10",
@@ -331,7 +331,7 @@
    "start": "2026-10-31T19:30:00+03:00",
    "url": "https://www.bilet.bg/bg/events/nicka-halloween-concert-hiladi-litsa-mixtape-5-3110-8764",
    "src": "bilet",
-   "addr": "bul. Bulgaria, podlez Galeriya, bulevard \"Cherni vrah\", 1142 Sofia"
+   "addr": "Подлез @ Витамин Б, бул. Галерия, бул. Черни връх"
   },
   {
    "name": "Infected Halloween 2026 | Day & Night Fest",
@@ -375,7 +375,7 @@
    "start": "2026-10-31T23:00:00+03:00",
    "url": "https://www.bilet.bg/bg/events/halloween-night-with-the-wonder-girls-club-mixtape-5-3110-8823",
    "src": "bilet",
-   "addr": "bul. Bulgaria, podlez Galeriya, bulevard \"Cherni vrah\", 1142 Sofia"
+   "addr": "Подлез @ Витамин Б, бул. Галерия, бул. Черни връх"
   },
   {
    "name": "Echoes Of Balkana: Khanъ, Tickle The Sage & E-An-Na (RO) Live / Club Mixtape 5 / 14.11",
@@ -386,7 +386,7 @@
    "start": "2026-11-14T20:00:00+03:00",
    "url": "https://www.bilet.bg/bg/events/echoes-of-balkana-khanu-tickle-the-sage-e-an-na-ro-live-club-mixtape-5-1411-8495",
    "src": "bilet",
-   "addr": "bul. Bulgaria, podlez Galeriya, bulevard \"Cherni vrah\", 1142 Sofia"
+   "addr": "Подлез @ Витамин Б, бул. Галерия, бул. Черни връх"
   },
   {
    "name": "Dara Ekimova Live @Stroeja",
@@ -408,7 +408,7 @@
    "start": "2026-11-28T20:00:00+03:00",
    "url": "https://www.bilet.bg/bg/events/mihaela-marinova-kontsert-chast-ot-programata-salon-na-izkustvata-esen-2026-ndk-8184",
    "src": "bilet",
-   "addr": "Площад България 1"
+   "addr": "НДК, бул. „България“, София"
   },
   {
    "name": "Disney - ФАНТАЗИЯ - Концерт на живо",
@@ -419,7 +419,7 @@
    "start": "2027-01-23T18:00:00+03:00",
    "url": "https://www.bilet.bg/bg/events/disney-fantazia-kontsert-na-zhivo-8636",
    "src": "bilet",
-   "addr": "Площад България 1"
+   "addr": "НДК, бул. „България“, София"
   },
   {
    "name": "Chris Norman Live Sofia",
@@ -430,7 +430,7 @@
    "start": "2027-03-19T20:00:00+03:00",
    "url": "https://www.bilet.bg/bg/events/chris-norman-live-sofia-8264",
    "src": "bilet",
-   "addr": "Площад България 1"
+   "addr": "НДК, бул. „България“, София"
   }
  ]
 }
