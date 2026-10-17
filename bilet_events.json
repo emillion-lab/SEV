@@ -1,7 +1,7 @@
 {
  "source": "bilet.bg",
- "generated": "2026-10-16T19:38:02.010477",
- "count": 39,
+ "generated": "2026-10-17T08:40:42.248053",
+ "count": 40,
  "events": [
   {
    "name": "MLC Training Collection 2026 - 2027",
@@ -335,14 +335,14 @@
   },
   {
    "name": "Infected Halloween 2026 | Day & Night Fest",
-   "venue": "Sofia - Secret Location",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
+   "venue": "НДК",
+   "lat": 42.6866,
+   "lon": 23.319,
+   "cap": 3380,
    "start": "2026-10-31T20:00:00+03:00",
    "url": "https://www.bilet.bg/bg/events/infected-halloween-2026-day-night-fest-8715",
    "src": "bilet",
-   "addr": ""
+   "addr": "Ндк, бул. България, 1463 София, България"
   },
   {
    "name": "HALLOWEEN PARANOIA 3, Sofia Halloween fest 2026, Chistilishteto",
@@ -376,6 +376,17 @@
    "url": "https://www.bilet.bg/bg/events/halloween-night-with-the-wonder-girls-club-mixtape-5-3110-8823",
    "src": "bilet",
    "addr": "Подлез @ Витамин Б, бул. Галерия, бул. Черни връх"
+  },
+  {
+   "name": "Аз рисувам като ... Фрида Кало - ателие за деца",
+   "venue": "АРТ Къща",
+   "lat": 42.6892355,
+   "lon": 23.3087338,
+   "cap": 500,
+   "start": "2026-11-07T14:30:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/az-risuvam-kato-frida-kalo-atelie-za-detsa-8549",
+   "src": "bilet",
+   "addr": "ул. \"Дукатска планина\" 18, 1606 София"
   },
   {
    "name": "Echoes Of Balkana: Khanъ, Tickle The Sage & E-An-Na (RO) Live / Club Mixtape 5 / 14.11",
