@@ -1,6 +1,6 @@
 {
  "source": "bilet.bg",
- "generated": "2026-10-17T18:37:25.462950",
+ "generated": "2026-10-18T08:57:42.974829",
  "count": 41,
  "events": [
   {
@@ -13,17 +13,6 @@
    "url": "https://www.bilet.bg/bg/events/mlc-training-collection-2026-2027-8165",
    "src": "bilet",
    "addr": "Гърдова Глававитоса ул. Маринковица 1618 София"
-  },
-  {
-   "name": "Reggaeton Flow Live - Maluma Edition",
-   "venue": "Клуб Грамофон",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2026-10-17T23:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/reggaeton-flow-live-maluma-edition-8687",
-   "src": "bilet",
-   "addr": "ул. Будапеща 6 "
   },
   {
    "name": "SECTA - \"НАГЪЛ\" Album Promo ALL AGES / Mixtape 5",
@@ -321,6 +310,17 @@
    "url": "https://www.bilet.bg/bg/events/pif-acoustic-live-video-premier-opus-2-bar-petuk-24102026-8914",
    "src": "bilet",
    "addr": "ул. \"Ген. Гурко\" 21, 1000 София център, София"
+  },
+  {
+   "name": "20 Years of HARDCORPS: Gabber Mafia",
+   "venue": "Club Mesmeric",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-10-24T22:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/20-years-of-hardcorps-gabber-mafia-8870",
+   "src": "bilet",
+   "addr": "София Център, ул. Фритьоф Нансен 25 София"
   },
   {
    "name": "DARA - Live",
