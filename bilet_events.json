@@ -1,7 +1,7 @@
 {
  "source": "bilet.bg",
- "generated": "2026-10-19T10:39:27.358231",
- "count": 42,
+ "generated": "2026-10-19T21:10:57.077934",
+ "count": 43,
  "events": [
   {
    "name": "MLC Training Collection 2026 - 2027",
@@ -13,17 +13,6 @@
    "url": "https://www.bilet.bg/bg/events/mlc-training-collection-2026-2027-8165",
    "src": "bilet",
    "addr": "Гърдова Глававитоса ул. Маринковица 1618 София"
-  },
-  {
-   "name": "Бизнес Вечер: Нови Контакти и Разговор с Младен Борисов от eBag",
-   "venue": "Клуб Грамофон",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2026-10-19T19:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/biznes-vecher-novi-kontakti-i-razgovor-s-mladen-borisov-ot-ebag-8917",
-   "src": "bilet",
-   "addr": "ул. Будапеща 6 "
   },
   {
    "name": "Филмова прожекция на “The Way Out” - Бар Петък - 20.10.2026",
@@ -79,6 +68,17 @@
    "url": "https://www.bilet.bg/bg/events/asia-motor-show-2026-8390",
    "src": "bilet",
    "addr": "бул. Цариградско шосе 147"
+  },
+  {
+   "name": "Игра на предатели | Социална игра за лъжци и манипулатори",
+   "venue": "Студио Екстроверт",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-10-22T19:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/igra-na-predateli-sotsialna-igra-za-luzhtsi-i-manipulatori-9054",
+   "src": "bilet",
+   "addr": "ул. Горски Пътник 48"
   },
   {
    "name": "DJ KRUSH @ Malkata Tekila Sofia 22/10/2026",
@@ -334,6 +334,17 @@
    "addr": "ул. Оборище 73"
   },
   {
+   "name": "ICHIRO'S CHICHIBU  УИСКИ МАЙСТОРСКИ КЛАС JAPANESSE Whisky",
+   "venue": "Sofia Event Center",
+   "lat": 42.6607,
+   "lon": 23.3122,
+   "cap": 2000,
+   "start": "2026-10-25T15:30:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/ichiros-chichibu-uiski-maystorski-klas-japanesse-whisky-8882",
+   "src": "bilet",
+   "addr": "1407 Hladilnika, Sofia"
+  },
+  {
    "name": "DARA - Live",
    "venue": "Пиротска 5",
    "lat": 42.6987,
@@ -356,13 +367,13 @@
    "addr": "Подлез @ Витамин Б, бул. Галерия, бул. Черни връх"
   },
   {
-   "name": "Infected Halloween 2026 | Day & Night Fest",
+   "name": "Infected Halloween 2026 | Night Fest",
    "venue": "НДК",
    "lat": 42.6866,
    "lon": 23.319,
    "cap": 3380,
    "start": "2026-10-31T20:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/infected-halloween-2026-day-night-fest-8715",
+   "url": "https://www.bilet.bg/bg/events/infected-halloween-2026-night-fest-8715",
    "src": "bilet",
    "addr": "Ндк, бул. България, 1463 София, България"
   },
@@ -405,7 +416,7 @@
    "lat": 42.6892355,
    "lon": 23.3087338,
    "cap": 500,
-   "start": "2026-11-07T14:30:00+03:00",
+   "start": "2026-11-08T14:30:00+03:00",
    "url": "https://www.bilet.bg/bg/events/az-risuvam-kato-frida-kalo-atelie-za-detsa-8549",
    "src": "bilet",
    "addr": "ул. \"Дукатска планина\" 18, 1606 София"
