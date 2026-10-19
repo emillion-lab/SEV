@@ -1,12 +1,13 @@
-run: 2026-10-15T09:42:21.225948+00:00
-  [public-api.eventim.com -> proxy]
-  [www.eventim.bg -> proxy]
+run: 2026-10-19T10:39:27.447810+00:00
+eventim api p1 fail: <HTTPError 403: 'Forbidden'>
+eventim api p1 fail: <HTTPError 403: 'Forbidden'>
+eventim html p1 fail: <HTTPError 520: '<none>'>
 eventim: 0
-  ndk: 2026-10-15T19:00 | Салон на изкуствата / Събития
-  ndk: 2026-10-18T19:00 | Салон на изкуствата / Събития
+  ndk: 2026-10-19T19:00 | Салон на изкуствата / Събития
+  ndk: 2026-10-22T19:00 | Салон на изкуствата / Събития
   ndk: 2026-11-15T19:00 | Света гора в София | САЛОН НА ИЗКУСТВАТА
-  ndk: 2026-10-15T19:00 | Куклите помнят | САЛОН НА ИЗКУСТВАТА
-ndk: 19
+  ndk: 2026-10-19T19:00 | Mamma Mia! | САЛОН НА ИЗКУСТВАТА
+ndk: 18
   arena: 2027-03-10T20:00 | НОВО
   arena: 2025-12-19T20:00 | Видео
 arena: 23
@@ -14,7 +15,8 @@ arena: 23
   theatre day1: 0 представления
 theatre: 0
 футбол: 0
-  локални diag: pattern hits [0, 0, 0, 0], 0 заглавия оцеляха
+локални try fail: Exception('body too small: 376b')
+локални try fail: Exception('body too small: 364b')
 локални: 0
-merge: 30 прието, 9 минали, 3 след хоризонта
-✅ OK: 54 събития (30 с гео), източници: ['arena', 'bilet', 'ndk']
+merge: 29 прието, 9 минали, 3 след хоризонта
+✅ OK: 59 събития (29 с гео), източници: ['arena', 'bilet', 'ndk']
