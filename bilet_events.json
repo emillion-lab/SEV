@@ -1,7 +1,7 @@
 {
  "source": "bilet.bg",
- "generated": "2026-10-18T18:44:16.670050",
- "count": 43,
+ "generated": "2026-10-19T10:04:41.751206",
+ "count": 42,
  "events": [
   {
    "name": "MLC Training Collection 2026 - 2027",
@@ -13,17 +13,6 @@
    "url": "https://www.bilet.bg/bg/events/mlc-training-collection-2026-2027-8165",
    "src": "bilet",
    "addr": "Гърдова Глававитоса ул. Маринковица 1618 София"
-  },
-  {
-   "name": "Концерт на група ТЛЕН, със специалното участие на CROCS IN TEARS и ГОСТ",
-   "venue": "клуб Паве",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2026-10-18T20:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/kontsert-na-grupa-tlen-sus-spetsialnoto-uchastie-na-crocs-in-tears-i-gost-9033",
-   "src": "bilet",
-   "addr": "пл. Славейков 4"
   },
   {
    "name": "Бизнес Вечер: Нови Контакти и Разговор с Младен Борисов от eBag",
@@ -167,6 +156,17 @@
    "url": "https://www.bilet.bg/bg/events/mungos-hi-fi-dj-vadim-at-malkata-tekila-sofia-23102026-8941",
    "src": "bilet",
    "addr": "ул. Ангел Кънчев 1"
+  },
+  {
+   "name": "SHIZUOKA-УИСКИ МАЙСТОРСКИ КЛАС  | MODERN JAPANESE SINGLE Malt",
+   "venue": "Sofia Event Center",
+   "lat": 42.6607,
+   "lon": 23.3122,
+   "cap": 2000,
+   "start": "2026-10-23T22:30:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/shizuoka-uiski-maystorski-klas-modern-japanese-single-malt-8881",
+   "src": "bilet",
+   "addr": "1407 Hladilnika, Sofia"
   },
   {
    "name": "”Гняв, интимност и любов”, уъркшоп с танца на 5-те ритъма",
@@ -334,28 +334,6 @@
    "addr": "ул. Оборище 73"
   },
   {
-   "name": "ICHIRO'S CHICHIBU  УИСКИ МАЙСТОРСКИ КЛАС JAPANESSE Whisky",
-   "venue": "Sofia Event Center",
-   "lat": 42.6607,
-   "lon": 23.3122,
-   "cap": 2000,
-   "start": "2026-10-25T15:30:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/ichiros-chichibu-uiski-maystorski-klas-japanesse-whisky-8882",
-   "src": "bilet",
-   "addr": "1407 Hladilnika, Sofia"
-  },
-  {
-   "name": "KINAHAN'S УИСКИ МАЙСТОРСКИ КЛАС | ОТ НАСЛЕДСТВО КЪМ ХИБРИД Пътешествието на Kinahan’s от 1",
-   "venue": "Sofia Event Center",
-   "lat": 42.6607,
-   "lon": 23.3122,
-   "cap": 2000,
-   "start": "2026-10-25T16:45:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/kinahans-uiski-maystorski-klas-ot-nasledstvo-kum-hibrid-puteshestvieto-na-kinahans-ot-1779-g-do-dnes-8743",
-   "src": "bilet",
-   "addr": "1407 Hladilnika, Sofia"
-  },
-  {
    "name": "DARA - Live",
    "venue": "Пиротска 5",
    "lat": 42.6987,
@@ -398,6 +376,17 @@
    "url": "https://www.bilet.bg/bg/events/halloween-paranoia-3-sofia-halloween-fest-2026-chistilishteto-8753",
    "src": "bilet",
    "addr": "Орландовци, ул. Индустриална 1202 София"
+  },
+  {
+   "name": "Shame Party Halloween Ball 2",
+   "venue": "Малката Текила",
+   "lat": 42.695,
+   "lon": 23.328,
+   "cap": 400,
+   "start": "2026-10-31T22:30:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/shame-party-halloween-ball-2-8765",
+   "src": "bilet",
+   "addr": "ул. Ангел Кънчев 1"
   },
   {
    "name": "Halloween Night with The Wonder GIrls / Club Mixtape 5 / 31.10",
