@@ -1,6 +1,6 @@
 {
  "source": "bilet.bg",
- "generated": "2026-10-19T21:10:57.077934",
+ "generated": "2026-10-20T09:32:24.242022",
  "count": 43,
  "events": [
   {
@@ -156,17 +156,6 @@
    "url": "https://www.bilet.bg/bg/events/mungos-hi-fi-dj-vadim-at-malkata-tekila-sofia-23102026-8941",
    "src": "bilet",
    "addr": "ул. Ангел Кънчев 1"
-  },
-  {
-   "name": "SHIZUOKA-УИСКИ МАЙСТОРСКИ КЛАС  | MODERN JAPANESE SINGLE Malt",
-   "venue": "Sofia Event Center",
-   "lat": 42.6607,
-   "lon": 23.3122,
-   "cap": 2000,
-   "start": "2026-10-23T22:30:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/shizuoka-uiski-maystorski-klas-modern-japanese-single-malt-8881",
-   "src": "bilet",
-   "addr": "1407 Hladilnika, Sofia"
   },
   {
    "name": "”Гняв, интимност и любов”, уъркшоп с танца на 5-те ритъма",
@@ -341,6 +330,17 @@
    "cap": 2000,
    "start": "2026-10-25T15:30:00+03:00",
    "url": "https://www.bilet.bg/bg/events/ichiros-chichibu-uiski-maystorski-klas-japanesse-whisky-8882",
+   "src": "bilet",
+   "addr": "1407 Hladilnika, Sofia"
+  },
+  {
+   "name": "KINAHAN'S УИСКИ МАЙСТОРСКИ КЛАС | ОТ НАСЛЕДСТВО КЪМ ХИБРИД Пътешествието на Kinahan’s от 1",
+   "venue": "Sofia Event Center",
+   "lat": 42.6607,
+   "lon": 23.3122,
+   "cap": 2000,
+   "start": "2026-10-25T16:45:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/kinahans-uiski-maystorski-klas-ot-nasledstvo-kum-hibrid-puteshestvieto-na-kinahans-ot-1779-g-do-dnes-8743",
    "src": "bilet",
    "addr": "1407 Hladilnika, Sofia"
   },
