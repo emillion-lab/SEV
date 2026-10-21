@@ -1,7 +1,7 @@
 {
  "source": "bilet.bg",
- "generated": "2026-10-21T09:27:39.298208",
- "count": 43,
+ "generated": "2026-10-21T20:15:53.614934",
+ "count": 44,
  "events": [
   {
    "name": "MLC Training Collection 2026 - 2027",
@@ -343,6 +343,17 @@
    "url": "https://www.bilet.bg/bg/events/ian-macleod-uiski-maystorski-klas-redkite-shotlandski-shedovri-8956",
    "src": "bilet",
    "addr": "1407 Hladilnika, Sofia"
+  },
+  {
+   "name": "MON AMI at SKINNY w/ YTRID, IVALIN & RITMO",
+   "venue": "Networking Premium (Гурко 16)",
+   "lat": 42.6919,
+   "lon": 23.326,
+   "cap": 500,
+   "start": "2026-10-25T20:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/mon-ami-at-skinny-w-ytrid-ivalin-ritmo-8946",
+   "src": "bilet",
+   "addr": "София Център, ул. Генерал Гурко 19, 1000 София"
   },
   {
    "name": "DARA - Live",
