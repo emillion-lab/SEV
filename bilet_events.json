@@ -1,19 +1,8 @@
 {
  "source": "bilet.bg",
- "generated": "2026-10-21T20:15:53.614934",
+ "generated": "2026-10-22T09:31:12.961276",
  "count": 44,
  "events": [
-  {
-   "name": "MLC Training Collection 2026 - 2027",
-   "venue": "My Leadership Center",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2026-09-25T10:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/mlc-training-collection-2026-2027-8165",
-   "src": "bilet",
-   "addr": "Гърдова Глававитоса ул. Маринковица 1618 София"
-  },
   {
    "name": "Asia Motor Show 2026",
    "venue": "Интер Експо Център",
@@ -49,14 +38,14 @@
   },
   {
    "name": "Нощта на Гетсби @Pineapple Express 22/10/2026",
-   "venue": "Малката Текила",
-   "lat": 42.695,
-   "lon": 23.328,
-   "cap": 400,
+   "venue": "Bar Pineapple Express",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
    "start": "2026-10-22T20:00:00+03:00",
    "url": "https://www.bilet.bg/bg/events/noshtta-na-getsbi-at-pineapple-express-22102026-9024",
    "src": "bilet",
-   "addr": "ул. Ангел Кънчев 1"
+   "addr": "София Център, ул. 6-ти септември, 1000 София"
   },
   {
    "name": "Challenge Accepted Events 2026 - The Connection",
@@ -112,6 +101,17 @@
    "url": "https://www.bilet.bg/bg/events/mungos-hi-fi-dj-vadim-at-malkata-tekila-sofia-23102026-8941",
    "src": "bilet",
    "addr": "ул. Ангел Кънчев 1"
+  },
+  {
+   "name": "Sleep Token Tribute by Children Of Arcadia / Club Mixtape 5 / 23.10",
+   "venue": "Mixtape 5",
+   "lat": 42.6866,
+   "lon": 23.319,
+   "cap": 900,
+   "start": "2026-10-23T20:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/sleep-token-tribute-by-children-of-arcadia-club-mixtape-5-2310-8661",
+   "src": "bilet",
+   "addr": "Подлез @ Витамин Б, бул. Галерия, бул. Черни връх"
   },
   {
    "name": "”Гняв, интимност и любов”, уъркшоп с танца на 5-те ритъма",
@@ -235,6 +235,17 @@
    "addr": "София Център, ул. Фритьоф Нансен 25 София"
   },
   {
+   "name": "SLAV BANKET w/ BALKANDREEA & The Balkan Sisters (RO), MILA ROBERT, ork. Chupakabra live at",
+   "venue": "клуб Паве",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-10-24T22:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/slav-banket-w-balkandreea-the-balkan-sisters-ro-mila-robert-ork-chupakabra-live-at-pave-8930",
+   "src": "bilet",
+   "addr": "пл. Славейков 4"
+  },
+  {
    "name": "REPLAY 24.10 SAT @FOMO the club SOFIA",
    "venue": "FOMO the club",
    "lat": 42.695525,
@@ -343,17 +354,6 @@
    "url": "https://www.bilet.bg/bg/events/ian-macleod-uiski-maystorski-klas-redkite-shotlandski-shedovri-8956",
    "src": "bilet",
    "addr": "1407 Hladilnika, Sofia"
-  },
-  {
-   "name": "MON AMI at SKINNY w/ YTRID, IVALIN & RITMO",
-   "venue": "Networking Premium (Гурко 16)",
-   "lat": 42.6919,
-   "lon": 23.326,
-   "cap": 500,
-   "start": "2026-10-25T20:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/mon-ami-at-skinny-w-ytrid-ivalin-ritmo-8946",
-   "src": "bilet",
-   "addr": "София Център, ул. Генерал Гурко 19, 1000 София"
   },
   {
    "name": "DARA - Live",
