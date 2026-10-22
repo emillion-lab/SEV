@@ -1,6 +1,6 @@
 {
  "source": "bilet.bg",
- "generated": "2026-10-22T09:56:17.509206",
+ "generated": "2026-10-22T20:14:55.446365",
  "count": 44,
  "events": [
   {
@@ -15,17 +15,6 @@
    "addr": "бул. Цариградско шосе 147"
   },
   {
-   "name": "Игра на предатели | Социална игра за лъжци и манипулатори",
-   "venue": "Студио Екстроверт",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2026-10-22T19:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/igra-na-predateli-sotsialna-igra-za-luzhtsi-i-manipulatori-9054",
-   "src": "bilet",
-   "addr": "ул. Горски Пътник 48"
-  },
-  {
    "name": "DJ KRUSH @ Malkata Tekila Sofia 22/10/2026",
    "venue": "Малката Текила",
    "lat": 42.695,
@@ -35,17 +24,6 @@
    "url": "https://www.bilet.bg/bg/events/dj-krush-at-malkata-tekila-sofia-22102026-7905",
    "src": "bilet",
    "addr": "ул. Ангел Кънчев 1"
-  },
-  {
-   "name": "Нощта на Гетсби @Pineapple Express 22/10/2026",
-   "venue": "Bar Pineapple Express",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2026-10-22T20:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/noshtta-na-getsbi-at-pineapple-express-22102026-9024",
-   "src": "bilet",
-   "addr": "София Център, ул. 6-ти септември, 1000 София"
   },
   {
    "name": "Challenge Accepted Events 2026 - The Connection",
@@ -79,17 +57,6 @@
    "url": "https://www.bilet.bg/bg/events/dos-maderas-rom-maystorski-klas-puteshestvie-ot-karibite-prez-azia-do-herez-8714",
    "src": "bilet",
    "addr": "1407 Hladilnika, Sofia"
-  },
-  {
-   "name": "GenZ vs Millennials Стендъп комедия // 23 Октомври, Дом на културата Средец",
-   "venue": "Дом на културата \"Средец\"",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2026-10-23T20:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/genz-vs-millennials-stendup-komedia-23-oktomvri-dom-na-kulturata-sredets-8995",
-   "src": "bilet",
-   "addr": "бул. Кракра 2А"
   },
   {
    "name": "MUNGO’S HI FI & DJ VADIM @ Malkata Tekila Sofia 23/10/2026",
@@ -200,17 +167,6 @@
    "url": "https://www.bilet.bg/bg/events/farewell-show-schirenc-plays-pungent-stench-8735",
    "src": "bilet",
    "addr": "Булевард \"Илиянци\" 1И"
-  },
-  {
-   "name": "OLD PULTENEY УИСКИ МАЙСТОРСКИ КЛАС | 200 YEARS of HISTORY",
-   "venue": "Sofia Event Center",
-   "lat": 42.6607,
-   "lon": 23.3122,
-   "cap": 2000,
-   "start": "2026-10-24T21:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/old-pulteney-uiski-maystorski-klas-200-years-of-history-8848",
-   "src": "bilet",
-   "addr": "1407 Hladilnika, Sofia"
   },
   {
    "name": "P.I.F. Acoustic LIVE  & VIDEO PREMIER „Опус 2“ -  Бар Петък -  24.10.2026",
@@ -354,6 +310,50 @@
    "url": "https://www.bilet.bg/bg/events/ian-macleod-uiski-maystorski-klas-redkite-shotlandski-shedovri-8956",
    "src": "bilet",
    "addr": "1407 Hladilnika, Sofia"
+  },
+  {
+   "name": "MON AMI at SKINNY w/ YTRID, IVALIN & RITMO",
+   "venue": "Networking Premium (Гурко 16)",
+   "lat": 42.6919,
+   "lon": 23.326,
+   "cap": 500,
+   "start": "2026-10-25T20:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/mon-ami-at-skinny-w-ytrid-ivalin-ritmo-8946",
+   "src": "bilet",
+   "addr": "София Център, ул. Генерал Гурко 19, 1000 София"
+  },
+  {
+   "name": "Прожекция на филма „Муха“",
+   "venue": "Paradise Center",
+   "lat": 42.6607,
+   "lon": 23.3122,
+   "cap": 2000,
+   "start": "2026-10-27T19:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/prozhektsia-na-filma-muha-9058",
+   "src": "bilet",
+   "addr": "Мол Парадайс Център, Хладилника, Бул. \"Черни връх\" 100"
+  },
+  {
+   "name": "Как да изградиш самочувстие и и да общуваш уверено",
+   "venue": "Collagen Plus Cafe",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-10-28T18:30:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/kak-da-izgradish-samochuvstie-i-i-da-obshtuvash-uvereno-8884",
+   "src": "bilet",
+   "addr": "Бул. Филип Кутев 2А, 1407 София, София"
+  },
+  {
+   "name": "Бележникът на един любовник",
+   "venue": "One Gallery",
+   "lat": 42.695371,
+   "lon": 23.3269568,
+   "cap": 500,
+   "start": "2026-10-28T19:30:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/belezhnikut-na-edin-lubovnik-9057",
+   "src": "bilet",
+   "addr": "ул. \"Дякон Игнатий\" 1, 1000 София Център"
   },
   {
    "name": "DARA - Live",
