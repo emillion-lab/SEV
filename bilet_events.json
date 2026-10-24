@@ -1,19 +1,8 @@
 {
  "source": "bilet.bg",
- "generated": "2026-10-24T08:58:55.280572",
- "count": 45,
+ "generated": "2026-10-24T18:53:17.416914",
+ "count": 42,
  "events": [
-  {
-   "name": "Asia Motor Show 2026",
-   "venue": "Интер Експо Център",
-   "lat": 42.652,
-   "lon": 23.376,
-   "cap": 3000,
-   "start": "2026-10-22T14:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/asia-motor-show-2026-8390",
-   "src": "bilet",
-   "addr": "бул. Цариградско шосе 147"
-  },
   {
    "name": "”Гняв, интимност и любов”, уъркшоп с танца на 5-те ритъма",
    "venue": "Пространството",
@@ -26,17 +15,6 @@
    "addr": "София Център, ул. Шейново 7 , 1504 София"
   },
   {
-   "name": "Аз рисувам като ... Пол Сезан - ателие за деца",
-   "venue": "АРТ Къща",
-   "lat": 42.6892355,
-   "lon": 23.3087338,
-   "cap": 500,
-   "start": "2026-10-24T14:30:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/az-risuvam-kato-pol-sezan-atelie-za-detsa-8548",
-   "src": "bilet",
-   "addr": "ул. \"Дукатска планина\" 18, 1606 София"
-  },
-  {
    "name": "Джамгон Конгтрул Ринпоче в София",
    "venue": "Зала София",
    "lat": 42.6760079,
@@ -46,61 +24,6 @@
    "url": "https://www.bilet.bg/bg/events/dzhamgon-kongtrul-rinpoche-v-sofia-8763",
    "src": "bilet",
    "addr": "бул. „Джеймс Баучер“ 76, 1407 ж.к. Лозенец, София"
-  },
-  {
-   "name": "Лекция на Джамгон Конгтрул Ринпоче в София",
-   "venue": "Концертна зала „БИАД“",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2026-10-24T17:30:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/lektsia-na-dzhamgon-kongtrul-rinpoche-v-sofia-8901",
-   "src": "bilet",
-   "addr": "София Център, ул. Георги С. Раковски 108, 1000 София"
-  },
-  {
-   "name": "Аз рисувам като ... Пол Сезан - ателие за възрастни",
-   "venue": "АРТ Къща",
-   "lat": 42.6892355,
-   "lon": 23.3087338,
-   "cap": 500,
-   "start": "2026-10-24T18:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/az-risuvam-kato-pol-sezan-atelie-za-vuzrastni-8529",
-   "src": "bilet",
-   "addr": "ул. \"Дукатска планина\" 18, 1606 София"
-  },
-  {
-   "name": "Музикални Отражения",
-   "venue": "Читалище \"Андрей Стоянов\" София",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2026-10-24T19:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/muzikalni-otrazhenia-8816",
-   "src": "bilet",
-   "addr": "ул. Искър 62,"
-  },
-  {
-   "name": "GLEN MORAY УИСКИ МАЙСТОРСКИ КЛАС CASK EXPLORERS and INNOVATORS",
-   "venue": "Sofia Event Center",
-   "lat": 42.6607,
-   "lon": 23.3122,
-   "cap": 2000,
-   "start": "2026-10-24T19:45:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/glen-moray-uiski-maystorski-klas-cask-explorers-and-innovators-8954",
-   "src": "bilet",
-   "addr": "1407 Hladilnika, Sofia"
-  },
-  {
-   "name": "Farewell show Schirenc plays Pungent Stench",
-   "venue": "Клуб \"При Черепите\"",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2026-10-24T20:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/farewell-show-schirenc-plays-pungent-stench-8735",
-   "src": "bilet",
-   "addr": "Булевард \"Илиянци\" 1И"
   },
   {
    "name": "20 Years of HARDCORPS: Gabber Mafia",
@@ -268,6 +191,39 @@
    "addr": "Център, ул. Пиротска 5"
   },
   {
+   "name": "Halloween Night with DJ PopCoЯe: Metalcore  Vs. Nu Metal / Club Mixtape 5 / 30.10",
+   "venue": "Mixtape 5",
+   "lat": 42.6866,
+   "lon": 23.319,
+   "cap": 900,
+   "start": "2026-10-30T22:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/halloween-night-with-dj-popcoae-metalcore-vs-nu-metal-club-mixtape-5-3010-8925",
+   "src": "bilet",
+   "addr": "Подлез @ Витамин Б, бул. Галерия, бул. Черни връх"
+  },
+  {
+   "name": "K-pop Halloween Night with Mary Jangmi/ Club Mixtape 5 / 30.10",
+   "venue": "Mixtape 5",
+   "lat": 42.6866,
+   "lon": 23.319,
+   "cap": 900,
+   "start": "2026-10-30T22:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/k-pop-halloween-night-with-mary-jangmi-club-mixtape-5-3010-8923",
+   "src": "bilet",
+   "addr": "Подлез @ Витамин Б, бул. Галерия, бул. Черни връх"
+  },
+  {
+   "name": "30.10 | СТРАШНИ НЕЩА ЖИВЕЯТ В НОЩТА | ABYSMATIC video single promo @ КУПЕ",
+   "venue": "Купе",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-10-30T23:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/3010-strashni-neshta-zhiveat-v-noshtta-abysmatic-video-single-promo-at-kupe-8642",
+   "src": "bilet",
+   "addr": "Славянска 8"
+  },
+  {
    "name": "BTC Balkans 2026 - изграждаме бъдещето на Биткойн на Балканите",
    "venue": "Интер Експо Център",
    "lat": 42.652,
@@ -277,6 +233,17 @@
    "url": "https://www.bilet.bg/bg/events/btc-balkans-2026-izgrazhdame-budeshteto-na-bitkoyn-na-balkanite-8600",
    "src": "bilet",
    "addr": "бул. Цариградско шосе 147"
+  },
+  {
+   "name": "Кой си ти? - зала Хайтов",
+   "venue": "Арт зала Хайтов",
+   "lat": 42.6753427,
+   "lon": 23.3575957,
+   "cap": 500,
+   "start": "2026-10-31T17:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/koy-si-ti-zala-haytov-8731",
+   "src": "bilet",
+   "addr": "ул. Ю. Гагарин 7"
   },
   {
    "name": "NICKA Halloween Concert \"Хиляди Лица\" / Mixtape 5 / 31.10",
