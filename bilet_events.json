@@ -1,7 +1,7 @@
 {
  "source": "bilet.bg",
- "generated": "2026-10-23T20:01:16.708755",
- "count": 43,
+ "generated": "2026-10-24T08:58:55.280572",
+ "count": 45,
  "events": [
   {
    "name": "Asia Motor Show 2026",
@@ -13,17 +13,6 @@
    "url": "https://www.bilet.bg/bg/events/asia-motor-show-2026-8390",
    "src": "bilet",
    "addr": "бул. Цариградско шосе 147"
-  },
-  {
-   "name": "MUNGO’S HI FI & DJ VADIM @ Malkata Tekila Sofia 23/10/2026",
-   "venue": "Малката Текила",
-   "lat": 42.695,
-   "lon": 23.328,
-   "cap": 400,
-   "start": "2026-10-23T20:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/mungos-hi-fi-dj-vadim-at-malkata-tekila-sofia-23102026-8941",
-   "src": "bilet",
-   "addr": "ул. Ангел Кънчев 1"
   },
   {
    "name": "”Гняв, интимност и любов”, уъркшоп с танца на 5-те ритъма",
@@ -312,6 +301,17 @@
    "addr": "Ндк, бул. България, 1463 София, България"
   },
   {
+   "name": "HALLOWEEN PARANOIA 3, Sofia Halloween fest 2026, Chistilishteto",
+   "venue": "Чистилището",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-10-31T21:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/halloween-paranoia-3-sofia-halloween-fest-2026-chistilishteto-8753",
+   "src": "bilet",
+   "addr": "Орландовци, ул. Индустриална 1202 София"
+  },
+  {
    "name": "Halloween Night with The Wonder GIrls / Club Mixtape 5 / 31.10",
    "venue": "Mixtape 5",
    "lat": 42.6866,
@@ -367,6 +367,17 @@
    "addr": "София Център, улица „Георги С. Раковски“ 116, 1000 София"
   },
   {
+   "name": "CONGO NATTY // BLACKOUT JA @ Malkata Tekila Sofia 14/11/2026",
+   "venue": "Малката Текила",
+   "lat": 42.695,
+   "lon": 23.328,
+   "cap": 400,
+   "start": "2026-11-14T21:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/congo-natty-blackout-ja-at-malkata-tekila-sofia-14112026-8945",
+   "src": "bilet",
+   "addr": "ул. Ангел Кънчев 1"
+  },
+  {
    "name": "Dara Ekimova Live @Stroeja",
    "venue": "Клуб Строежа",
    "lat": null,
@@ -398,6 +409,17 @@
    "url": "https://www.bilet.bg/bg/events/goblin-card-fest-vol-2-2026-9060",
    "src": "bilet",
    "addr": "София Център, ул. Братя Миладинови 12, 1000 София"
+  },
+  {
+   "name": "Аз рисувам като ... Пабло Пикасо - ателие за деца",
+   "venue": "АРТ Къща",
+   "lat": 42.6892355,
+   "lon": 23.3087338,
+   "cap": 500,
+   "start": "2026-11-21T14:30:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/az-risuvam-kato-pablo-pikaso-atelie-za-detsa-8550",
+   "src": "bilet",
+   "addr": "ул. \"Дукатска планина\" 18, 1606 София"
   },
   {
    "name": "БЕЛОСЛАВА Sound System | 21.11 | Малката Текила София",
