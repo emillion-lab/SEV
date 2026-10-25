@@ -1,19 +1,8 @@
 {
  "source": "bilet.bg",
- "generated": "2026-10-24T18:53:17.416914",
- "count": 42,
+ "generated": "2026-10-25T09:15:37.283551",
+ "count": 43,
  "events": [
-  {
-   "name": "”Гняв, интимност и любов”, уъркшоп с танца на 5-те ритъма",
-   "venue": "Пространството",
-   "lat": 42.6574085,
-   "lon": 23.3649572,
-   "cap": 500,
-   "start": "2026-10-24T11:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/gnav-intimnost-i-lubov-uurkshop-s-tantsa-na-5-te-rituma-8703",
-   "src": "bilet",
-   "addr": "София Център, ул. Шейново 7 , 1504 София"
-  },
   {
    "name": "Джамгон Конгтрул Ринпоче в София",
    "venue": "Зала София",
@@ -24,39 +13,6 @@
    "url": "https://www.bilet.bg/bg/events/dzhamgon-kongtrul-rinpoche-v-sofia-8763",
    "src": "bilet",
    "addr": "бул. „Джеймс Баучер“ 76, 1407 ж.к. Лозенец, София"
-  },
-  {
-   "name": "20 Years of HARDCORPS: Gabber Mafia",
-   "venue": "Club Mesmeric",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2026-10-24T22:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/20-years-of-hardcorps-gabber-mafia-8870",
-   "src": "bilet",
-   "addr": "София Център, ул. Фритьоф Нансен 25 София"
-  },
-  {
-   "name": "Мисия Репродуктивно здраве",
-   "venue": "City Mark Art Center / Сити Марк Арт Център",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2026-10-25T09:30:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/misia-reproduktivno-zdrave-8588",
-   "src": "bilet",
-   "addr": "bul. \"Yanko Sakazov\" 30, 1504 Sofia Center, Sofia"
-  },
-  {
-   "name": "Арт работилница за деца",
-   "venue": "One Gallery",
-   "lat": 42.695371,
-   "lon": 23.3269568,
-   "cap": 500,
-   "start": "2026-10-25T11:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/art-rabotilnitsa-za-detsa-9056",
-   "src": "bilet",
-   "addr": "ул. \"Дякон Игнатий\" 1, 1000 София Център"
   },
   {
    "name": "Лазерен лабиринт \"Фотоника\"",
@@ -191,6 +147,17 @@
    "addr": "Център, ул. Пиротска 5"
   },
   {
+   "name": "Pink Floyd History Vol. 2: Animal Farm",
+   "venue": "Зала Академик",
+   "lat": 42.668,
+   "lon": 23.352,
+   "cap": 1200,
+   "start": "2026-10-30T20:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/pink-floyd-history-vol-2-animal-farm-7588",
+   "src": "bilet",
+   "addr": "Студентски Комплекс, улица \"Академик Стефан Младенов\" 3"
+  },
+  {
    "name": "Halloween Night with DJ PopCoЯe: Metalcore  Vs. Nu Metal / Club Mixtape 5 / 30.10",
    "venue": "Mixtape 5",
    "lat": 42.6866,
@@ -246,6 +213,28 @@
    "addr": "ул. Ю. Гагарин 7"
   },
   {
+   "name": "Halloween party АпартаментА",
+   "venue": "Sofia - Secret Location",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-10-31T19:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/halloween-party-apartamenta-9063",
+   "src": "bilet",
+   "addr": ""
+  },
+  {
+   "name": "Кой си ти? - зала Хайтов",
+   "venue": "Арт зала Хайтов",
+   "lat": 42.6753427,
+   "lon": 23.3575957,
+   "cap": 500,
+   "start": "2026-10-31T19:30:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/koy-si-ti-zala-haytov-8732",
+   "src": "bilet",
+   "addr": "ул. Ю. Гагарин 7"
+  },
+  {
    "name": "NICKA Halloween Concert \"Хиляди Лица\" / Mixtape 5 / 31.10",
    "venue": "Mixtape 5",
    "lat": 42.6866,
@@ -257,6 +246,17 @@
    "addr": "Подлез @ Витамин Б, бул. Галерия, бул. Черни връх"
   },
   {
+   "name": "Creepy Halloween Cabaret",
+   "venue": "Théatro отсам канала",
+   "lat": 42.6873,
+   "lon": 23.3452,
+   "cap": 600,
+   "start": "2026-10-31T20:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/creepy-halloween-cabaret-8962",
+   "src": "bilet",
+   "addr": "ул. \"Върбица\" 12"
+  },
+  {
    "name": "Infected Halloween 2026 | Night Fest",
    "venue": "НДК",
    "lat": 42.6866,
@@ -266,6 +266,17 @@
    "url": "https://www.bilet.bg/bg/events/infected-halloween-2026-night-fest-8715",
    "src": "bilet",
    "addr": "Ндк, бул. България, 1463 София, България"
+  },
+  {
+   "name": "🩸31.10 HALLOWEEN НАТФИЗ Party🩸",
+   "venue": "Клуб ОБЛК",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-10-31T21:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/3110-halloween-natfiz-party-9011",
+   "src": "bilet",
+   "addr": "Бул. Цар Освободилте №10"
   },
   {
    "name": "HALLOWEEN PARANOIA 3, Sofia Halloween fest 2026, Chistilishteto",
