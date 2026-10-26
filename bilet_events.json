@@ -1,6 +1,6 @@
 {
  "source": "bilet.bg",
- "generated": "2026-10-26T10:56:14.870915",
+ "generated": "2026-10-26T21:06:48.704118",
  "count": 39,
  "events": [
   {
@@ -13,17 +13,6 @@
    "url": "https://www.bilet.bg/bg/events/prozhektsia-na-filma-muha-9058",
    "src": "bilet",
    "addr": "Мол Парадайс Център, Хладилника, Бул. \"Черни връх\" 100"
-  },
-  {
-   "name": "Как да изградиш самочувстие и и да общуваш уверено",
-   "venue": "Collagen Plus Cafe",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2026-10-28T18:30:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/kak-da-izgradish-samochuvstie-i-i-da-obshtuvash-uvereno-8884",
-   "src": "bilet",
-   "addr": "Бул. Филип Кутев 2А, 1407 София, София"
   },
   {
    "name": "Бележникът на един любовник",
@@ -134,6 +123,17 @@
    "url": "https://www.bilet.bg/bg/events/koy-si-ti-zala-haytov-8731",
    "src": "bilet",
    "addr": "ул. Ю. Гагарин 7"
+  },
+  {
+   "name": "SATURDAY HALLOWEEN AFTERNOON WITH MITKO PAVLOV - Бар Петък - 31.10.2026",
+   "venue": "Networking Premium (Гурко 16)",
+   "lat": 42.6919,
+   "lon": 23.326,
+   "cap": 500,
+   "start": "2026-10-31T18:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/saturday-halloween-afternoon-with-mitko-pavlov-bar-petuk-31102026-8933",
+   "src": "bilet",
+   "addr": "ул. \"Ген. Гурко\" 21, 1000 София център, София"
   },
   {
    "name": "Halloween party АпартаментА",
