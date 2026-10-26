@@ -1,6 +1,6 @@
 {
- "generated": "2026-10-22T09:56:17.577893+00:00",
- "count": 57,
+ "generated": "2026-10-26T10:56:14.963678+00:00",
+ "count": 58,
  "sources_ok": [
   "arena",
   "bilet",
@@ -8,307 +8,7 @@
  ],
  "events": [
   {
-   "name": "Asia Motor Show 2026",
-   "venue": "Интер Експо Център",
-   "lat": 42.652,
-   "lon": 23.376,
-   "cap": 3000,
-   "start": "2026-10-22T14:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/asia-motor-show-2026-8390",
-   "src": "bilet",
-   "addr": "бул. Цариградско шосе 147"
-  },
-  {
    "name": "Салон на изкуствата / Събития",
-   "venue": "НДК Зала 1",
-   "lat": 42.6847,
-   "lon": 23.3188,
-   "cap": 3380,
-   "start": "2026-10-22T19:00:00+03:00",
-   "url": "",
-   "src": "ndk"
-  },
-  {
-   "name": "Алхимия на времето | САЛОН НА ИЗКУСТВАТА",
-   "venue": "НДК Зала 1",
-   "lat": 42.6847,
-   "lon": 23.3188,
-   "cap": 3380,
-   "start": "2026-10-22T19:00:00+03:00",
-   "url": "",
-   "src": "ndk"
-  },
-  {
-   "name": "ЕДНА ИСТОРИЯ - СИНЕЛИБРИ",
-   "venue": "НДК Зала 1",
-   "lat": 42.6847,
-   "lon": 23.3188,
-   "cap": 3380,
-   "start": "2026-10-22T19:00:00+03:00",
-   "url": "",
-   "src": "ndk"
-  },
-  {
-   "name": "DJ KRUSH @ Malkata Tekila Sofia 22/10/2026",
-   "venue": "Малката Текила",
-   "lat": 42.695,
-   "lon": 23.328,
-   "cap": 400,
-   "start": "2026-10-22T20:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/dj-krush-at-malkata-tekila-sofia-22102026-7905",
-   "src": "bilet",
-   "addr": "ул. Ангел Кънчев 1"
-  },
-  {
-   "name": "Challenge Accepted Events 2026 - The Connection",
-   "venue": "София Тех Парк",
-   "lat": 42.6668,
-   "lon": 23.376,
-   "cap": 1500,
-   "start": "2026-10-23T09:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/challenge-accepted-events-2026-the-connection-7352",
-   "src": "bilet",
-   "addr": "бул. Цариградско шосе 111Г, 1784 м. Къро"
-  },
-  {
-   "name": "LAPHROAIG -УИСКИ МАЙСТОРСКИ КЛАС |  BEYOND The SMOKE",
-   "venue": "Sofia Event Center",
-   "lat": 42.6607,
-   "lon": 23.3122,
-   "cap": 2000,
-   "start": "2026-10-23T17:30:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/laphroaig-uiski-maystorski-klas-beyond-the-smoke-8873",
-   "src": "bilet",
-   "addr": "1407 Hladilnika, Sofia"
-  },
-  {
-   "name": "DOS MADERAS РОМ МАЙСТОРСКИ КЛАС | – Пътешествие от Карибите през Азия до Херез",
-   "venue": "Sofia Event Center",
-   "lat": 42.6607,
-   "lon": 23.3122,
-   "cap": 2000,
-   "start": "2026-10-23T18:45:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/dos-maderas-rom-maystorski-klas-puteshestvie-ot-karibite-prez-azia-do-herez-8714",
-   "src": "bilet",
-   "addr": "1407 Hladilnika, Sofia"
-  },
-  {
-   "name": "ВСИЧКИ ВЛЮБЕНИ В НОЩТА - СИНЕЛИБРИ",
-   "venue": "НДК Зала 1",
-   "lat": 42.6847,
-   "lon": 23.3188,
-   "cap": 3380,
-   "start": "2026-10-23T19:00:00+03:00",
-   "url": "",
-   "src": "ndk"
-  },
-  {
-   "name": "MUNGO’S HI FI & DJ VADIM @ Malkata Tekila Sofia 23/10/2026",
-   "venue": "Малката Текила",
-   "lat": 42.695,
-   "lon": 23.328,
-   "cap": 400,
-   "start": "2026-10-23T20:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/mungos-hi-fi-dj-vadim-at-malkata-tekila-sofia-23102026-8941",
-   "src": "bilet",
-   "addr": "ул. Ангел Кънчев 1"
-  },
-  {
-   "name": "Sleep Token Tribute by Children Of Arcadia / Club Mixtape 5 / 23.10",
-   "venue": "Mixtape 5",
-   "lat": 42.6866,
-   "lon": 23.319,
-   "cap": 900,
-   "start": "2026-10-23T20:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/sleep-token-tribute-by-children-of-arcadia-club-mixtape-5-2310-8661",
-   "src": "bilet",
-   "addr": "Подлез @ Витамин Б, бул. Галерия, бул. Черни връх"
-  },
-  {
-   "name": "”Гняв, интимност и любов”, уъркшоп с танца на 5-те ритъма",
-   "venue": "Пространството",
-   "lat": 42.6574085,
-   "lon": 23.3649572,
-   "cap": 500,
-   "start": "2026-10-24T11:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/gnav-intimnost-i-lubov-uurkshop-s-tantsa-na-5-te-rituma-8703",
-   "src": "bilet",
-   "addr": "София Център, ул. Шейново 7 , 1504 София"
-  },
-  {
-   "name": "Аз рисувам като ... Пол Сезан - ателие за деца",
-   "venue": "АРТ Къща",
-   "lat": 42.6892355,
-   "lon": 23.3087338,
-   "cap": 500,
-   "start": "2026-10-24T14:30:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/az-risuvam-kato-pol-sezan-atelie-za-detsa-8548",
-   "src": "bilet",
-   "addr": "ул. \"Дукатска планина\" 18, 1606 София"
-  },
-  {
-   "name": "Джамгон Конгтрул Ринпоче в София",
-   "venue": "Зала София",
-   "lat": 42.6760079,
-   "lon": 23.3467041,
-   "cap": 500,
-   "start": "2026-10-24T17:30:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/dzhamgon-kongtrul-rinpoche-v-sofia-8763",
-   "src": "bilet",
-   "addr": "бул. „Джеймс Баучер“ 76, 1407 ж.к. Лозенец, София"
-  },
-  {
-   "name": "РАЗУМ И ЧУВСТВА - СИНЕЛИБРИ",
-   "venue": "НДК Зала 1",
-   "lat": 42.6847,
-   "lon": 23.3188,
-   "cap": 3380,
-   "start": "2026-10-24T19:00:00+03:00",
-   "url": "",
-   "src": "ndk"
-  },
-  {
-   "name": "ТАКСИ ЗА РАЯ - СИНЕЛИБРИ",
-   "venue": "НДК Зала 1",
-   "lat": 42.6847,
-   "lon": 23.3188,
-   "cap": 3380,
-   "start": "2026-10-24T19:00:00+03:00",
-   "url": "",
-   "src": "ndk"
-  },
-  {
-   "name": "GLEN MORAY УИСКИ МАЙСТОРСКИ КЛАС CASK EXPLORERS and INNOVATORS",
-   "venue": "Sofia Event Center",
-   "lat": 42.6607,
-   "lon": 23.3122,
-   "cap": 2000,
-   "start": "2026-10-24T19:45:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/glen-moray-uiski-maystorski-klas-cask-explorers-and-innovators-8954",
-   "src": "bilet",
-   "addr": "1407 Hladilnika, Sofia"
-  },
-  {
-   "name": "OLD PULTENEY УИСКИ МАЙСТОРСКИ КЛАС | 200 YEARS of HISTORY",
-   "venue": "Sofia Event Center",
-   "lat": 42.6607,
-   "lon": 23.3122,
-   "cap": 2000,
-   "start": "2026-10-24T21:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/old-pulteney-uiski-maystorski-klas-200-years-of-history-8848",
-   "src": "bilet",
-   "addr": "1407 Hladilnika, Sofia"
-  },
-  {
-   "name": "P.I.F. Acoustic LIVE  & VIDEO PREMIER „Опус 2“ -  Бар Петък -  24.10.2026",
-   "venue": "Networking Premium (Гурко 16)",
-   "lat": 42.6919,
-   "lon": 23.326,
-   "cap": 500,
-   "start": "2026-10-24T21:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/pif-acoustic-live-video-premier-opus-2-bar-petuk-24102026-8914",
-   "src": "bilet",
-   "addr": "ул. \"Ген. Гурко\" 21, 1000 София център, София"
-  },
-  {
-   "name": "REPLAY 24.10 SAT @FOMO the club SOFIA",
-   "venue": "FOMO the club",
-   "lat": 42.695525,
-   "lon": 23.3231306,
-   "cap": 500,
-   "start": "2026-10-24T23:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/replay-2410-sat-at-fomo-the-club-sofia-8931",
-   "src": "bilet",
-   "addr": "Sofia Center, Pozitano St, 1000 Sofia"
-  },
-  {
-   "name": "Арт работилница за деца",
-   "venue": "One Gallery",
-   "lat": 42.695371,
-   "lon": 23.3269568,
-   "cap": 500,
-   "start": "2026-10-25T11:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/art-rabotilnitsa-za-detsa-9056",
-   "src": "bilet",
-   "addr": "ул. \"Дякон Игнатий\" 1, 1000 София Център"
-  },
-  {
-   "name": "Лазерен лабиринт \"Фотоника\"",
-   "venue": "Nexus Space",
-   "lat": 42.6985861,
-   "lon": 23.3192791,
-   "cap": 500,
-   "start": "2026-10-25T13:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/lazeren-labirint-fotonika-8963",
-   "src": "bilet",
-   "addr": "София Център, ул. \"Княз Борис I\" 121, 1000 София"
-  },
-  {
-   "name": "ICHIRO'S CHICHIBU  УИСКИ МАЙСТОРСКИ КЛАС JAPANESSE Whisky",
-   "venue": "Sofia Event Center",
-   "lat": 42.6607,
-   "lon": 23.3122,
-   "cap": 2000,
-   "start": "2026-10-25T15:30:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/ichiros-chichibu-uiski-maystorski-klas-japanesse-whisky-8882",
-   "src": "bilet",
-   "addr": "1407 Hladilnika, Sofia"
-  },
-  {
-   "name": "KINAHAN'S УИСКИ МАЙСТОРСКИ КЛАС | ОТ НАСЛЕДСТВО КЪМ ХИБРИД Пътешествието на Kinahan’s от 1",
-   "venue": "Sofia Event Center",
-   "lat": 42.6607,
-   "lon": 23.3122,
-   "cap": 2000,
-   "start": "2026-10-25T16:45:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/kinahans-uiski-maystorski-klas-ot-nasledstvo-kum-hibrid-puteshestvieto-na-kinahans-ot-1779-g-do-dnes-8743",
-   "src": "bilet",
-   "addr": "1407 Hladilnika, Sofia"
-  },
-  {
-   "name": "BLACKADDER УИСКИ МАЙСТОРСКИ КЛАС –INSIDE THE WORLD of INDEPENDENT BOTTLING",
-   "venue": "Sofia Event Center",
-   "lat": 42.6607,
-   "lon": 23.3122,
-   "cap": 2000,
-   "start": "2026-10-25T18:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/blackadder-uiski-maystorski-klas-inside-the-world-of-independent-bottling-8632",
-   "src": "bilet",
-   "addr": "1407 Hladilnika, Sofia"
-  },
-  {
-   "name": "ХАОС В КОМЕДИ ФРАНСЕЗ - СИНЕЛИБРИ",
-   "venue": "НДК Зала 1",
-   "lat": 42.6847,
-   "lon": 23.3188,
-   "cap": 3380,
-   "start": "2026-10-25T19:00:00+03:00",
-   "url": "",
-   "src": "ndk"
-  },
-  {
-   "name": "РАЗУМ И ЧУВСТВА - СИНЕЛИБРИ",
-   "venue": "НДК Зала 1",
-   "lat": 42.6847,
-   "lon": 23.3188,
-   "cap": 3380,
-   "start": "2026-10-25T19:00:00+03:00",
-   "url": "",
-   "src": "ndk"
-  },
-  {
-   "name": "IAN MACLEOD УИСКИ МАЙСТОРСКИ Клас - РЕДКИТЕ ШОТЛАНДСКИ ШЕДЬОВРИ",
-   "venue": "Sofia Event Center",
-   "lat": 42.6607,
-   "lon": 23.3122,
-   "cap": 2000,
-   "start": "2026-10-25T19:15:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/ian-macleod-uiski-maystorski-klas-redkite-shotlandski-shedovri-8956",
-   "src": "bilet",
-   "addr": "1407 Hladilnika, Sofia"
-  },
-  {
-   "name": "КУКЛА - СИНЕЛИБРИ",
    "venue": "НДК Зала 1",
    "lat": 42.6847,
    "lon": 23.3188,
@@ -318,12 +18,32 @@
    "src": "ndk"
   },
   {
-   "name": "ЕКСКЛУЗИВНОТО STAND UP ШОУ НА ЗДРАВА КАМЕНОВА \"ЗДРАВА И ПОЛОВИНА\"",
+   "name": "11:00ч.",
    "venue": "НДК Зала 1",
    "lat": 42.6847,
    "lon": 23.3188,
    "cap": 3380,
-   "start": "2026-10-27T19:00:00+03:00",
+   "start": "2026-10-26T19:00:00+03:00",
+   "url": "",
+   "src": "ndk"
+  },
+  {
+   "name": "Вълшебник - Приятел",
+   "venue": "НДК Зала 1",
+   "lat": 42.6847,
+   "lon": 23.3188,
+   "cap": 3380,
+   "start": "2026-10-26T19:00:00+03:00",
+   "url": "",
+   "src": "ndk"
+  },
+  {
+   "name": "КУКЛА - СИНЕЛИБРИ",
+   "venue": "НДК Зала 1",
+   "lat": 42.6847,
+   "lon": 23.3188,
+   "cap": 3380,
+   "start": "2026-10-26T19:00:00+03:00",
    "url": "",
    "src": "ndk"
   },
@@ -338,12 +58,75 @@
    "src": "ndk"
   },
   {
+   "name": "ЕКСКЛУЗИВНОТО STAND UP ШОУ НА ЗДРАВА КАМЕНОВА \"ЗДРАВА И ПОЛОВИНА\"",
+   "venue": "НДК Зала 1",
+   "lat": 42.6847,
+   "lon": 23.3188,
+   "cap": 3380,
+   "start": "2026-10-27T19:00:00+03:00",
+   "url": "",
+   "src": "ndk"
+  },
+  {
+   "name": "Прожекция на филма „Муха“",
+   "venue": "Paradise Center",
+   "lat": 42.6607,
+   "lon": 23.3122,
+   "cap": 2000,
+   "start": "2026-10-27T19:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/prozhektsia-na-filma-muha-9058",
+   "src": "bilet",
+   "addr": "Мол Парадайс Център, Хладилника, Бул. \"Черни връх\" 100"
+  },
+  {
    "name": "ЛУДОРИИ - СИНЕЛИБРИ",
    "venue": "НДК Зала 1",
    "lat": 42.6847,
    "lon": 23.3188,
    "cap": 3380,
    "start": "2026-10-28T19:00:00+03:00",
+   "url": "",
+   "src": "ndk"
+  },
+  {
+   "name": "КЪРВАВАТА ГРАФИНЯ - СИНЕЛИБРИ",
+   "venue": "НДК Зала 1",
+   "lat": 42.6847,
+   "lon": 23.3188,
+   "cap": 3380,
+   "start": "2026-10-28T19:00:00+03:00",
+   "url": "",
+   "src": "ndk"
+  },
+  {
+   "name": "Бележникът на един любовник",
+   "venue": "One Gallery",
+   "lat": 42.695371,
+   "lon": 23.3269568,
+   "cap": 500,
+   "start": "2026-10-28T19:30:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/belezhnikut-na-edin-lubovnik-9057",
+   "src": "bilet",
+   "addr": "ул. \"Дякон Игнатий\" 1, 1000 София Център"
+  },
+  {
+   "name": "Чудовищата на екрана",
+   "venue": "Nexus Space",
+   "lat": 42.6985861,
+   "lon": 23.3192791,
+   "cap": 500,
+   "start": "2026-10-30T18:30:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/chudovishtata-na-ekrana-8880",
+   "src": "bilet",
+   "addr": "София Център, ул. \"Княз Борис I\" 121, 1000 София"
+  },
+  {
+   "name": "ДНЕВНИКЪТ НА ЕДНА КАМЕРИЕРКА - СИНЕЛИБРИ",
+   "venue": "НДК Зала 1",
+   "lat": 42.6847,
+   "lon": 23.3188,
+   "cap": 3380,
+   "start": "2026-10-30T19:00:00+03:00",
    "url": "",
    "src": "ndk"
   },
@@ -359,6 +142,102 @@
    "addr": "Център, ул. Пиротска 5"
   },
   {
+   "name": "Pink Floyd History Vol. 2: Animal Farm",
+   "venue": "Зала Академик",
+   "lat": 42.668,
+   "lon": 23.352,
+   "cap": 1200,
+   "start": "2026-10-30T20:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/pink-floyd-history-vol-2-animal-farm-7588",
+   "src": "bilet",
+   "addr": "Студентски Комплекс, улица \"Академик Стефан Младенов\" 3"
+  },
+  {
+   "name": "Halloween Night with DJ PopCoЯe: Metalcore  Vs. Nu Metal / Club Mixtape 5 / 30.10",
+   "venue": "Mixtape 5",
+   "lat": 42.6866,
+   "lon": 23.319,
+   "cap": 900,
+   "start": "2026-10-30T22:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/halloween-night-with-dj-popcoae-metalcore-vs-nu-metal-club-mixtape-5-3010-8925",
+   "src": "bilet",
+   "addr": "Подлез @ Витамин Б, бул. Галерия, бул. Черни връх"
+  },
+  {
+   "name": "K-pop Halloween Night with Mary Jangmi/ Club Mixtape 5 / 30.10",
+   "venue": "Mixtape 5",
+   "lat": 42.6866,
+   "lon": 23.319,
+   "cap": 900,
+   "start": "2026-10-30T22:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/k-pop-halloween-night-with-mary-jangmi-club-mixtape-5-3010-8923",
+   "src": "bilet",
+   "addr": "Подлез @ Витамин Б, бул. Галерия, бул. Черни връх"
+  },
+  {
+   "name": "BTC Balkans 2026 - изграждаме бъдещето на Биткойн на Балканите",
+   "venue": "Интер Експо Център",
+   "lat": 42.652,
+   "lon": 23.376,
+   "cap": 3000,
+   "start": "2026-10-31T09:30:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/btc-balkans-2026-izgrazhdame-budeshteto-na-bitkoyn-na-balkanite-8600",
+   "src": "bilet",
+   "addr": "бул. Цариградско шосе 147"
+  },
+  {
+   "name": "„Родители с тийнейджъри“ - национална образователна инициатива",
+   "venue": "НДК",
+   "lat": 42.6792938,
+   "lon": 23.3011089,
+   "cap": 3380,
+   "start": "2026-10-31T13:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/roditeli-s-tiyneydzhuri-natsionalna-obrazovatelna-initsiativa-8740",
+   "src": "bilet",
+   "addr": "бул. „България“, 1463"
+  },
+  {
+   "name": "Кой си ти? - зала Хайтов",
+   "venue": "Арт зала Хайтов",
+   "lat": 42.6753427,
+   "lon": 23.3575957,
+   "cap": 500,
+   "start": "2026-10-31T17:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/koy-si-ti-zala-haytov-8731",
+   "src": "bilet",
+   "addr": "ул. Ю. Гагарин 7"
+  },
+  {
+   "name": "ЕХОТО МЕЖДУ НАС - СИНЕЛИБРИ",
+   "venue": "НДК Зала 1",
+   "lat": 42.6847,
+   "lon": 23.3188,
+   "cap": 3380,
+   "start": "2026-10-31T19:00:00+03:00",
+   "url": "",
+   "src": "ndk"
+  },
+  {
+   "name": "ОСТАЙНИЦА - СИНЕЛИБРИ",
+   "venue": "НДК Зала 1",
+   "lat": 42.6847,
+   "lon": 23.3188,
+   "cap": 3380,
+   "start": "2026-10-31T19:00:00+03:00",
+   "url": "",
+   "src": "ndk"
+  },
+  {
+   "name": "АНСАМБЪЛ ТРАКИЯ - ПРЕМИЕРА НА НОВИЯ СПЕКТАКЪЛ - \"КРАЙ МАРИЦА\"",
+   "venue": "НДК Зала 1",
+   "lat": 42.6847,
+   "lon": 23.3188,
+   "cap": 3380,
+   "start": "2026-10-31T19:00:00+03:00",
+   "url": "",
+   "src": "ndk"
+  },
+  {
    "name": "NICKA Halloween Concert \"Хиляди Лица\" / Mixtape 5 / 31.10",
    "venue": "Mixtape 5",
    "lat": 42.6866,
@@ -368,6 +247,17 @@
    "url": "https://www.bilet.bg/bg/events/nicka-halloween-concert-hiladi-litsa-mixtape-5-3110-8764",
    "src": "bilet",
    "addr": "Подлез @ Витамин Б, бул. Галерия, бул. Черни връх"
+  },
+  {
+   "name": "Creepy Halloween Cabaret",
+   "venue": "Théatro отсам канала",
+   "lat": 42.6873,
+   "lon": 23.3452,
+   "cap": 600,
+   "start": "2026-10-31T20:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/creepy-halloween-cabaret-8962",
+   "src": "bilet",
+   "addr": "ул. \"Върбица\" 12"
   },
   {
    "name": "Infected Halloween 2026 | Night Fest",
@@ -381,15 +271,15 @@
    "addr": "Ндк, бул. България, 1463 София, България"
   },
   {
-   "name": "Shame Party Halloween Ball 2",
-   "venue": "Малката Текила",
-   "lat": 42.695,
-   "lon": 23.328,
-   "cap": 400,
-   "start": "2026-10-31T22:30:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/shame-party-halloween-ball-2-8765",
+   "name": "Halloween Night Gravity Bar",
+   "venue": "Gravity bar",
+   "lat": 42.6975117,
+   "lon": 23.3261987,
+   "cap": 500,
+   "start": "2026-10-31T22:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/halloween-night-gravity-bar-8929",
    "src": "bilet",
-   "addr": "ул. Ангел Кънчев 1"
+   "addr": "София Център, ул. Московска 3, 1000 София"
   },
   {
    "name": "Halloween Night with The Wonder GIrls / Club Mixtape 5 / 31.10",
@@ -401,6 +291,38 @@
    "url": "https://www.bilet.bg/bg/events/halloween-night-with-the-wonder-girls-club-mixtape-5-3110-8823",
    "src": "bilet",
    "addr": "Подлез @ Витамин Б, бул. Галерия, бул. Черни връх"
+  },
+  {
+   "name": "HOT POP ROOM Halloween",
+   "venue": "НДК",
+   "lat": 42.6866,
+   "lon": 23.319,
+   "cap": 3380,
+   "start": "2026-10-31T23:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/hot-pop-room-halloween-8950",
+   "src": "bilet",
+   "addr": "Малкото, Бл. „България“ 1, 1463 Ндк, София"
+  },
+  {
+   "name": "НевиДИМО дете | САЛОН НА ИЗКУСТВАТА",
+   "venue": "НДК Зала 1",
+   "lat": 42.6847,
+   "lon": 23.3188,
+   "cap": 3380,
+   "start": "2026-11-01T19:00:00+03:00",
+   "url": "",
+   "src": "ndk"
+  },
+  {
+   "name": "Bulgarian Identity Conference 2026",
+   "venue": "Интерпред - Световен търговски център",
+   "lat": 42.670303,
+   "lon": 23.3510647,
+   "cap": 500,
+   "start": "2026-11-05T08:30:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/bulgarian-identity-conference-2026-8747",
+   "src": "bilet",
+   "addr": "бул. „Драган Цанков“ 36"
   },
   {
    "name": "URIAH HEEP",
@@ -434,6 +356,28 @@
    "src": "arena"
   },
   {
+   "name": "Керана и Космонавтите - Тих концерт в Пространство 108 / 11.11",
+   "venue": "Пространство 108",
+   "lat": 42.6617164,
+   "lon": 23.2999556,
+   "cap": 500,
+   "start": "2026-11-11T19:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/kerana-i-kosmonavtite-tih-kontsert-v-prostranstvo-108-1111-9052",
+   "src": "bilet",
+   "addr": "ул. Георги С. Раковкски 108"
+  },
+  {
+   "name": "РУШИ | 12.11 | Малката Текила София",
+   "venue": "Малката Текила",
+   "lat": 42.695,
+   "lon": 23.328,
+   "cap": 400,
+   "start": "2026-11-12T20:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/rushi-1211-malkata-tekila-sofia-8968",
+   "src": "bilet",
+   "addr": "ул. Ангел Кънчев 1"
+  },
+  {
    "name": "25-75 лева",
    "venue": "Арена 8888 София",
    "lat": 42.67137,
@@ -442,17 +386,6 @@
    "start": "2026-11-13T20:00:00+03:00",
    "url": "",
    "src": "arena"
-  },
-  {
-   "name": "Echoes Of Balkana: Khanъ, Tickle The Sage & E-An-Na (RO) Live / Club Mixtape 5 / 14.11",
-   "venue": "Mixtape 5",
-   "lat": 42.6866,
-   "lon": 23.319,
-   "cap": 900,
-   "start": "2026-11-14T20:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/echoes-of-balkana-khanu-tickle-the-sage-e-an-na-ro-live-club-mixtape-5-1411-8495",
-   "src": "bilet",
-   "addr": "Подлез @ Витамин Б, бул. Галерия, бул. Черни връх"
   },
   {
    "name": "Света гора в София | САЛОН НА ИЗКУСТВАТА",
@@ -465,6 +398,17 @@
    "src": "ndk"
   },
   {
+   "name": "RAKAA & DJ BABU // DILATED PEOPLES @ Malkata Tekila Sofia 15/11/2026",
+   "venue": "Малката Текила",
+   "lat": 42.695,
+   "lon": 23.328,
+   "cap": 400,
+   "start": "2026-11-15T20:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/rakaa-dj-babu-dilated-peoples-at-malkata-tekila-sofia-15112026-8942",
+   "src": "bilet",
+   "addr": "ул. Ангел Кънчев 1"
+  },
+  {
    "name": "Емануела втора дата",
    "venue": "Арена 8888 София",
    "lat": 42.67137,
@@ -475,6 +419,28 @@
    "src": "arena"
   },
   {
+   "name": "Conway the Machine [LIVE] @ Malkata Tekila Sofia 19/11/2026",
+   "venue": "Малката Текила",
+   "lat": 42.695,
+   "lon": 23.328,
+   "cap": 400,
+   "start": "2026-11-19T20:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/conway-the-machine-live-at-malkata-tekila-sofia-19112026-8293",
+   "src": "bilet",
+   "addr": "ул. Ангел Кънчев 1"
+  },
+  {
+   "name": "GOBLIN CARD FEST vol. 2 2026",
+   "venue": "The Steps",
+   "lat": 42.6980033,
+   "lon": 23.317113,
+   "cap": 500,
+   "start": "2026-11-20T18:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/goblin-card-fest-vol-2-2026-9060",
+   "src": "bilet",
+   "addr": "София Център, ул. Братя Миладинови 12, 1000 София"
+  },
+  {
    "name": "Емануела",
    "venue": "Арена 8888 София",
    "lat": 42.67137,
@@ -483,6 +449,39 @@
    "start": "2026-11-20T20:00:00+03:00",
    "url": "",
    "src": "arena"
+  },
+  {
+   "name": "Аз рисувам като ... Пабло Пикасо - ателие за деца",
+   "venue": "АРТ Къща",
+   "lat": 42.6892355,
+   "lon": 23.3087338,
+   "cap": 500,
+   "start": "2026-11-21T14:30:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/az-risuvam-kato-pablo-pikaso-atelie-za-detsa-8550",
+   "src": "bilet",
+   "addr": "ул. \"Дукатска планина\" 18, 1606 София"
+  },
+  {
+   "name": "БЕЛОСЛАВА Sound System | 21.11 | Малката Текила София",
+   "venue": "Малката Текила",
+   "lat": 42.695,
+   "lon": 23.328,
+   "cap": 400,
+   "start": "2026-11-21T19:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/beloslava-sound-system-2111-malkata-tekila-sofia-8985",
+   "src": "bilet",
+   "addr": "ул. Ангел Кънчев 1"
+  },
+  {
+   "name": "Guts @ Malkata Tekila Sofia 21/11/2026",
+   "venue": "Малката Текила",
+   "lat": 42.695,
+   "lon": 23.328,
+   "cap": 400,
+   "start": "2026-11-21T22:30:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/guts-at-malkata-tekila-sofia-21112026-8373",
+   "src": "bilet",
+   "addr": "ул. Ангел Кънчев 1"
   },
   {
    "name": "Михаела Маринова - Концерт - част от програмата \"Салон на изкуствата\" - Есен 2026 НДК",
@@ -504,6 +503,17 @@
    "start": "2026-12-05T20:00:00+03:00",
    "url": "",
    "src": "arena"
+  },
+  {
+   "name": "Christmas Wine Market 2026",
+   "venue": "Централен Военен Клуб",
+   "lat": 42.6952364,
+   "lon": 23.32991,
+   "cap": 500,
+   "start": "2026-12-06T12:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/christmas-wine-market-2026-8939",
+   "src": "bilet",
+   "addr": "бул. Цар Освободител 7"
   },
   {
    "name": "Нощ на звездите 2026",
