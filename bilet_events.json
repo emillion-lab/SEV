@@ -1,19 +1,8 @@
 {
  "source": "bilet.bg",
- "generated": "2026-10-25T19:09:50.951208",
+ "generated": "2026-10-26T10:19:36.609450",
  "count": 39,
  "events": [
-  {
-   "name": "Джамгон Конгтрул Ринпоче в София",
-   "venue": "Зала София",
-   "lat": 42.6760079,
-   "lon": 23.3467041,
-   "cap": 500,
-   "start": "2026-10-24T17:30:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/dzhamgon-kongtrul-rinpoche-v-sofia-8763",
-   "src": "bilet",
-   "addr": "бул. „Джеймс Баучер“ 76, 1407 ж.к. Лозенец, София"
-  },
   {
    "name": "Прожекция на филма „Муха“",
    "venue": "Paradise Center",
@@ -123,6 +112,17 @@
    "url": "https://www.bilet.bg/bg/events/btc-balkans-2026-izgrazhdame-budeshteto-na-bitkoyn-na-balkanite-8600",
    "src": "bilet",
    "addr": "бул. Цариградско шосе 147"
+  },
+  {
+   "name": "„Родители с тийнейджъри“ - национална образователна инициатива",
+   "venue": "НДК",
+   "lat": 42.6792938,
+   "lon": 23.3011089,
+   "cap": 3380,
+   "start": "2026-10-31T13:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/roditeli-s-tiyneydzhuri-natsionalna-obrazovatelna-initsiativa-8740",
+   "src": "bilet",
+   "addr": "бул. „България“, 1463"
   },
   {
    "name": "Кой си ти? - зала Хайтов",
@@ -279,6 +279,17 @@
    "addr": "ул. Георги С. Раковкски 108"
   },
   {
+   "name": "РУШИ | 12.11 | Малката Текила София",
+   "venue": "Малката Текила",
+   "lat": 42.695,
+   "lon": 23.328,
+   "cap": 400,
+   "start": "2026-11-12T20:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/rushi-1211-malkata-tekila-sofia-8968",
+   "src": "bilet",
+   "addr": "ул. Ангел Кънчев 1"
+  },
+  {
    "name": "Маги Джанаварова LIVE Club Stroeja",
    "venue": "Клуб Строежа",
    "lat": null,
@@ -288,17 +299,6 @@
    "url": "https://www.bilet.bg/bg/events/magi-dzhanavarova-live-club-stroeja-8839",
    "src": "bilet",
    "addr": "София Център, улица „Георги С. Раковски“ 116, 1000 София"
-  },
-  {
-   "name": "CONGO NATTY // BLACKOUT JA @ Malkata Tekila Sofia 14/11/2026",
-   "venue": "Малката Текила",
-   "lat": 42.695,
-   "lon": 23.328,
-   "cap": 400,
-   "start": "2026-11-14T21:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/congo-natty-blackout-ja-at-malkata-tekila-sofia-14112026-8945",
-   "src": "bilet",
-   "addr": "ул. Ангел Кънчев 1"
   },
   {
    "name": "RAKAA & DJ BABU // DILATED PEOPLES @ Malkata Tekila Sofia 15/11/2026",
