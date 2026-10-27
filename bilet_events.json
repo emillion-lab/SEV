@@ -1,6 +1,6 @@
 {
  "source": "bilet.bg",
- "generated": "2026-10-26T21:06:48.704118",
+ "generated": "2026-10-27T09:55:20.992327",
  "count": 39,
  "events": [
   {
@@ -57,17 +57,6 @@
    "url": "https://www.bilet.bg/bg/events/pink-floyd-history-vol-2-animal-farm-7588",
    "src": "bilet",
    "addr": "Студентски Комплекс, улица \"Академик Стефан Младенов\" 3"
-  },
-  {
-   "name": "Halloween Night with DJ PopCoЯe: Metalcore  Vs. Nu Metal / Club Mixtape 5 / 30.10",
-   "venue": "Mixtape 5",
-   "lat": 42.6866,
-   "lon": 23.319,
-   "cap": 900,
-   "start": "2026-10-30T22:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/halloween-night-with-dj-popcoae-metalcore-vs-nu-metal-club-mixtape-5-3010-8925",
-   "src": "bilet",
-   "addr": "Подлез @ Витамин Б, бул. Галерия, бул. Черни връх"
   },
   {
    "name": "K-pop Halloween Night with Mary Jangmi/ Club Mixtape 5 / 30.10",
@@ -222,6 +211,17 @@
    "url": "https://www.bilet.bg/bg/events/halloween-night-gravity-bar-8929",
    "src": "bilet",
    "addr": "София Център, ул. Московска 3, 1000 София"
+  },
+  {
+   "name": "Shame Party Halloween Ball 2",
+   "venue": "Малката Текила",
+   "lat": 42.695,
+   "lon": 23.328,
+   "cap": 400,
+   "start": "2026-10-31T22:30:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/shame-party-halloween-ball-2-8765",
+   "src": "bilet",
+   "addr": "ул. Ангел Кънчев 1"
   },
   {
    "name": "Halloween Night with The Wonder GIrls / Club Mixtape 5 / 31.10",
