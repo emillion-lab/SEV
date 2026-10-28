@@ -1,7 +1,7 @@
 {
  "source": "bilet.bg",
- "generated": "2026-10-27T20:49:10.329330",
- "count": 40,
+ "generated": "2026-10-28T10:41:36.916300",
+ "count": 41,
  "events": [
   {
    "name": "Бележникът на един любовник",
@@ -255,6 +255,17 @@
    "url": "https://www.bilet.bg/bg/events/hot-pop-room-halloween-8950",
    "src": "bilet",
    "addr": "Малкото, Бл. „България“ 1, 1463 Ндк, София"
+  },
+  {
+   "name": "Bulgarian Identity Conference 2026",
+   "venue": "Интерпред - Световен търговски център",
+   "lat": 42.670303,
+   "lon": 23.3510647,
+   "cap": 500,
+   "start": "2026-11-05T08:30:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/bulgarian-identity-conference-2026-8747",
+   "src": "bilet",
+   "addr": "бул. „Драган Цанков“ 36"
   },
   {
    "name": "Аз рисувам като ... Фрида Кало - ателие за деца",
