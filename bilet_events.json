@@ -1,19 +1,8 @@
 {
  "source": "bilet.bg",
- "generated": "2026-10-28T10:41:36.916300",
- "count": 41,
+ "generated": "2026-10-28T21:12:14.460475",
+ "count": 42,
  "events": [
-  {
-   "name": "Бележникът на един любовник",
-   "venue": "One Gallery",
-   "lat": 42.695371,
-   "lon": 23.3269568,
-   "cap": 500,
-   "start": "2026-10-28T19:30:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/belezhnikut-na-edin-lubovnik-9057",
-   "src": "bilet",
-   "addr": "ул. \"Дякон Игнатий\" 1, 1000 София Център"
-  },
   {
    "name": "Чудовищата на екрана",
    "venue": "Nexus Space",
@@ -35,6 +24,17 @@
    "url": "https://www.bilet.bg/bg/events/dara-live-7499",
    "src": "bilet",
    "addr": "Център, ул. Пиротска 5"
+  },
+  {
+   "name": "Таралеща на Морфин //  LIVE ALBUM PREMIERE - ранен концерт // 30 OCT",
+   "venue": "Клуб Строежа",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-10-30T19:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/taraleshta-na-morfin-live-album-premiere-ranen-kontsert-30-oct-8922",
+   "src": "bilet",
+   "addr": "София Център, улица „Георги С. Раковски“ 116, 1000 София"
   },
   {
    "name": "Pink Floyd History Vol. 2: Animal Farm",
@@ -101,6 +101,17 @@
    "url": "https://www.bilet.bg/bg/events/btc-balkans-2026-izgrazhdame-budeshteto-na-bitkoyn-na-balkanite-8600",
    "src": "bilet",
    "addr": "бул. Цариградско шосе 147"
+  },
+  {
+   "name": "Денят на мъртвите идеи",
+   "venue": "Интерпред - Световен търговски център",
+   "lat": 42.670303,
+   "lon": 23.3510647,
+   "cap": 500,
+   "start": "2026-10-31T12:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/denat-na-murtvite-idei-9099",
+   "src": "bilet",
+   "addr": "бул. „Драган Цанков“ 36"
   },
   {
    "name": "„Родители с тийнейджъри“ - национална образователна инициатива",
@@ -323,17 +334,6 @@
    "addr": "ул. Ангел Кънчев 1"
   },
   {
-   "name": "Dara Ekimova Live @Stroeja",
-   "venue": "Клуб Строежа",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2026-11-19T19:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/dara-ekimova-live-at-stroeja-8780",
-   "src": "bilet",
-   "addr": "София Център, улица „Георги С. Раковски“ 116, 1000 София"
-  },
-  {
    "name": "Conway the Machine [LIVE] @ Malkata Tekila Sofia 19/11/2026",
    "venue": "Малката Текила",
    "lat": 42.695,
@@ -442,6 +442,17 @@
    "url": "https://www.bilet.bg/bg/events/disney-fantazia-kontsert-na-zhivo-8636",
    "src": "bilet",
    "addr": "НДК, бул. „България“, София"
+  },
+  {
+   "name": "TARJA: FRISSON LIVE 2027 - Sofia",
+   "venue": "Зала Христо Ботев Студентски Град",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2027-03-18T19:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/tarja-frisson-live-2027-sofia-8439",
+   "src": "bilet",
+   "addr": "Studentski Kompleks, ж.к. Студентски град 26, 1700 Sofia"
   },
   {
    "name": "Chris Norman Live Sofia",
