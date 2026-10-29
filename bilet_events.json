@@ -1,6 +1,6 @@
 {
  "source": "bilet.bg",
- "generated": "2026-10-29T11:23:13.660351",
+ "generated": "2026-10-29T21:15:31.045414",
  "count": 42,
  "events": [
   {
@@ -323,6 +323,17 @@
    "addr": "София Център, улица „Георги С. Раковски“ 116, 1000 София"
   },
   {
+   "name": "The Italian Jazz Band",
+   "venue": "НДК",
+   "lat": 42.6866,
+   "lon": 23.319,
+   "cap": 3380,
+   "start": "2026-11-14T19:30:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/the-italian-jazz-band-8641",
+   "src": "bilet",
+   "addr": "НДК, бул. България 1, 1000 София"
+  },
+  {
    "name": "RAKAA & DJ BABU // DILATED PEOPLES @ Malkata Tekila Sofia 15/11/2026",
    "venue": "Малката Текила",
    "lat": 42.695,
@@ -354,17 +365,6 @@
    "url": "https://www.bilet.bg/bg/events/goblin-card-fest-vol-2-2026-9060",
    "src": "bilet",
    "addr": "София Център, ул. Братя Миладинови 12, 1000 София"
-  },
-  {
-   "name": "Аз рисувам като ... Пабло Пикасо - ателие за деца",
-   "venue": "АРТ Къща",
-   "lat": 42.6892355,
-   "lon": 23.3087338,
-   "cap": 500,
-   "start": "2026-11-21T14:30:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/az-risuvam-kato-pablo-pikaso-atelie-za-detsa-8550",
-   "src": "bilet",
-   "addr": "ул. \"Дукатска планина\" 18, 1606 София"
   },
   {
    "name": "БЕЛОСЛАВА Sound System | 21.11 | Малката Текила София",
