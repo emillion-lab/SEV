@@ -1,6 +1,6 @@
 {
  "source": "bilet.bg",
- "generated": "2026-10-29T21:15:31.045414",
+ "generated": "2026-10-30T10:57:13.652553",
  "count": 42,
  "events": [
   {
@@ -116,13 +116,13 @@
   {
    "name": "„Родители с тийнейджъри“ - национална образователна инициатива",
    "venue": "НДК",
-   "lat": 42.6792938,
-   "lon": 23.3011089,
+   "lat": 42.6866,
+   "lon": 23.319,
    "cap": 3380,
    "start": "2026-10-31T13:00:00+03:00",
    "url": "https://www.bilet.bg/bg/events/roditeli-s-tiyneydzhuri-natsionalna-obrazovatelna-initsiativa-8740",
    "src": "bilet",
-   "addr": "бул. „България“, 1463"
+   "addr": "Национален дворец на културата, пл. „България“ № 1"
   },
   {
    "name": "Кой си ти? - зала Хайтов",
@@ -202,6 +202,17 @@
    "addr": "Ндк, бул. България, 1463 София, България"
   },
   {
+   "name": "ЦВЕТ (Албум Промо) w/ ТЛЕН, Мавзолей на живо в ПАВЕ",
+   "venue": "клуб Паве",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-10-31T20:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/tsvet-album-promo-w-tlen-mavzoley-na-zhivo-v-pave-8961",
+   "src": "bilet",
+   "addr": "пл. Славейков 4"
+  },
+  {
    "name": "🩸31.10 HALLOWEEN НАТФИЗ Party🩸",
    "venue": "Клуб ОБЛК",
    "lat": null,
@@ -221,7 +232,7 @@
    "start": "2026-10-31T21:00:00+03:00",
    "url": "https://www.bilet.bg/bg/events/halloween-paranoia-3-sofia-halloween-fest-2026-chistilishteto-8753",
    "src": "bilet",
-   "addr": "Орландовци, ул. Индустриална 1202 София"
+   "addr": "кв. Орландовци, ул. „Индустриална“ № 7"
   },
   {
    "name": "Halloween Night Gravity Bar",
@@ -277,17 +288,6 @@
    "url": "https://www.bilet.bg/bg/events/bulgarian-identity-conference-2026-8747",
    "src": "bilet",
    "addr": "бул. „Драган Цанков“ 36"
-  },
-  {
-   "name": "Аз рисувам като ... Фрида Кало - ателие за деца",
-   "venue": "АРТ Къща",
-   "lat": 42.6892355,
-   "lon": 23.3087338,
-   "cap": 500,
-   "start": "2026-11-08T14:30:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/az-risuvam-kato-frida-kalo-atelie-za-detsa-8549",
-   "src": "bilet",
-   "addr": "ул. \"Дукатска планина\" 18, 1606 София"
   },
   {
    "name": "Керана и Космонавтите - Тих концерт в Пространство 108 / 11.11",
