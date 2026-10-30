@@ -1,52 +1,8 @@
 {
  "source": "bilet.bg",
- "generated": "2026-10-30T10:57:13.652553",
- "count": 42,
+ "generated": "2026-10-30T20:55:11.838807",
+ "count": 43,
  "events": [
-  {
-   "name": "Чудовищата на екрана",
-   "venue": "Nexus Space",
-   "lat": 42.6985861,
-   "lon": 23.3192791,
-   "cap": 500,
-   "start": "2026-10-30T18:30:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/chudovishtata-na-ekrana-8880",
-   "src": "bilet",
-   "addr": "София Център, ул. \"Княз Борис I\" 121, 1000 София"
-  },
-  {
-   "name": "DARA - Live",
-   "venue": "Пиротска 5",
-   "lat": 42.6987,
-   "lon": 23.3195,
-   "cap": 600,
-   "start": "2026-10-30T19:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/dara-live-7499",
-   "src": "bilet",
-   "addr": "Център, ул. Пиротска 5"
-  },
-  {
-   "name": "Таралеща на Морфин //  LIVE ALBUM PREMIERE - ранен концерт // 30 OCT",
-   "venue": "Клуб Строежа",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2026-10-30T19:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/taraleshta-na-morfin-live-album-premiere-ranen-kontsert-30-oct-8922",
-   "src": "bilet",
-   "addr": "София Център, улица „Георги С. Раковски“ 116, 1000 София"
-  },
-  {
-   "name": "Pink Floyd History Vol. 2: Animal Farm",
-   "venue": "Зала Академик",
-   "lat": 42.668,
-   "lon": 23.352,
-   "cap": 1200,
-   "start": "2026-10-30T20:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/pink-floyd-history-vol-2-animal-farm-7588",
-   "src": "bilet",
-   "addr": "Студентски Комплекс, улица \"Академик Стефан Младенов\" 3"
-  },
   {
    "name": "SLOW JAMZ: Halloween",
    "venue": "One Gallery",
@@ -213,17 +169,6 @@
    "addr": "пл. Славейков 4"
   },
   {
-   "name": "🩸31.10 HALLOWEEN НАТФИЗ Party🩸",
-   "venue": "Клуб ОБЛК",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2026-10-31T21:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/3110-halloween-natfiz-party-9011",
-   "src": "bilet",
-   "addr": "Бул. Цар Освободилте №10"
-  },
-  {
    "name": "HALLOWEEN PARANOIA 3, Sofia Halloween fest 2026, Chistilishteto",
    "venue": "Чистилището",
    "lat": null,
@@ -290,6 +235,17 @@
    "addr": "бул. „Драган Цанков“ 36"
   },
   {
+   "name": "Аз рисувам като ... Фрида Кало - ателие за деца",
+   "venue": "АРТ Къща",
+   "lat": 42.6892355,
+   "lon": 23.3087338,
+   "cap": 500,
+   "start": "2026-11-08T14:30:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/az-risuvam-kato-frida-kalo-atelie-za-detsa-8549",
+   "src": "bilet",
+   "addr": "ул. \"Дукатска планина\" 18, 1606 София"
+  },
+  {
    "name": "Керана и Космонавтите - Тих концерт в Пространство 108 / 11.11",
    "venue": "Пространство 108",
    "lat": 42.6617164,
@@ -323,6 +279,17 @@
    "addr": "София Център, улица „Георги С. Раковски“ 116, 1000 София"
   },
   {
+   "name": "Wine Nat? 2026 Среща с натуралното вино",
+   "venue": "The Steps",
+   "lat": 42.6980033,
+   "lon": 23.317113,
+   "cap": 500,
+   "start": "2026-11-14T12:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/wine-nat-2026-sreshta-s-naturalnoto-vino-8783",
+   "src": "bilet",
+   "addr": "София Център, ул. Братя Миладинови 12, 1000 София"
+  },
+  {
    "name": "The Italian Jazz Band",
    "venue": "НДК",
    "lat": 42.6866,
@@ -343,6 +310,17 @@
    "url": "https://www.bilet.bg/bg/events/rakaa-dj-babu-dilated-peoples-at-malkata-tekila-sofia-15112026-8942",
    "src": "bilet",
    "addr": "ул. Ангел Кънчев 1"
+  },
+  {
+   "name": "Work SHIFT vs. Work Shhh",
+   "venue": "Planet Schwarz Tech Theater",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-11-17T09:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/work-shift-vs-work-shhh-8522",
+   "src": "bilet",
+   "addr": "Промишлена зона Хладилника, бул. \"Черни връх\" 51, офис х"
   },
   {
    "name": "Conway the Machine [LIVE] @ Malkata Tekila Sofia 19/11/2026",
@@ -400,6 +378,17 @@
    "addr": "бул. Цариградско шосе 111Г, 1784 м. Къро"
   },
   {
+   "name": "Велика България - зората",
+   "venue": "Арена 8888",
+   "lat": 42.6711,
+   "lon": 23.3692,
+   "cap": 12000,
+   "start": "2026-11-23T20:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/velika-bulgaria-zorata-7509",
+   "src": "bilet",
+   "addr": "БАН IV км., бул. \"Асен Йорданов\" 1,София"
+  },
+  {
    "name": "Михаела Маринова - Концерт - част от програмата \"Салон на изкуствата\" - Есен 2026 НДК",
    "venue": "НДК",
    "lat": 42.6866,
@@ -444,6 +433,17 @@
    "addr": "НДК, бул. „България“, София"
   },
   {
+   "name": "U.D.O. - TRIPLE ANNIVERSARY Tour 2027",
+   "venue": "Зала Христо Ботев Студентски Град",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2027-02-04T20:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/udo-triple-anniversary-tour-2027-8085",
+   "src": "bilet",
+   "addr": "Studentski Kompleks, ж.к. Студентски град 26, 1700 Sofia"
+  },
+  {
    "name": "TARJA: FRISSON LIVE 2027 - Sofia",
    "venue": "Зала Христо Ботев Студентски Град",
    "lat": null,
@@ -464,6 +464,17 @@
    "url": "https://www.bilet.bg/bg/events/chris-norman-live-sofia-8264",
    "src": "bilet",
    "addr": "НДК, бул. „България“, София"
+  },
+  {
+   "name": "ЖИВИ ДИНОЗАВРИ - В търсене на яйцето - София",
+   "venue": "Асикс Арена",
+   "lat": 42.669,
+   "lon": 23.3757,
+   "cap": 4000,
+   "start": "2027-04-11T13:30:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/zhivi-dinozavri-v-tursene-na-aytseto-sofia-7913",
+   "src": "bilet",
+   "addr": "Ул. Манастирска 35, кв. Гео Милев, София 1111"
   }
  ]
 }
