@@ -1,7 +1,7 @@
 {
  "source": "bilet.bg",
- "generated": "2026-10-31T10:29:51.320978",
- "count": 40,
+ "generated": "2026-10-31T20:07:33.819028",
+ "count": 33,
  "events": [
   {
    "name": "BTC Balkans 2026 - изграждаме бъдещето на Биткойн на Балканите",
@@ -13,72 +13,6 @@
    "url": "https://www.bilet.bg/bg/events/btc-balkans-2026-izgrazhdame-budeshteto-na-bitkoyn-na-balkanite-8600",
    "src": "bilet",
    "addr": "бул. Цариградско шосе 147"
-  },
-  {
-   "name": "„Родители с тийнейджъри“ - национална образователна инициатива",
-   "venue": "НДК",
-   "lat": 42.6866,
-   "lon": 23.319,
-   "cap": 3380,
-   "start": "2026-10-31T13:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/roditeli-s-tiyneydzhuri-natsionalna-obrazovatelna-initsiativa-8740",
-   "src": "bilet",
-   "addr": "Национален дворец на културата, пл. „България“ № 1"
-  },
-  {
-   "name": "Кой си ти? - зала Хайтов",
-   "venue": "Арт зала Хайтов",
-   "lat": 42.6753427,
-   "lon": 23.3575957,
-   "cap": 500,
-   "start": "2026-10-31T17:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/koy-si-ti-zala-haytov-8731",
-   "src": "bilet",
-   "addr": "ул. Ю. Гагарин 7"
-  },
-  {
-   "name": "SATURDAY HALLOWEEN AFTERNOON WITH MITKO PAVLOV - Бар Петък - 31.10.2026",
-   "venue": "Networking Premium (Гурко 16)",
-   "lat": 42.6919,
-   "lon": 23.326,
-   "cap": 500,
-   "start": "2026-10-31T18:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/saturday-halloween-afternoon-with-mitko-pavlov-bar-petuk-31102026-8933",
-   "src": "bilet",
-   "addr": "ул. \"Ген. Гурко\" 21, 1000 София център, София"
-  },
-  {
-   "name": "Halloween party АпартаментА",
-   "venue": "Sofia - Secret Location",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2026-10-31T19:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/halloween-party-apartamenta-9063",
-   "src": "bilet",
-   "addr": ""
-  },
-  {
-   "name": "Кой си ти? - зала Хайтов",
-   "venue": "Арт зала Хайтов",
-   "lat": 42.6753427,
-   "lon": 23.3575957,
-   "cap": 500,
-   "start": "2026-10-31T19:30:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/koy-si-ti-zala-haytov-8732",
-   "src": "bilet",
-   "addr": "ул. Ю. Гагарин 7"
-  },
-  {
-   "name": "NICKA Halloween Concert \"Хиляди Лица\" / Mixtape 5 / 31.10",
-   "venue": "Mixtape 5",
-   "lat": 42.6866,
-   "lon": 23.319,
-   "cap": 900,
-   "start": "2026-10-31T19:30:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/nicka-halloween-concert-hiladi-litsa-mixtape-5-3110-8764",
-   "src": "bilet",
-   "addr": "Подлез @ Витамин Б, бул. Галерия, бул. Черни връх"
   },
   {
    "name": "Creepy Halloween Cabaret",
@@ -103,15 +37,15 @@
    "addr": "Ндк, бул. България, 1463 София, България"
   },
   {
-   "name": "ЦВЕТ (Албум Промо) w/ ТЛЕН, Мавзолей на живо в ПАВЕ",
-   "venue": "клуб Паве",
+   "name": "🩸31.10 HALLOWEEN НАТФИЗ Party🩸",
+   "venue": "Клуб ОБЛК",
    "lat": null,
    "lon": null,
    "cap": 500,
-   "start": "2026-10-31T20:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/tsvet-album-promo-w-tlen-mavzoley-na-zhivo-v-pave-8961",
+   "start": "2026-10-31T21:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/3110-halloween-natfiz-party-9011",
    "src": "bilet",
-   "addr": "пл. Славейков 4"
+   "addr": "Бул. Цар Освободител №10"
   },
   {
    "name": "HALLOWEEN PARANOIA 3, Sofia Halloween fest 2026, Chistilishteto",
@@ -123,17 +57,6 @@
    "url": "https://www.bilet.bg/bg/events/halloween-paranoia-3-sofia-halloween-fest-2026-chistilishteto-8753",
    "src": "bilet",
    "addr": "кв. Орландовци, ул. „Индустриална“ № 7"
-  },
-  {
-   "name": "Halloween Night Gravity Bar",
-   "venue": "Gravity bar",
-   "lat": 42.6975117,
-   "lon": 23.3261987,
-   "cap": 500,
-   "start": "2026-10-31T22:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/halloween-night-gravity-bar-8929",
-   "src": "bilet",
-   "addr": "София Център, ул. Московска 3, 1000 София"
   },
   {
    "name": "Shame Party Halloween Ball 2",
@@ -178,17 +101,6 @@
    "url": "https://www.bilet.bg/bg/events/bulgarian-identity-conference-2026-8747",
    "src": "bilet",
    "addr": "бул. „Драган Цанков“ 36"
-  },
-  {
-   "name": "The Taste of Connection 2",
-   "venue": "Osteria Tartufo - Budapest",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2026-11-05T19:30:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/the-taste-of-connection-2-9050",
-   "src": "bilet",
-   "addr": "София Център, ул. Будапеща 13, 1000 София"
   },
   {
    "name": "Аз рисувам като ... Фрида Кало - ателие за деца",
@@ -277,6 +189,17 @@
    "url": "https://www.bilet.bg/bg/events/work-shift-vs-work-shhh-8522",
    "src": "bilet",
    "addr": "Промишлена зона Хладилника, бул. \"Черни връх\" 51, офис х"
+  },
+  {
+   "name": "СТОЯН ЗАХАРИЕВ - Live @ Pirotska 5 (Албум/Видео Промо) 18.11.2026",
+   "venue": "Пиротска 5",
+   "lat": 42.6987,
+   "lon": 23.3195,
+   "cap": 600,
+   "start": "2026-11-18T19:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/stoan-zahariev-live-at-pirotska-5-albumvideo-promo-18112026-8948",
+   "src": "bilet",
+   "addr": "Център, ул. Пиротска 5"
   },
   {
    "name": "Conway the Machine [LIVE] @ Malkata Tekila Sofia 19/11/2026",
