@@ -1,52 +1,8 @@
 {
  "source": "bilet.bg",
- "generated": "2026-10-30T20:55:11.838807",
- "count": 43,
+ "generated": "2026-10-31T10:29:51.320978",
+ "count": 40,
  "events": [
-  {
-   "name": "SLOW JAMZ: Halloween",
-   "venue": "One Gallery",
-   "lat": 42.695371,
-   "lon": 23.3269568,
-   "cap": 500,
-   "start": "2026-10-30T20:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/slow-jamz-halloween-9013",
-   "src": "bilet",
-   "addr": "ул. \"Дякон Игнатий\" 1, 1000 София Център"
-  },
-  {
-   "name": "Halloween Night with DJ PopCoЯe: Metalcore  Vs. Nu Metal / Club Mixtape 5 / 30.10",
-   "venue": "Mixtape 5",
-   "lat": 42.6866,
-   "lon": 23.319,
-   "cap": 900,
-   "start": "2026-10-30T22:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/halloween-night-with-dj-popcoae-metalcore-vs-nu-metal-club-mixtape-5-3010-8925",
-   "src": "bilet",
-   "addr": "Подлез @ Витамин Б, бул. Галерия, бул. Черни връх"
-  },
-  {
-   "name": "K-pop Halloween Night with Mary Jangmi/ Club Mixtape 5 / 30.10",
-   "venue": "Mixtape 5",
-   "lat": 42.6866,
-   "lon": 23.319,
-   "cap": 900,
-   "start": "2026-10-30T22:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/k-pop-halloween-night-with-mary-jangmi-club-mixtape-5-3010-8923",
-   "src": "bilet",
-   "addr": "Подлез @ Витамин Б, бул. Галерия, бул. Черни връх"
-  },
-  {
-   "name": "30.10 | СТРАШНИ НЕЩА ЖИВЕЯТ В НОЩТА | ABYSMATIC video single promo @ КУПЕ",
-   "venue": "Купе",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2026-10-30T23:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/3010-strashni-neshta-zhiveat-v-noshtta-abysmatic-video-single-promo-at-kupe-8642",
-   "src": "bilet",
-   "addr": "Славянска 8"
-  },
   {
    "name": "BTC Balkans 2026 - изграждаме бъдещето на Биткойн на Балканите",
    "venue": "Интер Експо Център",
@@ -57,17 +13,6 @@
    "url": "https://www.bilet.bg/bg/events/btc-balkans-2026-izgrazhdame-budeshteto-na-bitkoyn-na-balkanite-8600",
    "src": "bilet",
    "addr": "бул. Цариградско шосе 147"
-  },
-  {
-   "name": "Денят на мъртвите идеи",
-   "venue": "Интерпред - Световен търговски център",
-   "lat": 42.670303,
-   "lon": 23.3510647,
-   "cap": 500,
-   "start": "2026-10-31T12:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/denat-na-murtvite-idei-9099",
-   "src": "bilet",
-   "addr": "бул. „Драган Цанков“ 36"
   },
   {
    "name": "„Родители с тийнейджъри“ - национална образователна инициатива",
@@ -235,6 +180,17 @@
    "addr": "бул. „Драган Цанков“ 36"
   },
   {
+   "name": "The Taste of Connection 2",
+   "venue": "Osteria Tartufo - Budapest",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-11-05T19:30:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/the-taste-of-connection-2-9050",
+   "src": "bilet",
+   "addr": "София Център, ул. Будапеща 13, 1000 София"
+  },
+  {
    "name": "Аз рисувам като ... Фрида Кало - ателие за деца",
    "venue": "АРТ Къща",
    "lat": 42.6892355,
@@ -343,6 +299,17 @@
    "url": "https://www.bilet.bg/bg/events/goblin-card-fest-vol-2-2026-9060",
    "src": "bilet",
    "addr": "София Център, ул. Братя Миладинови 12, 1000 София"
+  },
+  {
+   "name": "Аз рисувам като ... Пабло Пикасо - ателие за деца",
+   "venue": "АРТ Къща",
+   "lat": 42.6892355,
+   "lon": 23.3087338,
+   "cap": 500,
+   "start": "2026-11-21T14:30:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/az-risuvam-kato-pablo-pikaso-atelie-za-detsa-8550",
+   "src": "bilet",
+   "addr": "ул. \"Дукатска планина\" 18, 1606 София"
   },
   {
    "name": "БЕЛОСЛАВА Sound System | 21.11 | Малката Текила София",
