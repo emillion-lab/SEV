@@ -1,7 +1,7 @@
 {
  "source": "bilet.bg",
- "generated": "2026-11-03T12:06:07.485146",
- "count": 38,
+ "generated": "2026-11-03T21:52:55.566127",
+ "count": 37,
  "events": [
   {
    "name": "PM SUMMIT 2026 M.O.R.E: The Power of Value",
@@ -145,17 +145,6 @@
    "url": "https://www.bilet.bg/bg/events/gen-z-vs-millennials-stendup-komedia-7112026-9137",
    "src": "bilet",
    "addr": "ул. \"Ген. Гурко\" 21, 1000 София център, София"
-  },
-  {
-   "name": "GREESH | Thin Red Line | 07.11.26",
-   "venue": "Бар Тънка Червена Линия",
-   "lat": 42.6970146,
-   "lon": 23.3052025,
-   "cap": 500,
-   "start": "2026-11-07T21:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/greesh-thin-red-line-071126-8921",
-   "src": "bilet",
-   "addr": "ул. \"Партений Нишавски\" 10, 1303 Зона Б-5, София, София, България"
   },
   {
    "name": "DJ Slowz at Club Pave",
