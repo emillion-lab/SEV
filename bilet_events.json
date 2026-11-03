@@ -1,7 +1,7 @@
 {
  "source": "bilet.bg",
- "generated": "2026-11-02T23:38:51.216341",
- "count": 37,
+ "generated": "2026-11-03T12:06:07.485146",
+ "count": 38,
  "events": [
   {
    "name": "PM SUMMIT 2026 M.O.R.E: The Power of Value",
@@ -136,6 +136,17 @@
    "addr": "Хотел Рила, София Център, ул. Позитано"
   },
   {
+   "name": "Gen Z vs Millennials // Стендъп комедия // 7.11.2026",
+   "venue": "Networking Premium (Гурко 16)",
+   "lat": 42.6919,
+   "lon": 23.326,
+   "cap": 500,
+   "start": "2026-11-07T21:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/gen-z-vs-millennials-stendup-komedia-7112026-9137",
+   "src": "bilet",
+   "addr": "ул. \"Ген. Гурко\" 21, 1000 София център, София"
+  },
+  {
    "name": "GREESH | Thin Red Line | 07.11.26",
    "venue": "Бар Тънка Червена Линия",
    "lat": 42.6970146,
@@ -202,6 +213,17 @@
    "addr": "булевард „България“ 1 Национален дворец на културата, бул. България 1, 1463 София"
   },
   {
+   "name": "Snake Eyes (Brighton grit-pop diy power duo) w/ Elittna live @ Club Pave",
+   "venue": "клуб Паве",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-11-08T20:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/snake-eyes-brighton-grit-pop-diy-power-duo-w-elittna-live-at-club-pave-8900",
+   "src": "bilet",
+   "addr": "пл. Славейков 4"
+  },
+  {
    "name": "BRAND TALKs 2026",
    "venue": "Зала Академик",
    "lat": 42.668,
@@ -244,17 +266,6 @@
    "url": "https://www.bilet.bg/bg/events/nova-generatsia-1111-wed-malkata-tekila-sofia-9027",
    "src": "bilet",
    "addr": "ул. Ангел Кънчев 1"
-  },
-  {
-   "name": "MINNA LIVE - Гласът на Париж: От Piaf до Zaz - Бар Петък - 11.11.2026",
-   "venue": "Networking Premium (Гурко 16)",
-   "lat": 42.6919,
-   "lon": 23.326,
-   "cap": 500,
-   "start": "2026-11-11T21:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/minna-live-glasut-na-parizh-ot-piaf-do-zaz-bar-petuk-11112026-9009",
-   "src": "bilet",
-   "addr": "ул. \"Ген. Гурко\" 21, 1000 София център, София"
   },
   {
    "name": "РУШИ | 12.11 | Малката Текила София",
