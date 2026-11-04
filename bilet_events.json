@@ -1,19 +1,8 @@
 {
  "source": "bilet.bg",
- "generated": "2026-11-04T12:19:51.285984",
+ "generated": "2026-11-04T22:00:23.667940",
  "count": 37,
  "events": [
-  {
-   "name": "HENGE live at Club Pave",
-   "venue": "клуб Паве",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2026-11-04T20:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/henge-live-at-club-pave-8355",
-   "src": "bilet",
-   "addr": "пл. Славейков 4"
-  },
   {
    "name": "Bulgarian Identity Conference 2026",
    "venue": "Интерпред - Световен търговски център",
@@ -255,6 +244,17 @@
    "url": "https://www.bilet.bg/bg/events/nova-generatsia-1111-wed-malkata-tekila-sofia-9027",
    "src": "bilet",
    "addr": "ул. Ангел Кънчев 1"
+  },
+  {
+   "name": "MINNA LIVE - Гласът на Париж: От Piaf до Zaz - Бар Петък - 11.11.2026",
+   "venue": "Networking Premium (Гурко 16)",
+   "lat": 42.6919,
+   "lon": 23.326,
+   "cap": 500,
+   "start": "2026-11-11T21:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/minna-live-glasut-na-parizh-ot-piaf-do-zaz-bar-petuk-11112026-9009",
+   "src": "bilet",
+   "addr": "ул. \"Ген. Гурко\" 21, 1000 София център, София"
   },
   {
    "name": "РУШИ | 12.11 | Малката Текила София",
