@@ -1,30 +1,8 @@
 {
  "source": "bilet.bg",
- "generated": "2026-11-05T13:00:14.969669",
- "count": 36,
+ "generated": "2026-11-05T22:08:30.169868",
+ "count": 35,
  "events": [
-  {
-   "name": "Представление - \"Двете Сийки\" Ирен Кривошиева, Ани Михайлова, Исус Ангелов",
-   "venue": "Клуб на фоторепортера",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2026-11-05T19:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/predstavlenie-dvete-siyki-iren-krivoshieva-ani-mihaylova-isus-angelov-9106",
-   "src": "bilet",
-   "addr": "бул. „Княз Александър Дондуков“ № 1, подлез „Сердика“, Ларгото,"
-  },
-  {
-   "name": "Боян Тодоров ALBUM PROMO “Квартал Носталгия” - Бар Петък - 05.11.2026",
-   "venue": "Networking Premium (Гурко 16)",
-   "lat": 42.6919,
-   "lon": 23.326,
-   "cap": 500,
-   "start": "2026-11-05T21:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/boan-todorov-album-promo-kvartal-nostalgia-bar-petuk-05112026-8990",
-   "src": "bilet",
-   "addr": "ул. \"Ген. Гурко\" 21, 1000 София център, София"
-  },
   {
    "name": "Аз рисувам като ... Фрида Кало - ателие за деца",
    "venue": "Читалище \"Алеко Константинов - 1897 г.\"",
@@ -343,6 +321,17 @@
    "url": "https://www.bilet.bg/bg/events/guts-at-malkata-tekila-sofia-21112026-8373",
    "src": "bilet",
    "addr": "ул. Ангел Кънчев 1"
+  },
+  {
+   "name": "SofiaTalks Business Bootcamp 2026",
+   "venue": "София Тех Парк",
+   "lat": 42.6668,
+   "lon": 23.376,
+   "cap": 1500,
+   "start": "2026-11-22T09:30:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/sofiatalks-business-bootcamp-2026-8246",
+   "src": "bilet",
+   "addr": "бул. Цариградско шосе 111Г, 1784 м. Къро"
   },
   {
    "name": "Михаела Маринова - Концерт - част от програмата \"Салон на изкуствата\" - Есен 2026 НДК",
