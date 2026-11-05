@@ -1,22 +1,21 @@
-run: 2026-11-02T13:18:58.871268+00:00
+run: 2026-11-05T13:00:15.076388+00:00
 eventim api p1 fail: <HTTPError 403: 'Forbidden'>
 eventim api p1 fail: <HTTPError 403: 'Forbidden'>
-eventim html p1 fail: <HTTPError 403: 'Forbidden'>
+eventim html p1 fail: <HTTPError 520: '<none>'>
 eventim: 0
-  ndk: 2026-11-02T19:00 | Салон на изкуствата / Събития
-  ndk: 2026-11-02T19:00 | Литературен клуб "Перото"
+  ndk: 2026-11-05T19:00 | Салон на изкуствата / Събития
+  ndk: 2026-11-06T19:00 | Салон на изкуствата / Събития
   ndk: 2026-11-15T19:00 | Света гора в София | САЛОН НА ИЗКУСТВАТА
-  ndk: 2026-11-02T19:00 | ПЪТЕШЕСТВИЯТА НА ДОСТОЕВСКИ - СИНЕЛИБРИ
+  ndk: 2026-11-05T19:00 | ЧИЛИЕЦЪТ - СИНЕЛИБРИ
 ndk: 17
-  arena: 2027-03-10T20:00 | НОВО
+  arena: 2026-11-06T20:00 | НОВО
   arena: 2025-12-19T20:00 | Видео
-arena: 23
+arena: 22
   theatre day0: 0 представления
   theatre day1: 0 представления
 theatre: 0
 футбол: 0
-локални try fail: Exception('body too small: 376b')
-локални try fail: Exception('body too small: 364b')
+  локални diag: pattern hits [0, 0, 0, 0], 0 заглавия оцеляха
 локални: 0
-merge: 32 прието, 7 минали, 1 след хоризонта
-✅ OK: 59 събития (32 с гео), източници: ['arena', 'bilet', 'ndk']
+merge: 32 прието, 6 минали, 1 след хоризонта
+✅ OK: 58 събития (32 с гео), източници: ['arena', 'bilet', 'ndk']
