@@ -1,30 +1,8 @@
 {
  "source": "bilet.bg",
- "generated": "2026-11-04T22:00:23.667940",
- "count": 37,
+ "generated": "2026-11-05T12:33:58.403760",
+ "count": 36,
  "events": [
-  {
-   "name": "Bulgarian Identity Conference 2026",
-   "venue": "Интерпред - Световен търговски център",
-   "lat": 42.670303,
-   "lon": 23.3510647,
-   "cap": 500,
-   "start": "2026-11-05T08:30:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/bulgarian-identity-conference-2026-8747",
-   "src": "bilet",
-   "addr": "бул. „Драган Цанков“ 36"
-  },
-  {
-   "name": "Лидерски хакатон: Изкуството на некомфортния разговор",
-   "venue": "East Plaza Hotel",
-   "lat": 42.6703227,
-   "lon": 23.3650181,
-   "cap": 500,
-   "start": "2026-11-05T13:30:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/liderski-hakaton-izkustvoto-na-nekomfortnia-razgovor-8733",
-   "src": "bilet",
-   "addr": "булевард Цариградско шосе 28, 1113 София"
-  },
   {
    "name": "Представление - \"Двете Сийки\" Ирен Кривошиева, Ани Михайлова, Исус Ангелов",
    "venue": "Клуб на фоторепортера",
@@ -255,6 +233,17 @@
    "url": "https://www.bilet.bg/bg/events/minna-live-glasut-na-parizh-ot-piaf-do-zaz-bar-petuk-11112026-9009",
    "src": "bilet",
    "addr": "ул. \"Ген. Гурко\" 21, 1000 София център, София"
+  },
+  {
+   "name": "Piazz duet Sofia",
+   "venue": "НДК",
+   "lat": 42.6866,
+   "lon": 23.319,
+   "cap": 3380,
+   "start": "2026-11-12T19:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/piazz-duet-sofia-9113",
+   "src": "bilet",
+   "addr": "НДК, бул. България 1, 1000 София"
   },
   {
    "name": "РУШИ | 12.11 | Малката Текила София",
