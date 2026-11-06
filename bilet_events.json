@@ -1,52 +1,8 @@
 {
  "source": "bilet.bg",
- "generated": "2026-11-06T12:16:29.872417",
+ "generated": "2026-11-06T21:39:49.986740",
  "count": 37,
  "events": [
-  {
-   "name": "Аз рисувам като ... Фрида Кало - ателие за деца",
-   "venue": "Читалище \"Алеко Константинов - 1897 г.\"",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2026-11-06T16:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/az-risuvam-kato-frida-kalo-atelie-za-detsa-8842",
-   "src": "bilet",
-   "addr": "ул. Оборище 73"
-  },
-  {
-   "name": "Аз рисувам като ... Фрида Кало- ателие за възрастни",
-   "venue": "Читалище \"Алеко Константинов - 1897 г.\"",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2026-11-06T19:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/az-risuvam-kato-frida-kalo-atelie-za-vuzrastni-8843",
-   "src": "bilet",
-   "addr": "ул. Оборище 73"
-  },
-  {
-   "name": "BUNTA x GANGSTABOOGIE BAND ALBUM PROMO: SMOKING TALKING",
-   "venue": "Клуб Строежа",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2026-11-06T19:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/bunta-x-gangstaboogie-band-album-promo-smoking-talking-9091",
-   "src": "bilet",
-   "addr": "София Център, улица „Георги С. Раковски“ 116, 1000 София"
-  },
-  {
-   "name": "Los Vivancos",
-   "venue": "НАТФИЗ",
-   "lat": 42.69235,
-   "lon": 23.326063,
-   "cap": 500,
-   "start": "2026-11-06T19:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/los-vivancos-9006",
-   "src": "bilet",
-   "addr": "София Център, ул. Георги С. Раковски, 1000 София"
-  },
   {
    "name": "Pressure Unit // The Battle",
    "venue": "Клуб ОБЛК",
@@ -235,6 +191,17 @@
    "addr": "ул. Ангел Кънчев 1"
   },
   {
+   "name": "SÓLSTAFIR live in Sofia",
+   "venue": "Mixtape 5",
+   "lat": 42.6866,
+   "lon": 23.319,
+   "cap": 900,
+   "start": "2026-11-12T20:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/solstafir-live-in-sofia-8654",
+   "src": "bilet",
+   "addr": "Подлез @ Витамин Б, бул. Галерия, бул. Черни връх"
+  },
+  {
    "name": "СПАЛНИ МЕСТА (reunion)/NOVIOT POCHETOK (mk)/PIRANHA",
    "venue": "KUPE",
    "lat": null,
@@ -244,6 +211,28 @@
    "url": "https://www.bilet.bg/bg/events/spalni-mesta-reunionnoviot-pochetok-mkpiranha-9021",
    "src": "bilet",
    "addr": "Ъгълът на ул. „6-ти септември“ и ул. „Славянска“, Център, 1000 София"
+  },
+  {
+   "name": "C-MO LIVE - Бар Петък - 12.11.2026",
+   "venue": "Networking Premium (Гурко 16)",
+   "lat": 42.6919,
+   "lon": 23.326,
+   "cap": 500,
+   "start": "2026-11-12T21:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/c-mo-live-bar-petuk-12112026-8967",
+   "src": "bilet",
+   "addr": "ул. \"Ген. Гурко\" 21, 1000 София център, София"
+  },
+  {
+   "name": "8 M/S Album promo + O.H. & HELLBOUND/ Club Mixtape 5 / 13.11",
+   "venue": "Mixtape 5",
+   "lat": 42.6866,
+   "lon": 23.319,
+   "cap": 900,
+   "start": "2026-11-13T19:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/8-ms-album-promo-oh-hellbound-club-mixtape-5-1311-8951",
+   "src": "bilet",
+   "addr": "Подлез @ Витамин Б, бул. Галерия, бул. Черни връх"
   },
   {
    "name": "Маги Джанаварова LIVE Club Stroeja",
@@ -268,6 +257,28 @@
    "addr": "булевард Цариградско шосе 28, 1113 София"
   },
   {
+   "name": "SATURDAY AFTERNOON PARTY w/ Юлиян Вергов | 18:00 - 22:00 - Бар Петък - 14.11.2026",
+   "venue": "Networking Premium (Гурко 16)",
+   "lat": 42.6919,
+   "lon": 23.326,
+   "cap": 500,
+   "start": "2026-11-14T18:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/saturday-afternoon-party-w-ulian-vergov-1800-2200-bar-petuk-14112026-9088",
+   "src": "bilet",
+   "addr": "ул. \"Ген. Гурко\" 21, 1000 София център, София"
+  },
+  {
+   "name": "Slaughtery Near the Graveyard - Gutalax",
+   "venue": "Клуб \"При Черепите\"",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-11-14T18:30:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/slaughtery-near-the-graveyard-gutalax-7435",
+   "src": "bilet",
+   "addr": "бул. „Илиянци“ № 1И, кв. „Орландовци"
+  },
+  {
    "name": "RAKAA & DJ BABU // DILATED PEOPLES @ Malkata Tekila Sofia 15/11/2026",
    "venue": "Малката Текила",
    "lat": 42.695,
@@ -277,17 +288,6 @@
    "url": "https://www.bilet.bg/bg/events/rakaa-dj-babu-dilated-peoples-at-malkata-tekila-sofia-15112026-8942",
    "src": "bilet",
    "addr": "ул. Ангел Кънчев 1"
-  },
-  {
-   "name": "СТОЯН ЗАХАРИЕВ - Live @ Pirotska 5 (Албум/Видео Промо) 18.11.2026",
-   "venue": "Пиротска 5",
-   "lat": 42.6987,
-   "lon": 23.3195,
-   "cap": 600,
-   "start": "2026-11-18T19:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/stoan-zahariev-live-at-pirotska-5-albumvideo-promo-18112026-8948",
-   "src": "bilet",
-   "addr": "Център, ул. Пиротска 5"
   },
   {
    "name": "Conway the Machine [LIVE] @ Malkata Tekila Sofia 19/11/2026",
