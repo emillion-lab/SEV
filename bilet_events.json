@@ -1,41 +1,8 @@
 {
  "source": "bilet.bg",
- "generated": "2026-11-07T11:12:31.508614",
- "count": 41,
+ "generated": "2026-11-07T20:20:14.607702",
+ "count": 40,
  "events": [
-  {
-   "name": "Electric Bloom by (без)Опасна красота",
-   "venue": "FOMO the club",
-   "lat": 42.695525,
-   "lon": 23.3231306,
-   "cap": 500,
-   "start": "2026-11-07T18:30:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/electric-bloom-by-bezopasna-krasota-9053",
-   "src": "bilet",
-   "addr": "Хотел Рила, София Център, ул. Позитано"
-  },
-  {
-   "name": "Gen Z vs Millennials // Стендъп комедия // 7.11.2026",
-   "venue": "Networking Premium (Гурко 16)",
-   "lat": 42.6919,
-   "lon": 23.326,
-   "cap": 500,
-   "start": "2026-11-07T21:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/gen-z-vs-millennials-stendup-komedia-7112026-9137",
-   "src": "bilet",
-   "addr": "ул. \"Ген. Гурко\" 21, 1000 София център, София"
-  },
-  {
-   "name": "GREESH | Thin Red Line | 07.11.26",
-   "venue": "Бар Тънка Червена Линия",
-   "lat": 42.6970146,
-   "lon": 23.3052025,
-   "cap": 500,
-   "start": "2026-11-07T21:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/greesh-thin-red-line-071126-8921",
-   "src": "bilet",
-   "addr": "ул. \"Партений Нишавски\" 10, 1303 Зона Б-5, София, София, България"
-  },
   {
    "name": "DJ Slowz at Club Pave",
    "venue": "клуб Паве",
@@ -257,6 +224,17 @@
    "addr": "булевард Цариградско шосе 28, 1113 София"
   },
   {
+   "name": "BLVKCAT pres. ACUSTICA, Open air rooftop, Autumn",
+   "venue": "Networking Premium (Гурко 16)",
+   "lat": 42.6919,
+   "lon": 23.326,
+   "cap": 500,
+   "start": "2026-11-14T14:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/blvkcat-pres-acustica-open-air-rooftop-autumn-9162",
+   "src": "bilet",
+   "addr": "София Център, ул. Генерал Гурко 16, 1000 София"
+  },
+  {
    "name": "SATURDAY AFTERNOON PARTY w/ Юлиян Вергов | 18:00 - 22:00 - Бар Петък - 14.11.2026",
    "venue": "Networking Premium (Гурко 16)",
    "lat": 42.6919,
@@ -266,17 +244,6 @@
    "url": "https://www.bilet.bg/bg/events/saturday-afternoon-party-w-ulian-vergov-1800-2200-bar-petuk-14112026-9088",
    "src": "bilet",
    "addr": "ул. \"Ген. Гурко\" 21, 1000 София център, София"
-  },
-  {
-   "name": "Създадени от кал",
-   "venue": "Théatro отсам канала",
-   "lat": 42.6873,
-   "lon": 23.3452,
-   "cap": 600,
-   "start": "2026-11-14T18:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/suzdadeni-ot-kal-8849",
-   "src": "bilet",
-   "addr": "ул. \"Върбица\" 12"
   },
   {
    "name": "All ages : BOBO ARMANI, NASYO CHERNIA & FURY",
@@ -301,6 +268,17 @@
    "addr": "бул. „Илиянци“ № 1И, кв. „Орландовци"
   },
   {
+   "name": "Echoes Of Balkana: Khanъ, Tickle The Sage & E-An-Na (RO) Live / Club Mixtape 5 / 14.11",
+   "venue": "Mixtape 5",
+   "lat": 42.6866,
+   "lon": 23.319,
+   "cap": 900,
+   "start": "2026-11-14T20:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/echoes-of-balkana-khanu-tickle-the-sage-e-an-na-ro-live-club-mixtape-5-1411-8495",
+   "src": "bilet",
+   "addr": "Подлез @ Витамин Б, бул. Галерия, бул. Черни връх"
+  },
+  {
    "name": "Killswitch Engage Tribute by Daylight Dies LIVE / Club Mixtape 5 / 14.11",
    "venue": "Mixtape 5",
    "lat": 42.6866,
@@ -310,6 +288,17 @@
    "url": "https://www.bilet.bg/bg/events/killswitch-engage-tribute-by-daylight-dies-live-club-mixtape-5-1411-8710",
    "src": "bilet",
    "addr": "Подлез @ Витамин Б, бул. Галерия, бул. Черни връх"
+  },
+  {
+   "name": "Cosmic Necropolis - Sofia",
+   "venue": "Live & Loud",
+   "lat": 42.6960345,
+   "lon": 23.320269,
+   "cap": 500,
+   "start": "2026-11-14T20:15:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/cosmic-necropolis-sofia-8377",
+   "src": "bilet",
+   "addr": "ул. Позитано 8"
   },
   {
    "name": "RAKAA & DJ BABU // DILATED PEOPLES @ Malkata Tekila Sofia 15/11/2026",
