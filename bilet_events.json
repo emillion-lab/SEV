@@ -1,19 +1,8 @@
 {
  "source": "bilet.bg",
- "generated": "2026-11-06T21:39:49.986740",
- "count": 37,
+ "generated": "2026-11-07T11:12:31.508614",
+ "count": 41,
  "events": [
-  {
-   "name": "Pressure Unit // The Battle",
-   "venue": "Клуб ОБЛК",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2026-11-06T23:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/pressure-unit-the-battle-8989",
-   "src": "bilet",
-   "addr": "Бул. Цар Освободител №10"
-  },
   {
    "name": "Electric Bloom by (без)Опасна красота",
    "venue": "FOMO the club",
@@ -213,6 +202,17 @@
    "addr": "Ъгълът на ул. „6-ти септември“ и ул. „Славянска“, Център, 1000 София"
   },
   {
+   "name": "Стендъп на Хижа Септември // 12 Ноември 2026",
+   "venue": "Хижа Септември (Витоша)",
+   "lat": 42.5872,
+   "lon": 23.2905,
+   "cap": 500,
+   "start": "2026-11-12T20:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/stendup-na-hizha-septemvri-12-noemvri-2026-9094",
+   "src": "bilet",
+   "addr": "Витоша"
+  },
+  {
    "name": "C-MO LIVE - Бар Петък - 12.11.2026",
    "venue": "Networking Premium (Гурко 16)",
    "lat": 42.6919,
@@ -268,6 +268,28 @@
    "addr": "ул. \"Ген. Гурко\" 21, 1000 София център, София"
   },
   {
+   "name": "Създадени от кал",
+   "venue": "Théatro отсам канала",
+   "lat": 42.6873,
+   "lon": 23.3452,
+   "cap": 600,
+   "start": "2026-11-14T18:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/suzdadeni-ot-kal-8849",
+   "src": "bilet",
+   "addr": "ул. \"Върбица\" 12"
+  },
+  {
+   "name": "All ages : BOBO ARMANI, NASYO CHERNIA & FURY",
+   "venue": "Клуб ОБЛК",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-11-14T18:30:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/all-ages-bobo-armani-nasyo-chernia-fury-9140",
+   "src": "bilet",
+   "addr": "Бул. Цар Освободител №10"
+  },
+  {
    "name": "Slaughtery Near the Graveyard - Gutalax",
    "venue": "Клуб \"При Черепите\"",
    "lat": null,
@@ -279,6 +301,17 @@
    "addr": "бул. „Илиянци“ № 1И, кв. „Орландовци"
   },
   {
+   "name": "Killswitch Engage Tribute by Daylight Dies LIVE / Club Mixtape 5 / 14.11",
+   "venue": "Mixtape 5",
+   "lat": 42.6866,
+   "lon": 23.319,
+   "cap": 900,
+   "start": "2026-11-14T20:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/killswitch-engage-tribute-by-daylight-dies-live-club-mixtape-5-1411-8710",
+   "src": "bilet",
+   "addr": "Подлез @ Витамин Б, бул. Галерия, бул. Черни връх"
+  },
+  {
    "name": "RAKAA & DJ BABU // DILATED PEOPLES @ Malkata Tekila Sofia 15/11/2026",
    "venue": "Малката Текила",
    "lat": 42.695,
@@ -288,6 +321,17 @@
    "url": "https://www.bilet.bg/bg/events/rakaa-dj-babu-dilated-peoples-at-malkata-tekila-sofia-15112026-8942",
    "src": "bilet",
    "addr": "ул. Ангел Кънчев 1"
+  },
+  {
+   "name": "СТОЯН ЗАХАРИЕВ - Live @ Pirotska 5 (Албум/Видео Промо) 18.11.2026",
+   "venue": "Пиротска 5",
+   "lat": 42.6987,
+   "lon": 23.3195,
+   "cap": 600,
+   "start": "2026-11-18T19:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/stoan-zahariev-live-at-pirotska-5-albumvideo-promo-18112026-8948",
+   "src": "bilet",
+   "addr": "Център, ул. Пиротска 5"
   },
   {
    "name": "Conway the Machine [LIVE] @ Malkata Tekila Sofia 19/11/2026",
