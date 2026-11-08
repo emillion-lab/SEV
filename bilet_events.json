@@ -1,52 +1,8 @@
 {
  "source": "bilet.bg",
- "generated": "2026-11-08T11:25:26.745099",
- "count": 41,
+ "generated": "2026-11-08T20:39:11.041881",
+ "count": 39,
  "events": [
-  {
-   "name": "Аз рисувам като ... Фрида Кало - ателие за деца",
-   "venue": "АРТ Къща",
-   "lat": 42.6892355,
-   "lon": 23.3087338,
-   "cap": 500,
-   "start": "2026-11-08T14:30:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/az-risuvam-kato-frida-kalo-atelie-za-detsa-8549",
-   "src": "bilet",
-   "addr": "ул. \"Дукатска планина\" 18, 1606 София"
-  },
-  {
-   "name": "Аз рисувам като ... Фрида Кало- ателие за възрастни",
-   "venue": "АРТ Къща",
-   "lat": 42.6892355,
-   "lon": 23.3087338,
-   "cap": 500,
-   "start": "2026-11-08T18:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/az-risuvam-kato-frida-kalo-atelie-za-vuzrastni-8530",
-   "src": "bilet",
-   "addr": "ул. \"Дукатска планина\" 18, 1606 София"
-  },
-  {
-   "name": "Прегарянето и децата",
-   "venue": "Литературен клуб Перото",
-   "lat": 42.6847465,
-   "lon": 23.3196224,
-   "cap": 500,
-   "start": "2026-11-08T18:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/pregaraneto-i-detsata-8969",
-   "src": "bilet",
-   "addr": "булевард „България“ 1 Национален дворец на културата, бул. България 1, 1463 София"
-  },
-  {
-   "name": "Snake Eyes (Brighton grit-pop diy power duo) w/ Elittna live @ Club Pave",
-   "venue": "клуб Паве",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2026-11-08T20:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/snake-eyes-brighton-grit-pop-diy-power-duo-w-elittna-live-at-club-pave-8900",
-   "src": "bilet",
-   "addr": "пл. Славейков 4"
-  },
   {
    "name": "BRAND TALKs 2026",
    "venue": "Зала Академик",
@@ -169,6 +125,17 @@
    "addr": "ул. \"Ген. Гурко\" 21, 1000 София център, София"
   },
   {
+   "name": "13.11 ALL AGES 🍿PURJENI PUKANKI🍿 \"G€I 2\" Album Promo",
+   "venue": "Клуб ОБЛК",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-11-13T18:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/1311-all-ages-purjeni-pukanki-geuri-2-album-promo-9166",
+   "src": "bilet",
+   "addr": "Бул. Цар Освободител №10"
+  },
+  {
    "name": "8 M/S Album promo + O.H. & HELLBOUND/ Club Mixtape 5 / 13.11",
    "venue": "Mixtape 5",
    "lat": 42.6866,
@@ -222,6 +189,17 @@
    "url": "https://www.bilet.bg/bg/events/saturday-afternoon-party-w-ulian-vergov-1800-2200-bar-petuk-14112026-9088",
    "src": "bilet",
    "addr": "ул. \"Ген. Гурко\" 21, 1000 София център, София"
+  },
+  {
+   "name": "Създадени от кал",
+   "venue": "Théatro отсам канала",
+   "lat": 42.6873,
+   "lon": 23.3452,
+   "cap": 600,
+   "start": "2026-11-14T18:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/suzdadeni-ot-kal-8849",
+   "src": "bilet",
+   "addr": "ул. \"Върбица\" 12"
   },
   {
    "name": "All ages : BOBO ARMANI, NASYO CHERNIA & FURY",
