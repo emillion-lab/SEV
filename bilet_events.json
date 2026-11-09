@@ -1,7 +1,7 @@
 {
  "source": "bilet.bg",
- "generated": "2026-11-08T20:39:11.041881",
- "count": 39,
+ "generated": "2026-11-09T13:05:42.165543",
+ "count": 40,
  "events": [
   {
    "name": "BRAND TALKs 2026",
@@ -156,6 +156,17 @@
    "url": "https://www.bilet.bg/bg/events/magi-dzhanavarova-live-club-stroeja-8839",
    "src": "bilet",
    "addr": "София Център, улица „Георги С. Раковски“ 116, 1000 София"
+  },
+  {
+   "name": "София срещу Провинция // Стендъп комедия // 13.11, Дом на културата Средец",
+   "venue": "Дом на културата \"Средец\"",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-11-13T21:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/sofia-sreshtu-provintsia-stendup-komedia-1311-dom-na-kulturata-sredets-9168",
+   "src": "bilet",
+   "addr": "бул. Кракра 2А"
   },
   {
    "name": "Конференция за Обсесивно-Компулсивно Разстройство (ОКР) 2026",
