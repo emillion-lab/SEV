@@ -1,6 +1,6 @@
 {
  "source": "bilet.bg",
- "generated": "2026-11-09T13:45:32.741527",
+ "generated": "2026-11-10T00:21:18.559955",
  "count": 40,
  "events": [
   {
@@ -156,6 +156,17 @@
    "url": "https://www.bilet.bg/bg/events/magi-dzhanavarova-live-club-stroeja-8839",
    "src": "bilet",
    "addr": "София Център, улица „Георги С. Раковски“ 116, 1000 София"
+  },
+  {
+   "name": "Общуване по жирафски · Гневът като вестител 🦒",
+   "venue": "Жираф Кафе",
+   "lat": 42.6854773,
+   "lon": 23.3233883,
+   "cap": 500,
+   "start": "2026-11-13T19:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/obshtuvane-po-zhirafski-gnevut-kato-vestitel-9158",
+   "src": "bilet",
+   "addr": "София Център, ул. \"Любен Каравелов\" 70"
   },
   {
    "name": "София срещу Провинция // Стендъп комедия // 13.11, Дом на културата Средец",
@@ -323,17 +334,6 @@
    "addr": "Център, ул. Пиротска 5"
   },
   {
-   "name": "Conway the Machine [LIVE] @ Malkata Tekila Sofia 19/11/2026",
-   "venue": "Малката Текила",
-   "lat": 42.695,
-   "lon": 23.328,
-   "cap": 400,
-   "start": "2026-11-19T20:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/conway-the-machine-live-at-malkata-tekila-sofia-19112026-8293",
-   "src": "bilet",
-   "addr": "ул. Ангел Кънчев 1"
-  },
-  {
    "name": "GOBLIN CARD FEST vol. 2 2026",
    "venue": "The Steps",
    "lat": 42.6980033,
@@ -343,6 +343,17 @@
    "url": "https://www.bilet.bg/bg/events/goblin-card-fest-vol-2-2026-9060",
    "src": "bilet",
    "addr": "София Център, ул. Братя Миладинови 12, 1000 София"
+  },
+  {
+   "name": "RDMK LIVE - Бар Петък - 20.11.2026",
+   "venue": "Networking Premium (Гурко 16)",
+   "lat": 42.6919,
+   "lon": 23.326,
+   "cap": 500,
+   "start": "2026-11-20T21:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/rdmk-live-bar-petuk-20112026-9135",
+   "src": "bilet",
+   "addr": "ул. \"Ген. Гурко\" 21, 1000 София център, София"
   },
   {
    "name": "Аз рисувам като ... Пабло Пикасо - ателие за деца",
@@ -363,17 +374,6 @@
    "cap": 400,
    "start": "2026-11-21T19:00:00+03:00",
    "url": "https://www.bilet.bg/bg/events/beloslava-sound-system-2111-malkata-tekila-sofia-8985",
-   "src": "bilet",
-   "addr": "ул. Ангел Кънчев 1"
-  },
-  {
-   "name": "Guts @ Malkata Tekila Sofia 21/11/2026",
-   "venue": "Малката Текила",
-   "lat": 42.695,
-   "lon": 23.328,
-   "cap": 400,
-   "start": "2026-11-21T22:30:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/guts-at-malkata-tekila-sofia-21112026-8373",
    "src": "bilet",
    "addr": "ул. Ангел Кънчев 1"
   },
