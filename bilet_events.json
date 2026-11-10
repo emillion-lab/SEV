@@ -1,6 +1,6 @@
 {
  "source": "bilet.bg",
- "generated": "2026-11-10T12:48:32.568797",
+ "generated": "2026-11-10T21:53:10.395814",
  "count": 39,
  "events": [
   {
@@ -24,39 +24,6 @@
    "url": "https://www.bilet.bg/bg/events/evanora-unlimited-live-in-sofia-8872",
    "src": "bilet",
    "addr": "пл. Славейков 4"
-  },
-  {
-   "name": "Керана и Космонавтите - Тих концерт в Пространство 108 / 11.11",
-   "venue": "Пространство 108",
-   "lat": 42.6617164,
-   "lon": 23.2999556,
-   "cap": 500,
-   "start": "2026-11-11T19:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/kerana-i-kosmonavtite-tih-kontsert-v-prostranstvo-108-1111-9052",
-   "src": "bilet",
-   "addr": "ул. Георги С. Раковкски 108"
-  },
-  {
-   "name": "НОВА ГЕНЕРАЦИЯ | 11.11 WED | Малката Текила София",
-   "venue": "Малката Текила",
-   "lat": 42.695,
-   "lon": 23.328,
-   "cap": 400,
-   "start": "2026-11-11T20:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/nova-generatsia-1111-wed-malkata-tekila-sofia-9027",
-   "src": "bilet",
-   "addr": "ул. Ангел Кънчев 1"
-  },
-  {
-   "name": "MINNA LIVE - Гласът на Париж: От Piaf до Zaz - Бар Петък - 11.11.2026",
-   "venue": "Networking Premium (Гурко 16)",
-   "lat": 42.6919,
-   "lon": 23.326,
-   "cap": 500,
-   "start": "2026-11-11T21:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/minna-live-glasut-na-parizh-ot-piaf-do-zaz-bar-petuk-11112026-9009",
-   "src": "bilet",
-   "addr": "ул. \"Ген. Гурко\" 21, 1000 София център, София"
   },
   {
    "name": "Piazz duet Sofia",
@@ -167,6 +134,17 @@
    "url": "https://www.bilet.bg/bg/events/obshtuvane-po-zhirafski-gnevut-kato-vestitel-9158",
    "src": "bilet",
    "addr": "София Център, ул. \"Любен Каравелов\" 70"
+  },
+  {
+   "name": "MINNA LIVE - Гласът на Париж: От Piaf до Zaz - Бар Петък - 13.11.2026",
+   "venue": "Networking Premium (Гурко 16)",
+   "lat": 42.6919,
+   "lon": 23.326,
+   "cap": 500,
+   "start": "2026-11-13T21:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/minna-live-glasut-na-parizh-ot-piaf-do-zaz-bar-petuk-13112026-9009",
+   "src": "bilet",
+   "addr": "ул. \"Ген. Гурко\" 21, 1000 София център, София"
   },
   {
    "name": "София срещу Провинция // Стендъп комедия // 13.11, Дом на културата Средец",
@@ -312,15 +290,37 @@
    "addr": "София Център, ул. \"Княз Борис I\" 121, 1000 София"
   },
   {
-   "name": "СТОЯН ЗАХАРИЕВ - Live @ Pirotska 5 (Албум/Видео Промо) 18.11.2026",
-   "venue": "Пиротска 5",
-   "lat": 42.6987,
-   "lon": 23.3195,
-   "cap": 600,
-   "start": "2026-11-18T19:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/stoan-zahariev-live-at-pirotska-5-albumvideo-promo-18112026-8948",
+   "name": "Керана и Космонавтите - Тих концерт в Пространство 108 / 15.11",
+   "venue": "Пространство 108",
+   "lat": 42.6617164,
+   "lon": 23.2999556,
+   "cap": 500,
+   "start": "2026-11-15T19:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/kerana-i-kosmonavtite-tih-kontsert-v-prostranstvo-108-1511-9052",
    "src": "bilet",
-   "addr": "Център, ул. Пиротска 5"
+   "addr": "ул. Георги С. Раковкски 108"
+  },
+  {
+   "name": "RAKAA & DJ BABU // DILATED PEOPLES @ Malkata Tekila Sofia 15/11/2026",
+   "venue": "Малката Текила",
+   "lat": 42.695,
+   "lon": 23.328,
+   "cap": 400,
+   "start": "2026-11-15T20:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/rakaa-dj-babu-dilated-peoples-at-malkata-tekila-sofia-15112026-8942",
+   "src": "bilet",
+   "addr": "ул. Ангел Кънчев 1"
+  },
+  {
+   "name": "Horse Jumper of Love (USA) w/ Mono and the Stereos live at Club Pave",
+   "venue": "клуб Паве",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-11-16T20:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/horse-jumper-of-love-usa-w-mono-and-the-stereos-live-at-club-pave-8630",
+   "src": "bilet",
+   "addr": "пл. Славейков 4"
   },
   {
    "name": "GOBLIN CARD FEST vol. 2 2026",
