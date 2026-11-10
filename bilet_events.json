@@ -1,7 +1,7 @@
 {
  "source": "bilet.bg",
- "generated": "2026-11-10T00:21:18.559955",
- "count": 40,
+ "generated": "2026-11-10T12:48:32.568797",
+ "count": 39,
  "events": [
   {
    "name": "BRAND TALKs 2026",
@@ -211,17 +211,6 @@
    "url": "https://www.bilet.bg/bg/events/saturday-afternoon-party-w-ulian-vergov-1800-2200-bar-petuk-14112026-9088",
    "src": "bilet",
    "addr": "ул. \"Ген. Гурко\" 21, 1000 София център, София"
-  },
-  {
-   "name": "Създадени от кал",
-   "venue": "Théatro отсам канала",
-   "lat": 42.6873,
-   "lon": 23.3452,
-   "cap": 600,
-   "start": "2026-11-14T18:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/suzdadeni-ot-kal-8849",
-   "src": "bilet",
-   "addr": "ул. \"Върбица\" 12"
   },
   {
    "name": "All ages : BOBO ARMANI, NASYO CHERNIA & FURY",
