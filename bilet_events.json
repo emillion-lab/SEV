@@ -1,30 +1,8 @@
 {
  "source": "bilet.bg",
- "generated": "2026-11-10T21:53:10.395814",
- "count": 39,
+ "generated": "2026-11-11T11:59:22.462970",
+ "count": 40,
  "events": [
-  {
-   "name": "BRAND TALKs 2026",
-   "venue": "Зала Академик",
-   "lat": 42.668,
-   "lon": 23.352,
-   "cap": 1200,
-   "start": "2026-11-10T10:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/brand-talks-2026-8449",
-   "src": "bilet",
-   "addr": "Студентски Комплекс, улица \"Академик Стефан Младенов\" 3"
-  },
-  {
-   "name": "Evanora Unlimited live in Sofia",
-   "venue": "клуб Паве",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2026-11-10T21:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/evanora-unlimited-live-in-sofia-8872",
-   "src": "bilet",
-   "addr": "пл. Славейков 4"
-  },
   {
    "name": "Piazz duet Sofia",
    "venue": "НДК",
@@ -191,6 +169,17 @@
    "addr": "ул. \"Ген. Гурко\" 21, 1000 София център, София"
   },
   {
+   "name": "Създадени от кал",
+   "venue": "Théatro отсам канала",
+   "lat": 42.6873,
+   "lon": 23.3452,
+   "cap": 600,
+   "start": "2026-11-14T18:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/suzdadeni-ot-kal-8849",
+   "src": "bilet",
+   "addr": "ул. \"Върбица\" 12"
+  },
+  {
    "name": "All ages : BOBO ARMANI, NASYO CHERNIA & FURY",
    "venue": "Клуб ОБЛК",
    "lat": null,
@@ -323,6 +312,17 @@
    "addr": "пл. Славейков 4"
   },
   {
+   "name": "СТОЯН ЗАХАРИЕВ - Live @ Pirotska 5 (Албум/Видео Промо) 18.11.2026",
+   "venue": "Пиротска 5",
+   "lat": 42.6987,
+   "lon": 23.3195,
+   "cap": 600,
+   "start": "2026-11-18T19:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/stoan-zahariev-live-at-pirotska-5-albumvideo-promo-18112026-8948",
+   "src": "bilet",
+   "addr": "Център, ул. Пиротска 5"
+  },
+  {
    "name": "GOBLIN CARD FEST vol. 2 2026",
    "venue": "The Steps",
    "lat": 42.6980033,
@@ -363,6 +363,17 @@
    "cap": 400,
    "start": "2026-11-21T19:00:00+03:00",
    "url": "https://www.bilet.bg/bg/events/beloslava-sound-system-2111-malkata-tekila-sofia-8985",
+   "src": "bilet",
+   "addr": "ул. Ангел Кънчев 1"
+  },
+  {
+   "name": "Guts @ Malkata Tekila Sofia 21/11/2026",
+   "venue": "Малката Текила",
+   "lat": 42.695,
+   "lon": 23.328,
+   "cap": 400,
+   "start": "2026-11-21T22:30:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/guts-at-malkata-tekila-sofia-21112026-8373",
    "src": "bilet",
    "addr": "ул. Ангел Кънчев 1"
   },
