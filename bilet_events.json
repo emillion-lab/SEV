@@ -1,6 +1,6 @@
 {
  "source": "bilet.bg",
- "generated": "2026-11-12T12:58:19.709436",
+ "generated": "2026-11-12T13:40:20.910356",
  "count": 40,
  "events": [
   {
@@ -378,15 +378,15 @@
    "addr": "НДК, бул. „България“, София"
   },
   {
-   "name": "MONOLORD & STONED JESUS live in Sofia",
-   "venue": "Дом на културата \"Средец\"",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
+   "name": "Kader Tarhanine Live @ Mixtape 5",
+   "venue": "Mixtape 5",
+   "lat": 42.6866,
+   "lon": 23.319,
+   "cap": 900,
    "start": "2026-12-03T20:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/monolord-stoned-jesus-live-in-sofia-8988",
+   "url": "https://www.bilet.bg/bg/events/kader-tarhanine-live-at-mixtape-5-8488",
    "src": "bilet",
-   "addr": "бул. Кракра 2А"
+   "addr": "Подлез @ Витамин Б, бул. Галерия, бул. Черни връх"
   },
   {
    "name": "Christmas Wine Market 2026",
