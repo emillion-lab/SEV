@@ -1,74 +1,8 @@
 {
  "source": "bilet.bg",
- "generated": "2026-11-12T13:40:20.910356",
- "count": 40,
+ "generated": "2026-11-12T22:19:59.927549",
+ "count": 39,
  "events": [
-  {
-   "name": "Piazz duet Sofia",
-   "venue": "НДК",
-   "lat": 42.6866,
-   "lon": 23.319,
-   "cap": 3380,
-   "start": "2026-11-12T19:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/piazz-duet-sofia-9113",
-   "src": "bilet",
-   "addr": "НДК, бул. България 1, 1000 София"
-  },
-  {
-   "name": "РУШИ | 12.11 | Малката Текила София",
-   "venue": "Малката Текила",
-   "lat": 42.695,
-   "lon": 23.328,
-   "cap": 400,
-   "start": "2026-11-12T20:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/rushi-1211-malkata-tekila-sofia-8968",
-   "src": "bilet",
-   "addr": "ул. Ангел Кънчев 1"
-  },
-  {
-   "name": "SÓLSTAFIR live in Sofia",
-   "venue": "Mixtape 5",
-   "lat": 42.6866,
-   "lon": 23.319,
-   "cap": 900,
-   "start": "2026-11-12T20:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/solstafir-live-in-sofia-8654",
-   "src": "bilet",
-   "addr": "Подлез @ Витамин Б, бул. Галерия, бул. Черни връх"
-  },
-  {
-   "name": "СПАЛНИ МЕСТА (reunion)/NOVIOT POCHETOK (mk)/PIRANHA",
-   "venue": "KUPE",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2026-11-12T20:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/spalni-mesta-reunionnoviot-pochetok-mkpiranha-9021",
-   "src": "bilet",
-   "addr": "Ъгълът на ул. „6-ти септември“ и ул. „Славянска“, Център, 1000 София"
-  },
-  {
-   "name": "Стендъп на Хижа Септември // 12 Ноември 2026",
-   "venue": "Хижа Септември (Витоша)",
-   "lat": 42.5872,
-   "lon": 23.2905,
-   "cap": 500,
-   "start": "2026-11-12T20:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/stendup-na-hizha-septemvri-12-noemvri-2026-9094",
-   "src": "bilet",
-   "addr": "Витоша"
-  },
-  {
-   "name": "C-MO LIVE - Бар Петък - 12.11.2026",
-   "venue": "Networking Premium (Гурко 16)",
-   "lat": 42.6919,
-   "lon": 23.326,
-   "cap": 500,
-   "start": "2026-11-12T21:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/c-mo-live-bar-petuk-12112026-8967",
-   "src": "bilet",
-   "addr": "ул. \"Ген. Гурко\" 21, 1000 София център, София"
-  },
   {
    "name": "13.11 ALL AGES 🍿PURJENI PUKANKI🍿 \"G€I 2\" Album Promo",
    "venue": "Клуб ОБЛК",
@@ -301,6 +235,39 @@
    "addr": "пл. Славейков 4"
   },
   {
+   "name": "Работилница Рисуване на стъкло - Зимен витраж",
+   "venue": "Канава Арт Студио",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-11-18T18:30:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/rabotilnitsa-risuvane-na-stuklo-zimen-vitrazh-9062",
+   "src": "bilet",
+   "addr": "ул. „Любен Каравелов“ 14"
+  },
+  {
+   "name": "Любовно бинго / 18 и 19.11.2026",
+   "venue": "Gravity bar",
+   "lat": 42.6975117,
+   "lon": 23.3261987,
+   "cap": 500,
+   "start": "2026-11-18T19:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/lubovno-bingo-18-i-19112026-8982",
+   "src": "bilet",
+   "addr": "София Център, ул. Московска 3, 1000 София"
+  },
+  {
+   "name": "Писателско соаре „Мастило и мечти“ - 18.11",
+   "venue": "Мечталище",
+   "lat": 42.6708452,
+   "lon": 23.3237069,
+   "cap": 500,
+   "start": "2026-11-18T19:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/pisatelsko-soare-mastilo-i-mechti-1811-8647",
+   "src": "bilet",
+   "addr": "Център гр. Лозенец, ул. \"Трепетлика\" 12, 1407 София"
+  },
+  {
    "name": "СТОЯН ЗАХАРИЕВ - Live @ Pirotska 5 (Албум/Видео Промо) 18.11.2026",
    "venue": "Пиротска 5",
    "lat": 42.6987,
@@ -310,6 +277,28 @@
    "url": "https://www.bilet.bg/bg/events/stoan-zahariev-live-at-pirotska-5-albumvideo-promo-18112026-8948",
    "src": "bilet",
    "addr": "Център, ул. Пиротска 5"
+  },
+  {
+   "name": "Нощта на Гетсби @Pineapple Express 18/11/2026",
+   "venue": "Bar Pineapple Express",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-11-18T19:30:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/noshtta-na-getsbi-at-pineapple-express-18112026-9163",
+   "src": "bilet",
+   "addr": "София Център, ул. 6-ти септември, 1000 София"
+  },
+  {
+   "name": "НОВА ГЕНЕРАЦИЯ | 18.11 WED | Малката Текила София",
+   "venue": "Малката Текила",
+   "lat": 42.695,
+   "lon": 23.328,
+   "cap": 400,
+   "start": "2026-11-18T20:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/nova-generatsia-1811-wed-malkata-tekila-sofia-9027",
+   "src": "bilet",
+   "addr": "ул. Ангел Кънчев 1"
   },
   {
    "name": "GOBLIN CARD FEST vol. 2 2026",
@@ -378,17 +367,6 @@
    "addr": "НДК, бул. „България“, София"
   },
   {
-   "name": "Kader Tarhanine Live @ Mixtape 5",
-   "venue": "Mixtape 5",
-   "lat": 42.6866,
-   "lon": 23.319,
-   "cap": 900,
-   "start": "2026-12-03T20:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/kader-tarhanine-live-at-mixtape-5-8488",
-   "src": "bilet",
-   "addr": "Подлез @ Витамин Б, бул. Галерия, бул. Черни връх"
-  },
-  {
    "name": "Christmas Wine Market 2026",
    "venue": "Централен Военен Клуб",
    "lat": 42.6952364,
@@ -442,6 +420,17 @@
    "url": "https://www.bilet.bg/bg/events/chris-norman-live-sofia-8264",
    "src": "bilet",
    "addr": "НДК, бул. „България“, София"
+  },
+  {
+   "name": "Аз рисувам като ... Пол Сезан - ателие за възрастни",
+   "venue": "АРТ Къща",
+   "lat": 42.6892355,
+   "lon": 23.3087338,
+   "cap": 500,
+   "start": "2027-05-14T19:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/az-risuvam-kato-pol-sezan-atelie-za-vuzrastni-8543",
+   "src": "bilet",
+   "addr": "ул. \"Дукатска планина\" 18, 1606 София"
   }
  ]
 }
