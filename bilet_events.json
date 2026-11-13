@@ -1,6 +1,6 @@
 {
  "source": "bilet.bg",
- "generated": "2026-11-12T22:19:59.927549",
+ "generated": "2026-11-13T12:24:09.148820",
  "count": 39,
  "events": [
   {
@@ -90,17 +90,6 @@
    "url": "https://www.bilet.bg/bg/events/saturday-afternoon-party-w-ulian-vergov-1800-2200-bar-petuk-14112026-9088",
    "src": "bilet",
    "addr": "ул. \"Ген. Гурко\" 21, 1000 София център, София"
-  },
-  {
-   "name": "Създадени от кал",
-   "venue": "Théatro отсам канала",
-   "lat": 42.6873,
-   "lon": 23.3452,
-   "cap": 600,
-   "start": "2026-11-14T18:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/suzdadeni-ot-kal-8849",
-   "src": "bilet",
-   "addr": "ул. \"Върбица\" 12"
   },
   {
    "name": "All ages : BOBO ARMANI, NASYO CHERNIA & FURY",
@@ -287,7 +276,7 @@
    "start": "2026-11-18T19:30:00+03:00",
    "url": "https://www.bilet.bg/bg/events/noshtta-na-getsbi-at-pineapple-express-18112026-9163",
    "src": "bilet",
-   "addr": "София Център, ул. 6-ти септември, 1000 София"
+   "addr": "ул. „6-ти септември“ № 4, София Център"
   },
   {
    "name": "НОВА ГЕНЕРАЦИЯ | 18.11 WED | Малката Текила София",
@@ -299,6 +288,17 @@
    "url": "https://www.bilet.bg/bg/events/nova-generatsia-1811-wed-malkata-tekila-sofia-9027",
    "src": "bilet",
    "addr": "ул. Ангел Кънчев 1"
+  },
+  {
+   "name": "Dara Ekimova Live @Stroeja",
+   "venue": "Клуб Строежа",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-11-19T19:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/dara-ekimova-live-at-stroeja-8780",
+   "src": "bilet",
+   "addr": "София Център, улица „Георги С. Раковски“ 116, 1000 София"
   },
   {
    "name": "GOBLIN CARD FEST vol. 2 2026",
@@ -422,13 +422,13 @@
    "addr": "НДК, бул. „България“, София"
   },
   {
-   "name": "Аз рисувам като ... Пол Сезан - ателие за възрастни",
+   "name": "Аз рисувам като ... Анри Матис - ателие за деца",
    "venue": "АРТ Къща",
    "lat": 42.6892355,
    "lon": 23.3087338,
    "cap": 500,
-   "start": "2027-05-14T19:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/az-risuvam-kato-pol-sezan-atelie-za-vuzrastni-8543",
+   "start": "2027-04-24T14:30:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/az-risuvam-kato-anri-matis-atelie-za-detsa-8560",
    "src": "bilet",
    "addr": "ул. \"Дукатска планина\" 18, 1606 София"
   }
