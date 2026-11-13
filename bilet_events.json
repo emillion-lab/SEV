@@ -1,74 +1,8 @@
 {
  "source": "bilet.bg",
- "generated": "2026-11-13T12:24:09.148820",
- "count": 39,
+ "generated": "2026-11-13T22:03:18.547660",
+ "count": 40,
  "events": [
-  {
-   "name": "13.11 ALL AGES 🍿PURJENI PUKANKI🍿 \"G€I 2\" Album Promo",
-   "venue": "Клуб ОБЛК",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2026-11-13T18:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/1311-all-ages-purjeni-pukanki-geuri-2-album-promo-9166",
-   "src": "bilet",
-   "addr": "Бул. Цар Освободител №10"
-  },
-  {
-   "name": "8 M/S Album promo + O.H. & HELLBOUND/ Club Mixtape 5 / 13.11",
-   "venue": "Mixtape 5",
-   "lat": 42.6866,
-   "lon": 23.319,
-   "cap": 900,
-   "start": "2026-11-13T19:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/8-ms-album-promo-oh-hellbound-club-mixtape-5-1311-8951",
-   "src": "bilet",
-   "addr": "Подлез @ Витамин Б, бул. Галерия, бул. Черни връх"
-  },
-  {
-   "name": "Маги Джанаварова LIVE Club Stroeja",
-   "venue": "Клуб Строежа",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2026-11-13T19:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/magi-dzhanavarova-live-club-stroeja-8839",
-   "src": "bilet",
-   "addr": "София Център, улица „Георги С. Раковски“ 116, 1000 София"
-  },
-  {
-   "name": "Общуване по жирафски · Гневът като вестител 🦒",
-   "venue": "Жираф Кафе",
-   "lat": 42.6854773,
-   "lon": 23.3233883,
-   "cap": 500,
-   "start": "2026-11-13T19:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/obshtuvane-po-zhirafski-gnevut-kato-vestitel-9158",
-   "src": "bilet",
-   "addr": "София Център, ул. \"Любен Каравелов\" 70"
-  },
-  {
-   "name": "MINNA LIVE - Гласът на Париж: От Piaf до Zaz - Бар Петък - 13.11.2026",
-   "venue": "Networking Premium (Гурко 16)",
-   "lat": 42.6919,
-   "lon": 23.326,
-   "cap": 500,
-   "start": "2026-11-13T21:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/minna-live-glasut-na-parizh-ot-piaf-do-zaz-bar-petuk-13112026-9009",
-   "src": "bilet",
-   "addr": "ул. \"Ген. Гурко\" 21, 1000 София център, София"
-  },
-  {
-   "name": "София срещу Провинция // Стендъп комедия // 13.11, Дом на културата Средец",
-   "venue": "Дом на културата \"Средец\"",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2026-11-13T21:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/sofia-sreshtu-provintsia-stendup-komedia-1311-dom-na-kulturata-sredets-9168",
-   "src": "bilet",
-   "addr": "бул. Кракра 2А"
-  },
   {
    "name": "Конференция за Обсесивно-Компулсивно Разстройство (ОКР) 2026",
    "venue": "East Plaza Hotel",
@@ -290,6 +224,17 @@
    "addr": "ул. Ангел Кънчев 1"
   },
   {
+   "name": "OFF SCRIPT. | Afterwork Party & Art Pop-up",
+   "venue": "Rooftop59",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-11-19T18:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/off-script-afterwork-party-art-pop-up-9086",
+   "src": "bilet",
+   "addr": "Хиподрума, бул. \"Цар Борис III\" 59, 1612 София"
+  },
+  {
    "name": "Dara Ekimova Live @Stroeja",
    "venue": "Клуб Строежа",
    "lat": null,
@@ -299,6 +244,50 @@
    "url": "https://www.bilet.bg/bg/events/dara-ekimova-live-at-stroeja-8780",
    "src": "bilet",
    "addr": "София Център, улица „Георги С. Раковски“ 116, 1000 София"
+  },
+  {
+   "name": "Концерт на рок група ЕПИЗОД - промоция на новия албум \"Епизод\"",
+   "venue": "Пиротска 5",
+   "lat": 42.6987,
+   "lon": 23.3195,
+   "cap": 600,
+   "start": "2026-11-19T19:30:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/kontsert-na-rok-grupa-epizod-promotsia-na-novia-album-epizod-8887",
+   "src": "bilet",
+   "addr": "Център, ул. Пиротска 5"
+  },
+  {
+   "name": "Raid Kyu Quartet (SRB) at Club Mixtape 5",
+   "venue": "Mixtape 5",
+   "lat": 42.6866,
+   "lon": 23.319,
+   "cap": 900,
+   "start": "2026-11-19T19:30:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/raid-kyu-quartet-srb-at-club-mixtape-5-9059",
+   "src": "bilet",
+   "addr": "Подлез @ Витамин Б, бул. Галерия, бул. Черни връх"
+  },
+  {
+   "name": "Conway the Machine [LIVE] @ Malkata Tekila Sofia 19/11/2026",
+   "venue": "Малката Текила",
+   "lat": 42.695,
+   "lon": 23.328,
+   "cap": 400,
+   "start": "2026-11-19T20:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/conway-the-machine-live-at-malkata-tekila-sofia-19112026-8293",
+   "src": "bilet",
+   "addr": "ул. Ангел Кънчев 1"
+  },
+  {
+   "name": "Cotton Candy Disney Edition ✨🏰💖 - SOFIA 💗SOLD OUT!💗 LAST TICKETS AVAILABLE ON SPOT 🪩🪄",
+   "venue": "Carrusel Club",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-11-19T22:30:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/cotton-candy-disney-edition-sofia-sold-out-last-tickets-available-on-spot-9126",
+   "src": "bilet",
+   "addr": "Ул. Георги С. Раковски 108"
   },
   {
    "name": "GOBLIN CARD FEST vol. 2 2026",
@@ -356,6 +345,28 @@
    "addr": "бул. Цариградско шосе 111Г, 1784 м. Къро"
   },
   {
+   "name": "АМИ АКО? Уъркшоп за тревожността и паник атаките",
+   "venue": "Интерпред - Световен търговски център",
+   "lat": 42.670303,
+   "lon": 23.3510647,
+   "cap": 500,
+   "start": "2026-11-22T13:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/ami-ako-uurkshop-za-trevozhnostta-i-panik-atakite-8997",
+   "src": "bilet",
+   "addr": "бул. „Драган Цанков“ 36"
+  },
+  {
+   "name": "Нетуъркинг вечер: Бъди видим в ерата на AI с Етиен Янев",
+   "venue": "Клуб Грамофон",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-11-26T19:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/netuurking-vecher-budi-vidim-v-erata-na-ai-s-etien-anev-9110",
+   "src": "bilet",
+   "addr": "Център, ул. Будапеща 6"
+  },
+  {
    "name": "Михаела Маринова - Концерт - част от програмата \"Салон на изкуствата\" - Есен 2026 НДК",
    "venue": "НДК",
    "lat": 42.6866,
@@ -376,6 +387,17 @@
    "url": "https://www.bilet.bg/bg/events/christmas-wine-market-2026-8939",
    "src": "bilet",
    "addr": "бул. Цар Освободител 7"
+  },
+  {
+   "name": "ГАЛ САСОН за астрологичните аспекти на 2027 година: обзорна лекция, упражнения, практики",
+   "venue": "Български културен център",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-12-11T18:30:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/gal-sason-za-astrologichnite-aspekti-na-2027-godina-obzorna-lektsia-uprazhnenia-praktiki-9147",
+   "src": "bilet",
+   "addr": "София Център, ул. \"Веслец\" 13, 1000 София"
   },
   {
    "name": "Керана и Космонавтите на живо в клуб Mixtape 5 / 26.12",
@@ -420,17 +442,6 @@
    "url": "https://www.bilet.bg/bg/events/chris-norman-live-sofia-8264",
    "src": "bilet",
    "addr": "НДК, бул. „България“, София"
-  },
-  {
-   "name": "Аз рисувам като ... Анри Матис - ателие за деца",
-   "venue": "АРТ Къща",
-   "lat": 42.6892355,
-   "lon": 23.3087338,
-   "cap": 500,
-   "start": "2027-04-24T14:30:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/az-risuvam-kato-anri-matis-atelie-za-detsa-8560",
-   "src": "bilet",
-   "addr": "ул. \"Дукатска планина\" 18, 1606 София"
   }
  ]
 }
