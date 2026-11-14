@@ -1,7 +1,7 @@
 {
  "source": "bilet.bg",
- "generated": "2026-11-13T22:03:18.547660",
- "count": 40,
+ "generated": "2026-11-14T11:38:29.291404",
+ "count": 42,
  "events": [
   {
    "name": "Конференция за Обсесивно-Компулсивно Разстройство (ОКР) 2026",
@@ -301,15 +301,48 @@
    "addr": "София Център, ул. Братя Миладинови 12, 1000 София"
   },
   {
-   "name": "RDMK LIVE - Бар Петък - 20.11.2026",
-   "venue": "Networking Premium (Гурко 16)",
-   "lat": 42.6919,
-   "lon": 23.326,
-   "cap": 500,
-   "start": "2026-11-20T21:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/rdmk-live-bar-petuk-20112026-9135",
+   "name": "BILYANISH: Out of Context – LIVE with BAND",
+   "venue": "Зала Академик",
+   "lat": 42.668,
+   "lon": 23.352,
+   "cap": 1200,
+   "start": "2026-11-20T19:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/bilyanish-out-of-context-live-with-band-9039",
    "src": "bilet",
-   "addr": "ул. \"Ген. Гурко\" 21, 1000 София център, София"
+   "addr": "Студентски Комплекс, улица \"Академик Стефан Младенов\" 3"
+  },
+  {
+   "name": "KPOP O´CLOCK ALL AGES Party",
+   "venue": "Клуб Грамофон",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-11-20T19:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/kpop-oclock-all-ages-party-9143",
+   "src": "bilet",
+   "addr": "Център, ул. Будапеща 6"
+  },
+  {
+   "name": "Golden Era Tribute - 80's Music Icons",
+   "venue": "Пиротска 5",
+   "lat": 42.6987,
+   "lon": 23.3195,
+   "cap": 600,
+   "start": "2026-11-20T20:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/golden-era-tribute-80s-music-icons-9037",
+   "src": "bilet",
+   "addr": "Център, ул. Пиротска 5"
+  },
+  {
+   "name": "Seattle Night 58 / Club Mixtape 5 / 20.11",
+   "venue": "Mixtape 5",
+   "lat": 42.6866,
+   "lon": 23.319,
+   "cap": 900,
+   "start": "2026-11-20T20:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/seattle-night-58-club-mixtape-5-2011-8991",
+   "src": "bilet",
+   "addr": "Подлез @ Витамин Б, бул. Галерия, бул. Черни връх"
   },
   {
    "name": "Аз рисувам като ... Пабло Пикасо - ателие за деца",
@@ -356,17 +389,6 @@
    "addr": "бул. „Драган Цанков“ 36"
   },
   {
-   "name": "Нетуъркинг вечер: Бъди видим в ерата на AI с Етиен Янев",
-   "venue": "Клуб Грамофон",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2026-11-26T19:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/netuurking-vecher-budi-vidim-v-erata-na-ai-s-etien-anev-9110",
-   "src": "bilet",
-   "addr": "Център, ул. Будапеща 6"
-  },
-  {
    "name": "Михаела Маринова - Концерт - част от програмата \"Салон на изкуствата\" - Есен 2026 НДК",
    "venue": "НДК",
    "lat": 42.6866,
@@ -378,6 +400,28 @@
    "addr": "НДК, бул. „България“, София"
   },
   {
+   "name": "ProgVibe Balkans",
+   "venue": "Mixtape 5",
+   "lat": 42.6866,
+   "lon": 23.319,
+   "cap": 900,
+   "start": "2026-11-28T20:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/progvibe-balkans-8813",
+   "src": "bilet",
+   "addr": "Подлез @ Витамин Б, бул. Галерия, бул. Черни връх"
+  },
+  {
+   "name": "Kader Tarhanine Live @ Mixtape 5",
+   "venue": "Mixtape 5",
+   "lat": 42.6866,
+   "lon": 23.319,
+   "cap": 900,
+   "start": "2026-12-03T20:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/kader-tarhanine-live-at-mixtape-5-8488",
+   "src": "bilet",
+   "addr": "Подлез @ Витамин Б, бул. Галерия, бул. Черни връх"
+  },
+  {
    "name": "Christmas Wine Market 2026",
    "venue": "Централен Военен Клуб",
    "lat": 42.6952364,
@@ -387,28 +431,6 @@
    "url": "https://www.bilet.bg/bg/events/christmas-wine-market-2026-8939",
    "src": "bilet",
    "addr": "бул. Цар Освободител 7"
-  },
-  {
-   "name": "ГАЛ САСОН за астрологичните аспекти на 2027 година: обзорна лекция, упражнения, практики",
-   "venue": "Български културен център",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2026-12-11T18:30:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/gal-sason-za-astrologichnite-aspekti-na-2027-godina-obzorna-lektsia-uprazhnenia-praktiki-9147",
-   "src": "bilet",
-   "addr": "София Център, ул. \"Веслец\" 13, 1000 София"
-  },
-  {
-   "name": "Керана и Космонавтите на живо в клуб Mixtape 5 / 26.12",
-   "venue": "Mixtape 5",
-   "lat": 42.6866,
-   "lon": 23.319,
-   "cap": 900,
-   "start": "2026-12-26T20:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/kerana-i-kosmonavtite-na-zhivo-v-klub-mixtape-5-2612-9169",
-   "src": "bilet",
-   "addr": "Подлез @ Витамин Б, бул. Галерия, бул. Черни връх"
   },
   {
    "name": "DataCon Sofia 2027: First Principles",
