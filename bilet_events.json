@@ -1,63 +1,8 @@
 {
  "source": "bilet.bg",
- "generated": "2026-11-14T20:49:32.455563",
- "count": 39,
+ "generated": "2026-11-15T12:04:56.252559",
+ "count": 40,
  "events": [
-  {
-   "name": "Конференция за Обсесивно-Компулсивно Разстройство (ОКР) 2026",
-   "venue": "East Plaza Hotel",
-   "lat": 42.6703227,
-   "lon": 23.3650181,
-   "cap": 500,
-   "start": "2026-11-14T10:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/konferentsia-za-obsesivno-kompulsivno-razstroystvo-okr-2026-8769",
-   "src": "bilet",
-   "addr": "булевард Цариградско шосе 28, 1113 София"
-  },
-  {
-   "name": "Cosmic Necropolis - Sofia",
-   "venue": "Live & Loud",
-   "lat": 42.6960345,
-   "lon": 23.320269,
-   "cap": 500,
-   "start": "2026-11-14T20:15:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/cosmic-necropolis-sofia-8377",
-   "src": "bilet",
-   "addr": "ул. Позитано 8"
-  },
-  {
-   "name": "CONGO NATTY // BLACKOUT JA @ Malkata Tekila Sofia 14/11/2026",
-   "venue": "Малката Текила",
-   "lat": 42.695,
-   "lon": 23.328,
-   "cap": 400,
-   "start": "2026-11-14T21:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/congo-natty-blackout-ja-at-malkata-tekila-sofia-14112026-8945",
-   "src": "bilet",
-   "addr": "ул. Ангел Кънчев 1"
-  },
-  {
-   "name": "FORMA pres. ALIEN COMMUNICATIONS at CLUB MESMERIC",
-   "venue": "Club Mesmeric",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2026-11-14T23:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/forma-pres-alien-communications-at-club-mesmeric-9022",
-   "src": "bilet",
-   "addr": "София Център, ул. Фритьоф Нансен 25 София"
-  },
-  {
-   "name": "Лазерен лабиринт \"Фотоника\"",
-   "venue": "Nexus Space",
-   "lat": 42.6985861,
-   "lon": 23.3192791,
-   "cap": 500,
-   "start": "2026-11-15T13:30:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/lazeren-labirint-fotonika-9155",
-   "src": "bilet",
-   "addr": "София Център, ул. \"Княз Борис I\" 121, 1000 София"
-  },
   {
    "name": "Керана и Космонавтите - Тих концерт в Пространство 108 / 15.11",
    "venue": "Пространство 108",
@@ -123,6 +68,17 @@
    "url": "https://www.bilet.bg/bg/events/pisatelsko-soare-mastilo-i-mechti-1811-8647",
    "src": "bilet",
    "addr": "Център гр. Лозенец, ул. \"Трепетлика\" 12, 1407 София"
+  },
+  {
+   "name": "СТОЯН ЗАХАРИЕВ - Live @ Pirotska 5 (Албум/Видео Промо) 18.11.2026",
+   "venue": "Пиротска 5",
+   "lat": 42.6987,
+   "lon": 23.3195,
+   "cap": 600,
+   "start": "2026-11-18T19:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/stoan-zahariev-live-at-pirotska-5-albumvideo-promo-18112026-8948",
+   "src": "bilet",
+   "addr": "Център, ул. Пиротска 5"
   },
   {
    "name": "Нощта на Гетсби @Pineapple Express 18/11/2026",
@@ -279,6 +235,17 @@
    "addr": "ул. \"Ген. Гурко\" 21, 1000 София център, София"
   },
   {
+   "name": "St. Shosho's Day - 20/11/2026 @Malkata Tekila Sofia",
+   "venue": "Малката Текила",
+   "lat": 42.695,
+   "lon": 23.328,
+   "cap": 400,
+   "start": "2026-11-20T22:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/st-shoshos-day-20112026-at-malkata-tekila-sofia-9112",
+   "src": "bilet",
+   "addr": "ул. Ангел Кънчев 1"
+  },
+  {
    "name": "Ministry of Pop \"Pop Hits of All Time\" at Club Pave",
    "venue": "клуб Паве",
    "lat": null,
@@ -323,6 +290,17 @@
    "addr": "ул. \"Дукатска планина\" 18, 1606 София"
   },
   {
+   "name": "А ТАКА, БРАЗИЛИЯ!\" – ALL AGES PARTY с DJAANYu DAVID MALUCO",
+   "venue": "Клуб ОБЛК",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-11-21T18:30:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/a-taka-brazilia-all-ages-party-s-djaanyu-david-maluco-9007",
+   "src": "bilet",
+   "addr": "Бул. Цар Освободител №10"
+  },
+  {
    "name": "БЕЛОСЛАВА Sound System | 21.11 | Малката Текила София",
    "venue": "Малката Текила",
    "lat": 42.695,
@@ -332,6 +310,17 @@
    "url": "https://www.bilet.bg/bg/events/beloslava-sound-system-2111-malkata-tekila-sofia-8985",
    "src": "bilet",
    "addr": "ул. Ангел Кънчев 1"
+  },
+  {
+   "name": "\"Избери радостта!\" в Арт зала Хайтов",
+   "venue": "Арт зала Хайтов",
+   "lat": 42.6753427,
+   "lon": 23.3575957,
+   "cap": 500,
+   "start": "2026-11-21T19:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/izberi-radostta-v-art-zala-haytov-8875",
+   "src": "bilet",
+   "addr": "ул. Ю. Гагарин 7"
   },
   {
    "name": "SofiaTalks Business Bootcamp 2026",
@@ -422,6 +411,17 @@
    "addr": "НДК, бул. „България“, София"
   },
   {
+   "name": "TARJA: FRISSON LIVE 2027 - Sofia",
+   "venue": "Зала Христо Ботев Студентски Град",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2027-03-18T19:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/tarja-frisson-live-2027-sofia-8439",
+   "src": "bilet",
+   "addr": "Studentski Kompleks, ж.к. Студентски град 26, 1700 Sofia"
+  },
+  {
    "name": "Chris Norman Live Sofia",
    "venue": "НДК",
    "lat": 42.6866,
@@ -431,6 +431,17 @@
    "url": "https://www.bilet.bg/bg/events/chris-norman-live-sofia-8264",
    "src": "bilet",
    "addr": "НДК, бул. „България“, София"
+  },
+  {
+   "name": "The Crazy World of Arthur Brown Live in Sofia/Threechords",
+   "venue": "Mixtape 5",
+   "lat": 42.6866,
+   "lon": 23.319,
+   "cap": 900,
+   "start": "2027-03-19T20:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/the-crazy-world-of-arthur-brown-live-in-sofiathreechords-8523",
+   "src": "bilet",
+   "addr": "Подлез @ Витамин Б, бул. Галерия, бул. Черни връх"
   }
  ]
 }
