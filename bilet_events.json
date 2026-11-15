@@ -1,19 +1,8 @@
 {
  "source": "bilet.bg",
- "generated": "2026-11-15T12:04:56.252559",
- "count": 40,
+ "generated": "2026-11-15T21:07:59.907860",
+ "count": 41,
  "events": [
-  {
-   "name": "Керана и Космонавтите - Тих концерт в Пространство 108 / 15.11",
-   "venue": "Пространство 108",
-   "lat": 42.6617164,
-   "lon": 23.2999556,
-   "cap": 500,
-   "start": "2026-11-15T19:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/kerana-i-kosmonavtite-tih-kontsert-v-prostranstvo-108-1511-9052",
-   "src": "bilet",
-   "addr": "ул. Георги С. Раковкски 108"
-  },
   {
    "name": "RAKAA & DJ BABU // DILATED PEOPLES @ Malkata Tekila Sofia 15/11/2026",
    "venue": "Малката Текила",
@@ -323,6 +312,50 @@
    "addr": "ул. Ю. Гагарин 7"
   },
   {
+   "name": "Potochkine (FR), Eddie Dark (GR), snakeatsnake (BG) live @Club Pave",
+   "venue": "клуб Паве",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-11-21T20:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/potochkine-fr-eddie-dark-gr-snakeatsnake-bg-live-at-club-pave-8804",
+   "src": "bilet",
+   "addr": "пл. Славейков 4"
+  },
+  {
+   "name": "Annie Lennox | TRIBUTE | LIVE - 21.11.2026 - 20:30",
+   "venue": "Клуб за Естетическо Възпитание на Артиста",
+   "lat": 42.6918756,
+   "lon": 23.3254914,
+   "cap": 500,
+   "start": "2026-11-21T20:30:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/annie-lennox-tribute-live-21112026-2030-9023",
+   "src": "bilet",
+   "addr": "улица „Георги С. Раковски“ 114, 1000 София Център, София"
+  },
+  {
+   "name": "DOUBLE TAP 5 YEARS BIRTHDAY w/ SOULEY(NL) & ALE ROSSI (IT) 21.11 @ Bar PINEAPPLE EXPRESS",
+   "venue": "Bar Pineapple Express",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-11-21T22:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/double-tap-5-years-birthday-w-souleynl-ale-rossi-it-2111-at-bar-pineapple-express-9098",
+   "src": "bilet",
+   "addr": "ул. „6-ти септември“ № 4, София Център"
+  },
+  {
+   "name": "🔥 HOLLY TRINITY: Wave • Gothic • Industrial Party @ Club MIXTAPE 5",
+   "venue": "Mixtape 5",
+   "lat": 42.6866,
+   "lon": 23.319,
+   "cap": 900,
+   "start": "2026-11-21T22:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/holly-trinity-wave-gothic-industrial-party-at-club-mixtape-5-9205",
+   "src": "bilet",
+   "addr": "Подлез @ Витамин Б, бул. Галерия, бул. Черни връх"
+  },
+  {
    "name": "SofiaTalks Business Bootcamp 2026",
    "venue": "София Тех Парк",
    "lat": 42.6668,
@@ -411,17 +444,6 @@
    "addr": "НДК, бул. „България“, София"
   },
   {
-   "name": "TARJA: FRISSON LIVE 2027 - Sofia",
-   "venue": "Зала Христо Ботев Студентски Град",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2027-03-18T19:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/tarja-frisson-live-2027-sofia-8439",
-   "src": "bilet",
-   "addr": "Studentski Kompleks, ж.к. Студентски град 26, 1700 Sofia"
-  },
-  {
    "name": "Chris Norman Live Sofia",
    "venue": "НДК",
    "lat": 42.6866,
@@ -431,17 +453,6 @@
    "url": "https://www.bilet.bg/bg/events/chris-norman-live-sofia-8264",
    "src": "bilet",
    "addr": "НДК, бул. „България“, София"
-  },
-  {
-   "name": "The Crazy World of Arthur Brown Live in Sofia/Threechords",
-   "venue": "Mixtape 5",
-   "lat": 42.6866,
-   "lon": 23.319,
-   "cap": 900,
-   "start": "2027-03-19T20:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/the-crazy-world-of-arthur-brown-live-in-sofiathreechords-8523",
-   "src": "bilet",
-   "addr": "Подлез @ Витамин Б, бул. Галерия, бул. Черни връх"
   }
  ]
 }
