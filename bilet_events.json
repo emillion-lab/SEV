@@ -1,19 +1,8 @@
 {
  "source": "bilet.bg",
- "generated": "2026-11-15T21:07:59.907860",
- "count": 41,
+ "generated": "2026-11-16T12:57:22.563997",
+ "count": 42,
  "events": [
-  {
-   "name": "RAKAA & DJ BABU // DILATED PEOPLES @ Malkata Tekila Sofia 15/11/2026",
-   "venue": "Малката Текила",
-   "lat": 42.695,
-   "lon": 23.328,
-   "cap": 400,
-   "start": "2026-11-15T20:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/rakaa-dj-babu-dilated-peoples-at-malkata-tekila-sofia-15112026-8942",
-   "src": "bilet",
-   "addr": "ул. Ангел Кънчев 1"
-  },
   {
    "name": "Horse Jumper of Love (USA) w/ Mono and the Stereos live at Club Pave",
    "venue": "клуб Паве",
@@ -147,6 +136,17 @@
    "addr": "ул. Ангел Кънчев 1"
   },
   {
+   "name": "The KVB (UK) live at Club Pave",
+   "venue": "клуб Паве",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-11-19T20:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/the-kvb-uk-live-at-club-pave-8858",
+   "src": "bilet",
+   "addr": "пл. Славейков 4"
+  },
+  {
    "name": "Cotton Candy Disney Edition ✨🏰💖 - SOFIA 💗SOLD OUT!💗 LAST TICKETS AVAILABLE ON SPOT 🪩🪄",
    "venue": "Carrusel Club",
    "lat": null,
@@ -244,17 +244,6 @@
    "url": "https://www.bilet.bg/bg/events/ministry-of-pop-pop-hits-of-all-time-at-club-pave-9042",
    "src": "bilet",
    "addr": "пл. Славейков 4"
-  },
-  {
-   "name": "Лазерен лабиринт \"Фотоника\"",
-   "venue": "Nexus Space",
-   "lat": 42.6985861,
-   "lon": 23.3192791,
-   "cap": 500,
-   "start": "2026-11-21T13:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/lazeren-labirint-fotonika-9156",
-   "src": "bilet",
-   "addr": "София Център, ул. \"Княз Борис I\" 121, 1000 София"
   },
   {
    "name": "Аз рисувам като ... Пабло Пикасо - ателие за деца",
@@ -444,6 +433,17 @@
    "addr": "НДК, бул. „България“, София"
   },
   {
+   "name": "TARJA: FRISSON LIVE 2027 - Sofia",
+   "venue": "Зала Христо Ботев Студентски Град",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2027-03-18T19:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/tarja-frisson-live-2027-sofia-8439",
+   "src": "bilet",
+   "addr": "Studentski Kompleks, ж.к. Студентски град 26, 1700 Sofia"
+  },
+  {
    "name": "Chris Norman Live Sofia",
    "venue": "НДК",
    "lat": 42.6866,
@@ -453,6 +453,17 @@
    "url": "https://www.bilet.bg/bg/events/chris-norman-live-sofia-8264",
    "src": "bilet",
    "addr": "НДК, бул. „България“, София"
+  },
+  {
+   "name": "The Crazy World of Arthur Brown Live in Sofia/Threechords",
+   "venue": "Mixtape 5",
+   "lat": 42.6866,
+   "lon": 23.319,
+   "cap": 900,
+   "start": "2027-03-19T20:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/the-crazy-world-of-arthur-brown-live-in-sofiathreechords-8523",
+   "src": "bilet",
+   "addr": "Подлез @ Витамин Б, бул. Галерия, бул. Черни връх"
   }
  ]
 }
