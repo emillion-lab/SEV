@@ -1,19 +1,8 @@
 {
  "source": "bilet.bg",
- "generated": "2026-11-16T13:29:53.630990",
+ "generated": "2026-11-17T00:20:33.957311",
  "count": 42,
  "events": [
-  {
-   "name": "Horse Jumper of Love (USA) w/ Mono and the Stereos live at Club Pave",
-   "venue": "клуб Паве",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2026-11-16T20:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/horse-jumper-of-love-usa-w-mono-and-the-stereos-live-at-club-pave-8630",
-   "src": "bilet",
-   "addr": "пл. Славейков 4"
-  },
   {
    "name": "Работилница Рисуване на стъкло - Зимен витраж",
    "venue": "Канава Арт Студио",
@@ -343,6 +332,17 @@
    "url": "https://www.bilet.bg/bg/events/holly-trinity-wave-gothic-industrial-party-at-club-mixtape-5-9205",
    "src": "bilet",
    "addr": "Подлез @ Витамин Б, бул. Галерия, бул. Черни връх"
+  },
+  {
+   "name": "Guts @ Malkata Tekila Sofia 21/11/2026",
+   "venue": "Малката Текила",
+   "lat": 42.695,
+   "lon": 23.328,
+   "cap": 400,
+   "start": "2026-11-21T22:30:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/guts-at-malkata-tekila-sofia-21112026-8373",
+   "src": "bilet",
+   "addr": "ул. Ангел Кънчев 1"
   },
   {
    "name": "SofiaTalks Business Bootcamp 2026",
