@@ -1,8 +1,19 @@
 {
  "source": "bilet.bg",
- "generated": "2026-11-17T00:20:33.957311",
+ "generated": "2026-11-17T13:40:04.924248",
  "count": 42,
  "events": [
+  {
+   "name": "Коледно Шоу на Лед",
+   "venue": "парк Гео Милев",
+   "lat": 42.6866812,
+   "lon": 23.3629065,
+   "cap": 500,
+   "start": "2026-11-17T19:30:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/koledno-shou-na-led-9207",
+   "src": "bilet",
+   "addr": "гр. София, ж.к. Гео Милев, 1111 Sofia"
+  },
   {
    "name": "Работилница Рисуване на стъкло - Зимен витраж",
    "venue": "Канава Арт Студио",
@@ -125,17 +136,6 @@
    "addr": "ул. Ангел Кънчев 1"
   },
   {
-   "name": "The KVB (UK) live at Club Pave",
-   "venue": "клуб Паве",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2026-11-19T20:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/the-kvb-uk-live-at-club-pave-8858",
-   "src": "bilet",
-   "addr": "пл. Славейков 4"
-  },
-  {
    "name": "Cotton Candy Disney Edition ✨🏰💖 - SOFIA 💗SOLD OUT!💗 LAST TICKETS AVAILABLE ON SPOT 🪩🪄",
    "venue": "Carrusel Club",
    "lat": null,
@@ -178,6 +178,17 @@
    "url": "https://www.bilet.bg/bg/events/kpop-oclock-all-ages-party-9143",
    "src": "bilet",
    "addr": "Център, ул. Будапеща 6"
+  },
+  {
+   "name": "Представление - \"Двете Сийки\" Ирен Кривошиева, Ани Михайлова, Исус Ангелов",
+   "venue": "Клуб на фоторепортера",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-11-20T19:30:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/predstavlenie-dvete-siyki-iren-krivoshieva-ani-mihaylova-isus-angelov-9230",
+   "src": "bilet",
+   "addr": "бул. „Княз Александър Дондуков“ № 1, подлез „Сердика“, Ларгото,"
   },
   {
    "name": "Golden Era Tribute - 80's Music Icons",
@@ -345,6 +356,17 @@
    "addr": "ул. Ангел Кънчев 1"
   },
   {
+   "name": "SHAME под Прикритие",
+   "venue": "FOMO the club",
+   "lat": 42.695525,
+   "lon": 23.3231306,
+   "cap": 500,
+   "start": "2026-11-21T23:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/shame-pod-prikritie-9141",
+   "src": "bilet",
+   "addr": "Хотел Рила, София Център, ул. Позитано"
+  },
+  {
    "name": "SofiaTalks Business Bootcamp 2026",
    "venue": "София Тех Парк",
    "lat": 42.6668,
@@ -433,17 +455,6 @@
    "addr": "НДК, бул. „България“, София"
   },
   {
-   "name": "TARJA: FRISSON LIVE 2027 - Sofia",
-   "venue": "Зала Христо Ботев Студентски Град",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2027-03-18T19:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/tarja-frisson-live-2027-sofia-8439",
-   "src": "bilet",
-   "addr": "Studentski Kompleks, ж.к. Студентски град 26, 1700 Sofia"
-  },
-  {
    "name": "Chris Norman Live Sofia",
    "venue": "НДК",
    "lat": 42.6866,
@@ -453,17 +464,6 @@
    "url": "https://www.bilet.bg/bg/events/chris-norman-live-sofia-8264",
    "src": "bilet",
    "addr": "НДК, бул. „България“, София"
-  },
-  {
-   "name": "The Crazy World of Arthur Brown Live in Sofia/Threechords",
-   "venue": "Mixtape 5",
-   "lat": 42.6866,
-   "lon": 23.319,
-   "cap": 900,
-   "start": "2027-03-19T20:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/the-crazy-world-of-arthur-brown-live-in-sofiathreechords-8523",
-   "src": "bilet",
-   "addr": "Подлез @ Витамин Б, бул. Галерия, бул. Черни връх"
   }
  ]
 }
