@@ -1,6 +1,6 @@
 {
  "source": "bilet.bg",
- "generated": "2026-11-17T13:40:04.924248",
+ "generated": "2026-11-17T23:35:45.127657",
  "count": 42,
  "events": [
   {
@@ -79,17 +79,6 @@
    "url": "https://www.bilet.bg/bg/events/nova-generatsia-1811-wed-malkata-tekila-sofia-9027",
    "src": "bilet",
    "addr": "ул. Ангел Кънчев 1"
-  },
-  {
-   "name": "OFF SCRIPT. | Afterwork Party & Art Pop-up",
-   "venue": "Rooftop59",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2026-11-19T18:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/off-script-afterwork-party-art-pop-up-9086",
-   "src": "bilet",
-   "addr": "Хиподрума, бул. \"Цар Борис III\" 59, 1612 София"
   },
   {
    "name": "Dara Ekimova Live @Stroeja",
@@ -235,13 +224,13 @@
    "addr": "ул. Ангел Кънчев 1"
   },
   {
-   "name": "Ministry of Pop \"Pop Hits of All Time\" at Club Pave",
+   "name": "Ministry of Pop \"Pop Hits of All Time\" at Club Pave // Eva Lea Live",
    "venue": "клуб Паве",
    "lat": null,
    "lon": null,
    "cap": 500,
    "start": "2026-11-20T23:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/ministry-of-pop-pop-hits-of-all-time-at-club-pave-9042",
+   "url": "https://www.bilet.bg/bg/events/ministry-of-pop-pop-hits-of-all-time-at-club-pave-eva-lea-live-9042",
    "src": "bilet",
    "addr": "пл. Славейков 4"
   },
@@ -354,6 +343,17 @@
    "url": "https://www.bilet.bg/bg/events/guts-at-malkata-tekila-sofia-21112026-8373",
    "src": "bilet",
    "addr": "ул. Ангел Кънчев 1"
+  },
+  {
+   "name": "OFF BEAT x SIMPLE SPACES @ Backstage Sofia",
+   "venue": "Sofia - Secret Location",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-11-21T23:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/off-beat-x-simple-spaces-at-backstage-sofia-9194",
+   "src": "bilet",
+   "addr": ""
   },
   {
    "name": "SHAME под Прикритие",
