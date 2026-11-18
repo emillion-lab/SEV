@@ -1,74 +1,8 @@
 {
  "source": "bilet.bg",
- "generated": "2026-11-18T13:14:00.636597",
- "count": 41,
+ "generated": "2026-11-18T22:59:58.682010",
+ "count": 40,
  "events": [
-  {
-   "name": "Работилница Рисуване на стъкло - Зимен витраж",
-   "venue": "Канава Арт Студио",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2026-11-18T18:30:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/rabotilnitsa-risuvane-na-stuklo-zimen-vitrazh-9062",
-   "src": "bilet",
-   "addr": "ул. „Любен Каравелов“ 14"
-  },
-  {
-   "name": "Любовно бинго / 18 и 19.11.2026",
-   "venue": "Gravity bar",
-   "lat": 42.6975117,
-   "lon": 23.3261987,
-   "cap": 500,
-   "start": "2026-11-18T19:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/lubovno-bingo-18-i-19112026-8982",
-   "src": "bilet",
-   "addr": "София Център, ул. Московска 3, 1000 София"
-  },
-  {
-   "name": "Писателско соаре „Мастило и мечти“ - 18.11",
-   "venue": "Мечталище",
-   "lat": 42.6708452,
-   "lon": 23.3237069,
-   "cap": 500,
-   "start": "2026-11-18T19:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/pisatelsko-soare-mastilo-i-mechti-1811-8647",
-   "src": "bilet",
-   "addr": "Център гр. Лозенец, ул. \"Трепетлика\" 12, 1407 София"
-  },
-  {
-   "name": "СТОЯН ЗАХАРИЕВ - Live @ Pirotska 5 (Албум/Видео Промо) 18.11.2026",
-   "venue": "Пиротска 5",
-   "lat": 42.6987,
-   "lon": 23.3195,
-   "cap": 600,
-   "start": "2026-11-18T19:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/stoan-zahariev-live-at-pirotska-5-albumvideo-promo-18112026-8948",
-   "src": "bilet",
-   "addr": "Център, ул. Пиротска 5"
-  },
-  {
-   "name": "Нощта на Гетсби @Pineapple Express 18/11/2026",
-   "venue": "Bar Pineapple Express",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2026-11-18T19:30:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/noshtta-na-getsbi-at-pineapple-express-18112026-9163",
-   "src": "bilet",
-   "addr": "ул. „6-ти септември“ № 4, София Център"
-  },
-  {
-   "name": "НОВА ГЕНЕРАЦИЯ | 18.11 WED | Малката Текила София",
-   "venue": "Малката Текила",
-   "lat": 42.695,
-   "lon": 23.328,
-   "cap": 400,
-   "start": "2026-11-18T20:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/nova-generatsia-1811-wed-malkata-tekila-sofia-9027",
-   "src": "bilet",
-   "addr": "ул. Ангел Кънчев 1"
-  },
   {
    "name": "Dara Ekimova Live @Stroeja",
    "venue": "Клуб Строежа",
@@ -378,6 +312,39 @@
    "addr": "бул. „Драган Цанков“ 36"
   },
   {
+   "name": "Аз рисувам като ... Пабло Пикасо - ателие за деца",
+   "venue": "Читалище \"Алеко Константинов - 1897 г.\"",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-11-22T14:30:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/az-risuvam-kato-pablo-pikaso-atelie-za-detsa-8844",
+   "src": "bilet",
+   "addr": "ул. Оборище 73"
+  },
+  {
+   "name": "Аз рисувам като ... Пабло Пикасо - ателие за възрастни",
+   "venue": "Читалище \"Алеко Константинов - 1897 г.\"",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-11-22T17:30:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/az-risuvam-kato-pablo-pikaso-atelie-za-vuzrastni-8845",
+   "src": "bilet",
+   "addr": "ул. Оборище 73"
+  },
+  {
+   "name": "Soda Sundays",
+   "venue": "Bar Soda",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-11-22T18:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/soda-sundays-9224",
+   "src": "bilet",
+   "addr": "Ndk, Bulgaria Blvd 2, 1463 Sofia"
+  },
+  {
    "name": "Михаела Маринова - Концерт - част от програмата \"Салон на изкуствата\" - Есен 2026 НДК",
    "venue": "НДК",
    "lat": 42.6866,
@@ -444,6 +411,17 @@
    "addr": "НДК, бул. „България“, София"
   },
   {
+   "name": "TARJA: FRISSON LIVE 2027 - Sofia",
+   "venue": "Зала Христо Ботев Студентски Град",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2027-03-18T19:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/tarja-frisson-live-2027-sofia-8439",
+   "src": "bilet",
+   "addr": "Studentski Kompleks, ж.к. Студентски град 26, 1700 Sofia"
+  },
+  {
    "name": "Chris Norman Live Sofia",
    "venue": "НДК",
    "lat": 42.6866,
@@ -453,6 +431,17 @@
    "url": "https://www.bilet.bg/bg/events/chris-norman-live-sofia-8264",
    "src": "bilet",
    "addr": "НДК, бул. „България“, София"
+  },
+  {
+   "name": "The Crazy World of Arthur Brown Live in Sofia/Threechords",
+   "venue": "Mixtape 5",
+   "lat": 42.6866,
+   "lon": 23.319,
+   "cap": 900,
+   "start": "2027-03-19T20:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/the-crazy-world-of-arthur-brown-live-in-sofiathreechords-8523",
+   "src": "bilet",
+   "addr": "Подлез @ Витамин Б, бул. Галерия, бул. Черни връх"
   }
  ]
 }
