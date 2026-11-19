@@ -1,6 +1,6 @@
 {
  "source": "bilet.bg",
- "generated": "2026-11-18T22:59:58.682010",
+ "generated": "2026-11-19T13:33:05.023384",
  "count": 40,
  "events": [
   {
@@ -345,6 +345,17 @@
    "addr": "Ndk, Bulgaria Blvd 2, 1463 Sofia"
   },
   {
+   "name": "🍂 Sweater Weather Singles❤️",
+   "venue": "Art Bar 158",
+   "lat": 42.7009505,
+   "lon": 23.320236,
+   "cap": 500,
+   "start": "2026-11-22T19:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/sweater-weather-singles-9180",
+   "src": "bilet",
+   "addr": "ул. \"Княз Борис 1\" 158"
+  },
+  {
    "name": "Михаела Маринова - Концерт - част от програмата \"Салон на изкуствата\" - Есен 2026 НДК",
    "venue": "НДК",
    "lat": 42.6866,
@@ -431,17 +442,6 @@
    "url": "https://www.bilet.bg/bg/events/chris-norman-live-sofia-8264",
    "src": "bilet",
    "addr": "НДК, бул. „България“, София"
-  },
-  {
-   "name": "The Crazy World of Arthur Brown Live in Sofia/Threechords",
-   "venue": "Mixtape 5",
-   "lat": 42.6866,
-   "lon": 23.319,
-   "cap": 900,
-   "start": "2027-03-19T20:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/the-crazy-world-of-arthur-brown-live-in-sofiathreechords-8523",
-   "src": "bilet",
-   "addr": "Подлез @ Витамин Б, бул. Галерия, бул. Черни връх"
   }
  ]
 }
