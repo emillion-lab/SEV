@@ -1,63 +1,8 @@
 {
  "source": "bilet.bg",
- "generated": "2026-11-19T14:15:35.927231",
- "count": 40,
+ "generated": "2026-11-19T23:08:28.774468",
+ "count": 36,
  "events": [
-  {
-   "name": "Dara Ekimova Live @Stroeja",
-   "venue": "Клуб Строежа",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2026-11-19T19:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/dara-ekimova-live-at-stroeja-8780",
-   "src": "bilet",
-   "addr": "София Център, улица „Георги С. Раковски“ 116, 1000 София"
-  },
-  {
-   "name": "Концерт на рок група ЕПИЗОД - промоция на новия албум \"Епизод\"",
-   "venue": "Пиротска 5",
-   "lat": 42.6987,
-   "lon": 23.3195,
-   "cap": 600,
-   "start": "2026-11-19T19:30:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/kontsert-na-rok-grupa-epizod-promotsia-na-novia-album-epizod-8887",
-   "src": "bilet",
-   "addr": "Център, ул. Пиротска 5"
-  },
-  {
-   "name": "Raid Kyu Quartet (SRB) at Club Mixtape 5",
-   "venue": "Mixtape 5",
-   "lat": 42.6866,
-   "lon": 23.319,
-   "cap": 900,
-   "start": "2026-11-19T19:30:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/raid-kyu-quartet-srb-at-club-mixtape-5-9059",
-   "src": "bilet",
-   "addr": "Подлез @ Витамин Б, бул. Галерия, бул. Черни връх"
-  },
-  {
-   "name": "Conway the Machine [LIVE] @ Malkata Tekila Sofia 19/11/2026",
-   "venue": "Малката Текила",
-   "lat": 42.695,
-   "lon": 23.328,
-   "cap": 400,
-   "start": "2026-11-19T20:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/conway-the-machine-live-at-malkata-tekila-sofia-19112026-8293",
-   "src": "bilet",
-   "addr": "ул. Ангел Кънчев 1"
-  },
-  {
-   "name": "Cotton Candy Disney Edition ✨🏰💖 - SOFIA 💗SOLD OUT!💗 LAST TICKETS AVAILABLE ON SPOT 🪩🪄",
-   "venue": "Carrusel Club",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2026-11-19T22:30:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/cotton-candy-disney-edition-sofia-sold-out-last-tickets-available-on-spot-9126",
-   "src": "bilet",
-   "addr": "Ул. Георги С. Раковски 108"
-  },
   {
    "name": "GOBLIN CARD FEST vol. 2 2026",
    "venue": "The Steps",
@@ -213,6 +158,17 @@
    "addr": "ул. Ю. Гагарин 7"
   },
   {
+   "name": "Парти на високи вибрации",
+   "venue": "Force Point Bar",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-11-21T19:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/parti-na-visoki-vibratsii-9258",
+   "src": "bilet",
+   "addr": "Студентски Комплекс, Парк хотел „Витоша“, ул. „Росарио“ 1"
+  },
+  {
    "name": "Potochkine (FR), Eddie Dark (GR), snakeatsnake (BG) live @Club Pave",
    "venue": "клуб Паве",
    "lat": null,
@@ -345,6 +301,17 @@
    "addr": "Ndk, Bulgaria Blvd 2, 1463 Sofia"
   },
   {
+   "name": "PLATTENBAU, ТЛЕН & EVITCELES, Live In Sofia",
+   "venue": "Mixtape 5",
+   "lat": 42.6866,
+   "lon": 23.319,
+   "cap": 900,
+   "start": "2026-11-22T19:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/plattenbau-tlen-evitceles-live-in-sofia-8690",
+   "src": "bilet",
+   "addr": "Подлез @ Витамин Б, бул. Галерия, бул. Черни връх"
+  },
+  {
    "name": "🍂 Sweater Weather Singles❤️",
    "venue": "Art Bar 158",
    "lat": 42.7009505,
@@ -420,17 +387,6 @@
    "url": "https://www.bilet.bg/bg/events/disney-fantazia-kontsert-na-zhivo-8636",
    "src": "bilet",
    "addr": "НДК, бул. „България“, София"
-  },
-  {
-   "name": "TARJA: FRISSON LIVE 2027 - Sofia",
-   "venue": "Зала Христо Ботев Студентски Град",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2027-03-18T19:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/tarja-frisson-live-2027-sofia-8439",
-   "src": "bilet",
-   "addr": "Studentski Kompleks, ж.к. Студентски град 26, 1700 Sofia"
   },
   {
    "name": "Chris Norman Live Sofia",
