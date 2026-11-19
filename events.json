@@ -1,86 +1,12 @@
 {
- "generated": "2026-11-16T13:29:53.712855+00:00",
- "count": 57,
+ "generated": "2026-11-19T14:15:36.000135+00:00",
+ "count": 67,
  "sources_ok": [
   "arena",
   "bilet",
   "ndk"
  ],
  "events": [
-  {
-   "name": "Салон на изкуствата / Събития",
-   "venue": "НДК Зала 1",
-   "lat": 42.6847,
-   "lon": 23.3188,
-   "cap": 3380,
-   "start": "2026-11-16T19:00:00+03:00",
-   "url": "",
-   "src": "ndk"
-  },
-  {
-   "name": "40. КИНОМАНИЯ | ФАНТОМЪТ НА ОПЕРАТА",
-   "venue": "НДК Зала 1",
-   "lat": 42.6847,
-   "lon": 23.3188,
-   "cap": 3380,
-   "start": "2026-11-16T19:00:00+03:00",
-   "url": "",
-   "src": "ndk"
-  },
-  {
-   "name": "Любовно бинго / 18 и 19.11.2026",
-   "venue": "Gravity bar",
-   "lat": 42.6975117,
-   "lon": 23.3261987,
-   "cap": 500,
-   "start": "2026-11-18T19:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/lubovno-bingo-18-i-19112026-8982",
-   "src": "bilet",
-   "addr": "София Център, ул. Московска 3, 1000 София"
-  },
-  {
-   "name": "Писателско соаре „Мастило и мечти“ - 18.11",
-   "venue": "Мечталище",
-   "lat": 42.6708452,
-   "lon": 23.3237069,
-   "cap": 500,
-   "start": "2026-11-18T19:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/pisatelsko-soare-mastilo-i-mechti-1811-8647",
-   "src": "bilet",
-   "addr": "Център гр. Лозенец, ул. \"Трепетлика\" 12, 1407 София"
-  },
-  {
-   "name": "СТОЯН ЗАХАРИЕВ - Live @ Pirotska 5 (Албум/Видео Промо) 18.11.2026",
-   "venue": "Пиротска 5",
-   "lat": 42.6987,
-   "lon": 23.3195,
-   "cap": 600,
-   "start": "2026-11-18T19:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/stoan-zahariev-live-at-pirotska-5-albumvideo-promo-18112026-8948",
-   "src": "bilet",
-   "addr": "Център, ул. Пиротска 5"
-  },
-  {
-   "name": "Емануела втора дата",
-   "venue": "Арена 8888 София",
-   "lat": 42.67137,
-   "lon": 23.36932,
-   "cap": 12000,
-   "start": "2026-11-18T20:00:00+03:00",
-   "url": "",
-   "src": "arena"
-  },
-  {
-   "name": "НОВА ГЕНЕРАЦИЯ | 18.11 WED | Малката Текила София",
-   "venue": "Малката Текила",
-   "lat": 42.695,
-   "lon": 23.328,
-   "cap": 400,
-   "start": "2026-11-18T20:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/nova-generatsia-1811-wed-malkata-tekila-sofia-9027",
-   "src": "bilet",
-   "addr": "ул. Ангел Кънчев 1"
-  },
   {
    "name": "Концерт на рок група ЕПИЗОД - промоция на новия албум \"Епизод\"",
    "venue": "Пиротска 5",
@@ -137,7 +63,7 @@
    "addr": "Студентски Комплекс, улица \"Академик Стефан Младенов\" 3"
   },
   {
-   "name": "Емануела",
+   "name": "Последни публикации",
    "venue": "Арена 8888 София",
    "lat": 42.67137,
    "lon": 23.36932,
@@ -200,6 +126,16 @@
    "url": "https://www.bilet.bg/bg/events/az-risuvam-kato-pablo-pikaso-atelie-za-detsa-8550",
    "src": "bilet",
    "addr": "ул. \"Дукатска планина\" 18, 1606 София"
+  },
+  {
+   "name": "Салон на изкуствата / Събития",
+   "venue": "НДК Зала 1",
+   "lat": 42.6847,
+   "lon": 23.3188,
+   "cap": 3380,
+   "start": "2026-11-21T19:00:00+03:00",
+   "url": "",
+   "src": "ndk"
   },
   {
    "name": "Киномания",
@@ -276,6 +212,28 @@
    "addr": "Подлез @ Витамин Б, бул. Галерия, бул. Черни връх"
   },
   {
+   "name": "Guts @ Malkata Tekila Sofia 21/11/2026",
+   "venue": "Малката Текила",
+   "lat": 42.695,
+   "lon": 23.328,
+   "cap": 400,
+   "start": "2026-11-21T22:30:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/guts-at-malkata-tekila-sofia-21112026-8373",
+   "src": "bilet",
+   "addr": "ул. Ангел Кънчев 1"
+  },
+  {
+   "name": "SHAME под Прикритие",
+   "venue": "FOMO the club",
+   "lat": 42.695525,
+   "lon": 23.3231306,
+   "cap": 500,
+   "start": "2026-11-21T23:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/shame-pod-prikritie-9141",
+   "src": "bilet",
+   "addr": "Хотел Рила, София Център, ул. Позитано"
+  },
+  {
    "name": "SofiaTalks Business Bootcamp 2026",
    "venue": "София Тех Парк",
    "lat": 42.6668,
@@ -296,6 +254,17 @@
    "url": "https://www.bilet.bg/bg/events/ami-ako-uurkshop-za-trevozhnostta-i-panik-atakite-8997",
    "src": "bilet",
    "addr": "бул. „Драган Цанков“ 36"
+  },
+  {
+   "name": "🍂 Sweater Weather Singles❤️",
+   "venue": "Art Bar 158",
+   "lat": 42.7009505,
+   "lon": 23.320236,
+   "cap": 500,
+   "start": "2026-11-22T19:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/sweater-weather-singles-9180",
+   "src": "bilet",
+   "addr": "ул. \"Княз Борис 1\" 158"
   },
   {
    "name": "Киномания",
@@ -378,14 +347,14 @@
    "src": "ndk"
   },
   {
-   "name": "ИНФОРМАЦИЯ ЗА ПОСЕТИТЕЛИ ЗА Тони Стораро – Юбилеен концерт",
-   "venue": "Арена 8888 София",
-   "lat": 42.67137,
-   "lon": 23.36932,
-   "cap": 12000,
-   "start": "2026-11-26T20:00:00+03:00",
+   "name": "40. КИНОМАНИЯ | ВСИЧКИ ОБИЧАТ БИЛ ЕВЪНС",
+   "venue": "НДК Зала 1",
+   "lat": 42.6847,
+   "lon": 23.3188,
+   "cap": 3380,
+   "start": "2026-11-26T19:00:00+03:00",
    "url": "",
-   "src": "arena"
+   "src": "ndk"
   },
   {
    "name": "Велика България - Зората",
@@ -487,7 +456,67 @@
    "lat": 42.67137,
    "lon": 23.36932,
    "cap": 12000,
+   "start": "2026-12-10T20:00:00+03:00",
+   "url": "",
+   "src": "arena"
+  },
+  {
+   "name": "Hapoel IBI Tel Aviv vs. LDLC ASVEL Villeurbanne",
+   "venue": "Арена 8888 София",
+   "lat": 42.67137,
+   "lon": 23.36932,
+   "cap": 12000,
    "start": "2026-12-15T20:00:00+03:00",
+   "url": "",
+   "src": "arena"
+  },
+  {
+   "name": "Hapoel IBI Tel Aviv vs. Zalgiris Kaunas",
+   "venue": "Арена 8888 София",
+   "lat": 42.67137,
+   "lon": 23.36932,
+   "cap": 12000,
+   "start": "2026-12-20T20:00:00+03:00",
+   "url": "",
+   "src": "arena"
+  },
+  {
+   "name": "Hapoel IBI Tel Aviv vs. Partizan Mozzart Bet Belgrade",
+   "venue": "Арена 8888 София",
+   "lat": 42.67137,
+   "lon": 23.36932,
+   "cap": 12000,
+   "start": "2026-12-29T20:00:00+03:00",
+   "url": "",
+   "src": "arena"
+  },
+  {
+   "name": "Hapoel IBI Tel Aviv vs. Maccabi Rapyd Tel Aviv",
+   "venue": "Арена 8888 София",
+   "lat": 42.67137,
+   "lon": 23.36932,
+   "cap": 12000,
+   "start": "2027-01-12T20:00:00+03:00",
+   "url": "",
+   "src": "arena"
+  },
+  {
+   "name": "Hapoel IBI Tel Aviv vs. Paris Basketball",
+   "venue": "Арена 8888 София",
+   "lat": 42.67137,
+   "lon": 23.36932,
+   "cap": 12000,
+   "start": "2027-01-14T20:00:00+03:00",
+   "url": "",
+   "src": "arena"
+  },
+  {
+   "name": "Hapoel IBI Tel Aviv vs. Valencia Basket",
+   "venue": "Арена 8888 София",
+   "lat": 42.67137,
+   "lon": 23.36932,
+   "cap": 12000,
+   "start": "2027-01-21T20:00:00+03:00",
    "url": "",
    "src": "arena"
   },
@@ -503,7 +532,37 @@
    "addr": "НДК, бул. „България“, София"
   },
   {
+   "name": "Hapoel IBI Tel Aviv vs. Panathinaikos AKTOR Athens",
+   "venue": "Арена 8888 София",
+   "lat": 42.67137,
+   "lon": 23.36932,
+   "cap": 12000,
+   "start": "2027-01-25T20:00:00+03:00",
+   "url": "",
+   "src": "arena"
+  },
+  {
    "name": "STOITCHKOV THE SHOW",
+   "venue": "Арена 8888 София",
+   "lat": 42.67137,
+   "lon": 23.36932,
+   "cap": 12000,
+   "start": "2027-02-03T20:00:00+03:00",
+   "url": "",
+   "src": "arena"
+  },
+  {
+   "name": "Hapoel IBI Tel Aviv vs. Olympiacos Piraeus",
+   "venue": "Арена 8888 София",
+   "lat": 42.67137,
+   "lon": 23.36932,
+   "cap": 12000,
+   "start": "2027-02-10T20:00:00+03:00",
+   "url": "",
+   "src": "arena"
+  },
+  {
+   "name": "Hapoel IBI Tel Aviv vs. Kosner Baskonia Vitoria-Gasteiz",
    "venue": "Арена 8888 София",
    "lat": 42.67137,
    "lon": 23.36932,
@@ -564,17 +623,6 @@
    "addr": "НДК, бул. „България“, София"
   },
   {
-   "name": "The Crazy World of Arthur Brown Live in Sofia/Threechords",
-   "venue": "Mixtape 5",
-   "lat": 42.6866,
-   "lon": 23.319,
-   "cap": 900,
-   "start": "2027-03-19T20:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/the-crazy-world-of-arthur-brown-live-in-sofiathreechords-8523",
-   "src": "bilet",
-   "addr": "Подлез @ Витамин Б, бул. Галерия, бул. Черни връх"
-  },
-  {
    "name": "МЕДИ",
    "venue": "Арена 8888 София",
    "lat": 42.67137,
@@ -590,6 +638,36 @@
    "lat": 42.67137,
    "lon": 23.36932,
    "cap": 12000,
+   "start": "2027-03-23T20:00:00+03:00",
+   "url": "",
+   "src": "arena"
+  },
+  {
+   "name": "Hapoel IBI Tel Aviv vs. Fenerbahce Tarfin Istanbul",
+   "venue": "Арена 8888 София",
+   "lat": 42.67137,
+   "lon": 23.36932,
+   "cap": 12000,
+   "start": "2027-03-25T20:00:00+03:00",
+   "url": "",
+   "src": "arena"
+  },
+  {
+   "name": "Hapoel IBI Tel Aviv vs. Dubai Basketball",
+   "venue": "Арена 8888 София",
+   "lat": 42.67137,
+   "lon": 23.36932,
+   "cap": 12000,
+   "start": "2027-04-08T20:00:00+03:00",
+   "url": "",
+   "src": "arena"
+  },
+  {
+   "name": "Hapoel IBI Tel Aviv vs. Crvena Zvezda Meridianbet Belgrade",
+   "venue": "Арена 8888 София",
+   "lat": 42.67137,
+   "lon": 23.36932,
+   "cap": 12000,
    "start": "2027-04-17T20:00:00+03:00",
    "url": "",
    "src": "arena"
@@ -601,6 +679,26 @@
    "lon": 23.36932,
    "cap": 12000,
    "start": "2027-04-24T20:00:00+03:00",
+   "url": "",
+   "src": "arena"
+  },
+  {
+   "name": "ФИКИ - PRIME",
+   "venue": "Арена 8888 София",
+   "lat": 42.67137,
+   "lon": 23.36932,
+   "cap": 12000,
+   "start": "2027-05-07T20:00:00+03:00",
+   "url": "",
+   "src": "arena"
+  },
+  {
+   "name": "20.11.2026 Информация за посетитили за Драгана Миркович и Софи Маринова",
+   "venue": "Арена 8888 София",
+   "lat": 42.67137,
+   "lon": 23.36932,
+   "cap": 12000,
+   "start": "2027-05-07T20:00:00+03:00",
    "url": "",
    "src": "arena"
   }
