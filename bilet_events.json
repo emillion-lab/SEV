@@ -1,7 +1,7 @@
 {
  "source": "bilet.bg",
- "generated": "2026-11-20T13:14:47.686700",
- "count": 36,
+ "generated": "2026-11-20T22:44:38.679329",
+ "count": 34,
  "events": [
   {
    "name": "GOBLIN CARD FEST vol. 2 2026",
@@ -13,94 +13,6 @@
    "url": "https://www.bilet.bg/bg/events/goblin-card-fest-vol-2-2026-9060",
    "src": "bilet",
    "addr": "София Център, ул. Братя Миладинови 12, 1000 София"
-  },
-  {
-   "name": "BILYANISH: Out of Context – LIVE with BAND",
-   "venue": "Зала Академик",
-   "lat": 42.668,
-   "lon": 23.352,
-   "cap": 1200,
-   "start": "2026-11-20T19:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/bilyanish-out-of-context-live-with-band-9039",
-   "src": "bilet",
-   "addr": "Студентски Комплекс, улица \"Академик Стефан Младенов\" 3"
-  },
-  {
-   "name": "KPOP O´CLOCK ALL AGES Party",
-   "venue": "Клуб Грамофон",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2026-11-20T19:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/kpop-oclock-all-ages-party-9143",
-   "src": "bilet",
-   "addr": "Център, ул. Будапеща 6"
-  },
-  {
-   "name": "Представление - \"Двете Сийки\" Ирен Кривошиева, Ани Михайлова, Исус Ангелов",
-   "venue": "Клуб на фоторепортера",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2026-11-20T19:30:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/predstavlenie-dvete-siyki-iren-krivoshieva-ani-mihaylova-isus-angelov-9230",
-   "src": "bilet",
-   "addr": "бул. „Княз Александър Дондуков“ № 1, подлез „Сердика“, Ларгото,"
-  },
-  {
-   "name": "Golden Era Tribute - 80's Music Icons",
-   "venue": "Пиротска 5",
-   "lat": 42.6987,
-   "lon": 23.3195,
-   "cap": 600,
-   "start": "2026-11-20T20:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/golden-era-tribute-80s-music-icons-9037",
-   "src": "bilet",
-   "addr": "Център, ул. Пиротска 5"
-  },
-  {
-   "name": "Seattle Night 58 / Club Mixtape 5 / 20.11",
-   "venue": "Mixtape 5",
-   "lat": 42.6866,
-   "lon": 23.319,
-   "cap": 900,
-   "start": "2026-11-20T20:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/seattle-night-58-club-mixtape-5-2011-8991",
-   "src": "bilet",
-   "addr": "Подлез @ Витамин Б, бул. Галерия, бул. Черни връх"
-  },
-  {
-   "name": "RDMK LIVE - Бар Петък - 20.11.2026",
-   "venue": "Networking Premium (Гурко 16)",
-   "lat": 42.6919,
-   "lon": 23.326,
-   "cap": 500,
-   "start": "2026-11-20T21:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/rdmk-live-bar-petuk-20112026-9135",
-   "src": "bilet",
-   "addr": "ул. \"Ген. Гурко\" 21, 1000 София център, София"
-  },
-  {
-   "name": "St. Shosho's Day - 20/11/2026 @Malkata Tekila Sofia",
-   "venue": "Малката Текила",
-   "lat": 42.695,
-   "lon": 23.328,
-   "cap": 400,
-   "start": "2026-11-20T22:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/st-shoshos-day-20112026-at-malkata-tekila-sofia-9112",
-   "src": "bilet",
-   "addr": "ул. Ангел Кънчев 1"
-  },
-  {
-   "name": "Ministry of Pop \"Pop Hits of All Time\" at Club Pave // Eva Lea Live",
-   "venue": "клуб Паве",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2026-11-20T23:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/ministry-of-pop-pop-hits-of-all-time-at-club-pave-eva-lea-live-9042",
-   "src": "bilet",
-   "addr": "пл. Славейков 4"
   },
   {
    "name": "Аз рисувам като ... Пабло Пикасо - ателие за деца",
@@ -312,15 +224,70 @@
    "addr": "Подлез @ Витамин Б, бул. Галерия, бул. Черни връх"
   },
   {
-   "name": "🍂 Sweater Weather Singles❤️",
-   "venue": "Art Bar 158",
-   "lat": 42.7009505,
-   "lon": 23.320236,
+   "name": "Първи ход: твоята кариера с Христина Иванова - НА ЖИВО В СОФИЯ",
+   "venue": "M3 Communications",
+   "lat": 42.668648,
+   "lon": 23.2905689,
    "cap": 500,
-   "start": "2026-11-22T19:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/sweater-weather-singles-9180",
+   "start": "2026-11-23T18:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/purvi-hod-tvoata-kariera-s-hristina-ivanova-na-zhivo-v-sofia-8832",
    "src": "bilet",
-   "addr": "ул. \"Княз Борис 1\" 158"
+   "addr": "бул. „България“ 60, 1680 София"
+  },
+  {
+   "name": "Работилница Рисуване на стъкло - Зимен витраж",
+   "venue": "Канава Арт Студио",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-11-25T18:30:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/rabotilnitsa-risuvane-na-stuklo-zimen-vitrazh-9064",
+   "src": "bilet",
+   "addr": "ул. „Любен Каравелов“ 14"
+  },
+  {
+   "name": "AXiS (RS/RO) live at Club Pave",
+   "venue": "клуб Паве",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-11-25T20:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/axis-rsro-live-at-club-pave-9138",
+   "src": "bilet",
+   "addr": "пл. Славейков 4"
+  },
+  {
+   "name": "Mèraque live in Sofia /w Sariel Orenda @Kupe",
+   "venue": "KUPE",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-11-25T20:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/meraque-live-in-sofia-w-sariel-orenda-at-kupe-9074",
+   "src": "bilet",
+   "addr": "Ъгълът на ул. „6-ти септември“ и ул. „Славянска“, Център, 1000 София"
+  },
+  {
+   "name": "Нетуъркинг вечер: Бъди видим в ерата на AI с Етиен Янев",
+   "venue": "Клуб Грамофон",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-11-26T19:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/netuurking-vecher-budi-vidim-v-erata-na-ai-s-etien-anev-9110",
+   "src": "bilet",
+   "addr": "Център, ул. Будапеща 6"
+  },
+  {
+   "name": "Me and My Devil | 26 NOV I Malkata Tekila Sofia",
+   "venue": "Малката Текила",
+   "lat": 42.695,
+   "lon": 23.328,
+   "cap": 400,
+   "start": "2026-11-26T20:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/me-and-my-devil-26-nov-i-malkata-tekila-sofia-8993",
+   "src": "bilet",
+   "addr": "ул. Ангел Кънчев 1"
   },
   {
    "name": "Михаела Маринова - Концерт - част от програмата \"Салон на изкуствата\" - Есен 2026 НДК",
@@ -385,6 +352,17 @@
    "cap": 3380,
    "start": "2027-01-23T18:00:00+03:00",
    "url": "https://www.bilet.bg/bg/events/disney-fantazia-kontsert-na-zhivo-8636",
+   "src": "bilet",
+   "addr": "НДК, бул. „България“, София"
+  },
+  {
+   "name": "Молец - \"ЖАР\" -  НДК - 21.02.",
+   "venue": "НДК",
+   "lat": 42.6866,
+   "lon": 23.319,
+   "cap": 3380,
+   "start": "2027-02-21T19:30:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/molets-zhar-ndk-2102-9217",
    "src": "bilet",
    "addr": "НДК, бул. „България“, София"
   },
