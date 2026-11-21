@@ -1,7 +1,7 @@
 {
  "source": "bilet.bg",
- "generated": "2026-11-20T22:44:38.679329",
- "count": 34,
+ "generated": "2026-11-21T12:51:19.085066",
+ "count": 35,
  "events": [
   {
    "name": "GOBLIN CARD FEST vol. 2 2026",
@@ -13,17 +13,6 @@
    "url": "https://www.bilet.bg/bg/events/goblin-card-fest-vol-2-2026-9060",
    "src": "bilet",
    "addr": "София Център, ул. Братя Миладинови 12, 1000 София"
-  },
-  {
-   "name": "Аз рисувам като ... Пабло Пикасо - ателие за деца",
-   "venue": "АРТ Къща",
-   "lat": 42.6892355,
-   "lon": 23.3087338,
-   "cap": 500,
-   "start": "2026-11-21T14:30:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/az-risuvam-kato-pablo-pikaso-atelie-za-detsa-8550",
-   "src": "bilet",
-   "addr": "ул. \"Дукатска планина\" 18, 1606 София"
   },
   {
    "name": "Аз рисувам като ... Пабло Пикасо - ателие за възрастни",
@@ -158,17 +147,6 @@
    "addr": "Хотел Рила, София Център, ул. Позитано"
   },
   {
-   "name": "SofiaTalks Business Bootcamp 2026",
-   "venue": "София Тех Парк",
-   "lat": 42.6668,
-   "lon": 23.376,
-   "cap": 1500,
-   "start": "2026-11-22T09:30:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/sofiatalks-business-bootcamp-2026-8246",
-   "src": "bilet",
-   "addr": "бул. Цариградско шосе 111Г, 1784 м. Къро"
-  },
-  {
    "name": "АМИ АКО? Уъркшоп за тревожността и паник атаките",
    "venue": "Интерпред - Световен търговски център",
    "lat": 42.670303,
@@ -288,6 +266,39 @@
    "url": "https://www.bilet.bg/bg/events/me-and-my-devil-26-nov-i-malkata-tekila-sofia-8993",
    "src": "bilet",
    "addr": "ул. Ангел Кънчев 1"
+  },
+  {
+   "name": "ФОРУМ на частното образование \"Образованието на прага на промяната\"",
+   "venue": "Международно Висше Бизнес Училище",
+   "lat": 42.6558468,
+   "lon": 23.3180412,
+   "cap": 500,
+   "start": "2026-11-27T09:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/forum-na-chastnoto-obrazovanie-obrazovanieto-na-praga-na-promanata-9250",
+   "src": "bilet",
+   "addr": " ул. Винсент ван Гог 7"
+  },
+  {
+   "name": "DiVino.Taste 2026",
+   "venue": "Интер Експо Център",
+   "lat": 42.652,
+   "lon": 23.376,
+   "cap": 3000,
+   "start": "2026-11-27T10:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/divinotaste-2026-8693",
+   "src": "bilet",
+   "addr": "бул. Цариградско шосе 147"
+  },
+  {
+   "name": "Gig Night",
+   "venue": "Art Bar 158",
+   "lat": 42.7009505,
+   "lon": 23.320236,
+   "cap": 500,
+   "start": "2026-11-27T19:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/gig-night-9018",
+   "src": "bilet",
+   "addr": "ул. \"Княз Борис 1\" 158"
   },
   {
    "name": "Михаела Маринова - Концерт - част от програмата \"Салон на изкуствата\" - Есен 2026 НДК",
