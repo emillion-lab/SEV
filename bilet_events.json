@@ -1,6 +1,6 @@
 {
  "source": "bilet.bg",
- "generated": "2026-11-21T12:51:19.085066",
+ "generated": "2026-11-21T21:44:56.906414",
  "count": 35,
  "events": [
   {
@@ -13,83 +13,6 @@
    "url": "https://www.bilet.bg/bg/events/goblin-card-fest-vol-2-2026-9060",
    "src": "bilet",
    "addr": "София Център, ул. Братя Миладинови 12, 1000 София"
-  },
-  {
-   "name": "Аз рисувам като ... Пабло Пикасо - ателие за възрастни",
-   "venue": "АРТ Къща",
-   "lat": 42.6892355,
-   "lon": 23.3087338,
-   "cap": 500,
-   "start": "2026-11-21T18:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/az-risuvam-kato-pablo-pikaso-atelie-za-vuzrastni-8531",
-   "src": "bilet",
-   "addr": "ул. \"Дукатска планина\" 18, 1606 София"
-  },
-  {
-   "name": "А ТАКА, БРАЗИЛИЯ!\" – ALL AGES PARTY с DJAANYu DAVID MALUCO",
-   "venue": "Клуб ОБЛК",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2026-11-21T18:30:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/a-taka-brazilia-all-ages-party-s-djaanyu-david-maluco-9007",
-   "src": "bilet",
-   "addr": "Бул. Цар Освободител №10"
-  },
-  {
-   "name": "БЕЛОСЛАВА Sound System | 21.11 | Малката Текила София",
-   "venue": "Малката Текила",
-   "lat": 42.695,
-   "lon": 23.328,
-   "cap": 400,
-   "start": "2026-11-21T19:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/beloslava-sound-system-2111-malkata-tekila-sofia-8985",
-   "src": "bilet",
-   "addr": "ул. Ангел Кънчев 1"
-  },
-  {
-   "name": "\"Избери радостта!\" в Арт зала Хайтов",
-   "venue": "Арт зала Хайтов",
-   "lat": 42.6753427,
-   "lon": 23.3575957,
-   "cap": 500,
-   "start": "2026-11-21T19:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/izberi-radostta-v-art-zala-haytov-8875",
-   "src": "bilet",
-   "addr": "ул. Ю. Гагарин 7"
-  },
-  {
-   "name": "Парти на високи вибрации",
-   "venue": "Force Point Bar",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2026-11-21T19:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/parti-na-visoki-vibratsii-9258",
-   "src": "bilet",
-   "addr": "Студентски Комплекс, Парк хотел „Витоша“, ул. „Росарио“ 1"
-  },
-  {
-   "name": "Potochkine (FR), Eddie Dark (GR), snakeatsnake (BG) live @Club Pave",
-   "venue": "клуб Паве",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2026-11-21T20:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/potochkine-fr-eddie-dark-gr-snakeatsnake-bg-live-at-club-pave-8804",
-   "src": "bilet",
-   "addr": "пл. Славейков 4"
-  },
-  {
-   "name": "Annie Lennox | TRIBUTE | LIVE - 21.11.2026 - 20:30",
-   "venue": "Клуб за Естетическо Възпитание на Артиста",
-   "lat": 42.6918756,
-   "lon": 23.3254914,
-   "cap": 500,
-   "start": "2026-11-21T20:30:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/annie-lennox-tribute-live-21112026-2030-9023",
-   "src": "bilet",
-   "addr": "улица „Георги С. Раковски“ 114, 1000 София Център, София"
   },
   {
    "name": "DOUBLE TAP 5 YEARS BIRTHDAY w/ SOULEY(NL) & ALE ROSSI (IT) 21.11 @ Bar PINEAPPLE EXPRESS",
@@ -125,28 +48,6 @@
    "addr": "ул. Ангел Кънчев 1"
   },
   {
-   "name": "OFF BEAT x SIMPLE SPACES @ Backstage Sofia",
-   "venue": "Sofia - Secret Location",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2026-11-21T23:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/off-beat-x-simple-spaces-at-backstage-sofia-9194",
-   "src": "bilet",
-   "addr": ""
-  },
-  {
-   "name": "SHAME под Прикритие",
-   "venue": "FOMO the club",
-   "lat": 42.695525,
-   "lon": 23.3231306,
-   "cap": 500,
-   "start": "2026-11-21T23:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/shame-pod-prikritie-9141",
-   "src": "bilet",
-   "addr": "Хотел Рила, София Център, ул. Позитано"
-  },
-  {
    "name": "АМИ АКО? Уъркшоп за тревожността и паник атаките",
    "venue": "Интерпред - Световен търговски център",
    "lat": 42.670303,
@@ -178,17 +79,6 @@
    "url": "https://www.bilet.bg/bg/events/az-risuvam-kato-pablo-pikaso-atelie-za-vuzrastni-8845",
    "src": "bilet",
    "addr": "ул. Оборище 73"
-  },
-  {
-   "name": "Soda Sundays",
-   "venue": "Bar Soda",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2026-11-22T18:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/soda-sundays-9224",
-   "src": "bilet",
-   "addr": "Ndk, Bulgaria Blvd 2, 1463 Sofia"
   },
   {
    "name": "PLATTENBAU, ТЛЕН & EVITCELES, Live In Sofia",
@@ -290,6 +180,17 @@
    "addr": "бул. Цариградско шосе 147"
   },
   {
+   "name": "DEYA LIVE + EP promo 27.11",
+   "venue": "Клуб ОБЛК",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-11-27T19:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/deya-live-ep-promo-2711-9096",
+   "src": "bilet",
+   "addr": "Бул. Цар Освободител №10"
+  },
+  {
    "name": "Gig Night",
    "venue": "Art Bar 158",
    "lat": 42.7009505,
@@ -299,6 +200,105 @@
    "url": "https://www.bilet.bg/bg/events/gig-night-9018",
    "src": "bilet",
    "addr": "ул. \"Княз Борис 1\" 158"
+  },
+  {
+   "name": "Коледно Шоу на Лед",
+   "venue": "парк Гео Милев",
+   "lat": 42.6866812,
+   "lon": 23.3629065,
+   "cap": 500,
+   "start": "2026-11-27T19:30:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/koledno-shou-na-led-9207",
+   "src": "bilet",
+   "addr": "гр. София, ж.к. Гео Милев, 1111 Sofia"
+  },
+  {
+   "name": "Болшой ХОТ ПОПЬ София",
+   "venue": "FOMO the club",
+   "lat": 42.695525,
+   "lon": 23.3231306,
+   "cap": 500,
+   "start": "2026-11-27T23:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/bolshoy-hot-pop-sofia-9125",
+   "src": "bilet",
+   "addr": "Хотел Рила, София Център, ул. Позитано"
+  },
+  {
+   "name": "O.W.D presents SULPHUR",
+   "venue": "Club Mesmeric",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-11-27T23:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/owd-presents-sulphur-9136",
+   "src": "bilet",
+   "addr": "София Център, ул. Фритьоф Нансен 25 София"
+  },
+  {
+   "name": "Коледно Шоу на Лед",
+   "venue": "парк Гео Милев",
+   "lat": 42.6866812,
+   "lon": 23.3629065,
+   "cap": 500,
+   "start": "2026-11-28T11:30:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/koledno-shou-na-led-9219",
+   "src": "bilet",
+   "addr": "гр. София, ж.к. Гео Милев, 1111 Sofia"
+  },
+  {
+   "name": "Ritual For Yourself",
+   "venue": "София, бул. Гоце Делчев 102Б",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-11-28T15:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/ritual-for-yourself-9189",
+   "src": "bilet",
+   "addr": "София, бул. Гоце Делчев 102Б"
+  },
+  {
+   "name": "Коледно Шоу на Лед",
+   "venue": "парк Гео Милев",
+   "lat": 42.6866812,
+   "lon": 23.3629065,
+   "cap": 500,
+   "start": "2026-11-28T17:30:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/koledno-shou-na-led-9220",
+   "src": "bilet",
+   "addr": "гр. София, ж.к. Гео Милев, 1111 Sofia"
+  },
+  {
+   "name": "DOM става на 4!",
+   "venue": "Концептуално пространство Дом",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-11-28T18:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/dom-stava-na-4-9154",
+   "src": "bilet",
+   "addr": "София Център, ул. \"Петър Парчевич\" 49, 1000 София"
+  },
+  {
+   "name": "NAPALM DEATH - CAMPAIGN For MUSICAL DESTRUCTION 2026",
+   "venue": "Студио Орфей",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-11-28T18:30:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/napalm-death-campaign-for-musical-destruction-2026-8186",
+   "src": "bilet",
+   "addr": "ж.к. Изгрев, бул. “Самоков” 60, 1113 София"
+  },
+  {
+   "name": "БЪЛГАРСКО ПАРТИ - АпартаментА",
+   "venue": "Тайна локация - София",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-11-28T19:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/bulgarsko-parti-apartamenta-9150",
+   "src": "bilet",
+   "addr": ""
   },
   {
    "name": "Михаела Маринова - Концерт - част от програмата \"Салон на изкуствата\" - Есен 2026 НДК",
