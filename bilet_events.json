@@ -1,19 +1,8 @@
 {
  "source": "bilet.bg",
- "generated": "2026-11-22T12:44:23.675591",
- "count": 37,
+ "generated": "2026-11-22T21:56:41.022524",
+ "count": 39,
  "events": [
-  {
-   "name": "Аз рисувам като ... Пабло Пикасо - ателие за възрастни",
-   "venue": "Читалище \"Алеко Константинов - 1897 г.\"",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2026-11-22T17:30:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/az-risuvam-kato-pablo-pikaso-atelie-za-vuzrastni-8845",
-   "src": "bilet",
-   "addr": "ул. Оборище 73"
-  },
   {
    "name": "Soda Sundays",
    "venue": "Bar Soda",
@@ -24,17 +13,6 @@
    "url": "https://www.bilet.bg/bg/events/soda-sundays-9224",
    "src": "bilet",
    "addr": "Ndk, Bulgaria Blvd 2, 1463 Sofia"
-  },
-  {
-   "name": "PLATTENBAU, ТЛЕН & EVITCELES, Live In Sofia",
-   "venue": "Mixtape 5",
-   "lat": 42.6866,
-   "lon": 23.319,
-   "cap": 900,
-   "start": "2026-11-22T19:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/plattenbau-tlen-evitceles-live-in-sofia-8690",
-   "src": "bilet",
-   "addr": "Подлез @ Витамин Б, бул. Галерия, бул. Черни връх"
   },
   {
    "name": "Първи ход: твоята кариера с Христина Иванова - НА ЖИВО В СОФИЯ",
@@ -299,6 +277,50 @@
    "url": "https://www.bilet.bg/bg/events/art-mosfera-9165",
    "src": "bilet",
    "addr": "ул. \"Дякон Игнатий\" 1, 1000 София Център"
+  },
+  {
+   "name": "ELECTRIC DIVISION pres. LVL 6 w/ PROLIX & RAIDO",
+   "venue": "Клуб ОБЛК",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-11-28T22:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/electric-division-pres-lvl-6-w-prolix-raido-9146",
+   "src": "bilet",
+   "addr": "Бул. Цар Освободител №10"
+  },
+  {
+   "name": "Синьо лято",
+   "venue": "Централен Военен Клуб",
+   "lat": 42.6952364,
+   "lon": 23.32991,
+   "cap": 500,
+   "start": "2026-11-28T22:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/sino-lato-9215",
+   "src": "bilet",
+   "addr": "бул. Цар Освободител 7"
+  },
+  {
+   "name": "FREESTYLERS x MISTA TRICK @ Malkata Tekila Sofia 28/11/2026",
+   "venue": "Малката Текила",
+   "lat": 42.695,
+   "lon": 23.328,
+   "cap": 400,
+   "start": "2026-11-28T23:45:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/freestylers-x-mista-trick-at-malkata-tekila-sofia-28112026-9177",
+   "src": "bilet",
+   "addr": "ул. Ангел Кънчев 1"
+  },
+  {
+   "name": "Коледно Шоу на Лед",
+   "venue": "парк Гео Милев",
+   "lat": 42.6866812,
+   "lon": 23.3629065,
+   "cap": 500,
+   "start": "2026-11-29T11:30:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/koledno-shou-na-led-9221",
+   "src": "bilet",
+   "addr": "гр. София, ж.к. Гео Милев, 1111 Sofia"
   },
   {
    "name": "Дни на предизвикателствата - Еднодневен билет 01.12.2026",
