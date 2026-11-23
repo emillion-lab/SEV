@@ -1,19 +1,8 @@
 {
  "source": "bilet.bg",
- "generated": "2026-11-22T21:56:41.022524",
+ "generated": "2026-11-23T14:59:40.611042",
  "count": 39,
  "events": [
-  {
-   "name": "Soda Sundays",
-   "venue": "Bar Soda",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2026-11-22T18:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/soda-sundays-9224",
-   "src": "bilet",
-   "addr": "Ndk, Bulgaria Blvd 2, 1463 Sofia"
-  },
   {
    "name": "Първи ход: твоята кариера с Христина Иванова - НА ЖИВО В СОФИЯ",
    "venue": "M3 Communications",
@@ -134,6 +123,17 @@
    "url": "https://www.bilet.bg/bg/events/koledno-shou-na-led-9207",
    "src": "bilet",
    "addr": "гр. София, ж.к. Гео Милев, 1111 Sofia"
+  },
+  {
+   "name": "Една нощ. Трима бунтари. Музика без край",
+   "venue": "Вход Б",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-11-27T20:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/edna-nosht-trima-buntari-muzika-bez-kray-9277",
+   "src": "bilet",
+   "addr": "ул. „Бистрица“ 2"
   },
   {
    "name": "SABORA SOFIA at Club Pave",
@@ -312,17 +312,6 @@
    "addr": "ул. Ангел Кънчев 1"
   },
   {
-   "name": "Коледно Шоу на Лед",
-   "venue": "парк Гео Милев",
-   "lat": 42.6866812,
-   "lon": 23.3629065,
-   "cap": 500,
-   "start": "2026-11-29T11:30:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/koledno-shou-na-led-9221",
-   "src": "bilet",
-   "addr": "гр. София, ж.к. Гео Милев, 1111 Sofia"
-  },
-  {
    "name": "Дни на предизвикателствата - Еднодневен билет 01.12.2026",
    "venue": "Дом на киното",
    "lat": 42.7002409,
@@ -420,6 +409,17 @@
    "url": "https://www.bilet.bg/bg/events/molets-zhar-ndk-2102-9217",
    "src": "bilet",
    "addr": "НДК, бул. „България“, София"
+  },
+  {
+   "name": "TARJA: FRISSON LIVE 2027 - Sofia",
+   "venue": "Зала Христо Ботев Студентски Град",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2027-03-18T19:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/tarja-frisson-live-2027-sofia-8439",
+   "src": "bilet",
+   "addr": "Studentski Kompleks, ж.к. Студентски град 26, 1700 Sofia"
   },
   {
    "name": "Chris Norman Live Sofia",
