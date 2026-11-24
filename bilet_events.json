@@ -1,7 +1,7 @@
 {
  "source": "bilet.bg",
- "generated": "2026-11-23T15:50:01.971023",
- "count": 39,
+ "generated": "2026-11-24T02:59:22.021686",
+ "count": 41,
  "events": [
   {
    "name": "Първи ход: твоята кариера с Христина Иванова - НА ЖИВО В СОФИЯ",
@@ -312,6 +312,39 @@
    "addr": "ул. Ангел Кънчев 1"
   },
   {
+   "name": "Коледно Шоу на Лед",
+   "venue": "парк Гео Милев",
+   "lat": 42.6866812,
+   "lon": 23.3629065,
+   "cap": 500,
+   "start": "2026-11-29T11:30:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/koledno-shou-na-led-9221",
+   "src": "bilet",
+   "addr": "гр. София, ж.к. Гео Милев, 1111 Sofia"
+  },
+  {
+   "name": "Лазерен лабиринт \"Фотоника\"",
+   "venue": "Nexus Space",
+   "lat": 42.6985861,
+   "lon": 23.3192791,
+   "cap": 500,
+   "start": "2026-11-29T12:30:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/lazeren-labirint-fotonika-9157",
+   "src": "bilet",
+   "addr": "София Център, ул. \"Княз Борис I\" 121, 1000 София"
+  },
+  {
+   "name": "Коледно Шоу на Лед",
+   "venue": "парк Гео Милев",
+   "lat": 42.6866812,
+   "lon": 23.3629065,
+   "cap": 500,
+   "start": "2026-11-29T17:30:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/koledno-shou-na-led-9222",
+   "src": "bilet",
+   "addr": "гр. София, ж.к. Гео Милев, 1111 Sofia"
+  },
+  {
    "name": "Дни на предизвикателствата - Еднодневен билет 01.12.2026",
    "venue": "Дом на киното",
    "lat": 42.7002409,
@@ -409,17 +442,6 @@
    "url": "https://www.bilet.bg/bg/events/molets-zhar-ndk-2102-9217",
    "src": "bilet",
    "addr": "НДК, бул. „България“, София"
-  },
-  {
-   "name": "TARJA: FRISSON LIVE 2027 - Sofia",
-   "venue": "Зала Христо Ботев Студентски Град",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2027-03-18T19:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/tarja-frisson-live-2027-sofia-8439",
-   "src": "bilet",
-   "addr": "Studentski Kompleks, ж.к. Студентски град 26, 1700 Sofia"
   },
   {
    "name": "Chris Norman Live Sofia",
