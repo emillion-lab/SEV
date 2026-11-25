@@ -1,6 +1,6 @@
 {
  "source": "bilet.bg",
- "generated": "2026-11-24T15:02:04.304726",
+ "generated": "2026-11-25T00:55:00.914446",
  "count": 41,
  "events": [
   {
@@ -235,13 +235,13 @@
    "addr": ""
   },
   {
-   "name": "Artur Menezes live at ВХОД Б",
+   "name": "Artur Menezes (BR) w/Smokey Mountain River Band live at ВХОД Б",
    "venue": "клуб Паве",
    "lat": null,
    "lon": null,
    "cap": 500,
    "start": "2026-11-28T20:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/artur-menezes-live-at-vhod-b-8505",
+   "url": "https://www.bilet.bg/bg/events/artur-menezes-br-wsmokey-mountain-river-band-live-at-vhod-b-8505",
    "src": "bilet",
    "addr": "пл. Славейков 4"
   },
