@@ -1,7 +1,7 @@
 {
  "source": "bilet.bg",
- "generated": "2026-11-25T14:39:45.672971",
- "count": 40,
+ "generated": "2026-11-26T00:33:31.180927",
+ "count": 41,
  "events": [
   {
    "name": "Първи ход: твоята кариера с Христина Иванова - НА ЖИВО В СОФИЯ",
@@ -13,39 +13,6 @@
    "url": "https://www.bilet.bg/bg/events/purvi-hod-tvoata-kariera-s-hristina-ivanova-na-zhivo-v-sofia-8832",
    "src": "bilet",
    "addr": "бул. „България“ 60, 1680 София"
-  },
-  {
-   "name": "Работилница Рисуване на стъкло - Зимен витраж",
-   "venue": "Канава Арт Студио",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2026-11-25T18:30:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/rabotilnitsa-risuvane-na-stuklo-zimen-vitrazh-9064",
-   "src": "bilet",
-   "addr": "ул. „Любен Каравелов“ 14"
-  },
-  {
-   "name": "AXiS (RS/RO) live at Club Pave",
-   "venue": "клуб Паве",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2026-11-25T20:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/axis-rsro-live-at-club-pave-9138",
-   "src": "bilet",
-   "addr": "пл. Славейков 4"
-  },
-  {
-   "name": "Mèraque live in Sofia /w Sariel Orenda @Kupe",
-   "venue": "KUPE",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2026-11-25T20:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/meraque-live-in-sofia-w-sariel-orenda-at-kupe-9074",
-   "src": "bilet",
-   "addr": "Ъгълът на ул. „6-ти септември“ и ул. „Славянска“, Център, 1000 София"
   },
   {
    "name": "Нетуъркинг вечер: Бъди видим в ерата на AI с Етиен Янев",
@@ -290,6 +257,17 @@
    "addr": "Бул. Цар Освободител №10"
   },
   {
+   "name": "Синьо лято",
+   "venue": "Централен Военен Клуб",
+   "lat": 42.6952364,
+   "lon": 23.32991,
+   "cap": 500,
+   "start": "2026-11-28T22:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/sino-lato-9215",
+   "src": "bilet",
+   "addr": "бул. Цар Освободител 7"
+  },
+  {
    "name": "FREESTYLERS x MISTA TRICK @ Malkata Tekila Sofia 28/11/2026",
    "venue": "Малката Текила",
    "lat": 42.695,
@@ -332,6 +310,39 @@
    "url": "https://www.bilet.bg/bg/events/koledno-shou-na-led-9222",
    "src": "bilet",
    "addr": "гр. София, ж.к. Гео Милев, 1111 Sofia"
+  },
+  {
+   "name": "Работилница Буркани с декупаж, заскрежаване и декорация",
+   "venue": "Канава Арт Студио",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-11-30T18:30:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/rabotilnitsa-burkani-s-dekupazh-zaskrezhavane-i-dekoratsia-9065",
+   "src": "bilet",
+   "addr": "ул. „Любен Каравелов“ 14"
+  },
+  {
+   "name": "Клиентът идва с AI. Готов ли е вашият сайт?",
+   "venue": "Barter Community",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2026-11-30T19:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/klientut-idva-s-ai-gotov-li-e-vashiat-sayt-9245",
+   "src": "bilet",
+   "addr": "Бизнес център Витоша, бул. Черни Връх 47, ет. 6"
+  },
+  {
+   "name": "РАЗКАЖИ МИ за БЛАГОДАРНОСТТА",
+   "venue": "Жираф Кафе",
+   "lat": 42.6854773,
+   "lon": 23.3233883,
+   "cap": 500,
+   "start": "2026-11-30T19:30:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/razkazhi-mi-za-blagodarnostta-9261",
+   "src": "bilet",
+   "addr": "София Център, ул. \"Любен Каравелов\" 70"
   },
   {
    "name": "Дни на предизвикателствата - Еднодневен билет 01.12.2026",
