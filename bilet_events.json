@@ -1,6 +1,6 @@
 {
  "source": "bilet.bg",
- "generated": "2026-11-26T00:33:31.180927",
+ "generated": "2026-11-26T14:03:41.587277",
  "count": 41,
  "events": [
   {
@@ -257,17 +257,6 @@
    "addr": "Бул. Цар Освободител №10"
   },
   {
-   "name": "Синьо лято",
-   "venue": "Централен Военен Клуб",
-   "lat": 42.6952364,
-   "lon": 23.32991,
-   "cap": 500,
-   "start": "2026-11-28T22:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/sino-lato-9215",
-   "src": "bilet",
-   "addr": "бул. Цар Освободител 7"
-  },
-  {
    "name": "FREESTYLERS x MISTA TRICK @ Malkata Tekila Sofia 28/11/2026",
    "venue": "Малката Текила",
    "lat": 42.695,
@@ -409,6 +398,17 @@
    "url": "https://www.bilet.bg/bg/events/christmas-wine-market-2026-8939",
    "src": "bilet",
    "addr": "бул. Цар Освободител 7"
+  },
+  {
+   "name": "D2 на живо в клуб Mixtape 5 / 28.12",
+   "venue": "Mixtape 5",
+   "lat": 42.6866,
+   "lon": 23.319,
+   "cap": 900,
+   "start": "2026-12-28T20:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/d2-na-zhivo-v-klub-mixtape-5-2812-8965",
+   "src": "bilet",
+   "addr": "Подлез @ Витамин Б, бул. Галерия, бул. Черни връх"
   },
   {
    "name": "DataCon Sofia 2027: First Principles",
