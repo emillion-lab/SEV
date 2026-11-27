@@ -1,41 +1,8 @@
 {
  "source": "bilet.bg",
- "generated": "2026-11-26T14:54:17.966533",
- "count": 41,
+ "generated": "2026-11-27T00:42:20.785730",
+ "count": 42,
  "events": [
-  {
-   "name": "Първи ход: твоята кариера с Христина Иванова - НА ЖИВО В СОФИЯ",
-   "venue": "M3 Communications",
-   "lat": 42.668648,
-   "lon": 23.2905689,
-   "cap": 500,
-   "start": "2026-11-23T18:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/purvi-hod-tvoata-kariera-s-hristina-ivanova-na-zhivo-v-sofia-8832",
-   "src": "bilet",
-   "addr": "бул. „България“ 60, 1680 София"
-  },
-  {
-   "name": "Нетуъркинг вечер: Бъди видим в ерата на AI с Етиен Янев",
-   "venue": "Клуб Грамофон",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2026-11-26T19:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/netuurking-vecher-budi-vidim-v-erata-na-ai-s-etien-anev-9110",
-   "src": "bilet",
-   "addr": "Център, ул. Будапеща 6"
-  },
-  {
-   "name": "Me and My Devil | 26 NOV I Malkata Tekila Sofia",
-   "venue": "Малката Текила",
-   "lat": 42.695,
-   "lon": 23.328,
-   "cap": 400,
-   "start": "2026-11-26T20:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/me-and-my-devil-26-nov-i-malkata-tekila-sofia-8993",
-   "src": "bilet",
-   "addr": "ул. Ангел Кънчев 1"
-  },
   {
    "name": "ФОРУМ на частното образование \"Образованието на прага на промяната\"",
    "venue": "Международно Висше Бизнес Училище",
@@ -112,6 +79,17 @@
    "url": "https://www.bilet.bg/bg/events/sabora-sofia-at-club-pave-9175",
    "src": "bilet",
    "addr": "пл. Славейков 4"
+  },
+  {
+   "name": "ТДК и ТЛЕН // на живо",
+   "venue": "НДК Зала 1",
+   "lat": 42.6866,
+   "lon": 23.319,
+   "cap": 3380,
+   "start": "2026-11-27T20:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/tdk-i-tlen-na-zhivo-8888",
+   "src": "bilet",
+   "addr": "София, ул. \"Емил Берсински\" №5, Sofia, Bulgaria"
   },
   {
    "name": "Болшой ХОТ ПОПЬ София",
@@ -257,6 +235,17 @@
    "addr": "Бул. Цар Освободител №10"
   },
   {
+   "name": "Синьо лято",
+   "venue": "Централен Военен Клуб",
+   "lat": 42.6952364,
+   "lon": 23.32991,
+   "cap": 500,
+   "start": "2026-11-28T22:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/sino-lato-9215",
+   "src": "bilet",
+   "addr": "бул. Цар Освободител 7"
+  },
+  {
    "name": "FREESTYLERS x MISTA TRICK @ Malkata Tekila Sofia 28/11/2026",
    "venue": "Малката Текила",
    "lat": 42.695,
@@ -299,6 +288,17 @@
    "url": "https://www.bilet.bg/bg/events/koledno-shou-na-led-9222",
    "src": "bilet",
    "addr": "гр. София, ж.к. Гео Милев, 1111 Sofia"
+  },
+  {
+   "name": "SOLD OUT: Цар Плъх ⚡ Live / Mixtape 5 / special guest: DOBS / 29.11",
+   "venue": "Mixtape 5",
+   "lat": 42.6866,
+   "lon": 23.319,
+   "cap": 900,
+   "start": "2026-11-29T19:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/sold-out-tsar-pluh-live-mixtape-5-special-guest-dobs-2911-9055",
+   "src": "bilet",
+   "addr": "Подлез @ Витамин Б, бул. Галерия, бул. Черни връх"
   },
   {
    "name": "Работилница Буркани с декупаж, заскрежаване и декорация",
@@ -442,6 +442,17 @@
    "url": "https://www.bilet.bg/bg/events/molets-zhar-ndk-2102-9217",
    "src": "bilet",
    "addr": "НДК, бул. „България“, София"
+  },
+  {
+   "name": "TARJA: FRISSON LIVE 2027 - Sofia",
+   "venue": "Зала Христо Ботев Студентски Град",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2027-03-18T19:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/tarja-frisson-live-2027-sofia-8439",
+   "src": "bilet",
+   "addr": "Studentski Kompleks, ж.к. Студентски град 26, 1700 Sofia"
   },
   {
    "name": "Chris Norman Live Sofia",
