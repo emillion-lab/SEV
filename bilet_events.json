@@ -1,19 +1,8 @@
 {
  "source": "bilet.bg",
- "generated": "2026-11-27T00:42:20.785730",
+ "generated": "2026-11-27T14:02:16.725080",
  "count": 42,
  "events": [
-  {
-   "name": "ФОРУМ на частното образование \"Образованието на прага на промяната\"",
-   "venue": "Международно Висше Бизнес Училище",
-   "lat": 42.6558468,
-   "lon": 23.3180412,
-   "cap": 500,
-   "start": "2026-11-27T09:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/forum-na-chastnoto-obrazovanie-obrazovanieto-na-praga-na-promanata-9250",
-   "src": "bilet",
-   "addr": " ул. Винсент ван Гог 7"
-  },
   {
    "name": "DiVino.Taste 2026",
    "venue": "Интер Експо Център",
@@ -301,6 +290,17 @@
    "addr": "Подлез @ Витамин Б, бул. Галерия, бул. Черни връх"
   },
   {
+   "name": "The CASE Live @ Mixtape 5",
+   "venue": "Mixtape 5",
+   "lat": 42.6866,
+   "lon": 23.319,
+   "cap": 900,
+   "start": "2026-11-29T20:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/the-case-live-at-mixtape-5-9090",
+   "src": "bilet",
+   "addr": "Подлез @ Витамин Б, бул. Галерия, бул. Черни връх"
+  },
+  {
    "name": "Работилница Буркани с декупаж, заскрежаване и декорация",
    "venue": "Канава Арт Студио",
    "lat": null,
@@ -400,17 +400,6 @@
    "addr": "бул. Цар Освободител 7"
   },
   {
-   "name": "D2 на живо в клуб Mixtape 5 / 28.12",
-   "venue": "Mixtape 5",
-   "lat": 42.6866,
-   "lon": 23.319,
-   "cap": 900,
-   "start": "2026-12-28T20:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/d2-na-zhivo-v-klub-mixtape-5-2812-8965",
-   "src": "bilet",
-   "addr": "Подлез @ Витамин Б, бул. Галерия, бул. Черни връх"
-  },
-  {
    "name": "DataCon Sofia 2027: First Principles",
    "venue": "Planet Schwarz Tech Theater",
    "lat": null,
@@ -464,6 +453,17 @@
    "url": "https://www.bilet.bg/bg/events/chris-norman-live-sofia-8264",
    "src": "bilet",
    "addr": "НДК, бул. „България“, София"
+  },
+  {
+   "name": "The Crazy World of Arthur Brown Live in Sofia/Threechords",
+   "venue": "Mixtape 5",
+   "lat": 42.6866,
+   "lon": 23.319,
+   "cap": 900,
+   "start": "2027-03-19T20:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/the-crazy-world-of-arthur-brown-live-in-sofiathreechords-8523",
+   "src": "bilet",
+   "addr": "Подлез @ Витамин Б, бул. Галерия, бул. Черни връх"
   }
  ]
 }
