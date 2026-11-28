@@ -1,107 +1,8 @@
 {
  "source": "bilet.bg",
- "generated": "2026-11-27T14:02:16.725080",
- "count": 42,
+ "generated": "2026-11-28T00:08:53.845515",
+ "count": 39,
  "events": [
-  {
-   "name": "DiVino.Taste 2026",
-   "venue": "Интер Експо Център",
-   "lat": 42.652,
-   "lon": 23.376,
-   "cap": 3000,
-   "start": "2026-11-27T10:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/divinotaste-2026-8693",
-   "src": "bilet",
-   "addr": "бул. Цариградско шосе 147"
-  },
-  {
-   "name": "DEYA LIVE + EP promo 27.11",
-   "venue": "Клуб ОБЛК",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2026-11-27T19:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/deya-live-ep-promo-2711-9096",
-   "src": "bilet",
-   "addr": "Бул. Цар Освободител №10"
-  },
-  {
-   "name": "Gig Night",
-   "venue": "Art Bar 158",
-   "lat": 42.7009505,
-   "lon": 23.320236,
-   "cap": 500,
-   "start": "2026-11-27T19:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/gig-night-9018",
-   "src": "bilet",
-   "addr": "ул. \"Княз Борис 1\" 158"
-  },
-  {
-   "name": "Коледно Шоу на Лед",
-   "venue": "парк Гео Милев",
-   "lat": 42.6866812,
-   "lon": 23.3629065,
-   "cap": 500,
-   "start": "2026-11-27T19:30:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/koledno-shou-na-led-9207",
-   "src": "bilet",
-   "addr": "гр. София, ж.к. Гео Милев, 1111 Sofia"
-  },
-  {
-   "name": "Една нощ. Трима бунтари. Музика без край",
-   "venue": "Вход Б",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2026-11-27T20:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/edna-nosht-trima-buntari-muzika-bez-kray-9277",
-   "src": "bilet",
-   "addr": "ул. „Бистрица“ 2"
-  },
-  {
-   "name": "SABORA SOFIA at Club Pave",
-   "venue": "клуб Паве",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2026-11-27T20:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/sabora-sofia-at-club-pave-9175",
-   "src": "bilet",
-   "addr": "пл. Славейков 4"
-  },
-  {
-   "name": "ТДК и ТЛЕН // на живо",
-   "venue": "НДК Зала 1",
-   "lat": 42.6866,
-   "lon": 23.319,
-   "cap": 3380,
-   "start": "2026-11-27T20:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/tdk-i-tlen-na-zhivo-8888",
-   "src": "bilet",
-   "addr": "София, ул. \"Емил Берсински\" №5, Sofia, Bulgaria"
-  },
-  {
-   "name": "Болшой ХОТ ПОПЬ София",
-   "venue": "FOMO the club",
-   "lat": 42.695525,
-   "lon": 23.3231306,
-   "cap": 500,
-   "start": "2026-11-27T23:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/bolshoy-hot-pop-sofia-9125",
-   "src": "bilet",
-   "addr": "Хотел Рила, София Център, ул. Позитано"
-  },
-  {
-   "name": "O.W.D presents SULPHUR",
-   "venue": "Club Mesmeric",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2026-11-27T23:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/owd-presents-sulphur-9136",
-   "src": "bilet",
-   "addr": "София Център, ул. Фритьоф Нансен 25 София"
-  },
   {
    "name": "Коледно Шоу на Лед",
    "venue": "парк Гео Милев",
@@ -170,14 +71,14 @@
   },
   {
    "name": "Artur Menezes (BR) w/Smokey Mountain River Band live at ВХОД Б",
-   "venue": "клуб Паве",
+   "venue": "Вход Б",
    "lat": null,
    "lon": null,
    "cap": 500,
    "start": "2026-11-28T20:00:00+03:00",
    "url": "https://www.bilet.bg/bg/events/artur-menezes-br-wsmokey-mountain-river-band-live-at-vhod-b-8505",
    "src": "bilet",
-   "addr": "пл. Славейков 4"
+   "addr": "ул. „Бистрица“ 2"
   },
   {
    "name": "Михаела Маринова - Концерт - част от програмата \"Салон на изкуствата\" - Есен 2026 НДК",
@@ -233,6 +134,17 @@
    "url": "https://www.bilet.bg/bg/events/sino-lato-9215",
    "src": "bilet",
    "addr": "бул. Цар Освободител 7"
+  },
+  {
+   "name": "Tool Tribute band H at Pirotska 5",
+   "venue": "Пиротска 5",
+   "lat": 42.6987,
+   "lon": 23.3195,
+   "cap": 600,
+   "start": "2026-11-28T22:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/tool-tribute-band-h-at-pirotska-5-8494",
+   "src": "bilet",
+   "addr": "Център, ул. Пиротска 5"
   },
   {
    "name": "FREESTYLERS x MISTA TRICK @ Malkata Tekila Sofia 28/11/2026",
@@ -400,6 +312,39 @@
    "addr": "бул. Цар Освободител 7"
   },
   {
+   "name": "Toody Cole and Her Band/ Jenny Don't & The Spurs Live in Sofia/ Threechords",
+   "venue": "Mixtape 5",
+   "lat": 42.6866,
+   "lon": 23.319,
+   "cap": 900,
+   "start": "2026-12-06T20:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/toody-cole-and-her-band-jenny-dont-the-spurs-live-in-sofia-threechords-8256",
+   "src": "bilet",
+   "addr": "Подлез @ Витамин Б, бул. Галерия, бул. Черни връх"
+  },
+  {
+   "name": "30 artists Live Band at Club Mixtape 5 / 14.12",
+   "venue": "Mixtape 5",
+   "lat": 42.6866,
+   "lon": 23.319,
+   "cap": 900,
+   "start": "2026-12-14T19:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/30-artists-live-band-at-club-mixtape-5-1412-9174",
+   "src": "bilet",
+   "addr": "Подлез @ Витамин Б, бул. Галерия, бул. Черни връх"
+  },
+  {
+   "name": "D2 на живо в клуб Mixtape 5 / 28.12",
+   "venue": "Mixtape 5",
+   "lat": 42.6866,
+   "lon": 23.319,
+   "cap": 900,
+   "start": "2026-12-28T20:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/d2-na-zhivo-v-klub-mixtape-5-2812-8965",
+   "src": "bilet",
+   "addr": "Подлез @ Витамин Б, бул. Галерия, бул. Черни връх"
+  },
+  {
    "name": "DataCon Sofia 2027: First Principles",
    "venue": "Planet Schwarz Tech Theater",
    "lat": null,
@@ -420,6 +365,17 @@
    "url": "https://www.bilet.bg/bg/events/disney-fantazia-kontsert-na-zhivo-8636",
    "src": "bilet",
    "addr": "НДК, бул. „България“, София"
+  },
+  {
+   "name": "U.D.O. - TRIPLE ANNIVERSARY Tour 2027",
+   "venue": "Зала Христо Ботев Студентски Град",
+   "lat": null,
+   "lon": null,
+   "cap": 500,
+   "start": "2027-02-04T20:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/udo-triple-anniversary-tour-2027-8085",
+   "src": "bilet",
+   "addr": "Studentski Kompleks, ж.к. Студентски град 26, 1700 Sofia"
   },
   {
    "name": "Молец - \"ЖАР\" -  НДК - 21.02.",
@@ -462,6 +418,17 @@
    "cap": 900,
    "start": "2027-03-19T20:00:00+03:00",
    "url": "https://www.bilet.bg/bg/events/the-crazy-world-of-arthur-brown-live-in-sofiathreechords-8523",
+   "src": "bilet",
+   "addr": "Подлез @ Витамин Б, бул. Галерия, бул. Черни връх"
+  },
+  {
+   "name": "16 Horsepower Live In Sofia/Threechords",
+   "venue": "Mixtape 5",
+   "lat": 42.6866,
+   "lon": 23.319,
+   "cap": 900,
+   "start": "2027-04-28T20:00:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/16-horsepower-live-in-sofiathreechords-8979",
    "src": "bilet",
    "addr": "Подлез @ Витамин Б, бул. Галерия, бул. Черни връх"
   }
