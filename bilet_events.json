@@ -1,41 +1,8 @@
 {
  "source": "bilet.bg",
- "generated": "2026-11-28T00:08:53.845515",
- "count": 39,
+ "generated": "2026-11-28T13:17:51.226592",
+ "count": 35,
  "events": [
-  {
-   "name": "Коледно Шоу на Лед",
-   "venue": "парк Гео Милев",
-   "lat": 42.6866812,
-   "lon": 23.3629065,
-   "cap": 500,
-   "start": "2026-11-28T11:30:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/koledno-shou-na-led-9219",
-   "src": "bilet",
-   "addr": "гр. София, ж.к. Гео Милев, 1111 Sofia"
-  },
-  {
-   "name": "Ritual For Yourself",
-   "venue": "София, бул. Гоце Делчев 102Б",
-   "lat": null,
-   "lon": null,
-   "cap": 500,
-   "start": "2026-11-28T15:00:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/ritual-for-yourself-9189",
-   "src": "bilet",
-   "addr": "София, бул. Гоце Делчев 102Б"
-  },
-  {
-   "name": "Коледно Шоу на Лед",
-   "venue": "парк Гео Милев",
-   "lat": 42.6866812,
-   "lon": 23.3629065,
-   "cap": 500,
-   "start": "2026-11-28T17:30:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/koledno-shou-na-led-9220",
-   "src": "bilet",
-   "addr": "гр. София, ж.к. Гео Милев, 1111 Sofia"
-  },
   {
    "name": "DOM става на 4!",
    "venue": "Концептуално пространство Дом",
@@ -158,17 +125,6 @@
    "addr": "ул. Ангел Кънчев 1"
   },
   {
-   "name": "Коледно Шоу на Лед",
-   "venue": "парк Гео Милев",
-   "lat": 42.6866812,
-   "lon": 23.3629065,
-   "cap": 500,
-   "start": "2026-11-29T11:30:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/koledno-shou-na-led-9221",
-   "src": "bilet",
-   "addr": "гр. София, ж.к. Гео Милев, 1111 Sofia"
-  },
-  {
    "name": "Лазерен лабиринт \"Фотоника\"",
    "venue": "Nexus Space",
    "lat": 42.6985861,
@@ -178,17 +134,6 @@
    "url": "https://www.bilet.bg/bg/events/lazeren-labirint-fotonika-9157",
    "src": "bilet",
    "addr": "София Център, ул. \"Княз Борис I\" 121, 1000 София"
-  },
-  {
-   "name": "Коледно Шоу на Лед",
-   "venue": "парк Гео Милев",
-   "lat": 42.6866812,
-   "lon": 23.3629065,
-   "cap": 500,
-   "start": "2026-11-29T17:30:00+03:00",
-   "url": "https://www.bilet.bg/bg/events/koledno-shou-na-led-9222",
-   "src": "bilet",
-   "addr": "гр. София, ж.к. Гео Милев, 1111 Sofia"
   },
   {
    "name": "SOLD OUT: Цар Плъх ⚡ Live / Mixtape 5 / special guest: DOBS / 29.11",
@@ -420,6 +365,17 @@
    "url": "https://www.bilet.bg/bg/events/the-crazy-world-of-arthur-brown-live-in-sofiathreechords-8523",
    "src": "bilet",
    "addr": "Подлез @ Витамин Б, бул. Галерия, бул. Черни връх"
+  },
+  {
+   "name": "ЖИВИ ДИНОЗАВРИ - В търсене на яйцето - София",
+   "venue": "Асикс Арена",
+   "lat": 42.669,
+   "lon": 23.3757,
+   "cap": 4000,
+   "start": "2027-04-11T13:30:00+03:00",
+   "url": "https://www.bilet.bg/bg/events/zhivi-dinozavri-v-tursene-na-aytseto-sofia-7913",
+   "src": "bilet",
+   "addr": "Ул. Манастирска 35, кв. Гео Милев, София 1111"
   },
   {
    "name": "16 Horsepower Live In Sofia/Threechords",
